@@ -43,11 +43,17 @@ jobs:
         run: |
           yarn install --immutable --inline-builds
 
-      # @link https://github.com/changesets/action
-      - name: Create Release Pull Request
+      - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
+        with:
+          publish: yarn g:release
+          setupGitUser: true
         env:
           # See https://github.com/changesets/action/issues/147
           HOME: ${{ github.workspace }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # The regular GITHUB_TOKEN won't allow the created "Version Packages" pr to
+          # trigger the regular CI workflow. This limitation can be circumvented by
+          # setting a custom PAT token from a GH account and setting it the secrets.
+          GITHUB_TOKEN: ${{ secrets.CACHE_INTEROP_RELEASE_BOT_GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
