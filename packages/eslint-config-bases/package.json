@@ -12,6 +12,7 @@
     "name": "Vanvelthem Sébastien",
     "url": "https://github.com/belgattitude"
   },
+  "keywords": ["eslint", "eslint-config"],
   "type": "commonjs",
   "main": "./src/index.js",
   "exports": {
