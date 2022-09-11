@@ -10,9 +10,9 @@ My shared dx
 
 ## Packages
 
-| Name                                  | Description                                           |
-|---------------------------------------|-------------------------------------------------------|
-| [@belgattitude/eslint-config-bases](https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases) | Opinionated eslint config bases for all project types |
+| Name                                  | Description                                           | Version |
+|---------------------------------------|-------------------------------------------------------| ------- |
+| [@belgattitude/eslint-config-bases](https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases) | Opinionated eslint config bases for all project types | <img alt="Codecov" src="https://img.shields.io/npm/v/@belgattitude/eslint-config-bases.svg?style=for-the-badge&labelColor=000000" /> |
 
 
 ## Scripts

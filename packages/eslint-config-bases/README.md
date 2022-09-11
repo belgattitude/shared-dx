@@ -1,4 +1,25 @@
-# @belgattitude/eslint-config-bases
+<p align="center">
+  <a href="https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases">
+    <h1 align="center">@belgattitude/eslint-config-bases</h1>
+  </a>
+</p>
+
+<p align="center">
+  <a aria-label="Version" href="https://npm.im/@belgattitude/eslint-config-bases">
+    <img alt="Codecov" src="https://img.shields.io/npm/v/@belgattitude/eslint-config-bases.svg?style=for-the-badge&labelColor=000000" />
+  </a>
+  <a aria-label="Downloads" href="https://npm.im/@belgattitude/eslint-config-bases">
+    <img alt="Downloads" src="https://img.shields.io/npm/dy/@belgattitude/eslint-config-bases?style=for-the-badge&labelColor=000000" />
+  </a>
+  <a aria-label="Size" href="https://bundlephobia.com/result?p=@belgattitude/eslint-config-bases">
+    <img alt="Size" src="https://img.shields.io/bundlephobia/minzip/@belgattitude/eslint-config-bases?label=MinGZIP&style=for-the-badge&labelColor=000000" />
+  </a>
+  <a aria-label="Licence" href="https://github.com/belgattitude/shared-dx/blob/main/LICENSE">
+    <img alt="Licence" src="https://img.shields.io/npm/l/@belgattitude/eslint-config-bases?style=for-the-badge&labelColor=000000" />
+  </a>
+</p>
+
+
 
 # About
 
