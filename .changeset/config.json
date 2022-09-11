@@ -2,7 +2,7 @@
   "$schema": "https://unpkg.com/@changesets/config@2.1.0/schema.json",
   "changelog": [
     "@changesets/changelog-github",
-    { "repo": "belgattitude/perso" }
+    { "repo": "belgattitude/shared-dx" }
   ],
   "commit": true,
   "linked": [],
