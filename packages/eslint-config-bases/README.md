@@ -19,8 +19,6 @@
   </a>
 </p>
 
-
-
 # About
 
 Composable eslint config bases for [my personal projects](https://github.com/belgattitude).
