@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.6.1
+
+### Patch Changes
+
+- [`69f8940`](https://github.com/belgattitude/shared-dx/commit/69f89407772d4432d41ccca2c864c5d8acc16494) Thanks [@belgattitude](https://github.com/belgattitude)! - Fix publishing in commonjs
+
 ## 1.6.0
 
 ### Minor Changes
