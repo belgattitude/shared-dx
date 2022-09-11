@@ -1,6 +1,6 @@
 {
   "name": "@belgattitude/eslint-config-bases",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "license": "MIT",
   "homepage": "https://github.com/belgattitude/shared-dx",
   "repository": {
@@ -111,7 +111,7 @@
     }
   },
   "devDependencies": {
-    "@types/jest": "29.0.0",
+    "@types/jest": "29.0.1",
     "@types/node": "18.7.16",
     "@types/prettier": "2.7.0",
     "@types/react": "18.0.19",

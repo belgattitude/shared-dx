@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.6.0
+
+### Minor Changes
+
+- [`e51a82b`](https://github.com/belgattitude/shared-dx/commit/e51a82b5cbecaab29ded48249a403e0273af66ec) Thanks [@belgattitude](https://github.com/belgattitude)! - Publish to npm under belgattitude org
+
 ## 1.5.0
 
 ### Minor Changes
