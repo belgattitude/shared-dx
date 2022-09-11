@@ -2,7 +2,7 @@
   "name": "@belgattitude/eslint-config-bases",
   "version": "1.6.1",
   "license": "MIT",
-  "homepage": "https://github.com/belgattitude/shared-dx",
+  "homepage": "https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases",
   "repository": {
     "type": "git",
     "url": "https://github.com/belgattitude/shared-dx",
