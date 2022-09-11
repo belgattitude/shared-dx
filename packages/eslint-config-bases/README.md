@@ -1,11 +1,8 @@
 # @belgattitude/eslint-config-bases
 
+Composable eslint config bases for [my personal projects](https://github.com/belgattitude) and others.
 
 ![npm](https://img.shields.io/npm/v/@belgattitude/eslint-config-bases?style=for-the-badge)
-
-# About
-
-Composable eslint config bases for [my personal projects](https://github.com/belgattitude) and others.
 
 ## Features
 
