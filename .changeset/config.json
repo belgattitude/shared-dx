@@ -4,7 +4,7 @@
     "@changesets/changelog-github",
     { "repo": "belgattitude/shared-dx" }
   ],
-  "commit": true,
+  "commit": false,
   "linked": [],
   "access": "public",
   "baseBranch": "main",
