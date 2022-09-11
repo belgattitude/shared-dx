@@ -104,7 +104,3 @@ jobs:
       - name: Check build ecmascript compliance
         run: |
           yarn workspaces foreach -tv --include '@belgattitude/*' --since=origin/main --recursive run check-dist
-
-      - name: Run storybook build for changed packages
-        run: |
-          yarn g:nx run-many --target=build-storybook --all --exclude=website
