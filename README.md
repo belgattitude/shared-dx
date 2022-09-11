@@ -8,6 +8,13 @@ My shared dx
     └── eslint-config-bases
 ```
 
+## Packages
+
+| Name                                  | Description                                           |
+|---------------------------------------|-------------------------------------------------------|
+| [@belgattitude/eslint-config-bases](https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases) | Opinionated eslint config bases for all project types |
+
+
 ## Scripts
 
 | Name                         | Description                                                                                                                          |
