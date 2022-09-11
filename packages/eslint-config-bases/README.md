@@ -56,15 +56,15 @@ module.exports = {
   },
   ignorePatterns: ["**/node_modules", "**/.cache", "build", ".next"],
   extends: [
-    "@your-org/eslint-config-bases/typescript",
-    "@your-org/eslint-config-bases/sonar",
-    "@your-org/eslint-config-bases/regexp",
-    "@your-org/eslint-config-bases/react",
-    "@your-org/eslint-config-bases/jest",
-    "@your-org/eslint-config-bases/rtl",
-    "@your-org/eslint-config-bases/graphql-schema",
-    "@your-org/eslint-config-bases/storybook",
-    "@your-org/eslint-config-bases/playwright",
+    "@belgattitude/eslint-config-bases/typescript",
+    "@belgattitude/eslint-config-bases/sonar",
+    "@belgattitude/eslint-config-bases/regexp",
+    "@belgattitude/eslint-config-bases/react",
+    "@belgattitude/eslint-config-bases/jest",
+    "@belgattitude/eslint-config-bases/rtl",
+    "@belgattitude/eslint-config-bases/graphql-schema",
+    "@belgattitude/eslint-config-bases/storybook",
+    "@belgattitude/eslint-config-bases/playwright",
 
     // Add specific rules for your framework if needed.
     // ie:
@@ -74,7 +74,7 @@ module.exports = {
 
     // Post configure the prettier base so there won't be
     // any conficts between eslint / prettier
-    "@your-org/eslint-config-bases/prettier",
+    "@belgattitude/eslint-config-bases/prettier",
   ],
   rules: {
     // Specific global rules for your app or package
@@ -88,7 +88,7 @@ module.exports = {
 };
 ```
 
-> **Tip:** "@your-org/eslint-config-bases/prettier" must be set at the end to disable any
+> **Tip:** "@belgattitude/eslint-config-bases/prettier" must be set at the end to disable any
 > conflicting rules.
 
 ## Bases
@@ -121,7 +121,7 @@ You can find the bases in [./src/bases](./src/bases).
 
 ## Prettier integration
 
-To prevent conflicts between prettier and eslint, you must re-export the prettier base from `@your-org/eslint-config-bases`.
+To prevent conflicts between prettier and eslint, you must re-export the prettier base from `@belgattitude/eslint-config-bases`.
 
 ```javascript
 const {
