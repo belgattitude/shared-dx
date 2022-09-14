@@ -53,7 +53,7 @@ module.exports = {
 
     // Post configure the prettier base so there won't be
     // any conficts between eslint / prettier
-    "@belgattitude/eslint-config-bases/prettier",
+    "@belgattitude/eslint-config-bases/prettier-plugin",
   ],
   rules: {
     // Specific global rules for your app or package
