@@ -1,5 +1,15 @@
 # @belgattitude/eslint-config-bases
 
+## 1.7.0
+
+### Minor Changes
+
+- [#15](https://github.com/belgattitude/shared-dx/pull/15) [`94dbc02`](https://github.com/belgattitude/shared-dx/commit/94dbc0272482f694025827a85810a398d210a000) Thanks [@belgattitude](https://github.com/belgattitude)! - Enable eslint-prettier-plugin as option
+
+### Patch Changes
+
+- [`7b54f27`](https://github.com/belgattitude/shared-dx/commit/7b54f27713a8d2355b99b184321b07fc72d9a570) Thanks [@belgattitude](https://github.com/belgattitude)! - Add keywords, fix npm title
+
 ## 1.6.1
 
 ### Patch Changes
