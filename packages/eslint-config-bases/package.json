@@ -37,11 +37,11 @@
     "./playwright": {
       "require": "./src/bases/playwright.js"
     },
+    "./prettier-config": {
+      "require": "./src/bases/prettier-config.js"
+    },
     "./prettier-plugin": {
       "require": "./src/bases/prettier-plugin.js"
-    },
-    "./prettier": {
-      "require": "./src/bases/prettier.js"
     },
     "./react": {
       "require": "./src/bases/react.js"

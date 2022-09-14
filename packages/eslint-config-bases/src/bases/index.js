@@ -3,7 +3,7 @@ module.exports = {
   jest: require('./jest'),
   playwright: require('./playwright'),
   'prettier-plugin': require('./prettier-plugin'),
-  prettier: require('./prettier'),
+  'prettier-config': require('./prettier-config'),
   react: require('./react'),
   regexp: require('./regexp'),
   reactTestingLibrary: require('./rtl'),
