@@ -51,9 +51,12 @@ module.exports = {
     // - remix:  '@remix-run/eslint-config',
     // ...
 
-    // Post configure the prettier base so there won't be
-    // any conficts between eslint / prettier
+    // Post configure the prettier base and run prettier
+    // without conflicts thx to eslint-plugin-prettier  
     "@belgattitude/eslint-config-bases/prettier-plugin",
+    // Alternatively to the above if you're already running prettier
+    // we can get a speed up by using on eslint-prettier-config
+    // "@belgattitude/eslint-config-bases/prettier-config",  
   ],
   rules: {
     // Specific global rules for your app or package
