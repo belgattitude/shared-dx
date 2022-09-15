@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.8.0
+
+### Minor Changes
+
+- [#16](https://github.com/belgattitude/shared-dx/pull/16) [`3d609eb`](https://github.com/belgattitude/shared-dx/commit/3d609eb789c972b0cf59fd9b3f6cfe204a9bcfbf) Thanks [@belgattitude](https://github.com/belgattitude)! - Support for mjs files
+
 ## 1.7.0
 
 ### Minor Changes
