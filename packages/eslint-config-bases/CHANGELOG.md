@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.9.0
+
+### Minor Changes
+
+- [#19](https://github.com/belgattitude/shared-dx/pull/19) [`f0054fb`](https://github.com/belgattitude/shared-dx/commit/f0054fb6e53f5901fd0d696326755ffa8bbf87c7) Thanks [@belgattitude](https://github.com/belgattitude)! - rushstack patch to 1.2.0
+
 ## 1.8.0
 
 ### Minor Changes
