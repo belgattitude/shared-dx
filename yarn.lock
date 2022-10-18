@@ -178,7 +178,7 @@ __metadata:
     "@testing-library/jest-dom": "npm:^5.16.5"
     "@testing-library/react": "npm:^13.4.0"
     "@testing-library/react-hooks": "npm:^8.0.1"
-    "@types/jest": "npm:29.0.3"
+    "@types/jest": "npm:29.2.0"
     "@types/node": "npm:18.7.18"
     "@types/prettier": "npm:2.7.1"
     "@types/react": "npm:18.0.21"
@@ -1332,13 +1332,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:*, @types/jest@npm:29.0.3":
-  version: 29.0.3
-  resolution: "@types/jest@npm:29.0.3"
+"@types/jest@npm:*, @types/jest@npm:29.2.0":
+  version: 29.2.0
+  resolution: "@types/jest@npm:29.2.0"
   dependencies:
     expect: "npm:^29.0.0"
     pretty-format: "npm:^29.0.0"
-  checksum: ce16f2c12fcbb241ae5953f11a5d86f8a3d2d97c69357e4dc4b019c287414a0ffb340f64fac762a61fc5b8e0f7ffb9bab0391ed518d1e4c19d3196602dbf0116
+  checksum: adb023278cfda78bc972531a6e19dfc72d3e71e8e1e7cde00ca39a571047522530ee94942fdbead5a371d21f3b77580c55d0c6b817db53efb56d8af2f55eca89
   languageName: node
   linkType: hard
 
