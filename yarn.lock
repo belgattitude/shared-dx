@@ -1152,15 +1152,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@playwright/test@npm:1.27.0":
-  version: 1.27.0
-  resolution: "@playwright/test@npm:1.27.0"
+"@playwright/test@npm:1.27.1":
+  version: 1.27.1
+  resolution: "@playwright/test@npm:1.27.1"
   dependencies:
     "@types/node": "npm:*"
-    playwright-core: "npm:1.27.0"
+    playwright-core: "npm:1.27.1"
   bin:
     playwright: cli.js
-  checksum: 62b4833a91c2d3725246ac3fff85c6ce10398a56792136a11416ffe8c89670fc115a2d4005e053d37e23c904c98983b02de530ae29d6abf333800a1c6c7f60ca
+  checksum: b4e1616a963df30a5f642acffd9a691bb3ffa1c00a76fae8c260d363144c4a7d433269dbd6fee5a8b8f46db36316de3d44b4e5b31ad74b5ec0e4f8240a76d7aa
   languageName: node
   linkType: hard
 
@@ -2083,7 +2083,7 @@ __metadata:
     "@changesets/cli": "npm:2.24.4"
     "@commitlint/cli": "npm:17.1.2"
     "@commitlint/config-conventional": "npm:17.1.0"
-    "@playwright/test": "npm:1.27.0"
+    "@playwright/test": "npm:1.27.1"
     "@types/prettier": "npm:2.7.1"
     "@types/shell-quote": "npm:1.7.1"
     cross-env: "npm:7.0.3"
@@ -5776,12 +5776,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.27.0":
-  version: 1.27.0
-  resolution: "playwright-core@npm:1.27.0"
+"playwright-core@npm:1.27.1":
+  version: 1.27.1
+  resolution: "playwright-core@npm:1.27.1"
   bin:
     playwright: cli.js
-  checksum: 94e251b4451ae9e3422d5a3a085471d2a8ec204c99a07d2c597579edded8abf5c12f914d558ecf58460d40c98a10a18d184fb973da5a63029367de6dcdc76428
+  checksum: 997ebf99163243a7c6bfcdac9218f7c4b7234d65c52dce26a8eff352426f426618e0c7ad1b8b4fe6aba93fc481da219677268a2c373bdf87d1b519d90db36809
   languageName: node
   linkType: hard
 
