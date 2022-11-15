@@ -71,7 +71,8 @@
     "prettier-fix": "yarn run --top-level prettier --write --config ../../.prettierrc.js --ignore-path ../../.prettierignore \"./**/*.{js,jsx,cjs,mjs,ts,tsx,mts,md,mdx,json,css,scss,less}\"",
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx,.mjs,.cjs,.mts,.cts --cache --cache-location ../../.cache/eslint/eslint-config-bases.eslintcache",
     "typecheck": "tsc --project tsconfig.json --noEmit",
-    "fix-all-files": "eslint  --ext .ts,.tsx,.js,.jsx,.mjs,.cjs,.mts,.cts --fix"
+    "fix-all-files": "eslint  --ext .ts,.tsx,.js,.jsx,.mjs,.cjs,.mts,.cts --fix",
+    "check-dist": "es-check -v"
   },
   "dependencies": {
     "@graphql-eslint/eslint-plugin": "^3.13.1",
@@ -124,6 +125,7 @@
     "@types/prettier": "2.7.1",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
+    "es-check": "7.0.1",
     "eslint": "8.27.0",
     "graphql": "16.6.0",
     "react": "18.2.0",
