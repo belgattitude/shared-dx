@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.12.0
+
+### Minor Changes
+
+- [#58](https://github.com/belgattitude/shared-dx/pull/58) [`f1b1b48`](https://github.com/belgattitude/shared-dx/commit/f1b1b4886f2d7267232189d9a9e97938dbff3e46) Thanks [@belgattitude](https://github.com/belgattitude)! - eslint to 8.28 and new minimum versions
+
 ## 1.11.0
 
 ### Minor Changes
