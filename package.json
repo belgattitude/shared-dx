@@ -31,8 +31,9 @@
     "g:release": "yarn g:build && changeset publish",
     "clean:lint": "rimraf --no-glob ./.cache/eslint",
     "clean:global-cache": "rimraf --no-glob ./.cache",
-    "deps:check": "yarn dlx npm-check-updates@latest --configFileName ncurc.yml --deep",
-    "deps:update": "yarn dlx npm-check-updates@latest --configFileName ncurc.yml -u --deep",
+    "deps:update-dev": "npx npm-check-updates@latest --configFileName ncurc.yml --dep dev --deep",
+    "deps:check": "npx npm-check-updates@latest --configFileName ncurc.yml --deep",
+    "deps:update": "npx npm-check-updates@latest --configFileName ncurc.yml -u --deep",
     "check:install": "yarn dlx @yarnpkg/doctor@3.1 .",
     "postinstall": "is-ci || yarn husky install",
     "format": "prettier --config .prettierrc.js --ignore-path .prettierignore \"./*.{js,cjs,mjs,ts,mts,md,mdx,json}\""
@@ -52,7 +53,7 @@
     "is-ci": "3.0.1",
     "lint-staged": "13.1.0",
     "npm-run-all": "4.1.5",
-    "prettier": "2.8.1",
+    "prettier": "2.8.2",
     "rimraf": "3.0.2",
     "shell-quote": "1.7.4",
     "typescript": "4.9.4"

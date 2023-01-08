@@ -19,6 +19,9 @@ Add the following devDependencies to workspace (apps/packages in monorepo) or ma
 $ yarn add --dev eslint @belgattitude/eslint-config-bases
 ```
 
+> PS: if you use graphql rules, add the `@graphql-eslint/eslint-plugin` as
+> well (not done by default as it comes with many transitive deps you might not need)
+
 ## Usage
 
 Create an `./apps/my-app/.eslintrc.js` or `./apps/my-app/.eslintrc.cjs` )
@@ -39,11 +42,12 @@ module.exports = {
     "@belgattitude/eslint-config-bases/sonar",
     "@belgattitude/eslint-config-bases/regexp",
     "@belgattitude/eslint-config-bases/react",
+    "@belgattitude/eslint-config-bases/react-query",  
     "@belgattitude/eslint-config-bases/jest",
-    "@belgattitude/eslint-config-bases/rtl",
-    "@belgattitude/eslint-config-bases/graphql-schema",
-    "@belgattitude/eslint-config-bases/storybook",
-    "@belgattitude/eslint-config-bases/playwright",
+    "@belgattitude/eslint-config-bases/rtl",       
+    // "@belgattitude/eslint-config-bases/graphql-schema",
+    // "@belgattitude/eslint-config-bases/storybook",
+    // "@belgattitude/eslint-config-bases/playwright",
 
     // Add specific rules for your framework if needed.
     // ie:
@@ -78,11 +82,12 @@ module.exports = {
 You can find the bases in [./src/bases](./src/bases).
 
 | Base                                            | Match convention                  | Scope                                                           |
-| :---------------------------------------------- | :-------------------------------- | :-------------------------------------------------------------- |
+|:------------------------------------------------| :-------------------------------- |:----------------------------------------------------------------|
 | [typescript](./src/bases/typescript.js)         | _all_                             | Naming conventions, consistent imports, import sorting...       |
 | [sonar](./src/bases/sonar.js)                   | `*.{js,jsx,ts,tsx}`               | Keep levels of code complexity sane. (excl test and stories)    |
 | [regexp](./src/bases/regexp.js)                 | `*.{js,jsx,jsx,tsx}`              | Keep regexp consistent and safer.                               |
 | [react](./src/bases/react.js)                   | `*.{jsx,tsx}`                     | Recommendations for react, react-hooks and jsx projects.        |
+| [react-query](./src/bases/react-query.js)       | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Enforce "recommended" react-query usage.                        |
 | [jest](./src/bases/jest.js)                     | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Catch inconsistencies or error in jest tests.                   |
 | [rtl](./src/bases/rtl.js)                       | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Potential errors / deprecations in react-testing-library tests. |
 | [graphql-schema](./src/bases/graphql-schema.js) | `*.graphql`                       | Ensure validity of graphql schema files.                        |

@@ -46,6 +46,9 @@
     "./react": {
       "require": "./src/bases/react.js"
     },
+    "./react-query": {
+      "require": "./src/bases/react-query.js"
+    },
     "./rtl": {
       "require": "./src/bases/rtl.js"
     },
@@ -75,30 +78,31 @@
     "check-dist": "es-check -v"
   },
   "dependencies": {
-    "@graphql-eslint/eslint-plugin": "^3.13.1",
     "@rushstack/eslint-patch": "^1.2.0",
+    "@tanstack/eslint-plugin-query": "4.21.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/react-hooks": "^8.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.46.1",
-    "@typescript-eslint/parser": "^5.46.1",
-    "eslint-config-prettier": "^8.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^27.1.6",
+    "eslint-plugin-jest": "^27.2.1",
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-playwright": "^0.11.2",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-regexp": "^1.11.0",
+    "eslint-plugin-regexp": "^1.12.0",
     "eslint-plugin-sonarjs": "^0.17.0",
     "eslint-plugin-storybook": "^0.6.8",
-    "eslint-plugin-tailwindcss": "^3.7.1",
+    "eslint-plugin-tailwindcss": "^3.8.0",
     "eslint-plugin-testing-library": "^5.9.1"
   },
   "peerDependencies": {
+    "@graphql-eslint/eslint-plugin": "^3.14.3",
     "eslint": "^8.29.0",
     "graphql": "^16.6.0",
     "react": "^18.0.2",
@@ -106,6 +110,9 @@
     "typescript": "^4.9.4"
   },
   "peerDependenciesMeta": {
+    "@graphql-eslint/eslint-plugin": {
+      "optional": true
+    },
     "graphql": {
       "optional": true
     },
@@ -120,6 +127,7 @@
     }
   },
   "devDependencies": {
+    "@graphql-eslint/eslint-plugin": "^3.14.3",
     "@types/jest": "29.2.5",
     "@types/node": "18.11.18",
     "@types/prettier": "2.7.2",
