@@ -19,6 +19,9 @@ Add the following devDependencies to workspace (apps/packages in monorepo) or ma
 $ yarn add --dev eslint @belgattitude/eslint-config-bases
 ```
 
+> PS: if you use graphql rules, add the `@graphql-eslint/eslint-plugin` as
+> well (not done by default as it comes with many transitive deps you might not need)
+
 ## Usage
 
 Create an `./apps/my-app/.eslintrc.js` or `./apps/my-app/.eslintrc.cjs` )
@@ -39,11 +42,12 @@ module.exports = {
     "@belgattitude/eslint-config-bases/sonar",
     "@belgattitude/eslint-config-bases/regexp",
     "@belgattitude/eslint-config-bases/react",
+    "@belgattitude/eslint-config-bases/react-query",  
     "@belgattitude/eslint-config-bases/jest",
-    "@belgattitude/eslint-config-bases/rtl",
-    "@belgattitude/eslint-config-bases/graphql-schema",
-    "@belgattitude/eslint-config-bases/storybook",
-    "@belgattitude/eslint-config-bases/playwright",
+    "@belgattitude/eslint-config-bases/rtl",       
+    // "@belgattitude/eslint-config-bases/graphql-schema",
+    // "@belgattitude/eslint-config-bases/storybook",
+    // "@belgattitude/eslint-config-bases/playwright",
 
     // Add specific rules for your framework if needed.
     // ie:
@@ -77,18 +81,19 @@ module.exports = {
 
 You can find the bases in [./src/bases](./src/bases).
 
-| Base                                            | Match convention                  | Scope                                                           |
-| :---------------------------------------------- | :-------------------------------- | :-------------------------------------------------------------- |
-| [typescript](./src/bases/typescript.js)         | _all_                             | Naming conventions, consistent imports, import sorting...       |
-| [sonar](./src/bases/sonar.js)                   | `*.{js,jsx,ts,tsx}`               | Keep levels of code complexity sane. (excl test and stories)    |
-| [regexp](./src/bases/regexp.js)                 | `*.{js,jsx,jsx,tsx}`              | Keep regexp consistent and safer.                               |
-| [react](./src/bases/react.js)                   | `*.{jsx,tsx}`                     | Recommendations for react, react-hooks and jsx projects.        |
-| [jest](./src/bases/jest.js)                     | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Catch inconsistencies or error in jest tests.                   |
-| [rtl](./src/bases/rtl.js)                       | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Potential errors / deprecations in react-testing-library tests. |
-| [graphql-schema](./src/bases/graphql-schema.js) | `*.graphql`                       | Ensure validity of graphql schema files.                        |
-| [storybook](./src/bases/storybook.js)           | `*.stories.{ts,tsx,mdx}`          | Potential errors / deprecations in stories.                     |
-| [playwright](./src/bases/playwright.js)         | `**/e2e/**/*.test.{js,ts}`        | Post configure eslint for prettier compatibility.               |
-| [prettier](./src/bases/prettier.js)             | _all_                             | Post configure eslint for prettier compatibility.               |
+| Base                                              | Match convention                  | Scope                                                           |
+|:--------------------------------------------------| :-------------------------------- |:----------------------------------------------------------------|
+| [typescript](./src/bases/typescript.js)           | _all_                             | Naming conventions, consistent imports, import sorting...       |
+| [sonar](./src/bases/sonar.js)                     | `*.{js,jsx,ts,tsx}`               | Keep levels of code complexity sane. (excl test and stories)    |
+| [regexp](./src/bases/regexp.js)                   | `*.{js,jsx,jsx,tsx}`              | Keep regexp consistent and safer.                               |
+| [react](./src/bases/react.js)                     | `*.{jsx,tsx}`                     | Recommendations for react, react-hooks and jsx projects.        |
+| [react-query](./src/bases/react-query.js)         | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Enforce "recommended" react-query usage.                        |
+| [jest](./src/bases/jest.js)                       | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Catch inconsistencies or error in jest tests.                   |
+| [rtl](./src/bases/rtl.js)                         | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Potential errors / deprecations in react-testing-library tests. |
+| [graphql-schema](./src/bases/graphql-schema.js)   | `*.graphql`                       | Ensure validity of graphql schema files.                        |
+| [storybook](./src/bases/storybook.js)             | `*.stories.{ts,tsx,mdx}`          | Potential errors / deprecations in stories.                     |
+| [playwright](./src/bases/playwright.js)           | `**/e2e/**/*.test.{js,ts}`        | Keep "recommended" playwright usage.                            |
+| [prettier-plugin](./src/bases/prettier-plugin.js) | _all_                             | Post configure eslint for prettier compatibility.               |
 
 > **Notes**:
 >
@@ -103,14 +108,26 @@ You can find the bases in [./src/bases](./src/bases).
 
 ## Prettier integration
 
-To prevent conflicts between prettier and eslint, you must re-export the prettier base from `@belgattitude/eslint-config-bases`.
+Two ways to work with prettier.
+
+- `@belgattitude/eslint-config-bases/prettier-plugin` - eslint will run prettier under the hood 
+- `@belgattitude/eslint-config-bases/prettier-config` - eslint will just disable some conflicting rules (so you'll need to run prettier after)
+
+The first method is recommended for simplicity. For best perf use the cache option to run eslint. 
+
+Tune the behaviour by creating a config in ` .prettierrc.js`
 
 ```javascript
+// @ts-check
 const {
   getPrettierConfig,
 } = require("@belgattitude/eslint-config-bases/helpers");
+
+/**
+ * @type {import('prettier').Config}
+ */
 module.exports = {
-  ...prettierConfig,
+  ...getPrettierConfig(),
   overrides: [
     // whatever you need
   ],

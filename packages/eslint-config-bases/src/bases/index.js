@@ -6,6 +6,7 @@ module.exports = {
   'prettier-config': require('./prettier-config'),
   react: require('./react'),
   regexp: require('./regexp'),
+  reactQuery: require('./react-query'),
   reactTestingLibrary: require('./rtl'),
   storybook: require('./storybook'),
   sonar: require('./sonar'),

@@ -1,13 +1,12 @@
 // @ts-check
 
-/**
- * @type {import('prettier').Config}
- */
-
 const { getPrettierConfig } = require('@belgattitude/eslint-config-bases/helpers');
 
 const { overrides = [], ...prettierConfig } = getPrettierConfig();
 
+/**
+ * @type {import('prettier').Config}
+ */
 module.exports = {
   ...prettierConfig,
   overrides: [
