@@ -18,7 +18,7 @@ module.exports = {
       files: [...reactPatterns.files],
       extends: [
         // @see https://tanstack.com/query/v4/docs/react/eslint/eslint-plugin-query
-        'plugin:@tanstack/eslint-plugin-query/recommended'
+        'plugin:@tanstack/eslint-plugin-query/recommended',
       ],
       // rules: { },
     },
