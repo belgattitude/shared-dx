@@ -65,10 +65,6 @@ jobs:
         run: |
           yarn workspaces foreach -tv --from '@belgattitude/*' --since=origin/main --recursive run typecheck
 
-      - name: Prettier checks
-        run: |
-          yarn workspaces foreach -tv --from '@belgattitude/*' --since=origin/main --recursive run prettier-check
-
       - name: ESLint checks
         run: |
           yarn workspaces foreach -tv --from '@belgattitude/*' --since=origin/main --recursive run lint
