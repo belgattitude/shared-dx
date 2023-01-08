@@ -1,5 +1,30 @@
 # @belgattitude/eslint-config-bases
 
+## 1.14.0
+
+### Minor Changes
+
+- [#91](https://github.com/belgattitude/shared-dx/pull/91) [`93b431a`](https://github.com/belgattitude/shared-dx/commit/93b431a3273b49b39529c31d94943c67b24608ff) Thanks [@belgattitude](https://github.com/belgattitude)! - Add support foo @tanstack/eslint-plugin-query
+
+  ```js
+  module.exports = {
+    extends: [
+      // ALL enabled
+      '@belgattitude/eslint-config-bases/react',
+      // ...
+      // Simply add
+      '@belgattitude/eslint-config-bases/react-query',
+    ],
+    rules: {},
+    overrides: [],
+  };
+  ```
+
+- [#91](https://github.com/belgattitude/shared-dx/pull/91) [`93b431a`](https://github.com/belgattitude/shared-dx/commit/93b431a3273b49b39529c31d94943c67b24608ff) Thanks [@belgattitude](https://github.com/belgattitude)! - Make @graphql-eslint/eslint-plugin an optional peer-dep
+
+  This is to keep the installation light when you don't have
+  usage of graphql.
+
 ## 1.13.0
 
 ### Minor Changes
