@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.16.0
+
+### Minor Changes
+
+- [#100](https://github.com/belgattitude/shared-dx/pull/100) [`4836479`](https://github.com/belgattitude/shared-dx/commit/4836479c4d8a7cb9c4b90ea00b5a016ed04ca263) Thanks [@belgattitude](https://github.com/belgattitude)! - Stricter defaults for eslint-plugin-import
+
 ## 1.15.0
 
 ### Minor Changes
