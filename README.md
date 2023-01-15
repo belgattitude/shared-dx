@@ -10,9 +10,9 @@ My shared dx
 
 ## Packages
 
-| Name                                  | Description                                           | Version                                                                                        |
-|---------------------------------------|-------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [@belgattitude/eslint-config-bases](https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases) | Opinionated eslint config bases for all project types | [![npm](https://img.shields.io/npm/v/@belgattitude/eslint-config-bases?style=for-the-badge)](https://www.npmjs.com/package/@belgattitude/eslint-config-bases) |
+| Name                                  | Description                                           | Version                                                                                                                                                                                                                                                   |
+|---------------------------------------|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [@belgattitude/eslint-config-bases](https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases) | Opinionated eslint config bases for all project types | [![npm](https://img.shields.io/npm/v/@belgattitude/eslint-config-bases?style=for-the-badge)](https://www.npmjs.com/package/@belgattitude/eslint-config-bases) ![npm](https://img.shields.io/npm/dm/@belgattitude/eslint-config-bases?style=for-the-badge) |
 
 
 ## Scripts
