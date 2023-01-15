@@ -74,8 +74,18 @@ module.exports = {
 };
 ```
 
-> **Tip:** "@belgattitude/eslint-config-bases/prettier" must be set at the end to disable any
-> conflicting rules.
+> **Tip:** 
+> 
+> - **Prettier**: `@belgattitude/eslint-config-bases/prettier-plugin` and `@belgattitude/eslint-config-bases/prettier-config` are
+>   mutually exclusives. Choose one. The `prettier-config` suppose that you run prettier independently. The `prettier-plugin`
+>   will run prettier for you. Easiest the `prettier-plugin`, fastest `prettier-config` (this mostly depends
+>   if you set up and persist caches as well)
+> 
+> - **Performance**: Some rules are known to be slow (ie: `import/namespace`...). Slowest identified rules are disabled depending
+>   on context (ie: `*.test.tsx?` might not need everything). Depending on project
+>   it's possible to disable entirely some slow rules (ie: `'import/namespace': 'off'`). A good tip
+>   run eslint with the `TIMING=1` to identify slow rules.
+> 
 
 ## Bases
 
