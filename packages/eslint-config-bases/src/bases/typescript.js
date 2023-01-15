@@ -34,6 +34,8 @@ module.exports = {
     'plugin:import/typescript',
   ],
   rules: {
+    // will use 'import/no-duplicates'.
+    'no-duplicate-imports': 'off',
     'spaced-comment': [
       'error',
       'always',
@@ -51,11 +53,16 @@ module.exports = {
     ],
     'linebreak-style': ['error', 'unix'],
     'no-empty-function': 'off',
-    'import/default': 'off',
-    'import/no-duplicates': ['error', { considerQueryString: true }],
-    'import/no-named-as-default-member': 'off',
-    'import/no-named-as-default': 'off',
-    'import/namespace': 'off', // very slow. https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/namespace.md
+    'import/default': ['error'],
+    // Warn it is slow - you might want to disable in bigger codebase
+    'import/namespace': ['error'], // ['ogg']
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-duplicates.md
+    'import/no-duplicates': [
+      'error',
+      { 'prefer-inline': true, considerQueryString: true },
+    ],
+    'import/no-named-as-default-member': ['warn'],
+    'import/no-named-as-default': ['warn'],
     'import/order': [
       'error',
       {
