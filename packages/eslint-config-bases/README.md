@@ -25,10 +25,11 @@ $ yarn add --dev eslint @belgattitude/eslint-config-bases
 
 ## Usage
 
-Create an `./apps/my-app/.eslintrc.js` or `./apps/my-app/.eslintrc.cjs` )
+Create an `./apps/my-app/.eslintrc.js` or `./apps/my-app/.eslintrc.cjs` 
 file that extends any of the existing base configs. For example:
 
 ```javascript
+// next line only required if you're using a monorepo
 require("@belgattitude/eslint-config-bases/patch/modern-module-resolution");
 
 module.exports = {
