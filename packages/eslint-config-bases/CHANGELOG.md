@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.17.0
+
+### Minor Changes
+
+- [#102](https://github.com/belgattitude/shared-dx/pull/102) [`7bb12f7`](https://github.com/belgattitude/shared-dx/commit/7bb12f7a0f8f98ca61ddcb92ba5761ed80c52362) Thanks [@belgattitude](https://github.com/belgattitude)! - Performance by disabling import/namespace by default (up to 30%)
+
 ## 1.16.0
 
 ### Minor Changes
