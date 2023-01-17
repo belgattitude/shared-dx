@@ -196,7 +196,7 @@ __metadata:
     graphql: "npm:16.6.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-    rimraf: "npm:4.0.5"
+    rimraf: "npm:4.1.0"
     typescript: "npm:4.9.4"
   peerDependencies:
     "@graphql-eslint/eslint-plugin": ^3.14.3
@@ -2070,7 +2070,7 @@ __metadata:
     lint-staged: "npm:13.1.0"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:2.8.3"
-    rimraf: "npm:4.0.5"
+    rimraf: "npm:4.1.0"
     shell-quote: "npm:1.7.4"
     typescript: "npm:4.9.4"
   languageName: unknown
@@ -6603,12 +6603,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:4.0.5":
-  version: 4.0.5
-  resolution: "rimraf@npm:4.0.5"
+"rimraf@npm:4.1.0":
+  version: 4.1.0
+  resolution: "rimraf@npm:4.1.0"
   bin:
     rimraf: dist/cjs/src/bin.js
-  checksum: 32d055cc81f3c256e97950093ed08bc4504e13114e336e918f54eefc928e314341ebb3ac5112f6bf758144fbfa4b40546d7e19b25ad50a4b4942dcaed3f451bb
+  checksum: bd63481f74e716f8dfb792b5435652a03a6dcd38d026388bfd13541e50f2e5c8596f3bdefe0a409ab4695a060e5f26cebefe69ae2029f75ff08b716f6210810b
   languageName: node
   linkType: hard
 
