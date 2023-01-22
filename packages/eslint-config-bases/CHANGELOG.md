@@ -1,5 +1,13 @@
 # @belgattitude/eslint-config-bases
 
+## 1.17.1
+
+### Patch Changes
+
+- [#109](https://github.com/belgattitude/shared-dx/pull/109) [`49f23cc`](https://github.com/belgattitude/shared-dx/commit/49f23cca814a101fd059c402bc754586cefcdb81) Thanks [@belgattitude](https://github.com/belgattitude)! - Remove wrong deps on react-testing-library
+
+- [#109](https://github.com/belgattitude/shared-dx/pull/109) [`49f23cc`](https://github.com/belgattitude/shared-dx/commit/49f23cca814a101fd059c402bc754586cefcdb81) Thanks [@belgattitude](https://github.com/belgattitude)! - Fix optional peer-dependencies on prettier
+
 ## 1.17.0
 
 ### Minor Changes
