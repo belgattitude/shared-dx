@@ -168,7 +168,6 @@ __metadata:
     "@tanstack/eslint-plugin-query": "npm:4.21.0"
     "@testing-library/jest-dom": "npm:^5.16.5"
     "@testing-library/react": "npm:^13.4.0"
-    "@testing-library/react-hooks": "npm:^8.0.1"
     "@types/jest": "npm:29.2.6"
     "@types/node": "npm:18.11.18"
     "@types/prettier": "npm:2.7.2"
@@ -202,6 +201,7 @@ __metadata:
     "@graphql-eslint/eslint-plugin": ^3.14.3
     eslint: ^8.29.0
     graphql: ^16.6.0
+    prettier: ^2.7.0 || >= 3.0.0-alpha.4
     react: ^18.0.2
     react-dom: ^18.0.2
     typescript: ^4.9.4
@@ -209,6 +209,8 @@ __metadata:
     "@graphql-eslint/eslint-plugin":
       optional: true
     graphql:
+      optional: true
+    prettier:
       optional: true
     react:
       optional: true
@@ -1249,28 +1251,6 @@ __metadata:
     lodash: "npm:^4.17.15"
     redent: "npm:^3.0.0"
   checksum: c05a25242e9edf8b9ddb3c431bcbdd1cd7cc8e1cbe67ef2727f2e95327e2486677572e7fc32f81bfbfa27013a80057508aca90d0c06de360af5a3d69fae19de1
-  languageName: node
-  linkType: hard
-
-"@testing-library/react-hooks@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "@testing-library/react-hooks@npm:8.0.1"
-  dependencies:
-    "@babel/runtime": "npm:^7.12.5"
-    react-error-boundary: "npm:^3.1.0"
-  peerDependencies:
-    "@types/react": ^16.9.0 || ^17.0.0
-    react: ^16.9.0 || ^17.0.0
-    react-dom: ^16.9.0 || ^17.0.0
-    react-test-renderer: ^16.9.0 || ^17.0.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    react-dom:
-      optional: true
-    react-test-renderer:
-      optional: true
-  checksum: f560f15fcfa42e1cd424f9d94f6e8f56560cc125e6e3eaebc10f8a49a4443a3e943982674d3a6a28e9829ec117890131abdaa7f07e9de1ccacc4774be80b38ee
   languageName: node
   linkType: hard
 
@@ -2496,14 +2476,14 @@ __metadata:
   linkType: hard
 
 "cosmiconfig-typescript-loader@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "cosmiconfig-typescript-loader@npm:4.0.0"
+  version: 4.3.0
+  resolution: "cosmiconfig-typescript-loader@npm:4.3.0"
   peerDependencies:
     "@types/node": "*"
     cosmiconfig: ">=7"
     ts-node: ">=10"
     typescript: ">=3"
-  checksum: 435a4bdfa3c8282edc5190eb96712d5b02f0e24c752f279026eff2903f960fa151e421a21c9272d34425c3dab4e5e2b76392ce4110160c28de1846870cd69453
+  checksum: 30a8aa6cd8f63c678ef0bb9f72e59f3b1e6059269b174af2200b4be1070bbf83e22ccae27b5772e21d5b1f79739175643b900bccc9a3f53f9090823891b5d16e
   languageName: node
   linkType: hard
 
@@ -6279,17 +6259,6 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
   checksum: 7c5b915fb793d63563cec1f721e059e6ff0e2855ac116ab5cb7450b6c59398f5e25f95c960ce5cb93504cc58ab724a75a78e99282354e702a0e667d0d787d028
-  languageName: node
-  linkType: hard
-
-"react-error-boundary@npm:^3.1.0":
-  version: 3.1.4
-  resolution: "react-error-boundary@npm:3.1.4"
-  dependencies:
-    "@babel/runtime": "npm:^7.12.5"
-  peerDependencies:
-    react: ">=16.13.1"
-  checksum: 7dbf53e15f0fd208b23521b96743c70166ca3a16aad8bcad7632b1da80f19035dfe91813fa65ee7ff7b7c826a15071e08b8e9270dc96392262ea8b1ab0ceedfa
   languageName: node
   linkType: hard
 
