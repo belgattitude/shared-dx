@@ -78,9 +78,6 @@
   "dependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
     "@tanstack/eslint-plugin-query": "4.21.0",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/react-hooks": "^8.0.1",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "@typescript-eslint/parser": "^5.48.1",
     "eslint-config-prettier": "^8.6.0",
@@ -103,6 +100,7 @@
     "@graphql-eslint/eslint-plugin": "^3.14.3",
     "eslint": "^8.29.0",
     "graphql": "^16.6.0",
+    "prettier": "^2.7.0 || >= 3.0.0-alpha.4",
     "react": "^18.0.2",
     "react-dom": "^18.0.2",
     "typescript": "^4.9.4"
@@ -112,6 +110,9 @@
       "optional": true
     },
     "graphql": {
+      "optional": true
+    },
+    "prettier": {
       "optional": true
     },
     "react": {
@@ -126,6 +127,8 @@
   },
   "devDependencies": {
     "@graphql-eslint/eslint-plugin": "^3.14.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
     "@types/jest": "29.2.6",
     "@types/node": "18.11.18",
     "@types/prettier": "2.7.2",
