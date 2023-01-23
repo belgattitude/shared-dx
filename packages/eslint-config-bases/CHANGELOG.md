@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.17.2
+
+### Patch Changes
+
+- [#111](https://github.com/belgattitude/shared-dx/pull/111) [`8779578`](https://github.com/belgattitude/shared-dx/commit/877957854cc6673246d04133e0fc6d4226103dca) Thanks [@belgattitude](https://github.com/belgattitude)! - Make tailwind peer-deps optional
+
 ## 1.17.1
 
 ### Patch Changes
