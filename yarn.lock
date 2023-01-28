@@ -186,7 +186,7 @@ __metadata:
     "@angular-eslint/template-parser": "npm:15.2.0"
     "@graphql-eslint/eslint-plugin": "npm:^3.14.3"
     "@rushstack/eslint-patch": "npm:^1.2.0"
-    "@tanstack/eslint-plugin-query": "npm:4.21.0"
+    "@tanstack/eslint-plugin-query": "npm:4.24.0"
     "@testing-library/jest-dom": "npm:^5.16.5"
     "@testing-library/react": "npm:^13.4.0"
     "@types/jest": "npm:29.2.6"
@@ -1242,10 +1242,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/eslint-plugin-query@npm:4.21.0":
-  version: 4.21.0
-  resolution: "@tanstack/eslint-plugin-query@npm:4.21.0"
-  checksum: 0912228657d67f6a77b804cd8dada4cfb5667c93eda7dc289e94a8fd17852d084e5f630e60e960385162ee33d15f6381b997db52dfb4645fe6d88292ab0d9eec
+"@tanstack/eslint-plugin-query@npm:4.24.0":
+  version: 4.24.0
+  resolution: "@tanstack/eslint-plugin-query@npm:4.24.0"
+  checksum: 1e9358726e182635a521715b8eb86c333e43d32c0607871073ef69eff5a3710a7a079ea34158f2daf570f2bc4a73117411a6cd19a4ba5052a8d337a71fca0306
   languageName: node
   linkType: hard
 
