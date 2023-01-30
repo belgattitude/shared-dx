@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.18.0
+
+### Minor Changes
+
+- [#120](https://github.com/belgattitude/shared-dx/pull/120) [`eb56093`](https://github.com/belgattitude/shared-dx/commit/eb56093a391bcdc0cc3f56c6d9bc39d451201969) Thanks [@belgattitude](https://github.com/belgattitude)! - Update linters to latest
+
 ## 1.17.2
 
 ### Patch Changes
