@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.20.0
+
+### Minor Changes
+
+- [#133](https://github.com/belgattitude/shared-dx/pull/133) [`597ea92`](https://github.com/belgattitude/shared-dx/commit/597ea92a4f9cfd4dc602bdd761ef68f8d22c9d21) Thanks [@belgattitude](https://github.com/belgattitude)! - Add support for eslint-plugin-mdx
+
 ## 1.19.0
 
 ### Minor Changes
