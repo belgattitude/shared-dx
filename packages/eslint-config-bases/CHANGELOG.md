@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.20.2
+
+### Patch Changes
+
+- [#137](https://github.com/belgattitude/shared-dx/pull/137) [`2c73f58`](https://github.com/belgattitude/shared-dx/commit/2c73f58eb542cc8c67252b32a06d6593e187aeaa) Thanks [@belgattitude](https://github.com/belgattitude)! - Fix mdx files override
+
 ## 1.20.1
 
 ### Patch Changes
