@@ -10,14 +10,12 @@ const mdxPatterns = {
 module.exports = {
   overrides: [
     {
-      // For performance enable react-testing-library only on test files
-      files: mdxPatterns.files,
+      // For performance enable this only on mdx files
+      files: mdxPatterns,
       extends: ['plugin:mdx/recommended'],
-      settings: {
-        'mdx/code-blocks': true,
-        // optional, if you want to disable language mapper, set it to `false`
-        // if you want to override the default language mapper inside, you can provide your own
-        'mdx/language-mapper': {},
+      parser: 'eslint-mdx',
+      rules: {
+        '@typescript-eslint/consistent-type-exports': 'off',
       },
     },
   ],
