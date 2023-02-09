@@ -42,7 +42,7 @@ jobs:
           # @link https://github.com/actions/checkout#fetch-all-history-for-all-tags-and-branches
           fetch-depth: 0
 
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: ⚙️ Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
@@ -50,7 +50,7 @@ jobs:
       - name: 📥 Monorepo install
         uses: ./.github/actions/yarn-nm-install
 
-      - name: Restore packages cache
+      - name: ♻️ Restore packages cache
         uses: actions/cache@v3
         with:
           path: |
@@ -61,26 +61,20 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-packages-cache-${{ hashFiles('**/yarn.lock') }}-
 
-      - name: Typecheck
-        run: |
-          yarn workspaces foreach -tv --from '@belgattitude/*' --since=origin/main --recursive run typecheck
+      - name: 🕵️ Typecheck
+        run: yarn workspaces foreach -tv --from '@belgattitude/*' --since=origin/main --recursive run typecheck
 
-      - name: ESLint checks
-        run: |
-          yarn workspaces foreach -tv --from '@belgattitude/*' --since=origin/main --recursive run lint
+      - name: 🔬 ESLint checks
+        run: yarn workspaces foreach -tv --from '@belgattitude/*' --since=origin/main --recursive run lint
 
-      - name: Unit tests changed packages
-        run: |
-          yarn workspaces foreach -tv --include '@belgattitude/*' --since=origin/main --recursive run test-unit
+      - name: 🧪 Unit tests changed packages
+        run: yarn workspaces foreach -tv --include '@belgattitude/*' --since=origin/main --recursive run test-unit
 
-      - name: Run build for changed packages
-        run: |
-          yarn workspaces foreach -tv --include '@belgattitude/*' --since=origin/main --recursive run build
+      - name: 🏗 Run build for changed packages
+        run: yarn workspaces foreach -tv --include '@belgattitude/*' --since=origin/main --recursive run build
 
-      - name: Check build for size-limits
-        run: |
-          yarn workspaces foreach -tv --include '@belgattitude/*' --since=origin/main --recursive run check-size
+      - name: 📐 Check build for size-limits
+        run: yarn workspaces foreach -tv --include '@belgattitude/*' --since=origin/main --recursive run check-size
 
-      - name: Check build ecmascript compliance
-        run: |
-          yarn workspaces foreach -tv --include '@belgattitude/*' --since=origin/main --recursive run check-dist
+      - name: 🛟 Check build ecmascript compliance
+        run: yarn workspaces foreach -tv --include '@belgattitude/*' --since=origin/main --recursive run check-dist

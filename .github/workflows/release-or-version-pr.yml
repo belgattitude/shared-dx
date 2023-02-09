@@ -19,7 +19,7 @@ jobs:
           # @link https://github.com/actions/checkout#fetch-all-history-for-all-tags-and-branches
           fetch-depth: 0
 
-      - name: Use Node.js 16.x
+      - name: ⚙️ Use Node.js 16.x
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
@@ -27,7 +27,7 @@ jobs:
       - name: 📥 Monorepo install
         uses: ./.github/actions/yarn-nm-install
 
-      - name: Create Release Pull Request or Publish to npm
+      - name: 🦋 Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
         with:
