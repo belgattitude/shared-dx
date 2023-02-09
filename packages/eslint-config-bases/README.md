@@ -20,8 +20,9 @@ Add the following devDependencies to workspace (apps/packages in monorepo) or ma
 $ yarn add --dev eslint @belgattitude/eslint-config-bases
 ```
 
-> PS: if you use graphql rules, add the `@graphql-eslint/eslint-plugin` as
-> well (not done by default as it comes with many transitive deps you might not need)
+> PS: To keep the size low, if you use the following plugins: 
+> - **graphql**: add the `@graphql-eslint/eslint-plugin` as dev-dep.
+> - **mdx**: add the `eslint-plugin-mdx` as dev-dep.
 
 ## Usage
 
@@ -46,7 +47,10 @@ module.exports = {
     "@belgattitude/eslint-config-bases/react",
     "@belgattitude/eslint-config-bases/react-query",  
     "@belgattitude/eslint-config-bases/jest",
-    "@belgattitude/eslint-config-bases/rtl",       
+    "@belgattitude/eslint-config-bases/rtl",  
+      
+    // "@belgattitude/eslint-config-bases/mdx",  
+      
     // "@belgattitude/eslint-config-bases/graphql-schema",
     // "@belgattitude/eslint-config-bases/storybook",
     // "@belgattitude/eslint-config-bases/playwright",
@@ -103,6 +107,7 @@ You can find the bases in [./src/bases](./src/bases).
 | [jest](./src/bases/jest.js)                       | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Catch inconsistencies or error in jest tests.                   |
 | [rtl](./src/bases/rtl.js)                         | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Potential errors / deprecations in react-testing-library tests. |
 | [graphql-schema](./src/bases/graphql-schema.js)   | `*.graphql`                       | Ensure validity of graphql schema files.                        |
+| [mdx](./src/bases/mdx.js)                         | _all_                             | Mdx validation                                                  |
 | [storybook](./src/bases/storybook.js)             | `*.stories.{ts,tsx,mdx}`          | Potential errors / deprecations in stories.                     |
 | [playwright](./src/bases/playwright.js)           | `**/e2e/**/*.test.{js,ts}`        | Keep "recommended" playwright usage.                            |
 | [prettier-plugin](./src/bases/prettier-plugin.js) | _all_                             | Post configure eslint for prettier compatibility.               |
