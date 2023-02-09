@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.20.1
+
+### Patch Changes
+
+- [#135](https://github.com/belgattitude/shared-dx/pull/135) [`ac8cc27`](https://github.com/belgattitude/shared-dx/commit/ac8cc27bf71de0fe73a168be1549f7119ab5a134) Thanks [@belgattitude](https://github.com/belgattitude)! - MDX, fix incompatibility with consistent import rules
+
 ## 1.20.0
 
 ### Minor Changes
