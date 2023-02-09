@@ -11,7 +11,7 @@ module.exports = {
   overrides: [
     {
       // For performance enable this only on mdx files
-      files: ['*.mdx'],
+      files: mdxPatterns,
       extends: ['plugin:mdx/recommended'],
       parser: 'eslint-mdx',
       rules: {
