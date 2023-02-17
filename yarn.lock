@@ -188,7 +188,7 @@ __metadata:
     "@rushstack/eslint-patch": "npm:^1.2.0"
     "@tanstack/eslint-plugin-query": "npm:4.24.5"
     "@testing-library/jest-dom": "npm:^5.16.5"
-    "@testing-library/react": "npm:^13.4.0"
+    "@testing-library/react": "npm:^14.0.0"
     "@types/jest": "npm:29.4.0"
     "@types/node": "npm:18.13.0"
     "@types/prettier": "npm:2.7.2"
@@ -1253,19 +1253,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^8.5.0":
-  version: 8.17.1
-  resolution: "@testing-library/dom@npm:8.17.1"
+"@testing-library/dom@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "@testing-library/dom@npm:9.0.0"
   dependencies:
     "@babel/code-frame": "npm:^7.10.4"
     "@babel/runtime": "npm:^7.12.5"
-    "@types/aria-query": "npm:^4.2.0"
+    "@types/aria-query": "npm:^5.0.1"
     aria-query: "npm:^5.0.0"
     chalk: "npm:^4.1.0"
     dom-accessibility-api: "npm:^0.5.9"
     lz-string: "npm:^1.4.4"
     pretty-format: "npm:^27.0.2"
-  checksum: 984e419ecf3963bf4608e3ea36d055f622fba1e25605e63a41721eafe6e922535079d921853e1e40953eb31a3b47d9c4e3727083f962462172c7642cc3e1ebf0
+  checksum: 1ceba9524424bd84097b0c822f9ef29cf0c4a014ee652288d6ddde40e36e1272432eed52ecccc5238fefdc3abb329b2f5e7f7bf26ac3571238261660c5f31924
   languageName: node
   linkType: hard
 
@@ -1286,17 +1286,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:^13.4.0":
-  version: 13.4.0
-  resolution: "@testing-library/react@npm:13.4.0"
+"@testing-library/react@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "@testing-library/react@npm:14.0.0"
   dependencies:
     "@babel/runtime": "npm:^7.12.5"
-    "@testing-library/dom": "npm:^8.5.0"
+    "@testing-library/dom": "npm:^9.0.0"
     "@types/react-dom": "npm:^18.0.0"
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: 2030d32070b3d43bc374843e9989192be2bdc44d7280aebe17c9223637134b4f769c7077f704d5771cd29174b3f28b91dfae09a95a5d2b5d5db2a5ee689ef67f
+  checksum: c92555e348b8d6bd08ad5c036042ebe23a1767f7b6cf93f490a71e5d5e8635e30b53a3f07e179b8efbce3b872fa6b535de2467713680094f98d9d1307a884453
   languageName: node
   linkType: hard
 
@@ -1344,10 +1344,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/aria-query@npm:^4.2.0":
-  version: 4.2.2
-  resolution: "@types/aria-query@npm:4.2.2"
-  checksum: 45005e0315cd710931f42c5f09eac9191307a4f202c824c7db34e57d4edbdf402fe2ea4534a3b997d9300170e7b2d5d87c1ae52bf80909a487893adc1a9ca9b4
+"@types/aria-query@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "@types/aria-query@npm:5.0.1"
+  checksum: 7f2d592e56269233705e7ab2da09498a9ce471167176a703b4e8792515008b859bdce0180d7bcb4674d91dbc7a75ebca3ae5d0ededf38093ca47c76cc6409fa2
   languageName: node
   linkType: hard
 
