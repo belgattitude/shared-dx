@@ -7,7 +7,8 @@ on:
 
 jobs:
   release:
-    if: github.repository == 'belgattitude/shared-dx'
+    # Security: the release job can only be executed from this repo and from the main branch (not a remote thing)
+    if: ${{ github.repository == 'belgattitude/shared-dx' && contains('refs/heads/main',github.ref)}}
     name: Release and changelog
     runs-on: ubuntu-latest
     steps:
@@ -19,10 +20,10 @@ jobs:
           # @link https://github.com/actions/checkout#fetch-all-history-for-all-tags-and-branches
           fetch-depth: 0
 
-      - name: ⚙️ Use Node.js 16.x
+      - name: ⚙️ Use Node.js 18.x
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: 18.x
 
       - name: 📥 Monorepo install
         uses: ./.github/actions/yarn-nm-install
