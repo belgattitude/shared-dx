@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.21.0
+
+### Minor Changes
+
+- [#149](https://github.com/belgattitude/shared-dx/pull/149) [`b8aca28`](https://github.com/belgattitude/shared-dx/commit/b8aca2837fd64074987de24599b212b719c00de8) Thanks [@belgattitude](https://github.com/belgattitude)! - Linters to latest
+
 ## 1.20.2
 
 ### Patch Changes
