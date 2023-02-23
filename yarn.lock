@@ -1211,15 +1211,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@playwright/test@npm:1.30.0":
-  version: 1.30.0
-  resolution: "@playwright/test@npm:1.30.0"
+"@playwright/test@npm:1.31.1":
+  version: 1.31.1
+  resolution: "@playwright/test@npm:1.31.1"
   dependencies:
     "@types/node": "npm:*"
-    playwright-core: "npm:1.30.0"
+    fsevents: "npm:2.3.2"
+    playwright-core: "npm:1.31.1"
+  dependenciesMeta:
+    fsevents:
+      optional: true
   bin:
     playwright: cli.js
-  checksum: ca35345828a0f350533e5a7487215f7209bf6209b5bce0ca70feadd5de9795892bec107732864163ca528812b3da6a07e51fcf6bdfba34f3f4f0dfed0ad007fd
+  checksum: 9d452a31458058df6885b787b1600bf12879e348f74c7fa8111dc89e290218bb50ce88e514ef949f6d2b511952ca5f4233eaad8712c34ac096fa14567a085cc3
   languageName: node
   linkType: hard
 
@@ -2153,7 +2157,7 @@ __metadata:
     "@changesets/cli": "npm:2.26.0"
     "@commitlint/cli": "npm:17.4.4"
     "@commitlint/config-conventional": "npm:17.4.4"
-    "@playwright/test": "npm:1.30.0"
+    "@playwright/test": "npm:1.31.1"
     "@types/prettier": "npm:2.7.2"
     "@types/shell-quote": "npm:1.7.1"
     cross-env: "npm:7.0.3"
@@ -4038,7 +4042,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@npm:~2.3.2":
+"fsevents@npm:2.3.2, fsevents@npm:~2.3.2":
   version: 2.3.2
   resolution: "fsevents@npm:2.3.2"
   dependencies:
@@ -4048,7 +4052,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>, fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents>":
   version: 2.3.2
   resolution: "fsevents@patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
@@ -6917,12 +6921,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.30.0":
-  version: 1.30.0
-  resolution: "playwright-core@npm:1.30.0"
+"playwright-core@npm:1.31.1":
+  version: 1.31.1
+  resolution: "playwright-core@npm:1.31.1"
   bin:
     playwright: cli.js
-  checksum: 08dddb4f81a3220235847bc699cdf336008670b13da45a2340fe693f1a1b486ce79fd3773a662b73c2b32120aabe62cf8b50f78ededc24d5811f917816f2ae25
+  checksum: ee4367fd082d6d683a6401f32e45c53d37ac1198da440c17db4d39abea636f6e4d0382f5449bcbe939e68d8d836669affbfe83b8a221ec636758368bb5b5e029
   languageName: node
   linkType: hard
 
