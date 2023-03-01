@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.23.0
+
+### Minor Changes
+
+- [#156](https://github.com/belgattitude/shared-dx/pull/156) [`7d85bd1`](https://github.com/belgattitude/shared-dx/commit/7d85bd1c99e5c11e4db18603ebe8e39dc357e087) Thanks [@belgattitude](https://github.com/belgattitude)! - Add import/no-cycle by default
+
 ## 1.22.0
 
 ### Minor Changes
