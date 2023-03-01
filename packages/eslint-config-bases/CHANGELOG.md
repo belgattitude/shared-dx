@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.22.0
+
+### Minor Changes
+
+- [#154](https://github.com/belgattitude/shared-dx/pull/154) [`9b41d4c`](https://github.com/belgattitude/shared-dx/commit/9b41d4c8958910699e5a25f163bd0fc116a45583) Thanks [@belgattitude](https://github.com/belgattitude)! - To latest linter deps
+
 ## 1.21.0
 
 ### Minor Changes
