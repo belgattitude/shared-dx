@@ -1,5 +1,18 @@
 # @belgattitude/eslint-config-bases
 
+## 1.24.0
+
+### Minor Changes
+
+- [#163](https://github.com/belgattitude/shared-dx/pull/163) [`013fdf0`](https://github.com/belgattitude/shared-dx/commit/013fdf058aee6fbbe46531daf384312a0f958ed5) Thanks [@belgattitude](https://github.com/belgattitude)! - Make import/no-cycle opt-in through process.env.ESLINT_IMPORT_NO_CYCLE=true
+
+  Due to performance considerations the [import/no-cycle](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md) isn't enabled by default. This rule
+  can prevent subtle and hard to debug bugs. Depending on the project you can enable it either
+  by setting and env variable `ESLINT_IMPORT_NO_CYCLE=true yarn lint` (will default to `import/no-cycle: 2`) or by adding it
+  to the extended rules.
+
+- [#163](https://github.com/belgattitude/shared-dx/pull/163) [`013fdf0`](https://github.com/belgattitude/shared-dx/commit/013fdf058aee6fbbe46531daf384312a0f958ed5) Thanks [@belgattitude](https://github.com/belgattitude)! - Latest versions of plugins
+
 ## 1.23.0
 
 ### Minor Changes
