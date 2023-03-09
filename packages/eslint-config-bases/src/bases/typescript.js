@@ -40,7 +40,7 @@ module.exports = {
   ],
   rules: {
     // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
-    ...(checkCycles ? {'import/no-cycle': 2} : {}),
+    ...(checkCycles ? { 'import/no-cycle': 2 } : {}),
     // will use 'import/no-duplicates'.
     'no-duplicate-imports': 'off',
     'spaced-comment': [
