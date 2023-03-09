@@ -217,7 +217,7 @@ __metadata:
     graphql: "npm:16.6.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-    rimraf: "npm:4.3.0"
+    rimraf: "npm:4.4.0"
     tailwindcss: "npm:3.2.7"
     typescript: "npm:4.9.5"
   peerDependencies:
@@ -2174,7 +2174,7 @@ __metadata:
     lint-staged: "npm:13.1.2"
     npm-run-all: "npm:4.1.5"
     prettier: "npm:2.8.4"
-    rimraf: "npm:4.3.0"
+    rimraf: "npm:4.4.0"
     shell-quote: "npm:1.8.0"
     typescript: "npm:4.9.5"
   languageName: unknown
@@ -7549,14 +7549,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rimraf@npm:4.3.0":
-  version: 4.3.0
-  resolution: "rimraf@npm:4.3.0"
+"rimraf@npm:4.4.0":
+  version: 4.4.0
+  resolution: "rimraf@npm:4.4.0"
   dependencies:
     glob: "npm:^9.2.0"
   bin:
     rimraf: dist/cjs/src/bin.js
-  checksum: f30ab6fdf11e6ee95f987a9db73d0b985619c5d31047ecb644e4ecf64e9405f2f0efae24c48a1dda05bb6bac00c0ccb181e8c617a74a3ef0edacf912045584e6
+  checksum: 9f171359bcb9a00a82125dd796c921fb787d0bc57dba0d93b25ca6ce37463385b8a6e39bbb8db57c4fdebfc721c839b829438dacd9e9da796d4f4cce8188ba0c
   languageName: node
   linkType: hard
 
