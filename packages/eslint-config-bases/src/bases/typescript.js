@@ -3,6 +3,11 @@
  * @see https://github.com/belgattitude/nextjs-monorepo-example/tree/main/packages/eslint-config-bases
  */
 
+// Allow to pass an env to check cycles, defaults to 2 (lint time+++)
+// @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
+// @see https://medium.com/@steven-lemon182/are-typescript-barrel-files-an-anti-pattern-72a713004250
+const checkCycles = process.env?.ESLINT_IMPORT_NO_CYCLE === 'true';
+
 module.exports = {
   env: {
     es6: true,
@@ -34,8 +39,8 @@ module.exports = {
     'plugin:import/typescript',
   ],
   rules: {
-    // https://medium.com/@steven-lemon182/are-typescript-barrel-files-an-anti-pattern-72a713004250
-    'import/no-cycle': 2,
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
+    ...(checkCycles ? { 'import/no-cycle': 2 } : {}),
     // will use 'import/no-duplicates'.
     'no-duplicate-imports': 'off',
     'spaced-comment': [

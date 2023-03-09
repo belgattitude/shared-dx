@@ -123,6 +123,13 @@ You can find the bases in [./src/bases](./src/bases).
 >   keep a good level of performance. For example the [sonar base](./src/bases/sonar.js) won't run on
 >   test and storybook files. If you work on different conventions the patterns must be updated.
 
+## Cyclic deps
+
+Due to performance considerations the [import/no-cycle](https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md) isn't enabled by default. This rule
+can prevent subtle and hard to debug bugs. Depending on the project you can enable it either
+by setting and env variable `ESLINT_IMPORT_NO_CYCLE=true yarn lint` (will default to `import/no-cycle: 2`) or by adding it
+to the extended rules.
+
 ## Prettier integration
 
 Two ways to work with prettier.
@@ -204,12 +211,14 @@ Generic typescript project, mostly based on
 To tune the behaviour, you can add setting in the top level config 
 
 ```js
-settings: {
-'mdx/code-blocks': true,
-// optional, if you want to disable language mapper, set it to `false`
-// if you want to override the default language mapper inside, you can provide your own
-'mdx/language-mapper': {},
-},
+module.exports = {
+    settings: {
+        'mdx/code-blocks': true,
+        // optional, if you want to disable language mapper, set it to `false`
+        // if you want to override the default language mapper inside, you can provide your own
+        'mdx/language-mapper': {},
+    },
+}
 ```
 
 ### Etc
