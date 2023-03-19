@@ -1,5 +1,13 @@
 # @belgattitude/eslint-config-bases
 
+## 1.26.0
+
+### Minor Changes
+
+- [#174](https://github.com/belgattitude/shared-dx/pull/174) [`3336533`](https://github.com/belgattitude/shared-dx/commit/3336533ccf5d0cb41e0ccdd5f40eb88a1ef16b3b) Thanks [@belgattitude](https://github.com/belgattitude)! - Relax naming conventions for storybook files
+
+- [#174](https://github.com/belgattitude/shared-dx/pull/174) [`3336533`](https://github.com/belgattitude/shared-dx/commit/3336533ccf5d0cb41e0ccdd5f40eb88a1ef16b3b) Thanks [@belgattitude](https://github.com/belgattitude)! - To latest plugin deps
+
 ## 1.25.1
 
 ### Patch Changes
