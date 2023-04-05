@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.30.0
+
+### Minor Changes
+
+- [#198](https://github.com/belgattitude/shared-dx/pull/198) [`4545ba5`](https://github.com/belgattitude/shared-dx/commit/4545ba5537b66b716946129bcc6f8d9da47be148) Thanks [@belgattitude](https://github.com/belgattitude)! - Add storybook-static and .yarn as default ignored paths
+
 ## 1.29.0
 
 ### Minor Changes
