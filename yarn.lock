@@ -517,12 +517,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:17.5.1":
-  version: 17.5.1
-  resolution: "@commitlint/cli@npm:17.5.1"
+"@commitlint/cli@npm:17.6.1":
+  version: 17.6.1
+  resolution: "@commitlint/cli@npm:17.6.1"
   dependencies:
     "@commitlint/format": "npm:^17.4.4"
-    "@commitlint/lint": "npm:^17.4.4"
+    "@commitlint/lint": "npm:^17.6.1"
     "@commitlint/load": "npm:^17.5.0"
     "@commitlint/read": "npm:^17.5.1"
     "@commitlint/types": "npm:^17.4.4"
@@ -533,16 +533,16 @@ __metadata:
     yargs: "npm:^17.0.0"
   bin:
     commitlint: cli.js
-  checksum: b5806776b8a36f7b4d4ab4c2a9f71afaaa27b6506e1b91bf5e816e63d34a8d9c2198d0842759a89ef8677fe324aa5961cb74938660a18233b60adeb01d3c19e6
+  checksum: 25f6593db6236bda0f747bea4cfb2fd28ecc187ca4bb94174044f0c6d2ff8fb38afa364833ca7c83eeebabe8f4be59a03184c7d74ff91b538acbde069e1ce7bc
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:17.4.4":
-  version: 17.4.4
-  resolution: "@commitlint/config-conventional@npm:17.4.4"
+"@commitlint/config-conventional@npm:17.6.1":
+  version: 17.6.1
+  resolution: "@commitlint/config-conventional@npm:17.6.1"
   dependencies:
     conventional-changelog-conventionalcommits: "npm:^5.0.0"
-  checksum: 1dce765072a61354a1e17078441c2422b0166bc0c974d082835e76b0117e787b426063e5c978c68a59c8ebf46de9f499157902de18122538432a12efcc7dcce2
+  checksum: add7360c14f0db394457e9bab546a6b31ee98d9edc97d24d21408848bc83911601e07fa2bd5bde82d6139443d5431ed6bf8f7c111a447cbea26bcc518d666456
   languageName: node
   linkType: hard
 
@@ -597,15 +597,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:^17.4.4":
-  version: 17.4.4
-  resolution: "@commitlint/lint@npm:17.4.4"
+"@commitlint/lint@npm:^17.6.1":
+  version: 17.6.1
+  resolution: "@commitlint/lint@npm:17.6.1"
   dependencies:
     "@commitlint/is-ignored": "npm:^17.4.4"
     "@commitlint/parse": "npm:^17.4.4"
-    "@commitlint/rules": "npm:^17.4.4"
+    "@commitlint/rules": "npm:^17.6.1"
     "@commitlint/types": "npm:^17.4.4"
-  checksum: 03895636269249bee2d3dac7f825a2dfc7e400f49e14eec2cae35aa6056e479bd6a9ec788bccdb57561f7e76dfc6c9fcae0407939ab3013302b443f499103462
+  checksum: 03f3a32dc778459cc302925f1d97957b789ab197cf2db482b782ebad408fa97132230ab656dee754e75e8c5b170eebb3105ef43d08efc79a4ce7c6d41069e310
   languageName: node
   linkType: hard
 
@@ -676,16 +676,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/rules@npm:^17.4.4":
-  version: 17.4.4
-  resolution: "@commitlint/rules@npm:17.4.4"
+"@commitlint/rules@npm:^17.6.1":
+  version: 17.6.1
+  resolution: "@commitlint/rules@npm:17.6.1"
   dependencies:
     "@commitlint/ensure": "npm:^17.4.4"
     "@commitlint/message": "npm:^17.4.2"
     "@commitlint/to-lines": "npm:^17.4.0"
     "@commitlint/types": "npm:^17.4.4"
     execa: "npm:^5.0.0"
-  checksum: 49ea76836a4b66c882398c2d1f02d8657e156295ee290c285229794b4fb709950e7e7c3f90a4c464270226b78f789982aa3a712594dae773b9795a0b4ad10e83
+  checksum: 7e7c552fa925d39144ec48c4cd5f32580d23cb3bbac92d0776d5096a48bb26c3a956e99f1088b7d026a61e61c76cbb5fb3ce97d6367bad501401f716c0fd24ed
   languageName: node
   linkType: hard
 
@@ -2160,8 +2160,8 @@ __metadata:
     "@belgattitude/eslint-config-bases": "workspace:^"
     "@changesets/changelog-github": "npm:0.4.8"
     "@changesets/cli": "npm:2.26.1"
-    "@commitlint/cli": "npm:17.5.1"
-    "@commitlint/config-conventional": "npm:17.4.4"
+    "@commitlint/cli": "npm:17.6.1"
+    "@commitlint/config-conventional": "npm:17.6.1"
     "@playwright/test": "npm:1.32.2"
     "@types/prettier": "npm:2.7.2"
     "@types/shell-quote": "npm:1.7.1"
