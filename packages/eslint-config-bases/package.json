@@ -150,7 +150,7 @@
     "@types/prettier": "2.7.2",
     "@types/react": "18.0.37",
     "@types/react-dom": "18.0.11",
-    "es-check": "7.1.0",
+    "es-check": "7.1.1",
     "eslint": "8.37.0",
     "eslint-plugin-mdx": "2.0.5",
     "graphql": "16.6.0",
