@@ -19,23 +19,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-eslint/bundled-angular-compiler@npm:15.2.1":
-  version: 15.2.1
-  resolution: "@angular-eslint/bundled-angular-compiler@npm:15.2.1"
-  checksum: 0dbe1c5a9ec5472563a909df513b24627c2feec8c8edc6f9396385d126cef7fe2674c63c150aa0da5824c3955b5a4a553c05e7201bb07bcbfb3e700067ccf38f
+"@angular-eslint/bundled-angular-compiler@npm:16.0.1":
+  version: 16.0.1
+  resolution: "@angular-eslint/bundled-angular-compiler@npm:16.0.1"
+  checksum: 50c3928e5836b48af8efcc6e86f9cd40dd4f6be9af6174756fd1c324f44a0e6b62cf1e6fd539bf8b88aed088149fab448d43b17aac841dba97721f810efa8b21
   languageName: node
   linkType: hard
 
-"@angular-eslint/template-parser@npm:15.2.1":
-  version: 15.2.1
-  resolution: "@angular-eslint/template-parser@npm:15.2.1"
+"@angular-eslint/template-parser@npm:16.0.1":
+  version: 16.0.1
+  resolution: "@angular-eslint/template-parser@npm:16.0.1"
   dependencies:
-    "@angular-eslint/bundled-angular-compiler": "npm:15.2.1"
+    "@angular-eslint/bundled-angular-compiler": "npm:16.0.1"
     eslint-scope: "npm:^7.0.0"
   peerDependencies:
     eslint: ^7.20.0 || ^8.0.0
     typescript: "*"
-  checksum: 619ac66f912df4149a2f27b2876adc5f53ae21f5789d8575b8bd43bce42e665d5475c04735c1b6e5cc5a8331d7999eeafff1b561bd5cb612b3835a9dde71dd8b
+  checksum: 0a9aa0e9a1c3d5d05930b47facf2fdc16dc38dccf19425f9ae8db687ecb7f55bb5625acb69cfa6827cb9a85441516f5590ca505dde57a3269e495472660abfff
   languageName: node
   linkType: hard
 
@@ -190,7 +190,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@belgattitude/eslint-config-bases@workspace:packages/eslint-config-bases"
   dependencies:
-    "@angular-eslint/template-parser": "npm:15.2.1"
+    "@angular-eslint/template-parser": "npm:16.0.1"
     "@graphql-eslint/eslint-plugin": "npm:3.18.0"
     "@rushstack/eslint-patch": "npm:^1.2.0"
     "@tanstack/eslint-plugin-query": "npm:^4.29.0"
@@ -228,7 +228,7 @@ __metadata:
     tailwindcss: "npm:3.3.2"
     typescript: "npm:5.0.4"
   peerDependencies:
-    "@angular-eslint/template-parser": ^15.2.0
+    "@angular-eslint/template-parser": ^15.2.0 || ^16.0.0
     "@graphql-eslint/eslint-plugin": ^3.14.3
     eslint: ^8.29.0
     eslint-plugin-mdx: ^2.0.5

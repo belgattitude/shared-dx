@@ -100,7 +100,7 @@
     "eslint-plugin-testing-library": "^5.10.2"
   },
   "peerDependencies": {
-    "@angular-eslint/template-parser": "^15.2.0",
+    "@angular-eslint/template-parser": "^15.2.0 || ^16.0.0",
     "@graphql-eslint/eslint-plugin": "^3.14.3",
     "eslint": "^8.29.0",
     "eslint-plugin-mdx": "^2.0.5",
@@ -141,7 +141,7 @@
     }
   },
   "devDependencies": {
-    "@angular-eslint/template-parser": "15.2.1",
+    "@angular-eslint/template-parser": "16.0.1",
     "@graphql-eslint/eslint-plugin": "3.18.0",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "14.0.0",
