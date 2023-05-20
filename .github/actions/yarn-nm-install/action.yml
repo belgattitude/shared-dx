@@ -31,7 +31,7 @@ inputs:
   cache-install-state:
     description: 'Cache yarn install state, might speed up resolution step when node-modules cache is activated (invalidated lock/os/node-version)'
     required: true
-    default: 'true'
+    default: 'false'
   cwd:
     description: "Changes node's process.cwd() if the project is not located on the root. Default to process.cwd()"
     required: false
