@@ -524,12 +524,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:17.6.5":
-  version: 17.6.5
-  resolution: "@commitlint/cli@npm:17.6.5"
+"@commitlint/cli@npm:17.6.6":
+  version: 17.6.6
+  resolution: "@commitlint/cli@npm:17.6.6"
   dependencies:
     "@commitlint/format": "npm:^17.4.4"
-    "@commitlint/lint": "npm:^17.6.5"
+    "@commitlint/lint": "npm:^17.6.6"
     "@commitlint/load": "npm:^17.5.0"
     "@commitlint/read": "npm:^17.5.1"
     "@commitlint/types": "npm:^17.4.4"
@@ -540,16 +540,16 @@ __metadata:
     yargs: "npm:^17.0.0"
   bin:
     commitlint: cli.js
-  checksum: 9bc387ae28dea3fef4b67beb4a2527e6aaa2cf1597f48e3f374e2841e78689f32fd9110a0e95d6b6cb2c6b514d0c9dab7cb0df9d24718480802db32ea3d7a100
+  checksum: 03c61899c8a98d768dc376823660e39c64edeef90844b29778ca3be4cc021d7c3eac9d0e2f15e389311ae529f18ea711bc7d7d58e1715d039cc95e007f7b70f1
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:17.6.5":
-  version: 17.6.5
-  resolution: "@commitlint/config-conventional@npm:17.6.5"
+"@commitlint/config-conventional@npm:17.6.6":
+  version: 17.6.6
+  resolution: "@commitlint/config-conventional@npm:17.6.6"
   dependencies:
     conventional-changelog-conventionalcommits: "npm:^5.0.0"
-  checksum: e1e74bd1d476b60f2c2de47be6a5bb3a41b210529bdc9c05b5d0968177f7a14275e730a57b78858f8e3e02a58ea56e835428b6aaf08edf3496b03978cba3e0bb
+  checksum: d02fdcfa3233232e89a8399cf3a2fa1b9bf2ca25dca2d3feba56f96cf751a8fcd75a8e4f591aeb45980bd2b538a14d0d45cf2c50d123f2c29ec437403867dabf
   languageName: node
   linkType: hard
 
@@ -594,25 +594,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/is-ignored@npm:^17.6.5":
-  version: 17.6.5
-  resolution: "@commitlint/is-ignored@npm:17.6.5"
+"@commitlint/is-ignored@npm:^17.6.6":
+  version: 17.6.6
+  resolution: "@commitlint/is-ignored@npm:17.6.6"
   dependencies:
     "@commitlint/types": "npm:^17.4.4"
-    semver: "npm:7.5.0"
-  checksum: f0b88f925ddf3ca10d6df64489c16da2bfcbc219ca9b2ea49fb2d88dd0cc9328e6551250989c20a34e5627f99d10fc4ca058ee45715f8a75bfc06ba888652836
+    semver: "npm:7.5.2"
+  checksum: 529f45bcb81a090c399e160db2739a87a6eafaea617a621a2bb3c5c6dd70f039dd8e99470838819ca76d6268294c3f6b8494e7a0a705507c7579601bc08bbeea
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:^17.6.5":
-  version: 17.6.5
-  resolution: "@commitlint/lint@npm:17.6.5"
+"@commitlint/lint@npm:^17.6.6":
+  version: 17.6.6
+  resolution: "@commitlint/lint@npm:17.6.6"
   dependencies:
-    "@commitlint/is-ignored": "npm:^17.6.5"
+    "@commitlint/is-ignored": "npm:^17.6.6"
     "@commitlint/parse": "npm:^17.6.5"
     "@commitlint/rules": "npm:^17.6.5"
     "@commitlint/types": "npm:^17.4.4"
-  checksum: 16d7ae7f6954311de6201aa913fa1d0c423488b2c9420002bfca0e1effdaa28510df9e290e523f9015c6f9b8b72758edd0b201d63b6112923f67c5f01b64cf29
+  checksum: c5cf6a77884007f750374e2e13089b8fe5839b40c85490a5bd19d5a7a7a789c63437acdd40a4b8e9f626f37a1cccebd9b854077c24826793ca26fef66c36e18a
   languageName: node
   linkType: hard
 
@@ -2252,8 +2252,8 @@ __metadata:
     "@belgattitude/eslint-config-bases": "workspace:^"
     "@changesets/changelog-github": "npm:0.4.8"
     "@changesets/cli": "npm:2.26.1"
-    "@commitlint/cli": "npm:17.6.5"
-    "@commitlint/config-conventional": "npm:17.6.5"
+    "@commitlint/cli": "npm:17.6.6"
+    "@commitlint/config-conventional": "npm:17.6.6"
     "@playwright/test": "npm:1.35.1"
     "@types/prettier": "npm:2.7.3"
     "@types/shell-quote": "npm:1.7.1"
@@ -7896,14 +7896,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.5.0, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7":
-  version: 7.5.0
-  resolution: "semver@npm:7.5.0"
+"semver@npm:7.5.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7":
+  version: 7.5.2
+  resolution: "semver@npm:7.5.2"
   dependencies:
     lru-cache: "npm:^6.0.0"
   bin:
     semver: bin/semver.js
-  checksum: 4cc7856258319d36c441fb969fa2ee622fa3761ce1b04013ed5d05979adfcf3079f4fc4dff11f9b2588802620d579da2c209a4e26803d9adfbf44b78244b683b
+  checksum: 896fab94563f3e4187b57a883e2efab277488bf4bd823d7794410435c39a1191830ae366470baad3430f74a555534d06cfc85c3e1b82f2bdeb9dd34edc980189
   languageName: node
   linkType: hard
 
