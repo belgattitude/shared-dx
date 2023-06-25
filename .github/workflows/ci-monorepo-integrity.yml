@@ -44,5 +44,4 @@ jobs:
         run: yarn constraints
 
       - name: 🛟 Check monorepo dependency graph
-        run: |
-          yarn check:install
+        run: yarn check:install
