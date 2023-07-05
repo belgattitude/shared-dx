@@ -2256,7 +2256,7 @@ __metadata:
     is-ci: "npm:3.0.1"
     lint-staged: "npm:13.2.3"
     npm-run-all: "npm:4.1.5"
-    prettier: "npm:2.8.8"
+    prettier: "npm:3.0.0"
     rimraf: "npm:5.0.1"
     shell-quote: "npm:1.8.1"
     typescript: "npm:5.1.6"
@@ -7316,7 +7316,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.8, prettier@npm:^2.7.1":
+"prettier@npm:3.0.0":
+  version: 3.0.0
+  resolution: "prettier@npm:3.0.0"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 113e2828c6487f10e19e7c30598e8810684b827f2a1b7747f113728d1049da15583b77cc5e907f37b371b08c49cfdd900aebe5c2a2077be3f0cccb73cca1133b
+  languageName: node
+  linkType: hard
+
+"prettier@npm:^2.7.1":
   version: 2.8.8
   resolution: "prettier@npm:2.8.8"
   bin:
