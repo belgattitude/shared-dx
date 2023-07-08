@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.36.0
+
+### Minor Changes
+
+- [#282](https://github.com/belgattitude/shared-dx/pull/282) [`1908e87`](https://github.com/belgattitude/shared-dx/commit/1908e87a3f190e950bf35c7153c6d44d2452d11c) Thanks [@belgattitude](https://github.com/belgattitude)! - Add support for prettier 3.0
+
 ## 1.35.1
 
 ### Patch Changes
