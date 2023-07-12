@@ -26,23 +26,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@angular-eslint/bundled-angular-compiler@npm:16.0.3":
-  version: 16.0.3
-  resolution: "@angular-eslint/bundled-angular-compiler@npm:16.0.3"
-  checksum: 4b3937134adc848e055fb91febf567c61d6f4cd76383da8886e386f9a3732df810aad8a64706979726813b7678741be50b7539215f83aa0c19924145ee8e976c
+"@angular-eslint/bundled-angular-compiler@npm:16.1.0":
+  version: 16.1.0
+  resolution: "@angular-eslint/bundled-angular-compiler@npm:16.1.0"
+  checksum: 072e963a34693e2ea71cc12cc822676a62701642a882171e5f9de60b522741030008a3f5ddcccf67dcee57e7f503f2cd7db61fee6e64fb53da36144d6c5c1575
   languageName: node
   linkType: hard
 
-"@angular-eslint/template-parser@npm:16.0.3":
-  version: 16.0.3
-  resolution: "@angular-eslint/template-parser@npm:16.0.3"
+"@angular-eslint/template-parser@npm:16.1.0":
+  version: 16.1.0
+  resolution: "@angular-eslint/template-parser@npm:16.1.0"
   dependencies:
-    "@angular-eslint/bundled-angular-compiler": "npm:16.0.3"
+    "@angular-eslint/bundled-angular-compiler": "npm:16.1.0"
     eslint-scope: "npm:^7.0.0"
   peerDependencies:
     eslint: ^7.20.0 || ^8.0.0
     typescript: "*"
-  checksum: a2f5b49175c4ef0d6df09604442a4723a0f62beb974d3468a134729e523cc96b0db8b147d2bbecce7ac6d94c72a60b5086f223c11cff9474c4d8603bd3b53c36
+  checksum: 5c18c7179f1a3c26769c1ce00d8e493dd6241aca246200acf2a0e98196cd60e006d703fa8d194d54c3b97773eb22f381beb0c2d8d130d142a8b876b3a8e88c34
   languageName: node
   linkType: hard
 
@@ -197,7 +197,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@belgattitude/eslint-config-bases@workspace:packages/eslint-config-bases"
   dependencies:
-    "@angular-eslint/template-parser": "npm:16.0.3"
+    "@angular-eslint/template-parser": "npm:16.1.0"
     "@graphql-eslint/eslint-plugin": "npm:3.20.0"
     "@rushstack/eslint-patch": "npm:^1.3.2"
     "@tanstack/eslint-plugin-query": "npm:^4.29.9"
