@@ -198,7 +198,7 @@ __metadata:
   resolution: "@belgattitude/eslint-config-bases@workspace:packages/eslint-config-bases"
   dependencies:
     "@angular-eslint/template-parser": "npm:16.0.3"
-    "@graphql-eslint/eslint-plugin": "npm:3.20.0"
+    "@graphql-eslint/eslint-plugin": "npm:3.20.1"
     "@rushstack/eslint-patch": "npm:^1.3.2"
     "@tanstack/eslint-plugin-query": "npm:^4.29.9"
     "@testing-library/jest-dom": "npm:5.16.5"
@@ -797,9 +797,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphql-eslint/eslint-plugin@npm:3.20.0":
-  version: 3.20.0
-  resolution: "@graphql-eslint/eslint-plugin@npm:3.20.0"
+"@graphql-eslint/eslint-plugin@npm:3.20.1":
+  version: 3.20.1
+  resolution: "@graphql-eslint/eslint-plugin@npm:3.20.1"
   dependencies:
     "@babel/code-frame": "npm:^7.18.6"
     "@graphql-tools/code-file-loader": "npm:^7.3.6"
@@ -814,7 +814,7 @@ __metadata:
     tslib: "npm:^2.4.1"
   peerDependencies:
     graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: df11a879d4572bca0f204f6f690e19174af504beba978e5aa9ec12c4d8601aa551064a7ee86230f6d8231a54ebe93e8555ba5519c9bfd959a1f53aa893777c70
+  checksum: 30c874e2f6ae845d7b8e016074c4b3b195a493afbff6fee4c61877893ab565d5e358b6424f35cf812b0956c48ed9a48490382ddf1d9eaa169069eb31fb7431a5
   languageName: node
   linkType: hard
 
