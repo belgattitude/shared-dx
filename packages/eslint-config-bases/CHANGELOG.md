@@ -1,5 +1,33 @@
 # @belgattitude/eslint-config-bases
 
+## 1.37.0
+
+### Minor Changes
+
+- [#295](https://github.com/belgattitude/shared-dx/pull/295) [`f5151de`](https://github.com/belgattitude/shared-dx/commit/f5151de8c1a3c03522aa194fcbfa971350a2972e) Thanks [@belgattitude](https://github.com/belgattitude)! - Make "eslint-plugin-tailwindcss" optional
+
+  To enable
+
+  ```bash
+  yarn add --dev eslint-plugin-tailwindcss
+  ```
+
+  In eslint config,
+
+  ```
+  module.exports = {
+    extends: [
+      // ....
+      '@belgattitude/eslint-config-bases/tailwind',
+      // ....
+    ],
+  };
+  ```
+
+- [#293](https://github.com/belgattitude/shared-dx/pull/293) [`1c1a931`](https://github.com/belgattitude/shared-dx/commit/1c1a9318261f37967aaf7ab13b9a5bbf60fc4fa2) Thanks [@belgattitude](https://github.com/belgattitude)! - Add example app to run lint test
+
+- [#293](https://github.com/belgattitude/shared-dx/pull/293) [`1c1a931`](https://github.com/belgattitude/shared-dx/commit/1c1a9318261f37967aaf7ab13b9a5bbf60fc4fa2) Thanks [@belgattitude](https://github.com/belgattitude)! - To latest eslint plugins
+
 ## 1.36.0
 
 ### Minor Changes
