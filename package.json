@@ -13,6 +13,7 @@
     "url": "https://github.com/belgattitude"
   },
   "workspaces": [
+    "examples/*",
     "packages/*"
   ],
   "scripts": {
@@ -43,13 +44,13 @@
     "@belgattitude/eslint-config-bases": "workspace:^",
     "@changesets/changelog-github": "0.4.8",
     "@changesets/cli": "2.26.2",
-    "@commitlint/cli": "17.6.6",
-    "@commitlint/config-conventional": "17.6.6",
-    "@playwright/test": "1.35.1",
+    "@commitlint/cli": "17.6.7",
+    "@commitlint/config-conventional": "17.6.7",
+    "@playwright/test": "1.36.1",
     "@types/prettier": "2.7.3",
     "@types/shell-quote": "1.7.1",
     "cross-env": "7.0.3",
-    "eslint": "8.44.0",
+    "eslint": "8.45.0",
     "husky": "8.0.3",
     "is-ci": "3.0.1",
     "lint-staged": "13.2.3",
@@ -61,5 +62,11 @@
   },
   "engines": {
     "node": ">=18.12.0"
+  },
+  "resolutions?": {
+    "eslint-plugin-react-hooks": "https://github.com/vercel/next.js/issues/52365"
+  },
+  "resolutions": {
+    "eslint-plugin-react-hooks": "4.6.0"
   }
 }
