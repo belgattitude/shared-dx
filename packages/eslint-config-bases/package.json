@@ -110,6 +110,9 @@
     "typescript": "^4.9.4 || ^5.0.2"
   },
   "peerDependenciesMeta": {
+    "@graphql-eslint/eslint-plugin": {
+      "optional": true
+    },
     "eslint-plugin-mdx": {
       "optional": true
     },
