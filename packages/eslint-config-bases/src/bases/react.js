@@ -45,22 +45,6 @@ module.exports = {
         'react/no-unescaped-entities': ['error', { forbid: ['>'] }],
         'react/prop-types': 'off',
         'react/react-in-jsx-scope': 'off',
-        '@typescript-eslint/naming-convention': [
-          'warn',
-          {
-            selector: 'variable',
-            format: ['camelCase', 'PascalCase'],
-          },
-          {
-            selector: ['function'],
-            format: ['camelCase', 'PascalCase'],
-          },
-          {
-            selector: 'parameter',
-            format: ['camelCase', 'PascalCase'],
-            leadingUnderscore: 'allow',
-          },
-        ],
       },
     },
   ],
