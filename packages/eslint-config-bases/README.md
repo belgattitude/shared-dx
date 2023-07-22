@@ -21,8 +21,13 @@ $ yarn add --dev eslint @belgattitude/eslint-config-bases
 ```
 
 > PS: To keep the size low, if you use the following plugins: 
-> - **graphql**: add the `@graphql-eslint/eslint-plugin` as dev-dep.
-> - **mdx**: add the `eslint-plugin-mdx` as dev-dep.
+> - **graphql**: `yarn add --dev @graphql-eslint/eslint-plugin` 
+> - **mdx**: `yarn add --dev eslint-plugin-mdx`.
+> - **tailwind**: `yarn add --dev eslint-plugin-tailwindcss`.
+> In one line
+> ```bash
+> yarn add 
+> ```
 
 ## Usage
 
