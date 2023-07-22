@@ -4,6 +4,6 @@
 
 # Add here exclusions on packages if any
 reject: [
-    # example execa
-    # 'execa',
+    '@typescript-eslint/eslint-plugin',
+    '@typescript-eslint/parser'
   ]

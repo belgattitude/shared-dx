@@ -1,0 +1,73 @@
+name: CI-examples
+
+on:
+  push:
+    branches:
+      - dev
+      - main
+    paths:
+      - 'packages/**'
+      - 'examples/**'
+      - 'yarn.lock'
+      - '.yarnrc.yml'
+      - '.prettier*.*'
+      - '*.base.json'
+      - '*.base.js'
+      - '.prettier*.*'
+      - '.github/actions/**'
+      - '.github/workflows/**'
+
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    paths:
+      - 'packages/**'
+      - 'examples/**'
+      - 'yarn.lock'
+      - '.yarnrc.yml'
+      - '*.base.json'
+      - '*.base.js'
+      - '.prettier*.*'
+      - '.github/actions/**'
+      - '.github/workflows/**'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          # Fetch all git history so that yarn workspaces --since can compare with the correct commits
+          # @link https://github.com/actions/checkout#fetch-all-history-for-all-tags-and-branches
+          fetch-depth: 0
+
+      - name: ⚙️ Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: 📥 Monorepo install
+        uses: ./.github/actions/yarn-nm-install
+
+      - name: 🕵️ Typecheck
+        run: yarn workspaces foreach -tv --from 'examples/*' run typecheck
+
+      - name: 🔬 ESLint checks
+        run: yarn workspaces foreach -tv --from 'examples/*' run lint
+
+      - name: 🏗 Build web-app
+        run: yarn workspaces foreach -tv --from 'examples/*' run build
+        env:
+          # Speed up build: they are linted in a previous step
+          NEXTJS_IGNORE_ESLINT: true
+          # Speed up build: they are typechecked in a previous step
+          NEXTJS_IGNORE_TYPECHECK: true
+          # Speed up build: don't run if not needed, enable if it becomes needed
+          NEXT_DISABLE_SOURCEMAPS: true
+          # Don't send telemetry for ci
+          NEXT_TELEMETRY_DISABLED: true
