@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.38.0
+
+### Minor Changes
+
+- [#296](https://github.com/belgattitude/shared-dx/pull/296) [`a70be44`](https://github.com/belgattitude/shared-dx/commit/a70be44b9031da2384df0dc951caf9fa0919e04c) Thanks [@belgattitude](https://github.com/belgattitude)! - Remove naming conventions
+
 ## 1.37.0
 
 ### Minor Changes
