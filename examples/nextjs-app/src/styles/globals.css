@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-brand: hotpink;
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --color-brand: blue;
+  }
+}
