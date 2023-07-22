@@ -110,65 +110,6 @@ module.exports = {
       'error',
       { prefer: 'type-imports' },
     ],
-    '@typescript-eslint/naming-convention': [
-      'error',
-      {
-        selector: 'default',
-        format: ['camelCase'],
-        leadingUnderscore: 'forbid',
-        trailingUnderscore: 'forbid',
-      },
-      {
-        selector: 'variable',
-        format: ['camelCase'],
-        leadingUnderscore: 'allow',
-      },
-      {
-        selector: ['function'],
-        format: ['camelCase'],
-      },
-      {
-        selector: 'parameter',
-        format: ['camelCase'],
-        leadingUnderscore: 'allow',
-      },
-      {
-        selector: 'class',
-        format: ['PascalCase'],
-      },
-      {
-        selector: 'classProperty',
-        format: ['camelCase', 'PascalCase'],
-      },
-      {
-        selector: 'objectLiteralProperty',
-        format: [
-          'camelCase',
-          // Some external libraries use snake_case for params
-          'snake_case',
-          // Env variables are generally uppercase
-          'UPPER_CASE',
-          // DB / Graphql might use PascalCase for relationships
-          'PascalCase',
-        ],
-        leadingUnderscore: 'allowSingleOrDouble',
-        trailingUnderscore: 'allowSingleOrDouble',
-      },
-      {
-        selector: ['typeAlias', 'interface'],
-        format: ['PascalCase'],
-      },
-      {
-        selector: ['typeProperty'],
-        format: ['camelCase', 'PascalCase'],
-        // For graphql __typename
-        leadingUnderscore: 'allowSingleOrDouble',
-      },
-      {
-        selector: ['typeParameter'],
-        format: ['PascalCase'],
-      },
-    ],
   },
   overrides: [
     {
@@ -178,7 +119,6 @@ module.exports = {
         sourceType: 'module',
       },
       rules: {
-        '@typescript-eslint/naming-convention': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/consistent-type-exports': 'off',
         '@typescript-eslint/consistent-type-imports': 'off',
@@ -192,7 +132,6 @@ module.exports = {
         ecmaVersion: 2020,
       },
       rules: {
-        '@typescript-eslint/naming-convention': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-var-requires': 'off',

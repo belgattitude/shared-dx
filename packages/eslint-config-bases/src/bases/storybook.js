@@ -19,24 +19,6 @@ module.exports = {
       files: storybookPatterns.files,
       extends: ['plugin:storybook/recommended'],
       rules: {
-        // Fine-tune naming convention for storybook
-        // https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/naming-convention.md
-        '@typescript-eslint/naming-convention': [
-          'warn',
-          {
-            selector: 'variable',
-            format: ['camelCase', 'PascalCase'],
-          },
-          {
-            selector: ['function'],
-            format: ['camelCase', 'PascalCase'],
-          },
-          {
-            selector: 'parameter',
-            format: ['camelCase', 'PascalCase'],
-            leadingUnderscore: 'allow',
-          },
-        ],
       },
     },
   ],
