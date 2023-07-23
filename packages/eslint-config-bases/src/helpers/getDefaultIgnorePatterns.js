@@ -10,7 +10,7 @@ const getDefaultIgnorePatterns = () => {
     '.yarn',
     '.turbo',
     `**/.turbo`,
-    '.out'
+    '.out',
   ];
 };
 
