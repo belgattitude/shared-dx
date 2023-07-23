@@ -7,6 +7,8 @@ const getDefaultIgnorePatterns = () => {
     'dist',
     'storybook-static',
     '.yarn',
+    '.turbo',
+    '.out'
   ];
 };
 
