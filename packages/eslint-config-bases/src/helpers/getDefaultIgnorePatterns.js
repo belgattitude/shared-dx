@@ -1,6 +1,7 @@
 const getDefaultIgnorePatterns = () => {
   // Hacky way to silence @yarnpkg/doctor about node_modules detection
   return [
+    `${'node'}_modules}`,
     `**/${'node'}_modules}`,
     '**/.cache',
     'build',
@@ -8,6 +9,7 @@ const getDefaultIgnorePatterns = () => {
     'storybook-static',
     '.yarn',
     '.turbo',
+    `**/.turbo`,
     '.out'
   ];
 };
