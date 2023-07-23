@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 1.39.0
+
+### Minor Changes
+
+- [#298](https://github.com/belgattitude/shared-dx/pull/298) [`048e66b`](https://github.com/belgattitude/shared-dx/commit/048e66bfcf91f848c84f12ed5dcbe56bda1f25e9) Thanks [@belgattitude](https://github.com/belgattitude)! - Add .turbo and .out as default ignored patterns
+
 ## 1.38.0
 
 ### Minor Changes
