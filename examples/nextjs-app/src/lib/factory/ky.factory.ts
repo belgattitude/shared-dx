@@ -1,5 +1,4 @@
-import Ky from 'ky';
-import type { Options, NormalizedOptions } from 'ky';
+import Ky, { type Options, type NormalizedOptions } from 'ky';
 
 type Props = {
   baseUrl?: string;
@@ -7,7 +6,7 @@ type Props = {
     request: Request,
     options: NormalizedOptions,
     response: Response
-  ) => void;
+  ) => Promise<Response>;
 };
 
 export class KyFactory {
@@ -23,7 +22,11 @@ export class KyFactory {
                   [401, 403].includes(status) &&
                   this.props.onAuthFailure !== undefined
                 ) {
-                  this.props.onAuthFailure(request, options, response);
+                  return await this.props.onAuthFailure(
+                    request,
+                    options,
+                    response
+                  );
                 }
                 return response;
               },
