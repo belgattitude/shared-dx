@@ -112,6 +112,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-import-type-side-effects': 'error',
     '@typescript-eslint/consistent-type-definitions': 'off',
+    '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
   },
   overrides: [
     {
