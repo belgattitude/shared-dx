@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 2.1.1
+
+### Patch Changes
+
+- [`d768869`](https://github.com/belgattitude/shared-dx/commit/d7688696d068dfbe26e420e40a9f382b0ac4ed94) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable typescript parser for mdx
+
 ## 2.1.0
 
 ### Minor Changes
