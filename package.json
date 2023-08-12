@@ -64,11 +64,9 @@
     "node": ">=18.12.0"
   },
   "resolutions?": {
-    "eslint-plugin-react-hooks": "https://github.com/vercel/next.js/issues/52365",
-    "@typescript-eslint/parser": "Nextjs 13.4.13 use multirange 5-6... this causes issues in monorepos"
+    "eslint-plugin-react-hooks": "https://github.com/vercel/next.js/issues/52365"
   },
   "resolutions": {
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "@typescript-eslint/parser": "^5.62.0"
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
