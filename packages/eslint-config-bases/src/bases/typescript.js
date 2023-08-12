@@ -20,7 +20,7 @@ module.exports = {
       jsx: true,
       globalReturn: false,
     },
-    ecmaVersion: 2022,
+    ecmaVersion: 'latest',
     project: ['tsconfig.json'],
     sourceType: 'module',
   },
@@ -123,7 +123,7 @@ module.exports = {
     },
     {
       files: ['*.mjs'],
-      // extends: ['plugin:@typescript-eslint/disable-type-checked'],
+      extends: ['plugin:@typescript-eslint/disable-type-checked'],
       parserOptions: {
         ecmaVersion: 'latest',
         sourceType: 'module',
