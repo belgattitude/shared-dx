@@ -1,5 +1,19 @@
 # @belgattitude/eslint-config-bases
 
+## 2.1.0
+
+### Minor Changes
+
+- [#313](https://github.com/belgattitude/shared-dx/pull/313) [`bcf21d7`](https://github.com/belgattitude/shared-dx/commit/bcf21d79d78fb6c152885b9d23936b4a3294bb7e) Thanks [@belgattitude](https://github.com/belgattitude)! - Allow static in unbound-method
+
+- [#312](https://github.com/belgattitude/shared-dx/pull/312) [`7f9b143`](https://github.com/belgattitude/shared-dx/commit/7f9b143090c8627744e6c4ff3d4a94a5bc4348d7) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable @typescript-eslint/unbound-method for test files
+
+- [#312](https://github.com/belgattitude/shared-dx/pull/312) [`7f9b143`](https://github.com/belgattitude/shared-dx/commit/7f9b143090c8627744e6c4ff3d4a94a5bc4348d7) Thanks [@belgattitude](https://github.com/belgattitude)! - Add jest/unbound-method for test files
+
+### Patch Changes
+
+- [#314](https://github.com/belgattitude/shared-dx/pull/314) [`bffc1b1`](https://github.com/belgattitude/shared-dx/commit/bffc1b1ef67b9feedab4135e4e39456f5574aa22) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable type checked for mdx and mjs
+
 ## 2.0.0
 
 ### Major Changes
