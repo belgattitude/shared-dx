@@ -1687,8 +1687,8 @@ __metadata:
   dependencies:
     "@angular-eslint/template-parser": "npm:16.1.0"
     "@graphql-eslint/eslint-plugin": "npm:3.20.1"
-    "@rushstack/eslint-patch": "npm:^1.3.2"
-    "@tanstack/eslint-plugin-query": "npm:^4.29.25"
+    "@rushstack/eslint-patch": "npm:^1.3.3"
+    "@tanstack/eslint-plugin-query": "npm:^4.32.5"
     "@testing-library/jest-dom": "npm:5.17.0"
     "@testing-library/react": "npm:14.0.0"
     "@types/jest": "npm:29.5.3"
@@ -1696,8 +1696,8 @@ __metadata:
     "@types/prettier": "npm:2.7.3"
     "@types/react": "npm:18.2.16"
     "@types/react-dom": "npm:18.2.7"
-    "@typescript-eslint/eslint-plugin": "npm:^5.61.0"
-    "@typescript-eslint/parser": "npm:^5.61.0"
+    "@typescript-eslint/eslint-plugin": "npm:^5.62.0"
+    "@typescript-eslint/parser": "npm:^5.62.0"
     es-check: "npm:7.1.1"
     eslint: "npm:8.45.0"
     eslint-config-prettier: "npm:^9.0.0"
@@ -1712,10 +1712,10 @@ __metadata:
     eslint-plugin-react: "npm:^7.33.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-regexp: "npm:^1.15.0"
-    eslint-plugin-sonarjs: "npm:^0.19.0"
+    eslint-plugin-sonarjs: "npm:^0.20.0"
     eslint-plugin-storybook: "npm:^0.6.13"
     eslint-plugin-tailwindcss: "npm:3.13.0"
-    eslint-plugin-testing-library: "npm:^5.11.0"
+    eslint-plugin-testing-library: "npm:^6.0.0"
     graphql: "npm:16.7.1"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
@@ -3671,10 +3671,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rushstack/eslint-patch@npm:^1.1.3, @rushstack/eslint-patch@npm:^1.3.2":
-  version: 1.3.2
-  resolution: "@rushstack/eslint-patch@npm:1.3.2"
-  checksum: 0a81d5f950fbfbe1d448a519821bcaf51524b8a1398f996f4fe8752a849cc83402f707a4cf5c35491d74eabbb19c2d53db7c870cfbb47aca5f081241b4a0681a
+"@rushstack/eslint-patch@npm:^1.1.3, @rushstack/eslint-patch@npm:^1.3.3":
+  version: 1.3.3
+  resolution: "@rushstack/eslint-patch@npm:1.3.3"
+  checksum: 851259b39c4ca833609312a18457b273e4e120a5e53b547346bc18e62fba737ab9f145cb7bed8d51d79f71f9169d737b1abbe584fa52b6ff2ef9b85673444d1d
   languageName: node
   linkType: hard
 
@@ -5093,10 +5093,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/eslint-plugin-query@npm:^4.29.25":
-  version: 4.29.25
-  resolution: "@tanstack/eslint-plugin-query@npm:4.29.25"
-  checksum: d6222e3afca95ece4da60840efa8d8e3ce34d0e61da1e81ad3690d5c6e2fa59055301320a578d72d07055acae179b6a3e88e9a38ef511d7cd872cd97f134d77d
+"@tanstack/eslint-plugin-query@npm:^4.32.5":
+  version: 4.32.5
+  resolution: "@tanstack/eslint-plugin-query@npm:4.32.5"
+  checksum: 9e48b5f8df15b9e63d19b175ecabd5098d35f8822ebf66406226a24d01a554337aa5c90dd02c6f97a1f215af16e7915b901e1c01f3082df1c0df9a9125d68d61
   languageName: node
   linkType: hard
 
@@ -5820,7 +5820,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.61.0":
+"@typescript-eslint/eslint-plugin@npm:^5.62.0":
   version: 5.62.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.62.0"
   dependencies:
@@ -5844,7 +5844,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.42.0, @typescript-eslint/parser@npm:^5.61.0":
+"@typescript-eslint/parser@npm:^5.42.0, @typescript-eslint/parser@npm:^5.62.0":
   version: 5.62.0
   resolution: "@typescript-eslint/parser@npm:5.62.0"
   dependencies:
@@ -9790,12 +9790,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sonarjs@npm:^0.19.0":
-  version: 0.19.0
-  resolution: "eslint-plugin-sonarjs@npm:0.19.0"
+"eslint-plugin-sonarjs@npm:^0.20.0":
+  version: 0.20.0
+  resolution: "eslint-plugin-sonarjs@npm:0.20.0"
   peerDependencies:
     eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: c922f39334753f7cbefee60e4c68a9ab354f5b1635870356a1892250b4a5690288f8fe46be7230df12b043e006b946e1c30964bcb158d77a05155950cc5f5703
+  checksum: eb54d8bf8c2637890e7b534e9edba509411056b480fc71b4ef541c99d4f02bf620dc5920191d44cf9785a46b11705d4a6a75f1de219fa78c25dff7575d96205d
   languageName: node
   linkType: hard
 
@@ -9825,14 +9825,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:^5.11.0":
-  version: 5.11.0
-  resolution: "eslint-plugin-testing-library@npm:5.11.0"
+"eslint-plugin-testing-library@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "eslint-plugin-testing-library@npm:6.0.0"
   dependencies:
     "@typescript-eslint/utils": "npm:^5.58.0"
   peerDependencies:
     eslint: ^7.5.0 || ^8.0.0
-  checksum: 0c99bdd5e0933de4e48d73def10f458ceaade4b7c7d3046ddd90b4a24950042ca2408507e29fbab1fcd8adcbc7a33e7c962cfff964f299e30d4a1e5a6ca0785b
+  checksum: 18ff196b8950e848a3ce14311ad37c92b4c086cf115e264c8a1b42797cd11fa18b71337be099d688f6e2ee166a482f22d8787c72607475dbc54f449db1374c58
   languageName: node
   linkType: hard
 
