@@ -3,7 +3,6 @@
   "display": "@belgattitude/eslint-config-bases",
   "compilerOptions": {
     "strict": true,
-    "rootDir": ".",
     "skipLibCheck": true,
     "noEmit": true,
     "incremental": true,
