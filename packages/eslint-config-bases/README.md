@@ -31,7 +31,7 @@ $ yarn add --dev eslint @belgattitude/eslint-config-bases
 
 ## Usage
 
-Create an `./apps/my-app/.eslintrc.js` or `./apps/my-app/.eslintrc.cjs` 
+Create an `./apps/my-app/.eslintrc.cjs` 
 file that extends any of the existing base configs. For example:
 
 ```javascript
@@ -40,6 +40,7 @@ require("@belgattitude/eslint-config-bases/patch/modern-module-resolution");
 
 module.exports = {
   root: true,
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     tsconfigRootDir: __dirname,
     project: "tsconfig.json",
@@ -78,12 +79,28 @@ module.exports = {
     // Might help is next eslint plugin does not locate pages
     // https://nextjs.org/docs/messages/no-html-link-for-pages#pagesdir
     // '@next/next/no-html-link-for-pages': ['error', `${__dirname}/src/pages`],
+
+    // https://typescript-eslint.io/rules/consistent-type-definitions/  
+    // '@typescript-eslint/consistent-type-definitions': 'error'  
   },
   overrides: [
     // Specific file rules for your app or package
   ],
 };
 ```
+
+Ensure your tsconfig.json includes the .eslintrc.cjs file:
+
+```json5
+{
+  "exclude": ["**/node_modules", "**/.*/*"],
+  "include": [
+    ".eslintrc.*s", // <-- add this
+    // rest of the includes
+  ]
+}
+```
+
 
 > **Tip:** 
 > 
