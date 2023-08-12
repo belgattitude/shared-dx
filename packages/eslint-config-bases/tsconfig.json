@@ -3,12 +3,13 @@
   "display": "@belgattitude/eslint-config-bases",
   "compilerOptions": {
     "strict": true,
+    "rootDir": ".",
     "skipLibCheck": true,
     "noEmit": true,
     "incremental": true,
     "allowJs": true,
     "checkJs": true
   },
-  "exclude": ["**/node_modules", "**/.*/", "dist", "build"],
-  "include": ["**/*.ts", "**/*.js", "**/*.cjs", "**/*.mjs", "**/*.json"]
+  "exclude": ["node_modules", "dist", "build"],
+  "include": [".eslintrc.*s", "**/*.ts", "**/*.js", "**/*.cjs", "**/*.mjs", "**/*.json"]
 }

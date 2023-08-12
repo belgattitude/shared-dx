@@ -64,7 +64,10 @@ export function isPresent<T>(v: T): v is NonNullable<T> {
 
 export type HttpFetchErrorLike = {
   status?: string | number;
-  code?: string | 'ECONNREFUSED' | 'ECONNABORTED' | 'ECONNRESET';
+  /**
+   * ie: 'ECONNREFUSED' | 'ECONNABORTED' | 'ECONNRESET';
+   */
+  code?: string;
 };
 
 export const isHttpFetchErrorLike = (
