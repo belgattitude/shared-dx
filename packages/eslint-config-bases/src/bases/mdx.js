@@ -17,6 +17,9 @@ module.exports = {
         'plugin:@typescript-eslint/disable-type-checked',
       ],
       parser: 'eslint-mdx',
+      parserOptions: {
+        project: null,
+      },
       rules: {
         '@typescript-eslint/consistent-type-exports': 'off',
       },
