@@ -48,6 +48,9 @@ module.exports = {
         'jest/prefer-strict-equal': 'error',
         'jest/prefer-to-have-length': 'error',
         'jest/consistent-test-it': ['error', { fn: 'it' }],
+        // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/unbound-method.md
+        '@typescript-eslint/unbound-method': 'off',
+        'jest/unbound-method': 'error',
       },
     },
   ],
