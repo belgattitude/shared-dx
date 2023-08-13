@@ -113,6 +113,16 @@ module.exports = {
     '@typescript-eslint/no-import-type-side-effects': 'error',
     '@typescript-eslint/consistent-type-definitions': 'off',
     '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
+    '@typescript-eslint/restrict-template-expressions': [
+      'error',
+      {
+        allowNumber: true,
+        allowBoolean: true,
+        allowAny: true,
+        allowNever: true,
+        allowNullish: true,
+      },
+    ],
   },
   overrides: [
     {
