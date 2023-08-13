@@ -1675,7 +1675,7 @@ __metadata:
     "@testing-library/jest-dom": "npm:5.17.0"
     "@testing-library/react": "npm:14.0.0"
     "@types/jest": "npm:29.5.3"
-    "@types/node": "npm:20.4.10"
+    "@types/node": "npm:20.5.0"
     "@types/prettier": "npm:2.7.3"
     "@types/react": "npm:18.2.20"
     "@types/react-dom": "npm:18.2.7"
@@ -6082,7 +6082,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.4.10":
+"@types/node@npm:*, @types/node@npm:20.5.0":
+  version: 20.5.0
+  resolution: "@types/node@npm:20.5.0"
+  checksum: 3288e2dbffdf5ae1a96c8938ef9f9b5403237d74b28795c630f8db36176139725f86b2d534bbbaa8b456986fe841d24241a7850247353edbd2c9b8d180a9de0e
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.4.10":
   version: 20.4.10
   resolution: "@types/node@npm:20.4.10"
   checksum: 203a930077cb02d91b8ca98a254667112b1f4c5828f94908078c126d22b71508069c3ef70c569b313d56752edcc692e62ee47c267dd0ad44a5c22ab7d128ab8c
