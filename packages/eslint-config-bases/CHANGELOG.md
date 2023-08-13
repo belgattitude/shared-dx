@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 2.2.0
+
+### Minor Changes
+
+- [#317](https://github.com/belgattitude/shared-dx/pull/317) [`7098b27`](https://github.com/belgattitude/shared-dx/commit/7098b27f3d171e310937396837339a8c3b0db256) Thanks [@belgattitude](https://github.com/belgattitude)! - Relax restrict-template-expressions to allow number, boolean, any, never and nullish
+
 ## 2.1.1
 
 ### Patch Changes
