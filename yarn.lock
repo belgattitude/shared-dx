@@ -1672,7 +1672,7 @@ __metadata:
     "@graphql-eslint/eslint-plugin": "npm:3.20.1"
     "@rushstack/eslint-patch": "npm:^1.3.3"
     "@tanstack/eslint-plugin-query": "npm:^4.32.5"
-    "@testing-library/jest-dom": "npm:5.17.0"
+    "@testing-library/jest-dom": "npm:6.0.0"
     "@testing-library/react": "npm:14.0.0"
     "@types/jest": "npm:29.5.3"
     "@types/node": "npm:20.4.10"
@@ -5609,20 +5609,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:5.17.0":
-  version: 5.17.0
-  resolution: "@testing-library/jest-dom@npm:5.17.0"
+"@testing-library/jest-dom@npm:6.0.0":
+  version: 6.0.0
+  resolution: "@testing-library/jest-dom@npm:6.0.0"
   dependencies:
     "@adobe/css-tools": "npm:^4.0.1"
     "@babel/runtime": "npm:^7.9.2"
-    "@types/testing-library__jest-dom": "npm:^5.9.1"
     aria-query: "npm:^5.0.0"
     chalk: "npm:^3.0.0"
     css.escape: "npm:^1.5.1"
     dom-accessibility-api: "npm:^0.5.6"
     lodash: "npm:^4.17.15"
     redent: "npm:^3.0.0"
-  checksum: 24e09c5779ea44644945ec26f2e4e5f48aecfe57d469decf2317a3253a5db28d865c55ad0ea4818d8d1df7572a6486c45daa06fa09644a833a7dd84563881939
+  peerDependencies:
+    "@jest/globals": ">= 28"
+    "@types/jest": ">= 28"
+    jest: ">= 28"
+    vitest: ">= 0.32"
+  peerDependenciesMeta:
+    "@jest/globals":
+      optional: true
+    "@types/jest":
+      optional: true
+    jest:
+      optional: true
+    vitest:
+      optional: true
+  checksum: dd5a7ff79dad99b08195cab8d7b818b3de0d02f6c84b5d28d5dbca265ceb867931a0ff79da2279a2d476db1cdafb81c14255d898f0bd1ace9d0b36896368cf96
   languageName: node
   linkType: hard
 
@@ -5990,7 +6003,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:*, @types/jest@npm:29.5.3":
+"@types/jest@npm:29.5.3":
   version: 29.5.3
   resolution: "@types/jest@npm:29.5.3"
   dependencies:
@@ -6239,15 +6252,6 @@ __metadata:
   version: 8.1.1
   resolution: "@types/supports-color@npm:8.1.1"
   checksum: c124d04302f65abc0ca86d622aeafcc9582a92cb0573287ec76a5b17fe3cc52a5ad34b2d458cf57f8a146ec39616901f5745985ddfc054f476ec8a983dfa3830
-  languageName: node
-  linkType: hard
-
-"@types/testing-library__jest-dom@npm:^5.9.1":
-  version: 5.14.5
-  resolution: "@types/testing-library__jest-dom@npm:5.14.5"
-  dependencies:
-    "@types/jest": "npm:*"
-  checksum: f4c82418fdc129806d413d48064049ab3b099635dad06c40be2188134d15135b0b053044de7b0e032867b1ec754e7446046d8fdf6863b9454f8f757f1cac702d
   languageName: node
   linkType: hard
 
