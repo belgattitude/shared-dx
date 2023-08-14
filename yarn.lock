@@ -1699,7 +1699,7 @@ __metadata:
     eslint-plugin-storybook: "npm:^0.6.13"
     eslint-plugin-tailwindcss: "npm:3.13.0"
     eslint-plugin-testing-library: "npm:^6.0.0"
-    graphql: "npm:16.7.1"
+    graphql: "npm:16.8.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     rimraf: "npm:5.0.1"
@@ -11753,6 +11753,13 @@ __metadata:
   version: 16.7.1
   resolution: "graphql@npm:16.7.1"
   checksum: 0b4e83382bf3cb9c82ddf61a51aab382c4de50c34025173285c580135fe8646aa281c264fcf0c2214ae92ea925742d86999fe5e2ad842b6f3b54a9ffb0b299d2
+  languageName: node
+  linkType: hard
+
+"graphql@npm:16.8.0":
+  version: 16.8.0
+  resolution: "graphql@npm:16.8.0"
+  checksum: f7ca0302e8d658012db90b428ec66c1453afe53fbffa21404a28b5bdec5b0e88641d38416ef3d582acad7ddde2effe729e2b050a1483a2e9d4a6111e892e4903
   languageName: node
   linkType: hard
 
