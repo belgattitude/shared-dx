@@ -1677,7 +1677,7 @@ __metadata:
     "@types/jest": "npm:29.5.3"
     "@types/node": "npm:20.5.0"
     "@types/prettier": "npm:2.7.3"
-    "@types/react": "npm:18.2.20"
+    "@types/react": "npm:18.2.21"
     "@types/react-dom": "npm:18.2.7"
     "@typescript-eslint/eslint-plugin": "npm:^6.3.0"
     "@typescript-eslint/parser": "npm:^6.3.0"
@@ -6195,7 +6195,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.2.20, @types/react@npm:>=16":
+"@types/react@npm:*, @types/react@npm:18.2.21, @types/react@npm:>=16":
+  version: 18.2.21
+  resolution: "@types/react@npm:18.2.21"
+  dependencies:
+    "@types/prop-types": "npm:*"
+    "@types/scheduler": "npm:*"
+    csstype: "npm:^3.0.2"
+  checksum: 5b5aff55d38c358a50108dddb24e06d344e4d578cc177dd2e24a7c5d0fadb034298e5e652b174053b5e75f0d6b0d9f926976c1c9f5e84fe94bb91348c54f5313
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:18.2.20":
   version: 18.2.20
   resolution: "@types/react@npm:18.2.20"
   dependencies:
