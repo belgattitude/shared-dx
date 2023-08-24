@@ -64,10 +64,10 @@ jobs:
             ${{ runner.os }}-packages-cache-${{ hashFiles('**/yarn.lock') }}-
 
       - name: 🕵️ Typecheck
-        run: yarn workspaces foreach -tv --from '@belgattitude/*' --since=origin/main --recursive run typecheck
+        run: yarn workspaces foreach -tv --include '@belgattitude/*' --since=origin/main --recursive run typecheck
 
       - name: 🔬 ESLint checks
-        run: yarn workspaces foreach -tv --from '@belgattitude/*' --since=origin/main --recursive run lint
+        run: yarn workspaces foreach -tv --include '@belgattitude/*' --since=origin/main --recursive run lint
 
       - name: 🧪 Unit tests changed packages
         run: yarn workspaces foreach -tv --include '@belgattitude/*' --since=origin/main --recursive run test-unit
