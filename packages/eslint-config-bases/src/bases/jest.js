@@ -36,6 +36,8 @@ module.exports = {
         '@typescript-eslint/no-empty-function': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
+        '@typescript-eslint/no-unsafe-member-access': 'off',
+        '@typescript-eslint/no-unsafe-assignment': 'off',
         // Enable Jest rules
         'jest/no-focused-tests': 'error',
         'jest/prefer-mock-promise-shorthand': 'error',
