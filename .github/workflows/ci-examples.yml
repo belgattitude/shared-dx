@@ -55,10 +55,10 @@ jobs:
         uses: ./.github/actions/yarn-nm-install
 
       - name: 🕵️ Typecheck
-        run: yarn workspaces foreach -tv --from 'examples/*' run typecheck
+        run: yarn workspaces foreach --worktree -tv --from 'examples/*' run typecheck
 
       - name: 🔬 ESLint checks
-        run: yarn workspaces foreach -tv --from 'examples/*' run lint
+        run: yarn workspaces foreach --worktree -tv --from 'examples/*' run lint
 
       - name: 🏗 Build web-app
         run: yarn workspaces foreach --worktree -tv --from 'examples/*' run build
