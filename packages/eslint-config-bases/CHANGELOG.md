@@ -1,5 +1,17 @@
 # @belgattitude/eslint-config-bases
 
+## 2.3.0
+
+### Minor Changes
+
+- [#333](https://github.com/belgattitude/shared-dx/pull/333) [`989f01e`](https://github.com/belgattitude/shared-dx/commit/989f01eec5cf2243838c8b18d18e34180277b277) Thanks [@belgattitude](https://github.com/belgattitude)! - Relax misused promises
+
+- [#333](https://github.com/belgattitude/shared-dx/pull/333) [`989f01e`](https://github.com/belgattitude/shared-dx/commit/989f01eec5cf2243838c8b18d18e34180277b277) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
+### Patch Changes
+
+- [#333](https://github.com/belgattitude/shared-dx/pull/333) [`989f01e`](https://github.com/belgattitude/shared-dx/commit/989f01eec5cf2243838c8b18d18e34180277b277) Thanks [@belgattitude](https://github.com/belgattitude)! - Relax some strict rules for test files
+
 ## 2.2.0
 
 ### Minor Changes
