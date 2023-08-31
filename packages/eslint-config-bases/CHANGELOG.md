@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 2.5.0
+
+### Minor Changes
+
+- [#341](https://github.com/belgattitude/shared-dx/pull/341) [`68d1317`](https://github.com/belgattitude/shared-dx/commit/68d1317b4f6070e33eaad47fbdc06cb625696ef3) Thanks [@belgattitude](https://github.com/belgattitude)! - Add and enable eslint-plugin-unused-imports
+
 ## 2.4.0
 
 ### Minor Changes
