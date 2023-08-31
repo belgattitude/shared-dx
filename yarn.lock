@@ -1699,6 +1699,7 @@ __metadata:
     eslint-plugin-storybook: "npm:^0.6.13"
     eslint-plugin-tailwindcss: "npm:3.13.0"
     eslint-plugin-testing-library: "npm:^6.0.1"
+    eslint-plugin-unused-imports: "npm:^3.0.0"
     graphql: "npm:16.8.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
@@ -10562,6 +10563,28 @@ __metadata:
   peerDependencies:
     eslint: ^7.5.0 || ^8.0.0
   checksum: cfa84f4fcc4efe8d46ea5a85d10d30c98adf33e0cfc7e6cec927ef3cc4a3887ddeb652b541df0677bbce26b03c169fbe6f2c0dcc6d3ee2e4e20d1dac37a8221c
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-unused-imports@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "eslint-plugin-unused-imports@npm:3.0.0"
+  dependencies:
+    eslint-rule-composer: "npm:^0.3.0"
+  peerDependencies:
+    "@typescript-eslint/eslint-plugin": ^6.0.0
+    eslint: ^8.0.0
+  peerDependenciesMeta:
+    "@typescript-eslint/eslint-plugin":
+      optional: true
+  checksum: b1a5f3359e6191e6edbb71480242b1f830f4ffe20778fb9df8e6045ac2bf98211206b104cbfecb3a204b1963cf11decbd28c925ce908068d81959bc037a521ea
+  languageName: node
+  linkType: hard
+
+"eslint-rule-composer@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "eslint-rule-composer@npm:0.3.0"
+  checksum: 1f0c40d209e1503a955101a0dbba37e7fc67c8aaa47a5b9ae0b0fcbae7022c86e52b3df2b1b9ffd658e16cd80f31fff92e7222460a44d8251e61d49e0af79a07
   languageName: node
   linkType: hard
 

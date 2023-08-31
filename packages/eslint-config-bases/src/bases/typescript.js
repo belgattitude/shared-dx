@@ -32,6 +32,7 @@ module.exports = {
       typescript: {},
     },
   },
+  plugins: ['unused-imports'],
   extends: [
     'eslint:recommended',
     'plugin:import/recommended',
@@ -86,6 +87,19 @@ module.exports = {
         alphabetize: { order: 'asc', caseInsensitive: true },
       },
     ],
+    // https://github.com/sweepline/eslint-plugin-unused-imports
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
+    'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-vars': [
+      'warn',
+      {
+        vars: 'all',
+        varsIgnorePattern: '^_',
+        args: 'after-used',
+        argsIgnorePattern: '^_',
+      },
+    ],
     '@typescript-eslint/ban-ts-comment': [
       'error',
       {
@@ -100,10 +114,6 @@ module.exports = {
     '@typescript-eslint/no-empty-function': [
       'error',
       { allow: ['private-constructors'] },
-    ],
-    '@typescript-eslint/no-unused-vars': [
-      'warn',
-      { argsIgnorePattern: '^_', ignoreRestSiblings: true },
     ],
     '@typescript-eslint/consistent-type-exports': 'error',
     '@typescript-eslint/consistent-type-imports': [
@@ -139,6 +149,8 @@ module.exports = {
       rules: {
         '@typescript-eslint/no-import-type-side-effects': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
+        'unused-imports/no-unused-imports': 'off',
+        'unused-imports/no-unused-vars': 'off',
       },
     },
     {
