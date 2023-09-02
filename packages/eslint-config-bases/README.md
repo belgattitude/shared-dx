@@ -24,9 +24,12 @@ $ yarn add --dev eslint @belgattitude/eslint-config-bases
 > - **graphql**: `yarn add --dev @graphql-eslint/eslint-plugin` 
 > - **mdx**: `yarn add --dev eslint-plugin-mdx`.
 > - **tailwind**: `yarn add --dev eslint-plugin-tailwindcss`.
+>
 > In one line
 > ```bash
-> yarn add 
+> yarn add --dev @graphql-eslint/eslint-plugin \
+>                eslint-plugin-mdx \
+>                eslint-plugin-tailwindcss
 > ```
 
 ## Usage
@@ -85,6 +88,21 @@ module.exports = {
   },
   overrides: [
     // Specific file rules for your app or package
+    /*  
+    {
+      files: ['next.config.mjs'],
+      rules: {
+          'import/order': 'off',
+          '@typescript-eslint/ban-ts-comment': 'off',
+      },
+    },
+    {
+      files: ['tailwind.config.ts'],
+      rules: {
+          '@typescript-eslint/naming-convention': 'off',
+      },
+    },    
+    */
   ],
 };
 ```
