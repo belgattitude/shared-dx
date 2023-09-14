@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 2.6.0
+
+### Minor Changes
+
+- [#349](https://github.com/belgattitude/shared-dx/pull/349) [`f6212cf`](https://github.com/belgattitude/shared-dx/commit/f6212cf7615062f125b00d38cdaf47beef0e882a) Thanks [@belgattitude](https://github.com/belgattitude)! - Typescript eslint parser to latest
+
 ## 2.5.0
 
 ### Minor Changes
