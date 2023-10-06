@@ -122,7 +122,6 @@ let nextConfig = {
       },
     },
     */
-    appDir: true,
     // https://beta.nextjs.org/docs/configuring/typescript#statically-typed-links
     // typedRoutes: true,
     mdxRs: true,
