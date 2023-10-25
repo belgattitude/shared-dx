@@ -1,5 +1,20 @@
 # @belgattitude/eslint-config-bases
 
+## 2.10.0
+
+### Minor Changes
+
+- [#388](https://github.com/belgattitude/shared-dx/pull/388) [`f91355c`](https://github.com/belgattitude/shared-dx/commit/f91355ce1d6df43975be3538ca1416114b0f1402) Thanks [@belgattitude](https://github.com/belgattitude)! - Ban node.js buffer by default, prefer UInt8Array
+
+  > See reasoning in https://sindresorhus.com/blog/goodbye-nodejs-buffer
+
+  There's a transitional package that helps to fill current gaps in UInt8Array
+  till limitations lands into ecmascript.
+
+  https://github.com/sindresorhus/uint8array-extras
+
+- [#387](https://github.com/belgattitude/shared-dx/pull/387) [`33069c5`](https://github.com/belgattitude/shared-dx/commit/33069c575d62166aa63f8a5fafa9675a67d509c7) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
 ## 2.9.0
 
 ### Minor Changes
