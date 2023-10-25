@@ -87,6 +87,38 @@ module.exports = {
         alphabetize: { order: 'asc', caseInsensitive: true },
       },
     ],
+    // https://sindresorhus.com/blog/goodbye-nodejs-buffer
+    'no-restricted-globals': [
+      'error',
+      {
+        name: 'Buffer',
+        message: 'Use Uint8Array instead.',
+      },
+    ],
+    // https://sindresorhus.com/blog/goodbye-nodejs-buffer
+    'no-restricted-imports': [
+      'error',
+      {
+        name: 'buffer',
+        message: 'Use Uint8Array instead.',
+      },
+      {
+        name: 'node:buffer',
+        message: 'Use Uint8Array instead.',
+      },
+    ],
+    // https://sindresorhus.com/blog/goodbye-nodejs-buffer
+    '@typescript-eslint/ban-types': [
+      'error',
+      {
+        types: {
+          Buffer: {
+            message: 'Use Uint8Array instead.',
+            suggest: ['Uint8Array'],
+          },
+        },
+      },
+    ],
     // https://github.com/sweepline/eslint-plugin-unused-imports
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
