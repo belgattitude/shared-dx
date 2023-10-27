@@ -1,5 +1,54 @@
 # @belgattitude/eslint-config-bases
 
+## 3.0.0
+
+### Major Changes
+
+- [`2ad81c0`](https://github.com/belgattitude/shared-dx/commit/2ad81c00acacebe11b65a2ebd95666a2661832ba) Thanks [@belgattitude](https://github.com/belgattitude)! - Drop support for prettier 2 (only prettier 3 is supported)
+
+- [`2ad81c0`](https://github.com/belgattitude/shared-dx/commit/2ad81c00acacebe11b65a2ebd95666a2661832ba) Thanks [@belgattitude](https://github.com/belgattitude)! - Drop support for typescript < 5.0.2
+
+- [`aff1796`](https://github.com/belgattitude/shared-dx/commit/aff17967002bdd1d43d55d07fc884b02309bdc16) Thanks [@belgattitude](https://github.com/belgattitude)! - Allow @tanstack/eslint-plugin-query dep to be "^4.36.1 || ^5.0.5".
+  If you experience issue with your package manager (ie: yarn will automatically install
+  the highest version rather than the stable one), you can always force the resolution:
+
+  ```json
+  {
+    "resolutions": {
+      "eslint-plugin-react-hooks": "^4.36.1"
+    }
+  }
+  ```
+
+  This is a temporary solution to not have to declare the plugin as a peerDependency for now.
+  (eslint flat config will help in the future)
+
+- [`2ad81c0`](https://github.com/belgattitude/shared-dx/commit/2ad81c00acacebe11b65a2ebd95666a2661832ba) Thanks [@belgattitude](https://github.com/belgattitude)! - Allow eslint-plugin-react-hooks dep to be "^4.6.0 || 5.0.0-canary-7118f5dd7-20230705".
+  If you experience issue with your package manager (ie: yarn will automatically install
+  the canary version rather than the stable one), you can always force the resolution:
+
+  ```json
+  {
+    "resolutions?": {
+      "eslint-plugin-react-hooks": "https://github.com/vercel/next.js/issues/52365"
+    },
+    "resolutions": {
+      "eslint-plugin-react-hooks": "^4.6.0"
+    }
+  }
+  ```
+
+  This change was made to accommodate usage with nextjs latest versions (based on react canaries)
+
+  See also https://github.com/vercel/next.js/issues/52365
+
+  This is a temporary solution to not have to declare the plugin as a peerDependency for now.
+  (eslint flat config will help in the future)
+
+### Minor Changes
+
+- [`2ad81c0`](https://github.com/belgattitude/shared-dx/commit/2ad81c00acacebe11b65a2ebd95666a2661832ba) Thanks [@belgattitude](https://github.com/belgattitude)! - Minimum version to node 18.17.0 (was 18.12.0)
+
 ## 2.10.0
 
 ### Minor Changes
