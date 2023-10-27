@@ -22,3 +22,7 @@ This change was made to accommodate usage with nextjs latest versions (based on 
 
 See also https://github.com/vercel/next.js/issues/52365
 
+This is a temporary solution to not have to declare the plugin as a peerDependency for now.
+(eslint flat config will help in the future)
+
+

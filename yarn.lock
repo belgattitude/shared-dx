@@ -1632,7 +1632,7 @@ __metadata:
     "@angular-eslint/template-parser": "npm:16.2.0"
     "@graphql-eslint/eslint-plugin": "npm:3.20.1"
     "@rushstack/eslint-patch": "npm:^1.5.1"
-    "@tanstack/eslint-plugin-query": "npm:^4.36.1"
+    "@tanstack/eslint-plugin-query": "npm:^4.36.1 || ^5.0.5"
     "@testing-library/jest-dom": "npm:6.1.4"
     "@testing-library/react": "npm:14.0.0"
     "@types/jest": "npm:29.5.6"
@@ -5603,12 +5603,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/eslint-plugin-query@npm:^4.36.1":
-  version: 4.36.1
-  resolution: "@tanstack/eslint-plugin-query@npm:4.36.1"
+"@tanstack/eslint-plugin-query@npm:^4.36.1 || ^5.0.5":
+  version: 5.0.5
+  resolution: "@tanstack/eslint-plugin-query@npm:5.0.5"
+  dependencies:
+    "@typescript-eslint/utils": "npm:^5.54.0"
   peerDependencies:
-    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
-  checksum: 05db7d77ec499dba5d8556c0f66e7024a12902dbca811ec4ba157990345a0de9da294fc68fdedcff998d5c787204042f5cd4e2fd8e3d411edf899149cef2ddff
+    eslint: ^8.0.0
+  checksum: a04368d037acc0aef2140c3d975631fd0df8b356a98237b3c1286af78286b1d53a25c3d3d4d024043ca23098bd332f43d266ad7f12ca42270545e9f645b691da
   languageName: node
   linkType: hard
 
@@ -6475,7 +6477,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.45.0, @typescript-eslint/utils@npm:^5.58.0":
+"@typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.45.0, @typescript-eslint/utils@npm:^5.54.0, @typescript-eslint/utils@npm:^5.58.0":
   version: 5.62.0
   resolution: "@typescript-eslint/utils@npm:5.62.0"
   dependencies:
