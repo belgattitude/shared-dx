@@ -61,7 +61,7 @@
     "typescript": "5.2.2"
   },
   "engines": {
-    "node": ">=18.12.0"
+    "node": ">=18.17.0"
   },
   "resolutions?": {
     "eslint-plugin-react-hooks": "https://github.com/vercel/next.js/issues/52365"

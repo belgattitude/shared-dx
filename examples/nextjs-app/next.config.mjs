@@ -8,9 +8,9 @@ import nextMdx from '@next/mdx';
 import { createSecureHeaders } from 'next-secure-headers';
 import { getValidatedServerEnv } from './src/config/validated-server-env.mjs';
 
-const serverEnv = getValidatedServerEnv();
+const _serverEnv = getValidatedServerEnv();
 
-const workspaceRoot = path.resolve(
+const _workspaceRoot = path.resolve(
   path.dirname(fileURLToPath(import.meta.url)),
   '..',
   '..'
