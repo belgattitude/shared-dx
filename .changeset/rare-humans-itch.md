@@ -1,5 +1,5 @@
 ---
-'@belgattitude/eslint-config-bases': minor
+'@belgattitude/eslint-config-bases': major
 ---
 
 Allow @tanstack/eslint-plugin-query dep to be "^4.36.1 || ^5.0.5".

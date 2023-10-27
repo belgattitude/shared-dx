@@ -1,5 +1,5 @@
 ---
-'@belgattitude/eslint-config-bases': minor
+'@belgattitude/eslint-config-bases': major
 ---
 
 Allow eslint-plugin-react-hooks dep to be "^4.6.0 || 5.0.0-canary-7118f5dd7-20230705".
