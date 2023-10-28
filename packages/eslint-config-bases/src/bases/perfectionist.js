@@ -8,6 +8,9 @@ module.exports = {
     {
       extends: ['plugin:perfectionist/recommended-natural'],
       files: ['*.js', '*.cjs', '*.mjs', '*.ts', '*.tsx', '*.jsx'],
+      rules: {
+        'perfectionist/sort-imports': 'off',
+      },
     },
   ],
 };
