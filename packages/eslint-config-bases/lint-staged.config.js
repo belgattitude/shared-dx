@@ -18,14 +18,14 @@ const {
 const rules = {
   '**/*.{js,jsx,ts,tsx}': (filenames) => {
     return getEslintFixCmd({
-      cwd: __dirname,
-      fix: true,
       cache: true,
+      cwd: __dirname,
+      files: filenames,
       // when autofixing staged-files a good tip is to disable react-hooks/exhaustive-deps, cause
+      fix: true,
+      maxWarnings: 25,
       // a change here can potentially break things without proper visibility.
       rules: ['react-hooks/exhaustive-deps: off'],
-      maxWarnings: 25,
-      files: filenames,
     });
   },
   '**/*.{json,md,mdx,css,html,yml,yaml,scss}': (filenames) => {

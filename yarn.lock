@@ -1651,6 +1651,7 @@ __metadata:
     eslint-plugin-jest-formatting: "npm:^3.1.0"
     eslint-plugin-jsx-a11y: "npm:^6.7.1"
     eslint-plugin-mdx: "npm:2.2.0"
+    eslint-plugin-perfectionist: "npm:2.2.0"
     eslint-plugin-playwright: "npm:^0.18.0"
     eslint-plugin-prettier: "npm:^5.0.1"
     eslint-plugin-react: "npm:^7.33.2"
@@ -6460,7 +6461,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:6.9.0":
+"@typescript-eslint/utils@npm:6.9.0, @typescript-eslint/utils@npm:^6.7.5":
   version: 6.9.0
   resolution: "@typescript-eslint/utils@npm:6.9.0"
   dependencies:
@@ -10405,6 +10406,32 @@ __metadata:
   peerDependencies:
     eslint: ">=8.0.0"
   checksum: df5552072ec66244cd34c68465061493a100d6841a8426c836b63df7d4f02ef98a566c0ab720f883726a70bd13f6916ac02ea88dc903afd4c77b6965c98213c2
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-perfectionist@npm:2.2.0":
+  version: 2.2.0
+  resolution: "eslint-plugin-perfectionist@npm:2.2.0"
+  dependencies:
+    "@typescript-eslint/utils": "npm:^6.7.5"
+    minimatch: "npm:^9.0.3"
+    natural-compare-lite: "npm:^1.4.0"
+  peerDependencies:
+    astro-eslint-parser: ^0.16.0
+    eslint: ">=8.0.0"
+    svelte: ">=3.0.0"
+    svelte-eslint-parser: ^0.33.0
+    vue-eslint-parser: ">=9.0.0"
+  peerDependenciesMeta:
+    astro-eslint-parser:
+      optional: true
+    svelte:
+      optional: true
+    svelte-eslint-parser:
+      optional: true
+    vue-eslint-parser:
+      optional: true
+  checksum: 99a96dbe458184e31e2652fa1cf45a10af184ff0ff62db4a55d7679f2b50a3b02deb4dcec55765c772439aa49cadff8fb20c06ee2c1cb220f1db619f25906b51
   languageName: node
   linkType: hard
 
@@ -14825,7 +14852,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^9.0.0, minimatch@npm:^9.0.1":
+"minimatch@npm:^9.0.0, minimatch@npm:^9.0.1, minimatch@npm:^9.0.3":
   version: 9.0.3
   resolution: "minimatch@npm:9.0.3"
   dependencies:
@@ -15060,6 +15087,13 @@ __metadata:
   version: 1.0.2
   resolution: "napi-build-utils@npm:1.0.2"
   checksum: 37fd2cd0ff2ad20073ce78d83fd718a740d568b225924e753ae51cb69d68f330c80544d487e5e5bd18e28702ed2ca469c2424ad948becd1862c1b0209542b2e9
+  languageName: node
+  linkType: hard
+
+"natural-compare-lite@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "natural-compare-lite@npm:1.4.0"
+  checksum: f6cef26f5044515754802c0fc475d81426f3b90fe88c20fabe08771ce1f736ce46e0397c10acb569a4dd0acb84c7f1ee70676122f95d5bfdd747af3a6c6bbaa8
   languageName: node
   linkType: hard
 

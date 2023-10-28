@@ -1,6 +1,6 @@
 /**
  * Custom config base for projects that wants to enable regexp rules.
- * @see https://github.com/belgattitude/nextjs-monorepo-example/tree/main/packages/eslint-config-bases
+ * @see https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases
  */
 
 const regexpPatterns = {
@@ -12,9 +12,9 @@ module.exports = {
   extends: ['plugin:regexp/recommended'],
   overrides: [
     {
+      extends: ['plugin:regexp/recommended'],
       // To ensure best performance enable only on e2e test files
       files: regexpPatterns.files,
-      extends: ['plugin:regexp/recommended'],
       rules: {
         'regexp/prefer-result-array-groups': 'off',
       },

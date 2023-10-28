@@ -51,6 +51,7 @@ module.exports = {
   ignorePatterns: ["**/node_modules", "**/.cache", "build", ".next"],
   extends: [
     "@belgattitude/eslint-config-bases/typescript",
+    // "@belgattitude/eslint-config-bases/perfectionist",
     "@belgattitude/eslint-config-bases/sonar",
     "@belgattitude/eslint-config-bases/regexp",
     "@belgattitude/eslint-config-bases/react",

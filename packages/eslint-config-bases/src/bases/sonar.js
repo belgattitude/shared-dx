@@ -1,14 +1,14 @@
 /**
  * Opinionated config base for projects that enable sonarjs
- * @see https://github.com/belgattitude/nextjs-monorepo-example/tree/main/packages/eslint-config-bases
+ * @see https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases
  */
 
 const sonarPatterns = {
-  files: ['*.{js,jsx,ts,tsx}'],
   excludedFiles: [
     '**/?(*.)+(test).{js,jsx,ts,tsx}',
     '*.stories.{js,ts,jsx,tsx}',
   ],
+  files: ['*.{js,jsx,ts,tsx}'],
 };
 
 module.exports = {
@@ -19,9 +19,9 @@ module.exports = {
   },
   overrides: [
     {
-      files: sonarPatterns.files,
       excludedFiles: sonarPatterns.excludedFiles,
       extends: ['plugin:sonarjs/recommended'],
+      files: sonarPatterns.files,
       rules: {
         'sonarjs/no-nested-template-literals': 'off',
         'sonarjs/prefer-single-boolean-return': 'off',
@@ -44,8 +44,8 @@ module.exports = {
         ecmaVersion: 2020,
       },
       rules: {
-        'sonarjs/no-duplicate-string': 'off',
         'sonarjs/no-all-duplicated-branches': 'off',
+        'sonarjs/no-duplicate-string': 'off',
       },
     },
   ],
