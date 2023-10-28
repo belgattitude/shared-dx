@@ -25,7 +25,7 @@
     "@emotion/react": "11.11.1",
     "@emotion/server": "11.11.0",
     "@emotion/styled": "11.11.0",
-    "@httpx/exception": "2.3.0",
+    "@httpx/exception": "2.4.0",
     "@next/mdx": "14.0.0",
     "@nextvalid/zod-request": "0.4.0",
     "@tanstack/query-core": "5.0.5",
