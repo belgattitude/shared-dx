@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 3.1.0
+
+### Minor Changes
+
+- [`4e09338`](https://github.com/belgattitude/shared-dx/commit/4e09338d651fc139d157767f252658e66d1424fa) Thanks [@belgattitude](https://github.com/belgattitude)! - Add plugin perfectionist
+
 ## 3.0.0
 
 ### Major Changes
