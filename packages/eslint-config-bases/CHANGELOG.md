@@ -1,5 +1,38 @@
 # @belgattitude/eslint-config-bases
 
+## 3.3.0
+
+### Minor Changes
+
+- [#404](https://github.com/belgattitude/shared-dx/pull/404) [`8e6175e`](https://github.com/belgattitude/shared-dx/commit/8e6175e5edb16fab5b7776c2b2ed353e2c0007df) Thanks [@belgattitude](https://github.com/belgattitude)! - Adapt perfectionist rules and add jsx as optional
+
+  ```javascript
+  module.exports = {
+    overrides: [
+      {
+        extends: ['plugin:perfectionist/recommended-natural'],
+        files: ['*.js', '*.cjs', '*.mjs', '*.ts'],
+        rules: {
+          // import/order is used
+          'perfectionist/sort-named-imports': 'off',
+          'perfectionist/sort-imports': 'off',
+          // Keep at false as it can create issue when code relies on keys order
+          'perfectionist/sort-maps': 'off',
+          // Keep at false as cause it does not work with class properties
+          'perfectionist/sort-classes': 'off',
+          // Keep at false as it can create issue when code relies on keys order
+          'perfectionist/sort-objects': 'off',
+          // Keep at false as it can create issue when code relies on keys order
+          'perfectionist/sort-union-types': 'off',
+          // May introduce performance degradation
+          'perfectionist/sort-array-includes': 'off',
+          'perfectionist/sort-jsx-props': 'off',
+        },
+      },
+    ],
+  };
+  ```
+
 ## 3.2.0
 
 ### Minor Changes
