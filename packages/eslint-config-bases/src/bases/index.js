@@ -3,6 +3,7 @@ module.exports = {
   jest: require('./jest'),
   mdx: require('./mdx'),
   perfectionist: require('./perfectionist'),
+  'perfectionist-jsx': require('./perfectionist-jsx'),
   playwright: require('./playwright'),
   'prettier-config': require('./prettier-config'),
   'prettier-plugin': require('./prettier-plugin'),

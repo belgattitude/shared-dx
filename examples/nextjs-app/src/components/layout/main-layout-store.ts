@@ -3,10 +3,10 @@
 import { create } from 'zustand';
 
 type MainLayoutState = {
-  isSidebarOpen: boolean;
-  toggleSidebar: () => void;
   closeSidebar: () => void;
+  isSidebarOpen: boolean;
   openSidebar: () => void;
+  toggleSidebar: () => void;
 };
 
 export const useMainLayoutStore = create<MainLayoutState>((set) => ({
