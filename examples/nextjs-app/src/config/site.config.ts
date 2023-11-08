@@ -1,8 +1,8 @@
 import type { ReadonlyDeep } from 'type-fest';
 
 type NavLink = {
-  title: string;
   href: string;
+  title: string;
 };
 
 export type BaseSiteConfig = {

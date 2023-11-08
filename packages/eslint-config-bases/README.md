@@ -55,6 +55,7 @@ module.exports = {
     "@belgattitude/eslint-config-bases/sonar",
     "@belgattitude/eslint-config-bases/regexp",
     "@belgattitude/eslint-config-bases/react",
+      // "@belgattitude/eslint-config-bases/perfectionist-jsx",
     "@belgattitude/eslint-config-bases/react-query",  
     "@belgattitude/eslint-config-bases/jest",
     "@belgattitude/eslint-config-bases/rtl",  

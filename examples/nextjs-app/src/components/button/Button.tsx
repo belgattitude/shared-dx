@@ -20,7 +20,6 @@ export const Button = forwardRef<
     return (
       <button
         {...restProps}
-        ref={ref}
         className={twMerge(
           clsx(
             'rounded-full border bg-blue-500 font-bold text-white hover:bg-blue-700',
@@ -32,6 +31,7 @@ export const Button = forwardRef<
           ),
           className
         )}
+        ref={ref}
       >
         {children}
       </button>

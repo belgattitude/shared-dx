@@ -25,7 +25,7 @@ module.exports = {
   overrides: [
     {
       extends: [
-        // @see https://github.com/yannickcr/eslint-plugin-react
+        // @see https://github.com/jsx-eslint/eslint-plugin-react
         'plugin:react/recommended',
         // @see https://www.npmjs.com/package/eslint-plugin-react-hooks
         'plugin:react-hooks/recommended',

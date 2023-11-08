@@ -40,6 +40,9 @@
     "./perfectionist": {
       "require": "./src/bases/perfectionist.js"
     },
+    "./perfectionist-jsx": {
+      "require": "./src/bases/perfectionist-jsx.js"
+    },
     "./playwright": {
       "require": "./src/bases/playwright.js"
     },
@@ -144,15 +147,14 @@
     }
   },
   "devDependencies": {
-    "@angular-eslint/template-parser": "16.2.0",
     "@graphql-eslint/eslint-plugin": "3.20.1",
     "@testing-library/jest-dom": "6.1.4",
-    "@testing-library/react": "14.0.0",
-    "@types/jest": "29.5.7",
-    "@types/node": "20.8.10",
+    "@testing-library/react": "14.1.0",
+    "@types/jest": "29.5.8",
+    "@types/node": "20.9.0",
     "@types/prettier": "2.7.3",
-    "@types/react": "18.2.36",
-    "@types/react-dom": "18.2.14",
+    "@types/react": "18.2.37",
+    "@types/react-dom": "18.2.15",
     "es-check": "7.1.1",
     "eslint": "8.53.0",
     "eslint-plugin-mdx": "2.2.0",

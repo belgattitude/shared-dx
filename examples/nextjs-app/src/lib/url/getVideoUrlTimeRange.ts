@@ -1,8 +1,8 @@
 import { stringToFloat } from '@/lib/convert';
 
 type VideoUrlTimeRange = {
-  start: number;
   end: number | null;
+  start: number;
 };
 export const getVideoUrlTimeRange = (url: string): VideoUrlTimeRange => {
   const parsedUrl = new URL(url) ?? { hash: '' };
