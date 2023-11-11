@@ -5,7 +5,12 @@ type VideoUrlTimeRange = {
   start: number;
 };
 export const getVideoUrlTimeRange = (url: string): VideoUrlTimeRange => {
-  const parsedUrl = new URL(url) ?? { hash: '' };
+  const parsedUrl: { hash: string } = { hash: '' };
+  try {
+    parsedUrl.hash = new URL(url).hash ?? '';
+  } catch (e) {
+    /* empty */
+  }
   const parsed = parsedUrl.hash.match(
     /t=(?<parsedStart>([^,]+))(,(?<parsedEnd>(.+)))?/
   );
