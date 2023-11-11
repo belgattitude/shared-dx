@@ -160,6 +160,7 @@ module.exports = {
       },
     ],
     'linebreak-style': ['error', 'unix'],
+    'no-constant-binary-expression': 'error',
     // will use 'import/no-duplicates'.
     'no-duplicate-imports': 'off',
     'no-empty-function': 'off',
