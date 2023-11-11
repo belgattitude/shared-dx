@@ -1,5 +1,14 @@
 # @belgattitude/eslint-config-bases
 
+## 3.4.0
+
+### Minor Changes
+
+- [#407](https://github.com/belgattitude/shared-dx/pull/407) [`fe9a01d`](https://github.com/belgattitude/shared-dx/commit/fe9a01d8ab7502a42f02e3176f58ab7fa871c2f3) Thanks [@belgattitude](https://github.com/belgattitude)! - Enable no-constant-binary-expression by default
+
+  See https://eslint.org/blog/2022/07/interesting-bugs-caught-by-no-constant-binary-expression/ and
+  https://news.ycombinator.com/item?id=38196644
+
 ## 3.3.0
 
 ### Minor Changes
