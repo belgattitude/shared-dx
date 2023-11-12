@@ -1630,7 +1630,7 @@ __metadata:
     eslint-plugin-jest-formatting: "npm:^3.1.0"
     eslint-plugin-jsx-a11y: "npm:^6.8.0"
     eslint-plugin-mdx: "npm:2.2.0"
-    eslint-plugin-perfectionist: "npm:2.2.0"
+    eslint-plugin-perfectionist: "npm:2.3.0"
     eslint-plugin-playwright: "npm:^0.18.0"
     eslint-plugin-prettier: "npm:^5.0.1"
     eslint-plugin-react: "npm:^7.33.2"
@@ -6440,7 +6440,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:6.10.0, @typescript-eslint/utils@npm:^6.7.5":
+"@typescript-eslint/utils@npm:6.10.0, @typescript-eslint/utils@npm:^6.10.0":
   version: 6.10.0
   resolution: "@typescript-eslint/utils@npm:6.10.0"
   dependencies:
@@ -10347,11 +10347,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-perfectionist@npm:2.2.0":
-  version: 2.2.0
-  resolution: "eslint-plugin-perfectionist@npm:2.2.0"
+"eslint-plugin-perfectionist@npm:2.3.0":
+  version: 2.3.0
+  resolution: "eslint-plugin-perfectionist@npm:2.3.0"
   dependencies:
-    "@typescript-eslint/utils": "npm:^6.7.5"
+    "@typescript-eslint/utils": "npm:^6.10.0"
     minimatch: "npm:^9.0.3"
     natural-compare-lite: "npm:^1.4.0"
   peerDependencies:
@@ -10369,7 +10369,7 @@ __metadata:
       optional: true
     vue-eslint-parser:
       optional: true
-  checksum: 99a96dbe458184e31e2652fa1cf45a10af184ff0ff62db4a55d7679f2b50a3b02deb4dcec55765c772439aa49cadff8fb20c06ee2c1cb220f1db619f25906b51
+  checksum: 67ff958b43fdc8cab36e3bb1ced5941d71d29cc96350eece63effa7286b58c3c75a567f4a5c446db16689e83bfff6d98acdfdea1e5125c35f748d13d55d65dac
   languageName: node
   linkType: hard
 
