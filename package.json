@@ -2,7 +2,7 @@
   "name": "belgattitude-shared-dx-monorepo",
   "license": "MIT",
   "private": true,
-  "packageManager": "yarn@4.0.1",
+  "packageManager": "yarn@4.0.2",
   "homepage": "https://github.com/belgattitude/shared-dx",
   "repository": {
     "type": "git",
