@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 3.5.1
+
+### Patch Changes
+
+- [#421](https://github.com/belgattitude/shared-dx/pull/421) [`b6e31db`](https://github.com/belgattitude/shared-dx/commit/b6e31db82086681744c65ab8c2b8f36c097be706) Thanks [@belgattitude](https://github.com/belgattitude)! - Perfectionist plugin updated to latest
+
 ## 3.5.0
 
 ### Minor Changes
