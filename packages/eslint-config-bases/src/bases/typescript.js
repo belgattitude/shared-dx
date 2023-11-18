@@ -46,6 +46,7 @@ module.exports = {
         'unicorn/no-null': 'off',
         'unicorn/no-useless-undefined': 'off',
         'unicorn/prefer-number-properties': 'off',
+        'unicorn/error-message': 'off',
       },
     },
     {
