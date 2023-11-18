@@ -10,8 +10,7 @@ export const getVideoUrlTimeRange = (url: string): VideoUrlTimeRange => {
     parsedUrl.hash = new URL(url).hash ?? '';
   } catch {}
   const parsed = parsedUrl.hash.match(
-    // eslint-disable-next-line regexp/no-unused-capturing-group
-    /t=(?<parsedStart>[^,]+)(,(?<parsedEnd>.+))?/
+    /t=(?<parsedStart>[^,]+)(?<parsedEnd>,.+)?/
   );
   const { parsedStart, parsedEnd } = parsed?.groups ?? {};
   const end = stringToFloat(parsedEnd) ?? undefined;

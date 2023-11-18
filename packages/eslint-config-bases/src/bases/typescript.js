@@ -245,6 +245,7 @@ module.exports = {
       },
     ],
     // Disbaled as it might makes too much assumptions
+    'unicorn/filename-case': 'off',
     'unicorn/prevent-abbreviations': 'off',
     'unicorn/catch-error-name': 'off',
     'unicorn/prefer-set-has': 'off',
