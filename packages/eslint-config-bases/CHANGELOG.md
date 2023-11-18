@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 4.0.1
+
+### Patch Changes
+
+- [#428](https://github.com/belgattitude/shared-dx/pull/428) [`59b1f15`](https://github.com/belgattitude/shared-dx/commit/59b1f158cd331ad4ee80fec220a1ad35d60f24ba) Thanks [@belgattitude](https://github.com/belgattitude)! - Relax unicorn/error-message for test files
+
 ## 4.0.0
 
 ### Major Changes
