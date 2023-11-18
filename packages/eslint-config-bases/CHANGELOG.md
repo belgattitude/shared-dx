@@ -1,5 +1,22 @@
 # @belgattitude/eslint-config-bases
 
+## 4.0.0
+
+### Major Changes
+
+- [#427](https://github.com/belgattitude/shared-dx/pull/427) [`309e441`](https://github.com/belgattitude/shared-dx/commit/309e441aa9834588886a2d60acca832a069ebaac) Thanks [@belgattitude](https://github.com/belgattitude)! - Enable unicorn linter (add a bunch of stricter rules)
+
+  See: https://github.com/sindresorhus/eslint-plugin-unicorn
+
+### Minor Changes
+
+- [#427](https://github.com/belgattitude/shared-dx/pull/427) [`309e441`](https://github.com/belgattitude/shared-dx/commit/309e441aa9834588886a2d60acca832a069ebaac) Thanks [@belgattitude](https://github.com/belgattitude)! - Export a dedicated performance group
+
+  ```
+      // Group 4: Performance related (ie: set vs includes...)
+      "@belgattitude/eslint-config-bases/performance",
+  ```
+
 ## 3.5.1
 
 ### Patch Changes
