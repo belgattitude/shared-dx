@@ -13,7 +13,7 @@ export const queryClientConfig: QueryClientConfig = {
       // refetchOnWindowFocus: !isProd,
       // staleTime: 5 * 60_000,
       retry: isServer ? false : 2,
-      retryDelay: isProd ? 1_000 : 250,
+      retryDelay: isProd ? 1000 : 250,
     },
   },
 };

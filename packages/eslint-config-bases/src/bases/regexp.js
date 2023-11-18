@@ -4,7 +4,7 @@
  */
 
 const regexpPatterns = {
-  files: ['*.{js,jsx,jsx,tsx}'],
+  files: ['*.{js,jsx,ts,tsx}'],
 };
 
 module.exports = {

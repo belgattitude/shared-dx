@@ -50,28 +50,45 @@ module.exports = {
   },
   ignorePatterns: ["**/node_modules", "**/.cache", "build", ".next"],
   extends: [
+      
+    // Group 1: recommended always  
+      
     "@belgattitude/eslint-config-bases/typescript",
-    // "@belgattitude/eslint-config-bases/perfectionist",
-    "@belgattitude/eslint-config-bases/sonar",
     "@belgattitude/eslint-config-bases/regexp",
+    "@belgattitude/eslint-config-bases/jest", // jest or similar (ie: vitest)
+      
+    // Group 2: Helps to avoid complexity (cyclomatic...)
+    "@belgattitude/eslint-config-bases/sonar",
+      
+    // Group 3: When working with react  
     "@belgattitude/eslint-config-bases/react",
-      // "@belgattitude/eslint-config-bases/perfectionist-jsx",
-    "@belgattitude/eslint-config-bases/react-query",  
-    "@belgattitude/eslint-config-bases/jest",
-    "@belgattitude/eslint-config-bases/rtl",  
+    "@belgattitude/eslint-config-bases/react-query",
+    "@belgattitude/eslint-config-bases/rtl",
       
-    // "@belgattitude/eslint-config-bases/mdx",  
+    // Group 4: Performance related (ie: set over includes...)
+    "@belgattitude/eslint-config-bases/performance",
       
-    // "@belgattitude/eslint-config-bases/graphql-schema",
+    // Group 5: Various tools (per project)
     // "@belgattitude/eslint-config-bases/storybook",
     // "@belgattitude/eslint-config-bases/playwright",
+    // "@belgattitude/eslint-config-bases/graphql-schema",
+    // "@belgattitude/eslint-config-bases/mdx",  
 
-    // Add specific rules for your framework if needed.
+    // Group 6: Framework specifics
     // ie:
     // - nextjs: 'next/core-web-vitals',
     // - remix:  '@remix-run/eslint-config',
     // ...
 
+    // Group 7: Visual/Sort consistency  
+    // Not recommended but can by applied on some projects
+    // see https://github.com/azat-io/eslint-plugin-perfectionist
+    //  
+    // "@belgattitude/eslint-config-bases/perfectionist",
+    // "@belgattitude/eslint-config-bases/perfectionist-jsx",
+
+
+    // Group 8: Formatter  
     // Post configure the prettier base and run prettier
     // without conflicts thx to eslint-plugin-prettier
     "@belgattitude/eslint-config-bases/prettier-plugin",
@@ -139,20 +156,20 @@ Ensure your tsconfig.json includes the .eslintrc.cjs file:
 
 You can find the bases in [./src/bases](./src/bases).
 
-| Base                                              | Match convention                  | Scope                                                           |
-|:--------------------------------------------------| :-------------------------------- |:----------------------------------------------------------------|
-| [typescript](./src/bases/typescript.js)           | _all_                             | Naming conventions, consistent imports, import sorting...       |
-| [sonar](./src/bases/sonar.js)                     | `*.{js,jsx,ts,tsx}`               | Keep levels of code complexity sane. (excl test and stories)    |
-| [regexp](./src/bases/regexp.js)                   | `*.{js,jsx,jsx,tsx}`              | Keep regexp consistent and safer.                               |
-| [react](./src/bases/react.js)                     | `*.{jsx,tsx}`                     | Recommendations for react, react-hooks and jsx projects.        |
-| [react-query](./src/bases/react-query.js)         | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Enforce "recommended" react-query usage.                        |
-| [jest](./src/bases/jest.js)                       | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Catch inconsistencies or error in jest tests.                   |
-| [rtl](./src/bases/rtl.js)                         | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Potential errors / deprecations in react-testing-library tests. |
-| [graphql-schema](./src/bases/graphql-schema.js)   | `*.graphql`                       | Ensure validity of graphql schema files.                        |
-| [mdx](./src/bases/mdx.js)                         | _all_                             | Mdx validation                                                  |
-| [storybook](./src/bases/storybook.js)             | `*.stories.{ts,tsx,mdx}`          | Potential errors / deprecations in stories.                     |
-| [playwright](./src/bases/playwright.js)           | `**/e2e/**/*.test.{js,ts}`        | Keep "recommended" playwright usage.                            |
-| [prettier-plugin](./src/bases/prettier-plugin.js) | _all_                             | Post configure eslint for prettier compatibility.               |
+| Base                                                | Match convention                  | Scope                                                           |
+|:----------------------------------------------------| :-------------------------------- |:----------------------------------------------------------------|
+| [typescript](./src/bases/typescript.js)             | _all_                             | Naming conventions, consistent imports, import sorting...       |
+| [sonar](./src/bases/sonar.js)                       | `*.{js,jsx,ts,tsx}`               | Keep levels of code complexity sane. (excl test and stories)    |
+| [regexp](./src/bases/regexp.js)                     | `*.{js,jsx,jsx,tsx}`              | Keep regexp consistent and safer.                               |
+| [react](./src/bases/react.js)                       | `*.{jsx,tsx}`                     | Recommendations for react, react-hooks and jsx projects.        |
+| [react-query](./src/bases/react-query.js)           | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Enforce "recommended" react-query usage.                        |
+| [jest](./src/bases/jest.js)                         | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Catch inconsistencies or error in jest tests.                   |
+| [rtl](./src/bases/rtl.js)                           | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Potential errors / deprecations in react-testing-library tests. |
+| [graphql-schema](./src/bases/graphql-schema.js)     | `*.graphql`                       | Ensure validity of graphql schema files.                        |
+| [mdx](./src/bases/mdx.js)                           | _all_                             | Mdx validation                                                  |
+| [storybook](./src/bases/storybook.js)               | `*.stories.{ts,tsx,mdx}`          | Potential errors / deprecations in stories.                     |
+| [playwright](./src/bases/playwright.js)             | `**/e2e/**/*.test.{js,ts}`        | Keep "recommended" playwright usage.                            |
+| [prettier-plugin](./src/bases/prettier-plugin.js)   | _all_                             | Post configure eslint for prettier compatibility.               |
 
 > **Notes**:
 >

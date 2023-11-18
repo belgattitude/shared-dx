@@ -3,6 +3,8 @@
  * @see https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases
  */
 
+const { filePatterns } = require('../config/file-patterns');
+
 // Allow to pass an env to check cycles, defaults to 2 (lint time+++)
 // @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
 // @see https://medium.com/@steven-lemon182/are-typescript-barrel-files-an-anti-pattern-72a713004250
@@ -20,8 +22,32 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended-type-checked',
     'plugin:@typescript-eslint/stylistic-type-checked',
+    'plugin:unicorn/recommended',
   ],
   overrides: [
+    {
+      files: filePatterns.test,
+      rules: {
+        '@typescript-eslint/ban-ts-comment': 'off',
+        '@typescript-eslint/no-empty-function': 'off',
+        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/no-non-null-assertion': 'off',
+        '@typescript-eslint/no-object-literal-type-assertion': 'off',
+        '@typescript-eslint/no-unsafe-assignment': 'off',
+        '@typescript-eslint/no-unsafe-member-access': 'off',
+        // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/unbound-method.md
+        '@typescript-eslint/unbound-method': 'off',
+        'import/default': 'off',
+        // Relax rules that are known to be slow and less useful in a test context
+        'import/namespace': 'off',
+        'import/no-duplicates': 'off',
+        // Relax rules that makes writing tests easier
+        'import/no-named-as-default-member': 'off',
+        'unicorn/no-null': 'off',
+        'unicorn/no-useless-undefined': 'off',
+        'unicorn/prefer-number-properties': 'off',
+      },
+    },
     {
       files: ['*.d.ts'],
       rules: {
@@ -62,6 +88,7 @@ module.exports = {
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-var-requires': 'off',
+        'unicorn/prefer-module': 'off',
       },
     },
   ],
@@ -163,6 +190,12 @@ module.exports = {
     'no-constant-binary-expression': 'error',
     // will use 'import/no-duplicates'.
     'no-duplicate-imports': 'off',
+    'no-empty': [
+      'error',
+      {
+        allowEmptyCatch: true,
+      },
+    ],
     'no-empty-function': 'off',
     // https://sindresorhus.com/blog/goodbye-nodejs-buffer
     'no-restricted-globals': [
@@ -211,6 +244,20 @@ module.exports = {
         varsIgnorePattern: '^_',
       },
     ],
+    'unicorn/filename-case': [
+      'error',
+      {
+        cases: {
+          camelCase: true,
+          pascalCase: true,
+          kebabCase: true,
+        },
+      },
+    ],
+    'unicorn/prevent-abbreviations': 'off',
+    'unicorn/catch-error-name': 'off',
+    'unicorn/prefer-set-has': 'off',
+    'unicorn/no-null': 'off',
   },
   settings: {
     'import/parsers': {
