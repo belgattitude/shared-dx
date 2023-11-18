@@ -1611,7 +1611,7 @@ __metadata:
   dependencies:
     "@graphql-eslint/eslint-plugin": "npm:3.20.1"
     "@rushstack/eslint-patch": "npm:^1.5.1"
-    "@tanstack/eslint-plugin-query": "npm:^4.36.1 || ^5.0.5"
+    "@tanstack/eslint-plugin-query": "npm:^4.36.1 || ^5.8.4"
     "@testing-library/jest-dom": "npm:6.1.4"
     "@testing-library/react": "npm:14.1.2"
     "@types/jest": "npm:29.5.8"
@@ -1640,7 +1640,7 @@ __metadata:
     eslint-plugin-storybook: "npm:^0.6.15"
     eslint-plugin-tailwindcss: "npm:3.13.0"
     eslint-plugin-testing-library: "npm:^6.1.2"
-    eslint-plugin-unicorn: "npm:49.0.0"
+    eslint-plugin-unicorn: "npm:^49.0.0"
     eslint-plugin-unused-imports: "npm:^3.0.0"
     graphql: "npm:16.8.1"
     prettier: "npm:3.1.0"
@@ -2673,13 +2673,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:8.53.0":
-  version: 8.53.0
-  resolution: "@eslint/js@npm:8.53.0"
-  checksum: d29f6c207b2f6dc4ef174d16a3c07b0d3a17ca3d805680496ff267edd773e3bac41db4e7dcab622ca1970d892535bd19671e2a756d4eac75e96fd8c8dcdb619b
-  languageName: node
-  linkType: hard
-
 "@eslint/js@npm:8.54.0":
   version: 8.54.0
   resolution: "@eslint/js@npm:8.54.0"
@@ -3199,10 +3192,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@httpx/exception@npm:2.5.1":
-  version: 2.5.1
-  resolution: "@httpx/exception@npm:2.5.1"
-  checksum: 18af121f4f3d1de6cec57af39f0feaf0a71983be21e65a6d1fe15c9e46de2e570fc6e5306dbd05289e158cc9e4ba8e8d277ec387b6e3947a8bfb73f288b6947e
+"@httpx/exception@npm:2.5.2":
+  version: 2.5.2
+  resolution: "@httpx/exception@npm:2.5.2"
+  checksum: 8a23c127ffc0f1eeb44e7182cb21994844b0b4c84180526da7e7170458522816f1db34d78ed9b58a31c7ff3bf677e058247ab48be3dbd8d7018aad893536e922
   languageName: node
   linkType: hard
 
@@ -5829,14 +5822,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/eslint-plugin-query@npm:^4.36.1 || ^5.0.5":
-  version: 5.0.5
-  resolution: "@tanstack/eslint-plugin-query@npm:5.0.5"
+"@tanstack/eslint-plugin-query@npm:^4.36.1 || ^5.8.4":
+  version: 5.8.4
+  resolution: "@tanstack/eslint-plugin-query@npm:5.8.4"
   dependencies:
     "@typescript-eslint/utils": "npm:^5.54.0"
   peerDependencies:
     eslint: ^8.0.0
-  checksum: a04368d037acc0aef2140c3d975631fd0df8b356a98237b3c1286af78286b1d53a25c3d3d4d024043ca23098bd332f43d266ad7f12ca42270545e9f645b691da
+  checksum: 0336bacb988d9c60a369b29b1031a0f00687041b31c65bbf4410a757e99829c66088b8774db784c592e2b7af105e3c26fc30d293a81d5d236eb8295df7042c50
   languageName: node
   linkType: hard
 
@@ -10849,7 +10842,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:49.0.0":
+"eslint-plugin-unicorn@npm:^49.0.0":
   version: 49.0.0
   resolution: "eslint-plugin-unicorn@npm:49.0.0"
   dependencies:
@@ -10919,54 +10912,6 @@ __metadata:
   version: 3.4.3
   resolution: "eslint-visitor-keys@npm:3.4.3"
   checksum: 92708e882c0a5ffd88c23c0b404ac1628cf20104a108c745f240a13c332a11aac54f49a22d5762efbffc18ecbc9a580d1b7ad034bf5f3cc3307e5cbff2ec9820
-  languageName: node
-  linkType: hard
-
-"eslint@npm:8.53.0":
-  version: 8.53.0
-  resolution: "eslint@npm:8.53.0"
-  dependencies:
-    "@eslint-community/eslint-utils": "npm:^4.2.0"
-    "@eslint-community/regexpp": "npm:^4.6.1"
-    "@eslint/eslintrc": "npm:^2.1.3"
-    "@eslint/js": "npm:8.53.0"
-    "@humanwhocodes/config-array": "npm:^0.11.13"
-    "@humanwhocodes/module-importer": "npm:^1.0.1"
-    "@nodelib/fs.walk": "npm:^1.2.8"
-    "@ungap/structured-clone": "npm:^1.2.0"
-    ajv: "npm:^6.12.4"
-    chalk: "npm:^4.0.0"
-    cross-spawn: "npm:^7.0.2"
-    debug: "npm:^4.3.2"
-    doctrine: "npm:^3.0.0"
-    escape-string-regexp: "npm:^4.0.0"
-    eslint-scope: "npm:^7.2.2"
-    eslint-visitor-keys: "npm:^3.4.3"
-    espree: "npm:^9.6.1"
-    esquery: "npm:^1.4.2"
-    esutils: "npm:^2.0.2"
-    fast-deep-equal: "npm:^3.1.3"
-    file-entry-cache: "npm:^6.0.1"
-    find-up: "npm:^5.0.0"
-    glob-parent: "npm:^6.0.2"
-    globals: "npm:^13.19.0"
-    graphemer: "npm:^1.4.0"
-    ignore: "npm:^5.2.0"
-    imurmurhash: "npm:^0.1.4"
-    is-glob: "npm:^4.0.0"
-    is-path-inside: "npm:^3.0.3"
-    js-yaml: "npm:^4.1.0"
-    json-stable-stringify-without-jsonify: "npm:^1.0.1"
-    levn: "npm:^0.4.1"
-    lodash.merge: "npm:^4.6.2"
-    minimatch: "npm:^3.1.2"
-    natural-compare: "npm:^1.4.0"
-    optionator: "npm:^0.9.3"
-    strip-ansi: "npm:^6.0.1"
-    text-table: "npm:^0.2.0"
-  bin:
-    eslint: bin/eslint.js
-  checksum: c5cd0049488c0463dab7d97466767ca5a1d0b3b59d0a223122683dc8039ecea30b27867fb9e38906b4c1ab9d09ece8a802a6c540d8905016f1cc4b4bb27329af
   languageName: node
   linkType: hard
 
@@ -20778,7 +20723,7 @@ __metadata:
     "@emotion/react": "npm:11.11.1"
     "@emotion/server": "npm:11.11.0"
     "@emotion/styled": "npm:11.11.0"
-    "@httpx/exception": "npm:2.5.1"
+    "@httpx/exception": "npm:2.5.2"
     "@next/bundle-analyzer": "npm:14.0.3"
     "@next/mdx": "npm:14.0.3"
     "@nextvalid/zod-request": "npm:0.4.0"
@@ -20803,7 +20748,7 @@ __metadata:
     clsx: "npm:2.0.0"
     cross-env: "npm:7.0.3"
     dotenv-flow-cli: "npm:1.0.0"
-    eslint: "npm:8.53.0"
+    eslint: "npm:8.54.0"
     eslint-config-next: "npm:14.0.3"
     eslint-plugin-mdx: "npm:2.2.0"
     eslint-plugin-tailwindcss: "npm:3.13.0"

@@ -65,7 +65,7 @@ module.exports = {
     "@belgattitude/eslint-config-bases/react-query",
     "@belgattitude/eslint-config-bases/rtl",
       
-    // Group 4: Performance related (ie: set over includes...)
+    // Group 4: Performance related (ie: set vs includes...)
     "@belgattitude/eslint-config-bases/performance",
       
     // Group 5: Various tools (per project)

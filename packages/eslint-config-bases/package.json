@@ -89,7 +89,7 @@
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.5.1",
-    "@tanstack/eslint-plugin-query": "^4.36.1 || ^5.0.5",
+    "@tanstack/eslint-plugin-query": "^4.36.1 || ^5.8.4",
     "@typescript-eslint/eslint-plugin": "^6.11.0",
     "@typescript-eslint/parser": "^6.11.0",
     "eslint-config-prettier": "^9.0.0",
@@ -102,7 +102,7 @@
     "eslint-plugin-playwright": "^0.18.0",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0 || 5.0.0-canary-7118f5dd7-20230705 ",
+    "eslint-plugin-react-hooks": "^4.6.0 || 5.0.0-canary-7118f5dd7-20230705",
     "eslint-plugin-regexp": "^2.1.1",
     "eslint-plugin-sonarjs": "^0.23.0",
     "eslint-plugin-storybook": "^0.6.15",

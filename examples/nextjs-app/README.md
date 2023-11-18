@@ -1,5 +1,5 @@
 # website
 
 ```bash
-pnpm dev
+yarn dev
 ```
