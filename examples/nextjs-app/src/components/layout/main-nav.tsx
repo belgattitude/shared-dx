@@ -4,6 +4,8 @@ import { useMainLayoutStore } from '@/components/layout/main-layout-store';
 import { MainSidebar } from '@/components/layout/sidebar/main-sidebar';
 import { siteConfig } from '@/config/site.config';
 import CloseIcon from '@/public/icons/menu/cross-svgrepo-com.svg';
+// eslint-disable-next-line import/no-duplicates
+import OpenIcon from '@/public/icons/menu/cross-svgrepo-com.svg';
 
 const { mainNavLinks } = siteConfig;
 
@@ -27,7 +29,7 @@ export const MainNav: FC<Props> = (props) => {
         {isSideBarOpen ? (
           <CloseIcon className={'h-6 w-6'} onClick={toggleSideBar} />
         ) : (
-          <CloseIcon className={'h-6 w-6'} onClick={toggleSideBar} />
+          <OpenIcon className={'h-6 w-6'} onClick={toggleSideBar} />
         )}
 
         <MainSidebar mainLinks={mainNavLinks} />
