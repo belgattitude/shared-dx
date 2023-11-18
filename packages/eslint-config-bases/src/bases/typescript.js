@@ -244,16 +244,7 @@ module.exports = {
         varsIgnorePattern: '^_',
       },
     ],
-    'unicorn/filename-case': [
-      'error',
-      {
-        cases: {
-          camelCase: true,
-          pascalCase: true,
-          kebabCase: true,
-        },
-      },
-    ],
+    // Disbaled as it might makes too much assumptions
     'unicorn/prevent-abbreviations': 'off',
     'unicorn/catch-error-name': 'off',
     'unicorn/prefer-set-has': 'off',

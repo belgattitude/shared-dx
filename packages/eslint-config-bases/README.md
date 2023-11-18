@@ -69,6 +69,7 @@ module.exports = {
     "@belgattitude/eslint-config-bases/performance",
       
     // Group 5: Various tools (per project)
+    // '@belgattitude/eslint-config-bases/tailwind',  
     // "@belgattitude/eslint-config-bases/storybook",
     // "@belgattitude/eslint-config-bases/playwright",
     // "@belgattitude/eslint-config-bases/graphql-schema",

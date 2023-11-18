@@ -3,9 +3,7 @@
  * @see https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases
  */
 
-const regexpPatterns = {
-  files: ['*.{js,jsx,ts,tsx}'],
-};
+const { filePatterns } = require('../config/file-patterns');
 
 module.exports = {
   // @see https://github.com/ota-meshi/eslint-plugin-regexp
@@ -13,8 +11,7 @@ module.exports = {
   overrides: [
     {
       extends: ['plugin:regexp/recommended'],
-      // To ensure best performance enable only on e2e test files
-      files: regexpPatterns.files,
+      files: filePatterns.typescriptAndJsCodeWithJsx,
       rules: {
         'regexp/prefer-result-array-groups': 'off',
       },
