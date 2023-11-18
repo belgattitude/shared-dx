@@ -4,6 +4,7 @@ module.exports = {
   extends: [
     './src/bases/typescript',
     './src/bases/perfectionist',
+    './src/bases/performance',
     './src/bases/prettier-plugin',
     './src/bases/mdx',
   ],

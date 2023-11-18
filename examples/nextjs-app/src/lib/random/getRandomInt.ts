@@ -7,11 +7,13 @@
  */
 
 export function getRandomInt(min: number, max: number): number {
-  [min, max].forEach((v, idx) => {
+  for (const [idx, v] of [min, max].entries()) {
     if (!Number.isSafeInteger(v)) {
-      throw new Error(`${idx === 0 ? 'min' : 'max'} is not a valid integer`);
+      throw new TypeError(
+        `${idx === 0 ? 'min' : 'max'} is not a valid integer`
+      );
     }
-  });
+  }
   if (max < min) {
     throw new Error('Min cannot be greater than max');
   }

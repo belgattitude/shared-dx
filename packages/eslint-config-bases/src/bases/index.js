@@ -7,6 +7,7 @@ module.exports = {
   playwright: require('./playwright'),
   'prettier-config': require('./prettier-config'),
   'prettier-plugin': require('./prettier-plugin'),
+  performance: require('./performance'),
   react: require('./react'),
   reactQuery: require('./react-query'),
   reactTestingLibrary: require('./rtl'),

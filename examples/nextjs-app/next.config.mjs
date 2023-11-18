@@ -153,25 +153,26 @@ let nextConfig = {
   },
 
   webpack: (config, { webpack, isServer }) => {
-    config.module.rules.push({
-      test: /\.svg$/,
-      issuer: /\.(js|ts)x?$/,
-      use: [
-        {
-          loader: '@svgr/webpack',
-          // https://react-svgr.com/docs/webpack/#passing-options
-          options: {
-            svgo: isProd,
+    config.module.rules.push(
+      {
+        test: /\.svg$/,
+        issuer: /\.(js|ts)x?$/,
+        use: [
+          {
+            loader: '@svgr/webpack',
+            // https://react-svgr.com/docs/webpack/#passing-options
+            options: {
+              svgo: isProd,
+            },
           },
-        },
-      ],
-    });
-
-    config.module.rules.push({
-      test: /\.(glsl|vs|fs|vert|frag)$/,
-      exclude: /node_modules/,
-      use: ['raw-loader', 'glslify-loader'],
-    });
+        ],
+      },
+      {
+        test: /\.(glsl|vs|fs|vert|frag)$/,
+        exclude: /node_modules/,
+        use: ['raw-loader', 'glslify-loader'],
+      }
+    );
 
     return config;
   },
@@ -227,6 +228,7 @@ const withPlugins = () => {
       : []),
     withMDX,
   ];
+  // eslint-disable-next-line unicorn/no-array-reduce
   return plugins.reduce((acc, next) => next(acc), nextConfig);
 };
 

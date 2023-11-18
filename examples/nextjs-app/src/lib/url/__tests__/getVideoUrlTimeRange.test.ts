@@ -1,10 +1,10 @@
 import { getVideoUrlTimeRange } from '../getVideoUrlTimeRange';
 
-describe('getVideoUtlTimerange', () => {
+describe('getVideoUrlTimerange', () => {
   it('should work with full timerange', () => {
     expect(
       getVideoUrlTimeRange(
-        'https://media.failwell.be/roz/roz-markten-trio.m4v#t=20,29.1'
+        'https://example.com/roz/roz-markten-trio.m4v#t=20,29.1'
       )
     ).toStrictEqual({
       start: 20,
@@ -14,21 +14,19 @@ describe('getVideoUtlTimerange', () => {
 
   it('should work with only start in timerange', () => {
     expect(
-      getVideoUrlTimeRange(
-        'https://media.failwell.be/roz/roz-markten-trio.m4v#t=20'
-      )
+      getVideoUrlTimeRange('https://example.com/roz/roz-markten-trio.m4v#t=20')
     ).toStrictEqual({
       start: 20,
-      end: null,
+      end: undefined,
     });
   });
 
   it('should work with no timerange', () => {
     expect(
-      getVideoUrlTimeRange('https://media.failwell.be/roz/roz-markten-trio.m4v')
+      getVideoUrlTimeRange('https://example.com/roz/roz-markten-trio.m4v')
     ).toStrictEqual({
       start: 0,
-      end: null,
+      end: undefined,
     });
   });
 });

@@ -9,11 +9,11 @@ type Props = PropsWithChildren & {
 };
 
 export const MainLayout: FC<Props> = (props) => {
-  const { hideMainNav } = props;
+  const { hideMainNav, children } = props;
   return (
     <>
       <MainNav className={hideMainNav ? 'hidden' : ''} />
-      <div className={''}>{props.children}</div>
+      <div className={''}>{children}</div>
       <MainFooter />
     </>
   );
