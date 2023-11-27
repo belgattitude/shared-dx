@@ -26,6 +26,12 @@ module.exports = {
   ],
   overrides: [
     {
+      files: ['tailwind.config.ts'],
+      rules: {
+        'unicorn/prefer-module': 'off',
+      }
+    },
+    {
       files: filePatterns.test,
       rules: {
         '@typescript-eslint/ban-ts-comment': 'off',
@@ -47,6 +53,9 @@ module.exports = {
         'unicorn/no-useless-undefined': 'off',
         'unicorn/prefer-number-properties': 'off',
         'unicorn/error-message': 'off',
+        'unicorn/consistent-function-scoping': 'off',
+        'unicorn/no-await-expression-member': 'off',
+        'unicorn/oprefer-add-event-listener': 'off',
       },
     },
     {

@@ -88,10 +88,10 @@
     "check-dist": "es-check -v"
   },
   "dependencies": {
-    "@rushstack/eslint-patch": "^1.5.1",
+    "@rushstack/eslint-patch": "^1.6.0",
     "@tanstack/eslint-plugin-query": "^4.36.1 || ^5.8.4",
-    "@typescript-eslint/eslint-plugin": "^6.11.0",
-    "@typescript-eslint/parser": "^6.11.0",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.0",
@@ -106,7 +106,7 @@
     "eslint-plugin-regexp": "^2.1.1",
     "eslint-plugin-sonarjs": "^0.23.0",
     "eslint-plugin-storybook": "^0.6.15",
-    "eslint-plugin-testing-library": "^6.1.2",
+    "eslint-plugin-testing-library": "^6.2.0",
     "eslint-plugin-unicorn": "^49.0.0",
     "eslint-plugin-unused-imports": "^3.0.0"
   },

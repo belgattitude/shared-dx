@@ -31,7 +31,7 @@ module.exports = {
       files: ['*.{jsx,tsx}'],
       rules: {
         // relax complexity for react code
-        'sonarjs/cognitive-complexity': ['error', 15],
+        'sonarjs/cognitive-complexity': ['error', 16],
         // relax duplicate strings
         'sonarjs/no-duplicate-string': 'off',
       },
