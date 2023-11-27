@@ -261,6 +261,7 @@ module.exports = {
       },
     ],
     // Disabled as it makes too many assumptions - enable per-project
+    'unicorn/no-static-only-class': 'off',
     'unicorn/no-array-for-each': 'off',
     'unicorn/switch-case-braces': 'off',
     // Can potentially break your code
