@@ -29,7 +29,7 @@ module.exports = {
       files: ['tailwind.config.ts'],
       rules: {
         'unicorn/prefer-module': 'off',
-      }
+      },
     },
     {
       files: filePatterns.test,
