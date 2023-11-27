@@ -41,7 +41,7 @@ module.exports = {
       files: ['*.js', '*.cjs'],
       parser: 'espree',
       parserOptions: {
-        ecmaVersion: 2020,
+        ecmaVersion: 'latest',
       },
       rules: {
         'sonarjs/no-all-duplicated-branches': 'off',
