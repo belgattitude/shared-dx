@@ -1,5 +1,15 @@
 # @belgattitude/eslint-config-bases
 
+## 4.2.0
+
+### Minor Changes
+
+- [#447](https://github.com/belgattitude/shared-dx/pull/447) [`9eb00c1`](https://github.com/belgattitude/shared-dx/commit/9eb00c1e5d953eaca4b668bc08317bb0d76340ec) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable @typescript-eslint/require-await by default
+
+### Patch Changes
+
+- [#446](https://github.com/belgattitude/shared-dx/pull/446) [`7c4ae6c`](https://github.com/belgattitude/shared-dx/commit/7c4ae6c4c5e19e684cb401a219f6c9309e799129) Thanks [@belgattitude](https://github.com/belgattitude)! - Use ecma latest in sonarjs
+
 ## 4.1.1
 
 ### Patch Changes
