@@ -92,6 +92,7 @@
     "@tanstack/eslint-plugin-query": "^4.36.1 || ^5.8.4",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
     "@typescript-eslint/parser": "^6.12.0",
+    "@typescript-eslint/typescript-estree": "^6.12.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.0",
