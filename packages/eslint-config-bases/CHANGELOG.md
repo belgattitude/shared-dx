@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 4.3.0
+
+### Minor Changes
+
+- [#449](https://github.com/belgattitude/shared-dx/pull/449) [`5f17ce5`](https://github.com/belgattitude/shared-dx/commit/5f17ce564ed60268e9648f7a0d92950b4538d832) Thanks [@belgattitude](https://github.com/belgattitude)! - Relax unicorn rules to avoid potential errors
+
 ## 4.2.0
 
 ### Minor Changes
