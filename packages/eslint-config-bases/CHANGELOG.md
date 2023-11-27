@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 4.1.1
+
+### Patch Changes
+
+- [#444](https://github.com/belgattitude/shared-dx/pull/444) [`7cab07f`](https://github.com/belgattitude/shared-dx/commit/7cab07f4321c0500b1873d341b6c2453b629eae8) Thanks [@belgattitude](https://github.com/belgattitude)! - Ensure @typescript-eslint/typescript-estree is at latest
+
 ## 4.1.0
 
 ### Minor Changes
