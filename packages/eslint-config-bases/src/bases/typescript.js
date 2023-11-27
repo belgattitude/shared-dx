@@ -260,7 +260,12 @@ module.exports = {
         varsIgnorePattern: '^_',
       },
     ],
-    // Disbaled as it might makes too much assumptions
+    // Disabled as it makes too many assumptions - enable per-project
+    'unicorn/no-static-only-class': 'off',
+    'unicorn/no-array-for-each': 'off',
+    'unicorn/switch-case-braces': 'off',
+    // Can potentially break your code
+    'unicorn/prefer-spread': 'off',
     'unicorn/filename-case': 'off',
     'unicorn/prevent-abbreviations': 'off',
     'unicorn/catch-error-name': 'off',
