@@ -1622,6 +1622,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^6.12.0"
     "@typescript-eslint/parser": "npm:^6.12.0"
     "@typescript-eslint/typescript-estree": "npm:^6.12.0"
+    "@typescript-eslint/utils": "npm:^6.12.0"
     es-check: "npm:7.1.1"
     eslint: "npm:8.54.0"
     eslint-config-prettier: "npm:^9.0.0"

@@ -34,6 +34,7 @@ module.exports = {
     {
       files: filePatterns.test,
       rules: {
+        '@typescript-eslint/require-await': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/no-empty-function': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
@@ -49,6 +50,7 @@ module.exports = {
         'import/no-duplicates': 'off',
         // Relax rules that makes writing tests easier
         'import/no-named-as-default-member': 'off',
+        'require-await': 'off',
         'unicorn/no-null': 'off',
         'unicorn/no-useless-undefined': 'off',
         'unicorn/prefer-number-properties': 'off',
@@ -75,6 +77,7 @@ module.exports = {
         sourceType: 'module',
       },
       rules: {
+        '@typescript-eslint/require-await': 'off',
         '@typescript-eslint/consistent-type-exports': 'off',
         '@typescript-eslint/consistent-type-imports': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
@@ -98,6 +101,7 @@ module.exports = {
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-var-requires': 'off',
+        'require-await': 'off',
         'unicorn/prefer-module': 'off',
       },
     },
@@ -116,6 +120,7 @@ module.exports = {
   rules: {
     // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
     ...(checkCycles ? { 'import/no-cycle': 2 } : {}),
+    '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/ban-ts-comment': [
       'error',
       {
@@ -229,6 +234,7 @@ module.exports = {
     ],
     // https://github.com/sweepline/eslint-plugin-unused-imports
     'no-unused-vars': 'off',
+    'require-await': 'off',
     'spaced-comment': [
       'error',
       'always',
