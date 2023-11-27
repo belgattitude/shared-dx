@@ -34,6 +34,7 @@ module.exports = {
     {
       files: filePatterns.test,
       rules: {
+        '@typescript-eslint/require-await': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/no-empty-function': 'off',
         '@typescript-eslint/no-explicit-any': 'off',
@@ -75,6 +76,7 @@ module.exports = {
         sourceType: 'module',
       },
       rules: {
+        '@typescript-eslint/require-await': 'off',
         '@typescript-eslint/consistent-type-exports': 'off',
         '@typescript-eslint/consistent-type-imports': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
@@ -116,6 +118,7 @@ module.exports = {
   rules: {
     // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
     ...(checkCycles ? { 'import/no-cycle': 2 } : {}),
+    '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/ban-ts-comment': [
       'error',
       {
