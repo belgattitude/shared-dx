@@ -1621,6 +1621,7 @@ __metadata:
     "@types/react-dom": "npm:18.2.17"
     "@typescript-eslint/eslint-plugin": "npm:^6.12.0"
     "@typescript-eslint/parser": "npm:^6.12.0"
+    "@typescript-eslint/typescript-estree": "npm:^6.12.0"
     es-check: "npm:7.1.1"
     eslint: "npm:8.54.0"
     eslint-config-prettier: "npm:^9.0.0"
@@ -6661,7 +6662,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/typescript-estree@npm:6.12.0":
+"@typescript-eslint/typescript-estree@npm:6.12.0, @typescript-eslint/typescript-estree@npm:^6.12.0":
   version: 6.12.0
   resolution: "@typescript-eslint/typescript-estree@npm:6.12.0"
   dependencies:
