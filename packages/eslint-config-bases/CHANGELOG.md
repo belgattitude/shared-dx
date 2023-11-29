@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 4.4.0
+
+### Minor Changes
+
+- [#457](https://github.com/belgattitude/shared-dx/pull/457) [`3af1812`](https://github.com/belgattitude/shared-dx/commit/3af1812163f1fdbc3a5df866c4d0f57885648526) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable import/no-unresolved by default
+
 ## 4.3.1
 
 ### Patch Changes
