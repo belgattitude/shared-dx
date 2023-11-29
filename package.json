@@ -46,7 +46,7 @@
     "@changesets/cli": "2.26.2",
     "@commitlint/cli": "18.4.3",
     "@commitlint/config-conventional": "18.4.3",
-    "@playwright/test": "1.40.0",
+    "@playwright/test": "1.40.1",
     "@types/prettier": "2.7.3",
     "@types/shell-quote": "1.7.5",
     "cross-env": "7.0.3",
