@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 4.3.1
+
+### Patch Changes
+
+- [`2c5dee3`](https://github.com/belgattitude/shared-dx/commit/2c5dee3f7bc22a75d0a82c7de4b4fac70f19a87d) - Latest typescript 6.13.1 to fix jsdoc
+
 ## 4.3.0
 
 ### Minor Changes
