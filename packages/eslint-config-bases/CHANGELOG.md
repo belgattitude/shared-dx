@@ -1,5 +1,31 @@
 # @belgattitude/eslint-config-bases
 
+## 4.5.0
+
+### Minor Changes
+
+- [#465](https://github.com/belgattitude/shared-dx/pull/465) [`4f26b88`](https://github.com/belgattitude/shared-dx/commit/4f26b882827d350a7fd2d88a7d8c367d8cc20e4a) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable eslint-plugin-import sort
+
+  In preparation for dprint support, you must now opt-in for import/export sort.
+
+  ```js
+  module.exports = {
+    // for brevity
+    extends: [
+      // Group 1: recommended always
+      '@belgattitude/eslint-config-bases/typescript',
+      '@belgattitude/eslint-config-bases/simple-import-sort',
+      // ...rest
+    ],
+  };
+  ```
+
+  Note that the [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import) has been changed to [simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort)
+  internally. Expect to relint your codebase.
+
+  This change bring some speedups. In a next release those rules can be opt-out
+  easily in favour of dprint, biome... which does as faster job (stylistic)
+
 ## 4.4.0
 
 ### Minor Changes
