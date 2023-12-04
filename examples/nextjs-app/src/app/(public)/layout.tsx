@@ -1,6 +1,8 @@
 import '@/styles/globals.css';
+
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
+
 import { MainLayout } from '@/components/layout/main-layout';
 
 export const metadata: Metadata = {};

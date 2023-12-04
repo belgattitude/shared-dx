@@ -1,7 +1,9 @@
 'use client';
 
 import type { FC, PropsWithChildren } from 'react';
+
 import { MainFooter } from '@/components/layout/main-footer';
+
 import { MainNav } from './main-nav';
 
 type Props = PropsWithChildren & {

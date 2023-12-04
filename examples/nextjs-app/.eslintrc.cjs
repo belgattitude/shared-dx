@@ -19,6 +19,7 @@ module.exports = {
   extends: [
     // Group 1: recommended always
     '@belgattitude/eslint-config-bases/typescript',
+    '@belgattitude/eslint-config-bases/simple-import-sort',
     '@belgattitude/eslint-config-bases/regexp',
     '@belgattitude/eslint-config-bases/jest', // jest or similar (ie: vitest)
 

@@ -1593,8 +1593,6 @@ __metadata:
     es-check: "npm:7.1.1"
     eslint: "npm:8.54.0"
     eslint-config-prettier: "npm:^9.0.0"
-    eslint-import-resolver-typescript: "npm:^3.6.1"
-    eslint-plugin-import: "npm:^2.29.0"
     eslint-plugin-jest: "npm:^27.6.0"
     eslint-plugin-jest-formatting: "npm:^3.1.0"
     eslint-plugin-jsx-a11y: "npm:^6.8.0"
@@ -1605,6 +1603,7 @@ __metadata:
     eslint-plugin-react: "npm:^7.33.2"
     eslint-plugin-react-hooks: "npm:^4.6.0 || 5.0.0-canary-7118f5dd7-20230705"
     eslint-plugin-regexp: "npm:^2.1.1"
+    eslint-plugin-simple-import-sort: "npm:^10.0.0"
     eslint-plugin-sonarjs: "npm:^0.23.0"
     eslint-plugin-storybook: "npm:^0.6.15"
     eslint-plugin-tailwindcss: "npm:3.13.0"
@@ -10452,7 +10451,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:^3.5.2, eslint-import-resolver-typescript@npm:^3.6.1":
+"eslint-import-resolver-typescript@npm:^3.5.2":
   version: 3.6.1
   resolution: "eslint-import-resolver-typescript@npm:3.6.1"
   dependencies:
@@ -10506,7 +10505,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.28.1, eslint-plugin-import@npm:^2.29.0":
+"eslint-plugin-import@npm:^2.28.1":
   version: 2.29.0
   resolution: "eslint-plugin-import@npm:2.29.0"
   dependencies:
@@ -10724,6 +10723,15 @@ __metadata:
   peerDependencies:
     eslint: ">=8.44.0"
   checksum: fd13d860d1460bb2f07387d5ebac4eeb4d17f5c440ef4bf5c86f9eda8b4f33b07a09444b15c01ec5463cfcec790f5a8125eee7e1ed30b4ced289c954d3434c23
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-simple-import-sort@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "eslint-plugin-simple-import-sort@npm:10.0.0"
+  peerDependencies:
+    eslint: ">=5.0.0"
+  checksum: 1ae0814d23816d51d010cfbc5ee0a0dde8d825a3093876b2e8219a0562d53f4d4794508551e503ebe2ea98904cb35204dbe54dfbf9d7fc8b8e3ea25c52aa68ac
   languageName: node
   linkType: hard
 

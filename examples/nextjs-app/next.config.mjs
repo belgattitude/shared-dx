@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import withBundleAnalyzer from '@next/bundle-analyzer';
 import nextMdx from '@next/mdx';
 import { createSecureHeaders } from 'next-secure-headers';
+
 import { getValidatedServerEnv } from './src/config/validated-server-env.mjs';
 
 const _serverEnv = getValidatedServerEnv();

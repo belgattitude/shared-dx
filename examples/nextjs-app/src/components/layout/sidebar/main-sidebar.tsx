@@ -3,6 +3,7 @@
 import { clsx } from 'clsx';
 import Link from 'next/link';
 import type { FC } from 'react';
+
 import { useMainLayoutStore } from '@/components/layout/main-layout-store';
 import type { SiteConfig } from '@/config/site.config';
 

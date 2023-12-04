@@ -12,6 +12,7 @@ module.exports = {
   reactQuery: require('./react-query'),
   reactTestingLibrary: require('./rtl'),
   regexp: require('./regexp'),
+  'simple-import-sort': require('./simple-import-sort'),
   sonar: require('./sonar'),
   storybook: require('./storybook'),
   tailwind: require('./tailwind'),
