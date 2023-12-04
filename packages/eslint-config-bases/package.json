@@ -67,6 +67,9 @@
     "./regexp": {
       "require": "./src/bases/regexp.js"
     },
+    "./simple-import-sort": {
+      "require": "./src/bases/simple-import-sort.js"
+    },
     "./sonar": {
       "require": "./src/bases/sonar.js"
     },
@@ -106,6 +109,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0 || 5.0.0-canary-7118f5dd7-20230705",
     "eslint-plugin-regexp": "^2.1.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-sonarjs": "^0.23.0",
     "eslint-plugin-storybook": "^0.6.15",
     "eslint-plugin-testing-library": "^6.2.0",

@@ -1,5 +1,6 @@
 import type { FC } from 'react';
 import { twMerge } from 'tailwind-merge';
+
 import { useMainLayoutStore } from '@/components/layout/main-layout-store';
 import { MainSidebar } from '@/components/layout/sidebar/main-sidebar';
 import { siteConfig } from '@/config/site.config';

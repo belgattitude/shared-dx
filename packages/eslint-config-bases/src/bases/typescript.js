@@ -18,8 +18,6 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:import/recommended',
-    'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended-type-checked',
     'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:unicorn/recommended',
@@ -44,12 +42,6 @@ module.exports = {
         '@typescript-eslint/no-unsafe-member-access': 'off',
         // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/unbound-method.md
         '@typescript-eslint/unbound-method': 'off',
-        'import/default': 'off',
-        // Relax rules that are known to be slow and less useful in a test context
-        'import/namespace': 'off',
-        'import/no-duplicates': 'off',
-        // Relax rules that makes writing tests easier
-        'import/no-named-as-default-member': 'off',
         'require-await': 'off',
         'unicorn/no-null': 'off',
         'unicorn/no-useless-undefined': 'off',
@@ -57,7 +49,7 @@ module.exports = {
         'unicorn/error-message': 'off',
         'unicorn/consistent-function-scoping': 'off',
         'unicorn/no-await-expression-member': 'off',
-        'unicorn/oprefer-add-event-listener': 'off',
+        'unicorn/prefer-add-event-listener': 'off',
       },
     },
     {
@@ -176,35 +168,8 @@ module.exports = {
       },
     ],
     '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
-    'import/no-unresolved': 'off',
-    'import/default': 'off',
-    // Caution this rule is slow https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/namespace.md
-    'import/namespace': 'off', // ['error'] If you want the extra check (typechecking will spot most issues already)
-    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-duplicates.md
-    'import/no-duplicates': [
-      'error',
-      { considerQueryString: true, 'prefer-inline': true },
-    ],
-    'import/no-named-as-default': ['warn'],
-    'import/no-named-as-default-member': ['warn'],
-    'import/order': [
-      'error',
-      {
-        alphabetize: { caseInsensitive: true, order: 'asc' },
-        groups: [
-          'builtin',
-          'external',
-          'internal',
-          'parent',
-          'sibling',
-          'index',
-          'object',
-        ],
-      },
-    ],
     'linebreak-style': ['error', 'unix'],
     'no-constant-binary-expression': 'error',
-    // will use 'import/no-duplicates'.
     'no-duplicate-imports': 'off',
     'no-empty': [
       'error',
@@ -251,6 +216,7 @@ module.exports = {
         },
       },
     ],
+    'sort-imports': 'off',
     'unused-imports/no-unused-imports': 'error',
     'unused-imports/no-unused-vars': [
       'warn',
