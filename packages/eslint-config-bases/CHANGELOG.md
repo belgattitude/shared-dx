@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 4.7.0
+
+### Minor Changes
+
+- [#473](https://github.com/belgattitude/shared-dx/pull/473) [`5ce0b1c`](https://github.com/belgattitude/shared-dx/commit/5ce0b1c5e0b153146b706dd5c1808cff9cca66f6) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
 ## 4.6.0
 
 ### Minor Changes
@@ -19,8 +25,8 @@
     // for brevity
     extends: [
       // Group 1: recommended always
-      '@belgattitude/eslint-config-bases/typescript',
-      '@belgattitude/eslint-config-bases/simple-import-sort',
+      "@belgattitude/eslint-config-bases/typescript",
+      "@belgattitude/eslint-config-bases/simple-import-sort",
       // ...rest
     ],
   };
@@ -126,23 +132,23 @@
   module.exports = {
     overrides: [
       {
-        extends: ['plugin:perfectionist/recommended-natural'],
-        files: ['*.js', '*.cjs', '*.mjs', '*.ts'],
+        extends: ["plugin:perfectionist/recommended-natural"],
+        files: ["*.js", "*.cjs", "*.mjs", "*.ts"],
         rules: {
           // import/order is used
-          'perfectionist/sort-named-imports': 'off',
-          'perfectionist/sort-imports': 'off',
+          "perfectionist/sort-named-imports": "off",
+          "perfectionist/sort-imports": "off",
           // Keep at false as it can create issue when code relies on keys order
-          'perfectionist/sort-maps': 'off',
+          "perfectionist/sort-maps": "off",
           // Keep at false as cause it does not work with class properties
-          'perfectionist/sort-classes': 'off',
+          "perfectionist/sort-classes": "off",
           // Keep at false as it can create issue when code relies on keys order
-          'perfectionist/sort-objects': 'off',
+          "perfectionist/sort-objects": "off",
           // Keep at false as it can create issue when code relies on keys order
-          'perfectionist/sort-union-types': 'off',
+          "perfectionist/sort-union-types": "off",
           // May introduce performance degradation
-          'perfectionist/sort-array-includes': 'off',
-          'perfectionist/sort-jsx-props': 'off',
+          "perfectionist/sort-array-includes": "off",
+          "perfectionist/sort-jsx-props": "off",
         },
       },
     ],
@@ -320,7 +326,7 @@
   ```javascript
   module.exports = {
     rules: {
-      '@typescript-eslint/consistent-type-definitions': 'error',
+      "@typescript-eslint/consistent-type-definitions": "error",
     },
   };
   ```
@@ -352,9 +358,9 @@
 
   ```json5
   {
-    exclude: ['**/node_modules', '.next', '**/.*/*'],
+    exclude: ["**/node_modules", ".next", "**/.*/*"],
     include: [
-      '.eslintrc.*s',
+      ".eslintrc.*s",
       // "next-env.d.ts",
       // "**/*.ts",
       // "**/*.tsx",
@@ -599,10 +605,10 @@
   module.exports = {
     extends: [
       // ALL enabled
-      '@belgattitude/eslint-config-bases/react',
+      "@belgattitude/eslint-config-bases/react",
       // ...
       // Simply add
-      '@belgattitude/eslint-config-bases/react-query',
+      "@belgattitude/eslint-config-bases/react-query",
     ],
     rules: {},
     overrides: [],
