@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 4.8.0
+
+### Minor Changes
+
+- [#481](https://github.com/belgattitude/shared-dx/pull/481) [`7b1b87d`](https://github.com/belgattitude/shared-dx/commit/7b1b87dd5840769b895b0c9418dabd39de917500) Thanks [@belgattitude](https://github.com/belgattitude)! - Add jest prefer-to-be and jest prefer-to-contain
+
 ## 4.7.0
 
 ### Minor Changes
