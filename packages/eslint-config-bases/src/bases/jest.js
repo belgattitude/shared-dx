@@ -29,6 +29,8 @@ module.exports = {
         'jest/prefer-strict-equal': 'error',
         'jest/prefer-to-have-length': 'error',
         'jest/unbound-method': 'error',
+        'jest/prefer-to-be': 'error',
+        'jest/prefer-to-contain': 'error',
       },
     },
   ],
