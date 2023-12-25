@@ -31,6 +31,22 @@ module.exports = {
         'jest/unbound-method': 'error',
         'jest/prefer-to-be': 'error',
         'jest/prefer-to-contain': 'error',
+        'jest/no-restricted-matchers': [
+          'error',
+          {
+            toBeFalsy: null,
+            toBeTruthy: null,
+            /*
+            resolves: 'Use `expect(await promise)` instead.',
+            toHaveBeenCalledWith: null,
+            'not.toHaveBeenCalledWith': null,
+            'resolves.toHaveBeenCalledWith': null,
+            'rejects.toHaveBeenCalledWith': null,
+            'resolves.not.toHaveBeenCalledWith': null,
+            'rejects.not.toHaveBeenCalledWith': null,
+             */
+          },
+        ],
       },
     },
   ],
