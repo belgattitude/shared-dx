@@ -1,5 +1,9 @@
 name: CI-packages
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.number || github.ref }}
+  cancel-in-progress: true
+
 on:
   push:
     branches:
