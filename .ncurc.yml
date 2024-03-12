@@ -4,9 +4,9 @@
 
 # Add here exclusions on packages if any
 reject: [
-     "@tanstack/eslint-plugin-query",
-     "@typescript-eslint/eslint-plugin",
-     "@typescript-eslint/parser",
-     "@typescript-eslint/typescript-estree",
-     "@typescript-eslint/utils",
+     #"@tanstack/eslint-plugin-query",
+     #"@typescript-eslint/eslint-plugin",
+     #"@typescript-eslint/parser",
+     #"@typescript-eslint/typescript-estree",
+     #"@typescript-eslint/utils",
   ]
