@@ -17795,7 +17795,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-loader@npm:3.3.4, style-loader@npm:^3.3.1":
+"style-loader@npm:^3.3.1":
   version: 3.3.4
   resolution: "style-loader@npm:3.3.4"
   peerDependencies:
@@ -19308,7 +19308,6 @@ __metadata:
     server-only: "npm:0.0.1"
     sharp: "npm:0.33.3"
     storybook: "npm:8.0.5"
-    style-loader: "npm:3.3.4"
     tailwind-merge: "npm:2.2.2"
     tailwindcss: "npm:3.4.3"
     type-fest: "npm:4.14.0"
