@@ -2,7 +2,7 @@
 "@belgattitude/eslint-config-bases": major
 ---
 
-Typescript eslint v7.4, drop react query eslint plugin < 5.
+Typescript eslint v7.4, drop react query eslint plugin < 5, allow prettier 4 alpha.
 
 If you encounter issues like 'ESLint couldn't determine the plugin "import" uniquely.'. Ensure
 that other plugins are on typescript-eslint v7 as well. 

@@ -4,10 +4,10 @@
  */
 
 module.exports = {
-  plugins: ['perfectionist'],
   overrides: [
     {
       files: ['*.jsx', '*.tsx'],
+      plugins: ['perfectionist'],
       rules: {
         'perfectionist/sort-jsx-props': 'error',
       },

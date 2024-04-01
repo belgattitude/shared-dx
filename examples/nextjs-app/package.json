@@ -9,7 +9,7 @@
     "build": "next build",
     "build-fast": "cross-env NEXTJS_PROD_SOURCE_MAPS=false NEXTJS_IGNORE_TYPECHECK=true NEXTJS_IGNORE_LINT=true next build --no-lint",
     "start": "next start",
-    "lint": "cross-env TIMING=1 eslint . --ext .ts,.tsx,.js,.jsx,.mjs,.cjs,.mts,.cts,.mdx --cache --cache-location ../../.cache/web.eslintcache",
+    "lint": "cross-env TIMING=1 eslint . --ext .ts,.tsx,.js,.jsx,.mjs,.cjs,.mts,.cts --cache --cache-location ../../.cache/web.eslintcache",
     "test": "vitest run",
     "test-unit": "vitest run",
     "typecheck": "tsc --project ./tsconfig.json --noEmit",
