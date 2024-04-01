@@ -49,7 +49,7 @@
     "zustand": "4.5.2"
   },
   "devDependencies": {
-    "@belgattitude/eslint-config-bases": "workspace:*",
+    "@belgattitude/eslint-config-bases": "workspace:^",
     "@chromatic-com/storybook": "^1.2.25",
     "@next/bundle-analyzer": "14.1.4",
     "@storybook/addon-essentials": "8.0.5",

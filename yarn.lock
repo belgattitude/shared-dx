@@ -1572,7 +1572,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@belgattitude/eslint-config-bases@workspace:*, @belgattitude/eslint-config-bases@workspace:^, @belgattitude/eslint-config-bases@workspace:packages/eslint-config-bases":
+"@belgattitude/eslint-config-bases@workspace:^, @belgattitude/eslint-config-bases@workspace:packages/eslint-config-bases":
   version: 0.0.0-use.local
   resolution: "@belgattitude/eslint-config-bases@workspace:packages/eslint-config-bases"
   dependencies:
@@ -19252,7 +19252,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:examples/nextjs-app"
   dependencies:
-    "@belgattitude/eslint-config-bases": "workspace:*"
+    "@belgattitude/eslint-config-bases": "workspace:^"
     "@chromatic-com/storybook": "npm:^1.2.25"
     "@emotion/cache": "npm:11.11.0"
     "@emotion/react": "npm:11.11.4"
