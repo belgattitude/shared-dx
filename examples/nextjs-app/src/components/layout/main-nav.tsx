@@ -29,9 +29,9 @@ export const MainNav: FC<Props> = (props) => {
     >
       <nav>
         {isSideBarOpen ? (
-          <CloseIcon className={'h-6 w-6'} onClick={toggleSideBar} />
+          <CloseIcon className={'size-6'} onClick={toggleSideBar} />
         ) : (
-          <OpenIcon className={'h-6 w-6'} onClick={toggleSideBar} />
+          <OpenIcon className={'size-6'} onClick={toggleSideBar} />
         )}
 
         <MainSidebar mainLinks={mainNavLinks} />
