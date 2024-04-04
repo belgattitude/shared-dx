@@ -57,7 +57,7 @@
     "prettier": "3.2.5",
     "rimraf": "5.0.5",
     "shell-quote": "1.8.1",
-    "typescript": "5.4.3"
+    "typescript": "5.4.4"
   },
   "resolutions?": {
     "typescript-eslint-v7": "Can be removed when nextjs 14.2.0 is released"
