@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 5.2.0
+
+### Minor Changes
+
+- [#567](https://github.com/belgattitude/shared-dx/pull/567) [`2af7b37`](https://github.com/belgattitude/shared-dx/commit/2af7b37caaf422e6fad15a01e7e7a87e3d7dbfef) Thanks [@belgattitude](https://github.com/belgattitude)! - Update typescript/eslint plugin and all to latest (prepare eslint v9)
+
 ## 5.1.0
 
 ### Minor Changes
