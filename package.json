@@ -63,10 +63,10 @@
     "typescript-eslint-v7": "Can be removed when nextjs 14.2.0 is released"
   },
   "resolutions": {
-    "@typescript-eslint/eslint-plugin": "^7.4.0",
-    "@typescript-eslint/parser": "^7.4.0",
-    "@typescript-eslint/typescript-estree": "^7.4.0",
-    "@typescript-eslint/utils": "^7.4.0"
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "@typescript-eslint/typescript-estree": "^7.6.0",
+    "@typescript-eslint/utils": "^7.6.0"
   },
   "engines": {
     "node": ">=18.18.0"
