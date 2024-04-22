@@ -1,5 +1,29 @@
 # @belgattitude/eslint-config-bases
 
+## 5.4.0
+
+### Minor Changes
+
+- [#578](https://github.com/belgattitude/shared-dx/pull/578) [`34cab7f`](https://github.com/belgattitude/shared-dx/commit/34cab7f78cafcb405494d2c4c323004dfa7ab3c5) Thanks [@belgattitude](https://github.com/belgattitude)! - To latest plugins
+
+- [#578](https://github.com/belgattitude/shared-dx/pull/578) [`34cab7f`](https://github.com/belgattitude/shared-dx/commit/34cab7f78cafcb405494d2c4c323004dfa7ab3c5) Thanks [@belgattitude](https://github.com/belgattitude)! - Add eslint-plugin-import-x
+
+  ```js
+  require("@belgattitude/eslint-config-bases/patch/modern-module-resolution");
+
+  module.exports = {
+    extends: [
+      // Group 1: recommended always
+      "@belgattitude/eslint-config-bases/typescript",
+      "@belgattitude/eslint-config-bases/simple-import-sort",
+
+      "@belgattitude/eslint-config-bases/import-x",
+
+      // ...
+    ],
+  };
+  ```
+
 ## 5.3.0
 
 ### Minor Changes
