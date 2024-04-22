@@ -4,6 +4,7 @@ module.exports = {
   extends: [
     './src/bases/typescript',
     './src/bases/simple-import-sort',
+    './src/bases/import-x',
     './src/bases/regexp',
     './src/bases/perfectionist',
     './src/bases/performance',

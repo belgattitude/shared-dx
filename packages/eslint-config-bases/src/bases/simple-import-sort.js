@@ -4,11 +4,8 @@ module.exports = {
     es6: true,
     node: true,
   },
-  plugins: ['simple-import-sort', 'import'],
+  plugins: ['simple-import-sort'],
   rules: {
-    'import/first': 'error',
-    'import/newline-after-import': 'error',
-    'import/no-duplicates': 'error',
     'linebreak-style': ['error', 'unix'],
     'no-duplicate-imports': 'off',
     'simple-import-sort/imports': 'error',
