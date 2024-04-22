@@ -55,6 +55,7 @@ module.exports = {
       
     "@belgattitude/eslint-config-bases/typescript",
     "@belgattitude/eslint-config-bases/simple-import-sort",
+    "@belgattitude/eslint-config-bases/import-x",
     "@belgattitude/eslint-config-bases/regexp",
     "@belgattitude/eslint-config-bases/jest", // jest or similar (ie: vitest)
       

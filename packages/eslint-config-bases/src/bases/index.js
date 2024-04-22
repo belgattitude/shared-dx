@@ -1,5 +1,6 @@
 module.exports = {
   graphqlSchema: require('./graphql-schema'),
+  'import-x': require('./import-x'),
   jest: require('./jest'),
   mdx: require('./mdx'),
   perfectionist: require('./perfectionist'),
