@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 5.4.1
+
+### Patch Changes
+
+- [#582](https://github.com/belgattitude/shared-dx/pull/582) [`974ca15`](https://github.com/belgattitude/shared-dx/commit/974ca15f47bb6735b76088f8e33642a1aeceb379) Thanks [@belgattitude](https://github.com/belgattitude)! - eslint-plugin-reack-hook minimum version to 4.6.2
+
 ## 5.4.0
 
 ### Minor Changes
