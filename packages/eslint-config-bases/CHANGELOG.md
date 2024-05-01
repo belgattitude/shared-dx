@@ -1,5 +1,17 @@
 # @belgattitude/eslint-config-bases
 
+## 5.5.0
+
+### Minor Changes
+
+- [#585](https://github.com/belgattitude/shared-dx/pull/585) [`00ce12e`](https://github.com/belgattitude/shared-dx/commit/00ce12e3ace22dcfb929a79cf88e682c5cb8abcc) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
+### Patch Changes
+
+- [#585](https://github.com/belgattitude/shared-dx/pull/585) [`00ce12e`](https://github.com/belgattitude/shared-dx/commit/00ce12e3ace22dcfb929a79cf88e682c5cb8abcc) Thanks [@belgattitude](https://github.com/belgattitude)! - Fix eslint-plugin-import / typescript-eslint compat
+
+- [#585](https://github.com/belgattitude/shared-dx/pull/585) [`00ce12e`](https://github.com/belgattitude/shared-dx/commit/00ce12e3ace22dcfb929a79cf88e682c5cb8abcc) Thanks [@belgattitude](https://github.com/belgattitude)! - - eslint-plugin-reack-hook minimum version to 4.6.2
+
 ## 5.4.1
 
 ### Patch Changes
