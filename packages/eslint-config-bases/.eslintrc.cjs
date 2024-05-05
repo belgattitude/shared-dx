@@ -5,6 +5,7 @@ module.exports = {
     './src/bases/typescript',
     './src/bases/simple-import-sort',
     './src/bases/import-x',
+    './src/bases/sonar',
     './src/bases/regexp',
     './src/bases/perfectionist',
     './src/bases/performance',
