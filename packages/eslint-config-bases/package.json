@@ -117,7 +117,7 @@
     "eslint-plugin-sonarjs": "^0.25.1",
     "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-testing-library": "^6.2.2",
-    "eslint-plugin-unicorn": "^52.0.0",
+    "eslint-plugin-unicorn": "^53.0.0",
     "eslint-plugin-unused-imports": "^3.2.0"
   },
   "peerDependencies": {
@@ -165,7 +165,7 @@
     "@testing-library/jest-dom": "6.4.5",
     "@testing-library/react": "15.0.7",
     "@types/jest": "29.5.12",
-    "@types/node": "20.12.10",
+    "@types/node": "20.12.11",
     "@types/react": "18.3.1",
     "@types/react-dom": "18.3.0",
     "es-check": "7.1.1",
