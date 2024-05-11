@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 5.6.0
+
+### Minor Changes
+
+- [#602](https://github.com/belgattitude/shared-dx/pull/602) [`2e234ad`](https://github.com/belgattitude/shared-dx/commit/2e234ad12a8a1336f471d1c9b60963e81157a5bf) Thanks [@belgattitude](https://github.com/belgattitude)! - eslint-plugin-unicorn to v53
+
 ## 5.5.1
 
 ### Patch Changes
