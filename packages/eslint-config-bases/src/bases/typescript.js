@@ -123,6 +123,8 @@ module.exports = {
         'ts-nocheck': true,
       },
     ],
+    // https://www.totaltypescript.com/method-shorthand-syntax-considered-harmful
+    '@typescript-eslint/method-signature-style': ['error', 'property'],
     // https://sindresorhus.com/blog/goodbye-nodejs-buffer
     '@typescript-eslint/ban-types': [
       'error',
