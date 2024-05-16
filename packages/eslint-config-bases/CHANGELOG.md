@@ -1,5 +1,18 @@
 # @belgattitude/eslint-config-bases
 
+## 5.8.0
+
+### Minor Changes
+
+- [#608](https://github.com/belgattitude/shared-dx/pull/608) [`92f6da1`](https://github.com/belgattitude/shared-dx/commit/92f6da14809f88a2eb9380cd4333a0a0399468b8) Thanks [@belgattitude](https://github.com/belgattitude)! - Enforce "@typescript-eslint/method-signature-style" property by default
+
+  Link https://www.totaltypescript.com/method-shorthand-syntax-considered-harmful
+
+  ```
+  // https://www.totaltypescript.com/method-shorthand-syntax-considered-harmful
+  '@typescript-eslint/method-signature-style': ['error', 'property'],
+  ```
+
 ## 5.7.0
 
 ### Minor Changes
