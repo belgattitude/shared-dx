@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 5.9.0
+
+### Minor Changes
+
+- [#616](https://github.com/belgattitude/shared-dx/pull/616) [`02d2bf0`](https://github.com/belgattitude/shared-dx/commit/02d2bf0dc9211b5c7d26c29462a770f80728821d) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
 ## 5.8.0
 
 ### Minor Changes
@@ -58,15 +64,15 @@
 - [#578](https://github.com/belgattitude/shared-dx/pull/578) [`34cab7f`](https://github.com/belgattitude/shared-dx/commit/34cab7f78cafcb405494d2c4c323004dfa7ab3c5) Thanks [@belgattitude](https://github.com/belgattitude)! - Add eslint-plugin-import-x
 
   ```js
-  require("@belgattitude/eslint-config-bases/patch/modern-module-resolution");
+  require('@belgattitude/eslint-config-bases/patch/modern-module-resolution');
 
   module.exports = {
     extends: [
       // Group 1: recommended always
-      "@belgattitude/eslint-config-bases/typescript",
-      "@belgattitude/eslint-config-bases/simple-import-sort",
+      '@belgattitude/eslint-config-bases/typescript',
+      '@belgattitude/eslint-config-bases/simple-import-sort',
 
-      "@belgattitude/eslint-config-bases/import-x",
+      '@belgattitude/eslint-config-bases/import-x',
 
       // ...
     ],
@@ -183,8 +189,8 @@
     // for brevity
     extends: [
       // Group 1: recommended always
-      "@belgattitude/eslint-config-bases/typescript",
-      "@belgattitude/eslint-config-bases/simple-import-sort",
+      '@belgattitude/eslint-config-bases/typescript',
+      '@belgattitude/eslint-config-bases/simple-import-sort',
       // ...rest
     ],
   };
@@ -290,23 +296,23 @@
   module.exports = {
     overrides: [
       {
-        extends: ["plugin:perfectionist/recommended-natural"],
-        files: ["*.js", "*.cjs", "*.mjs", "*.ts"],
+        extends: ['plugin:perfectionist/recommended-natural'],
+        files: ['*.js', '*.cjs', '*.mjs', '*.ts'],
         rules: {
           // import/order is used
-          "perfectionist/sort-named-imports": "off",
-          "perfectionist/sort-imports": "off",
+          'perfectionist/sort-named-imports': 'off',
+          'perfectionist/sort-imports': 'off',
           // Keep at false as it can create issue when code relies on keys order
-          "perfectionist/sort-maps": "off",
+          'perfectionist/sort-maps': 'off',
           // Keep at false as cause it does not work with class properties
-          "perfectionist/sort-classes": "off",
+          'perfectionist/sort-classes': 'off',
           // Keep at false as it can create issue when code relies on keys order
-          "perfectionist/sort-objects": "off",
+          'perfectionist/sort-objects': 'off',
           // Keep at false as it can create issue when code relies on keys order
-          "perfectionist/sort-union-types": "off",
+          'perfectionist/sort-union-types': 'off',
           // May introduce performance degradation
-          "perfectionist/sort-array-includes": "off",
-          "perfectionist/sort-jsx-props": "off",
+          'perfectionist/sort-array-includes': 'off',
+          'perfectionist/sort-jsx-props': 'off',
         },
       },
     ],
@@ -484,7 +490,7 @@
   ```javascript
   module.exports = {
     rules: {
-      "@typescript-eslint/consistent-type-definitions": "error",
+      '@typescript-eslint/consistent-type-definitions': 'error',
     },
   };
   ```
@@ -516,9 +522,9 @@
 
   ```json5
   {
-    exclude: ["**/node_modules", ".next", "**/.*/*"],
+    exclude: ['**/node_modules', '.next', '**/.*/*'],
     include: [
-      ".eslintrc.*s",
+      '.eslintrc.*s',
       // "next-env.d.ts",
       // "**/*.ts",
       // "**/*.tsx",
@@ -763,10 +769,10 @@
   module.exports = {
     extends: [
       // ALL enabled
-      "@belgattitude/eslint-config-bases/react",
+      '@belgattitude/eslint-config-bases/react',
       // ...
       // Simply add
-      "@belgattitude/eslint-config-bases/react-query",
+      '@belgattitude/eslint-config-bases/react-query',
     ],
     rules: {},
     overrides: [],
