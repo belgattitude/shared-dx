@@ -1,6 +1,6 @@
 {
   "name": "@belgattitude/eslint-config-bases",
-  "version": "5.9.0",
+  "version": "5.10.0",
   "license": "MIT",
   "homepage": "https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases",
   "repository": {
