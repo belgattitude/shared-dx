@@ -1614,7 +1614,7 @@ __metadata:
     eslint-plugin-simple-import-sort: "npm:^12.1.0"
     eslint-plugin-sonarjs: "npm:^0.25.1"
     eslint-plugin-storybook: "npm:^0.8.0"
-    eslint-plugin-tailwindcss: "npm:3.17.0"
+    eslint-plugin-tailwindcss: "npm:3.17.3"
     eslint-plugin-testing-library: "npm:^6.2.2"
     eslint-plugin-unicorn: "npm:^53.0.0"
     eslint-plugin-unused-imports: "npm:^3.2.0"
@@ -10304,6 +10304,18 @@ __metadata:
   peerDependencies:
     tailwindcss: ^3.4.0
   checksum: 10c0/c8a7fd6ed30fd03796530d4a1ced66b948c95958fcefab9e4f09387d2b178a4f1c4fca4ab2d9b0325a6bdc01f25ebc1ca48070562207274a7520c79df838295d
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-tailwindcss@npm:3.17.3":
+  version: 3.17.3
+  resolution: "eslint-plugin-tailwindcss@npm:3.17.3"
+  dependencies:
+    fast-glob: "npm:^3.2.5"
+    postcss: "npm:^8.4.4"
+  peerDependencies:
+    tailwindcss: ^3.4.0
+  checksum: 10c0/b7038c8af82992ac81f8068db2e56d0831c9384c8b6f30344cee388cbe594893a523df2425be8935ca0975efa6239b22175a4267907e011e272861b39afd063f
   languageName: node
   linkType: hard
 
