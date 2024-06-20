@@ -57,7 +57,7 @@
     "prettier": "3.3.2",
     "rimraf": "5.0.7",
     "shell-quote": "1.8.1",
-    "typescript": "5.4.5"
+    "typescript": "5.5.2"
   },
   "engines": {
     "node": ">=18.18.0"
