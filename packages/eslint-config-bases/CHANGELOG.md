@@ -1,5 +1,13 @@
 # @belgattitude/eslint-config-bases
 
+## 5.14.0
+
+### Minor Changes
+
+- [#652](https://github.com/belgattitude/shared-dx/pull/652) [`b34c2fa`](https://github.com/belgattitude/shared-dx/commit/b34c2fa2d4c7332ba65faac8ce660f0affb0f36c) Thanks [@belgattitude](https://github.com/belgattitude)! - Typescript 5.5 support
+
+- [#649](https://github.com/belgattitude/shared-dx/pull/649) [`0065ace`](https://github.com/belgattitude/shared-dx/commit/0065ace2459769cac8bb834fb61722bd5d9c1772) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
 ## 5.13.0
 
 ### Minor Changes
