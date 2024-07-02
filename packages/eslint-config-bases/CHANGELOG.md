@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 5.14.1
+
+### Patch Changes
+
+- [#654](https://github.com/belgattitude/shared-dx/pull/654) [`eb75be6`](https://github.com/belgattitude/shared-dx/commit/eb75be631100789ef754e3cd918d0c3496f9a56e) Thanks [@belgattitude](https://github.com/belgattitude)! - Update react-query plugin to latest
+
 ## 5.14.0
 
 ### Minor Changes
