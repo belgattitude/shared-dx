@@ -6,7 +6,7 @@
 module.exports = {
   overrides: [
     {
-      extends: ['plugin:perfectionist/recommended-natural'],
+      extends: ['plugin:perfectionist/recommended-natural-legacy'],
       files: ['*.js', '*.cjs', '*.mjs', '*.ts'],
       rules: {
         // import/order is used
@@ -14,7 +14,7 @@ module.exports = {
         'perfectionist/sort-imports': 'off',
         // Keep at false as it can create issue when code relies on keys order
         'perfectionist/sort-maps': 'off',
-        // Keep at false as cause it does not work with class properties
+        // Keep at false as because it does not work with class properties
         'perfectionist/sort-classes': 'off',
         // Keep at false as it can create issue when code relies on keys order
         'perfectionist/sort-objects': 'off',
