@@ -240,6 +240,9 @@ module.exports = {
     'unicorn/catch-error-name': 'off',
     'unicorn/prefer-set-has': 'off',
     'unicorn/no-null': 'off',
+    // https://typescript-eslint.io/rules/default-param-last/
+    'default-param-last': 'off',
+    '@typescript-eslint/default-param-last': 'error',
   },
   settings: {
     'import/parsers': {
