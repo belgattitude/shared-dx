@@ -1,5 +1,13 @@
 # @belgattitude/eslint-config-bases
 
+## 5.17.0
+
+### Minor Changes
+
+- [#675](https://github.com/belgattitude/shared-dx/pull/675) [`3ca2e69`](https://github.com/belgattitude/shared-dx/commit/3ca2e696c3d344a6c92e6c04eb521c930519fc24) Thanks [@belgattitude](https://github.com/belgattitude)! - Enable typescript default-param-last rule by default
+
+  See https://typescript-eslint.io/rules/default-param-last/
+
 ## 5.16.0
 
 ### Minor Changes
