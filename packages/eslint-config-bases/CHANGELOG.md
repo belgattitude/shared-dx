@@ -1,5 +1,13 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.1
+
+### Major Changes
+
+- [`0c0e549`](https://github.com/belgattitude/shared-dx/commit/0c0e549ea05331ef880689c18f0ff1493ef73641) Thanks [@belgattitude](https://github.com/belgattitude)! - Upgrade sonarjs plugin to v1
+
+- [`08da902`](https://github.com/belgattitude/shared-dx/commit/08da902e73444770958b9c9c63b008e4e0edc714) Thanks [@belgattitude](https://github.com/belgattitude)! - Tune import-x/no-unused-modules
+
 ## 6.0.0-canary.0
 
 ### Major Changes
