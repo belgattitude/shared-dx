@@ -1,0 +1,9 @@
+{
+  "mode": "pre",
+  "tag": "canary",
+  "initialVersions": {
+    "web": "0.2.0",
+    "@belgattitude/eslint-config-bases": "5.17.0"
+  },
+  "changesets": []
+}

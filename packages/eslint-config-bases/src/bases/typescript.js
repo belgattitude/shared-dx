@@ -24,8 +24,14 @@ module.exports = {
   ],
   overrides: [
     {
-      files: ['tailwind.config.ts'],
+      files: [
+        'tailwind.config.ts',
+        'tailwind.config.js',
+        '.eslintrc.cjs',
+        'lint-staged.config.js',
+      ],
       rules: {
+        '@typescript-eslint/no-require-imports': 'off',
         'unicorn/prefer-module': 'off',
       },
     },
@@ -57,6 +63,7 @@ module.exports = {
       rules: {
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-import-type-side-effects': 'off',
+        '@typescript-eslint/no-empty-object-type': 'off',
         'unused-imports/no-unused-imports': 'off',
         'unused-imports/no-unused-vars': 'off',
       },
@@ -126,6 +133,18 @@ module.exports = {
     // https://www.totaltypescript.com/method-shorthand-syntax-considered-harmful
     '@typescript-eslint/method-signature-style': ['error', 'property'],
     // https://sindresorhus.com/blog/goodbye-nodejs-buffer
+    '@typescript-eslint/no-restricted-types': [
+      'error',
+      {
+        types: {
+          Buffer: {
+            message: 'Use Uint8Array instead.',
+            suggest: ['Uint8Array'],
+          },
+        },
+      },
+    ],
+    /*
     '@typescript-eslint/ban-types': [
       'error',
       {
@@ -137,6 +156,7 @@ module.exports = {
         },
       },
     ],
+    */
     '@typescript-eslint/consistent-type-definitions': 'off',
     '@typescript-eslint/consistent-type-exports': 'error',
     '@typescript-eslint/consistent-type-imports': [
