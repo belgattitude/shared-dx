@@ -1,5 +1,13 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.0
+
+### Major Changes
+
+- [#689](https://github.com/belgattitude/shared-dx/pull/689) [`888cecd`](https://github.com/belgattitude/shared-dx/commit/888cecdae164fe67ef5590948c377358300e2929) Thanks [@belgattitude](https://github.com/belgattitude)! - Upgrade to typescript-eslint 8
+
+- [#689](https://github.com/belgattitude/shared-dx/pull/689) [`888cecd`](https://github.com/belgattitude/shared-dx/commit/888cecdae164fe67ef5590948c377358300e2929) Thanks [@belgattitude](https://github.com/belgattitude)! - Remove support for eslint-plugin-import and replace by by eslint-plugin-import-x
+
 ## 5.17.0
 
 ### Minor Changes
