@@ -34,7 +34,7 @@
     "clean:global-cache": "rimraf ./.cache",
     "deps:update-dev": "npx -y npm-check-updates@latest --configFileName .ncurc.yml --workspaces --root --mergeConfig --dep dev",
     "deps:check": "npx -y npm-check-updates@latest --configFileName .ncurc.yml --workspaces --root --mergeConfig",
-    "deps:update": "npx -y npm-check-updates@latest -u --configFileName ncurc.yml --workspaces --root --mergeConfig",
+    "deps:update": "npx -y npm-check-updates@latest -u --configFileName .ncurc.yml --workspaces --root --mergeConfig",
     "check:install": "yarn dlx @yarnpkg/doctor .",
     "postinstall": "is-ci || yarn husky install",
     "format": "prettier --config .prettierrc.js --ignore-path .prettierignore \"./*.{md,mdx,json}\"",
