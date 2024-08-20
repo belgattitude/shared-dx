@@ -63,9 +63,7 @@ module.exports = {
       rules: {
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-import-type-side-effects': 'off',
-        '@typescript-eslint/no-empty-object-type': 'off',
-        'unused-imports/no-unused-imports': 'off',
-        'unused-imports/no-unused-vars': 'off',
+        '@typescript-eslint/no-empty-object-type': 'off'
       },
     },
     {
@@ -115,7 +113,7 @@ module.exports = {
     project: ['tsconfig.json'],
     sourceType: 'module',
   },
-  plugins: ['unused-imports'],
+  plugins: [],
   rules: {
     // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
     ...(checkCycles ? { 'import/no-cycle': 2 } : {}),
@@ -178,7 +176,13 @@ module.exports = {
         },
       },
     ],
-    '@typescript-eslint/no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+      },
+    ],
     '@typescript-eslint/restrict-template-expressions': [
       'error',
       {
@@ -239,16 +243,6 @@ module.exports = {
       },
     ],
     'sort-imports': 'off',
-    'unused-imports/no-unused-imports': 'error',
-    'unused-imports/no-unused-vars': [
-      'warn',
-      {
-        args: 'after-used',
-        argsIgnorePattern: '^_',
-        vars: 'all',
-        varsIgnorePattern: '^_',
-      },
-    ],
     // Disabled as it makes too many assumptions - enable per-project
     'unicorn/no-static-only-class': 'off',
     'unicorn/no-array-for-each': 'off',

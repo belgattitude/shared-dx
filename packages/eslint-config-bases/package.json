@@ -102,6 +102,7 @@
     "@typescript-eslint/utils": "^8.2.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-import-x": "^3.1.0",
     "eslint-plugin-jest": "^28.8.0",
     "eslint-plugin-jest-formatting": "^3.1.0",
@@ -116,11 +117,11 @@
     "eslint-plugin-sonarjs": "^0.25.1",
     "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-testing-library": "^6.3.0",
-    "eslint-plugin-unicorn": "^55.0.0",
-    "eslint-plugin-unused-imports": "^3.2.0"
+    "eslint-plugin-unicorn": "^55.0.0"
   },
   "peerDependencies": {
     "@graphql-eslint/eslint-plugin": "^3.20.1",
+    "@testing-library/dom": "^10.0.0",
     "eslint": "^8.57.0",
     "eslint-plugin-mdx": "^3.1.5",
     "eslint-plugin-tailwindcss": "^3.17.3",
@@ -132,6 +133,9 @@
   },
   "peerDependenciesMeta": {
     "@graphql-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@testing-library/dom": {
       "optional": true
     },
     "eslint-plugin-mdx": {
@@ -161,6 +165,7 @@
   },
   "devDependencies": {
     "@graphql-eslint/eslint-plugin": "3.20.1",
+    "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "6.4.8",
     "@testing-library/react": "16.0.0",
     "@types/jest": "29.5.12",

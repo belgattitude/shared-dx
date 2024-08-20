@@ -6,7 +6,7 @@ import {
   isParsableSafeInteger,
   isPlainObject,
   isPresent,
-} from '../';
+} from '../index';
 
 describe('Typeguards tests', () => {
   describe('isNonEmptyString', () => {
