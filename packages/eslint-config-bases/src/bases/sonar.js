@@ -17,14 +17,15 @@ module.exports = {
     es6: true,
     node: true,
   },
+  plugins: ['sonarjs'],
   overrides: [
     {
+      extends: ['plugin:sonarjs/recommended-legacy'],
       excludedFiles: sonarPatterns.excludedFiles,
-      extends: ['plugin:sonarjs/recommended'],
       files: sonarPatterns.files,
       rules: {
         'sonarjs/no-nested-template-literals': 'off',
-        'sonarjs/prefer-single-boolean-return': 'off',
+        'sonarjs/no-duplicate-string': 'off',
       },
     },
     {
