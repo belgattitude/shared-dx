@@ -5,11 +5,6 @@
 
 const { filePatterns } = require('../config/file-patterns');
 
-// Allow to pass an env to check cycles, defaults to 2 (lint time+++)
-// @see https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
-// @see https://medium.com/@steven-lemon182/are-typescript-barrel-files-an-anti-pattern-72a713004250
-const checkCycles = process.env?.ESLINT_IMPORT_NO_CYCLE === 'true';
-
 module.exports = {
   env: {
     browser: true,
@@ -115,8 +110,6 @@ module.exports = {
   },
   plugins: [],
   rules: {
-    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-cycle.md
-    ...(checkCycles ? { 'import/no-cycle': 2 } : {}),
     '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/ban-ts-comment': [
       'error',
