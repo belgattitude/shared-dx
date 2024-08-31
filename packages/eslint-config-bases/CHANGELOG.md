@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.2
+
+### Patch Changes
+
+- [#703](https://github.com/belgattitude/shared-dx/pull/703) [`2f4255c`](https://github.com/belgattitude/shared-dx/commit/2f4255caf448d47656bedb8ee53703a38c2b1d58) Thanks [@belgattitude](https://github.com/belgattitude)! - Latest fixes and updates to typescript-eslint8
+
 ## 6.0.0-canary.1
 
 ### Major Changes
