@@ -24,8 +24,10 @@ module.exports = {
         '@typescript-eslint/no-unsafe-assignment': 'off',
         '@typescript-eslint/no-unsafe-member-access': 'off',
         // Relax rules that are known to be slow and less useful in a test context
-        'import/namespace': 'off',
-        'import/no-duplicates': 'off',
+        'import-x/namespace': 'off',
+        'import-x/no-duplicates': 'off',
+        // no checks for exports
+        'import-x/no-unused-modules': 'warn',
       },
     },
   ],
