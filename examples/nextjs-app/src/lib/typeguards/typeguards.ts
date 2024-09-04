@@ -1,4 +1,6 @@
-export type IsoDateString = string;
+export type IsoDateString = string & {
+  tag: 'IsoDateString';
+};
 export const isIsoDateString = (dateStr: unknown): dateStr is IsoDateString => {
   if (
     typeof dateStr !== 'string' ||
@@ -58,7 +60,7 @@ export const isHttpStatusCode = (v: unknown): v is number => {
 /**
  * Check whether a variable is not null and not undefined
  */
-export function isPresent<T>(v: T): v is NonNullable<T> {
+export function isPresent<T>(v: T | null | undefined): v is NonNullable<T> {
   return v !== undefined && v !== null;
 }
 
