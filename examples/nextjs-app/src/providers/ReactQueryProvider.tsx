@@ -1,13 +1,13 @@
 'use client';
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import { type ReactNode, useState } from 'react';
+import { type ReactElement, type ReactNode, useState } from 'react';
 
 export function ReactQueryProvider({
   children,
-}: {
+}: Readonly<{
   children: ReactNode;
-}): JSX.Element {
+}>): ReactElement {
   const [queryClient] = useState((): QueryClient => {
     return new QueryClient({
       defaultOptions: {

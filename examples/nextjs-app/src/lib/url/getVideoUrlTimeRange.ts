@@ -14,10 +14,9 @@ export const getVideoUrlTimeRange = (url: string): VideoUrlTimeRange => {
     /t=(?<parsedStart>\d{1,9}\.?\d{1,4})(,(?<parsedEnd>\d{1,9}\.?\d{1,4}))?/.exec(
       parsedUrl.hash
     );
-  const { parsedStart, parsedEnd } = parsed?.groups ?? {};
-  const end = stringToFloat(parsedEnd) ?? undefined;
+  const end = stringToFloat(parsed?.groups?.parsedEnd) ?? undefined;
   return {
-    start: stringToFloat(parsedStart) ?? 0,
+    start: stringToFloat(parsed?.groups?.parsedStart) ?? 0,
     end: end,
   };
 };

@@ -26,6 +26,13 @@ module.exports = {
       rules: {
         'sonarjs/no-nested-template-literals': 'off',
         'sonarjs/no-duplicate-string': 'off',
+        'sonarjs/no-unknown-property': [
+          'warn',
+          {
+            // For Nextjs styled-jsx
+            ignore: ['jsx'],
+          },
+        ],
       },
     },
     {

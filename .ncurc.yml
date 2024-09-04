@@ -6,7 +6,7 @@
 reject: [
     "eslint",
     "eslint-plugin-react-hooks",
-    "eslint-plugin-sonarjs",
+    # "eslint-plugin-sonarjs",
     # See https://github.com/sweepline/eslint-plugin-unused-imports
     # Version 4.x.x is for eslint 9 with @typescript-eslint/eslint-plugin 8
     "eslint-plugin-unused-imports"

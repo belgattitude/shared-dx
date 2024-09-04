@@ -4,9 +4,9 @@ import { twMerge } from 'tailwind-merge';
 import { useMainLayoutStore } from '@/components/layout/main-layout-store';
 import { MainSidebar } from '@/components/layout/sidebar/main-sidebar';
 import { siteConfig } from '@/config/site.config';
-// eslint-disable-next-line import/no-duplicates
+// eslint-disable-next-line import-x/no-duplicates
 import CloseIcon from '@/public/icons/menu/cross-svgrepo-com.svg';
-// eslint-disable-next-line import/no-duplicates
+// eslint-disable-next-line import-x/no-duplicates
 import OpenIcon from '@/public/icons/menu/cross-svgrepo-com.svg';
 
 const { mainNavLinks } = siteConfig;
