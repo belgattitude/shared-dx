@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.3
+
+### Major Changes
+
+- [#708](https://github.com/belgattitude/shared-dx/pull/708) [`01053a0`](https://github.com/belgattitude/shared-dx/commit/01053a04c62f115eaa62d591f0b3cf79054af3b0) Thanks [@belgattitude](https://github.com/belgattitude)! - Update to sonarjs v2
+
 ## 6.0.0-canary.2
 
 ### Patch Changes
