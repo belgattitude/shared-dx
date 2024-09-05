@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.6
+
+### Patch Changes
+
+- [#714](https://github.com/belgattitude/shared-dx/pull/714) [`e1c99f7`](https://github.com/belgattitude/shared-dx/commit/e1c99f7b14c41d90919db4c77a328c8d7b5a0983) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable sonarjs/no-commented-code (doesn't play well with api doc)
+
 ## 6.0.0-canary.5
 
 ### Major Changes
