@@ -6,6 +6,7 @@
 const sonarPatterns = {
   excludedFiles: [
     '**/?(*.)+(test).{js,jsx,ts,tsx}',
+    '**/?(*.)+(bench).{js,jsx,ts,tsx}',
     '*.stories.{js,ts,jsx,tsx}',
   ],
   files: ['*.{js,jsx,ts,tsx}'],
@@ -29,7 +30,7 @@ module.exports = {
         'sonarjs/no-unknown-property': [
           'warn',
           {
-            // For Nextjs styled-jsx
+            // For NextJs styled-jsx <style jsx>{`...`}</style>
             ignore: ['jsx'],
           },
         ],

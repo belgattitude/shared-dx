@@ -189,7 +189,8 @@ module.exports = {
     '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
     'linebreak-style': ['error', 'unix'],
     'no-constant-binary-expression': 'error',
-    'no-duplicate-imports': 'off',
+    'no-duplicate-imports': 'off', // is handled via 'import-x/no-duplicates'
+    'no-throw-literal': 'off', // is enabled via '@typescript-eslint/only-throw-error'
     'no-empty': [
       'error',
       {
