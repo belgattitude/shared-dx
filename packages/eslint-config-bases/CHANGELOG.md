@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.5
+
+### Major Changes
+
+- [#712](https://github.com/belgattitude/shared-dx/pull/712) [`fdbb649`](https://github.com/belgattitude/shared-dx/commit/fdbb649c5354f9931cab03e796a3f0da1190778d) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable some sonarjs rules for test and bench files
+
 ## 6.0.0-canary.4
 
 ### Patch Changes
