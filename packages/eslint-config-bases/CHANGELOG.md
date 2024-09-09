@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.8
+
+### Patch Changes
+
+- [`5b6504e`](https://github.com/belgattitude/shared-dx/commit/5b6504ef04acd25085eb88f0c764069e40a86b0c) Thanks [@belgattitude](https://github.com/belgattitude)! - Disabled sonar-no-unused-vars, it's handled by typescript-eslint
+
 ## 6.0.0-canary.7
 
 ### Major Changes
