@@ -25,8 +25,10 @@ module.exports = {
       excludedFiles: sonarPatterns.excludedFiles,
       files: sonarPatterns.files,
       rules: {
-        // cause it doesn't play well with method api doc
+        // because it doesn't play well with inlined comment api doc
         'sonarjs/no-commented-code': 'off',
+        // because it's handled by typescript-eslint
+        'sonarjs/sonar-no-unused-vars': 'off',
         'sonarjs/redundant-type-aliases': 'warn',
         'sonarjs/no-nested-template-literals': 'off',
         'sonarjs/no-duplicate-string': 'off',
