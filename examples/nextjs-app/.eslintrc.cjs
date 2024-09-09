@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-restricted-types
 const {
   getDefaultIgnorePatterns,
 } = require('@belgattitude/eslint-config-bases/helpers');
@@ -6,8 +7,8 @@ module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
   parserOptions: {
+    projectService: true,
     tsconfigRootDir: __dirname,
-    project: 'tsconfig.json',
   },
   settings: {
     'mdx/code-blocks': true,
