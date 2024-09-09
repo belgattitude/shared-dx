@@ -6,6 +6,7 @@
     "@belgattitude/eslint-config-bases": "5.17.0"
   },
   "changesets": [
+    "dirty-waves-juggle",
     "good-flowers-camp",
     "good-toys-itch",
     "grumpy-crabs-applaud",
