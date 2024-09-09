@@ -29,6 +29,8 @@ module.exports = {
         'sonarjs/no-commented-code': 'off',
         // because it's handled by typescript-eslint
         'sonarjs/sonar-no-unused-vars': 'off',
+        // because it doesn't play well with exactOptionalTypes
+        'sonarjs/no-redundant-optional': 'off',
         'sonarjs/redundant-type-aliases': 'warn',
         'sonarjs/no-nested-template-literals': 'off',
         'sonarjs/no-duplicate-string': 'off',
