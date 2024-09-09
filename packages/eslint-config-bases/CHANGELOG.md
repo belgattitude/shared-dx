@@ -1,5 +1,15 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.7
+
+### Major Changes
+
+- [#717](https://github.com/belgattitude/shared-dx/pull/717) [`5ae1607`](https://github.com/belgattitude/shared-dx/commit/5ae1607921ce1463f6daf09952b375e0a66624bc) Thanks [@belgattitude](https://github.com/belgattitude)! - By default uses typescript-eslint projectService available in v8
+
+### Patch Changes
+
+- [#717](https://github.com/belgattitude/shared-dx/pull/717) [`5ae1607`](https://github.com/belgattitude/shared-dx/commit/5ae1607921ce1463f6daf09952b375e0a66624bc) Thanks [@belgattitude](https://github.com/belgattitude)! - Update perfectionist plugin
+
 ## 6.0.0-canary.6
 
 ### Patch Changes
