@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.9
+
+### Patch Changes
+
+- [`d8fc447`](https://github.com/belgattitude/shared-dx/commit/d8fc447e3afe644738d2ef63ae280aacf4e3f801) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable sonarjs/no-redundant-optional as it does not play well with exactOptionalTypes
+
 ## 6.0.0-canary.8
 
 ### Patch Changes
