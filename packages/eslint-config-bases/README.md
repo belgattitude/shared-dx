@@ -20,6 +20,21 @@ Add the following devDependencies to workspace (apps/packages in monorepo) or ma
 $ yarn add --dev eslint @belgattitude/eslint-config-bases
 ```
 
+### Monorepo tricks
+
+Depending on package manager, you may want to install
+
+```bash
+yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
+```
+
+in the root package.json or individually in a workspace to prevent issues when multiple
+versions are installable (ie v8 and v7)
+
+
+
+### Optional plugins
+
 > PS: To keep the size low, if you use the following plugins: 
 > - **graphql**: `yarn add --dev @graphql-eslint/eslint-plugin` 
 > - **mdx**: `yarn add --dev eslint-plugin-mdx`.
@@ -44,9 +59,11 @@ require("@belgattitude/eslint-config-bases/patch/modern-module-resolution");
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
+  // using typescript-eslint v8 ?
+  // use projectService - https://typescript-eslint.io/getting-started/typed-linting/  
   parserOptions: {
+    projectService: true,
     tsconfigRootDir: __dirname,
-    project: "tsconfig.json",
   },
   ignorePatterns: ["**/node_modules", "**/.cache", "build", ".next"],
   extends: [
@@ -221,13 +238,13 @@ module.exports = {
 
 Generic typescript project, mostly based on
 
-| Type/Plugin                                                                                      | Comment                                                                      |
-| :----------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
-| [eslint:recommended](https://eslint.org/docs/rules/)                                             | The basics for code linting.                                                 |
-| [@typescript-eslint/recommended](https://typescript-eslint.io/rules/)                            | The basics for typescript.                                                   |
-| [@typescript-eslint/consistent-type](https://typescript-eslint.io/rules/consistent-type-imports) | Use TS 3.8+ imports/exports, helps with [esbuild](https://esbuild.github.io) |
-| [@typescript-eslint/naming-convention](https://typescript-eslint.io/rules/naming-convention)     |                                                                              |
-| [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)                        | Order imports                                                                |
+| Type/Plugin                                                                                        | Comment                                                                      |
+|:---------------------------------------------------------------------------------------------------| :--------------------------------------------------------------------------- |
+| [eslint:recommended](https://eslint.org/docs/rules/)                                               | The basics for code linting.                                                 |
+| [@typescript-eslint/recommended](https://typescript-eslint.io/rules/)                              | The basics for typescript.                                                   |
+| [@typescript-eslint/consistent-type](https://typescript-eslint.io/rules/consistent-type-imports)   | Use TS 3.8+ imports/exports, helps with [esbuild](https://esbuild.github.io) |
+| [@typescript-eslint/naming-convention](https://typescript-eslint.io/rules/naming-convention)       |                                                                              |
+| [eslint-plugin-import](https://github.com/import-js/eslint-plugin-import)                          | Order imports                                                                |
 
 ## Sonarjs
 
@@ -242,6 +259,13 @@ Generic typescript project, mostly based on
 | [eslint-plugin-react/recommended](https://github.com/yannickcr/eslint-plugin-react)                                     |                                          |
 | [eslint-plugin-react-hooks/recommended](https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks) |                                          |
 | [eslint-plugin-jsx-a11y/recommended](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)                              | Helps to produce accessibility-ready jsx |
+
+### React-Query
+
+| Type/Plugin                                                                                                             | Comment                                  |
+| :---------------------------------------------------------------------------------------------------------------------- | :--------------------------------------- |
+| [@tanstack/eslint-plugin-query/recommended](https://tanstack.com/query/v4/docs/eslint/eslint-plugin-query)                                     |                                          |
+
 
 ### Jest
 
