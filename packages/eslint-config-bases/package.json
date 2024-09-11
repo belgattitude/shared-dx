@@ -1,6 +1,6 @@
 {
   "name": "@belgattitude/eslint-config-bases",
-  "version": "6.0.0-canary.9",
+  "version": "6.0.0-canary.10",
   "license": "MIT",
   "homepage": "https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases",
   "repository": {

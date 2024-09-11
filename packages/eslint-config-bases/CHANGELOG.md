@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.10
+
+### Minor Changes
+
+- [#723](https://github.com/belgattitude/shared-dx/pull/723) [`e0f0786`](https://github.com/belgattitude/shared-dx/commit/e0f0786dc50b59aa8a67401eabc12aaf9c7f72b8) Thanks [@belgattitude](https://github.com/belgattitude)! - Update typescript-eslint to 8.5.0
+
 ## 6.0.0-canary.9
 
 ### Patch Changes
