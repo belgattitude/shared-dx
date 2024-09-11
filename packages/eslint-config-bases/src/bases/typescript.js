@@ -111,7 +111,7 @@ module.exports = {
     },
     sourceType: 'module',
   },
-  plugins: [],
+  plugins: ['unused-imports'],
   rules: {
     '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/ban-ts-comment': [
@@ -172,6 +172,9 @@ module.exports = {
         },
       },
     ],
+    'unused-imports/no-unused-imports': 'error',
+    // Typescript-elint will do
+    'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': [
       'warn',
       {
@@ -221,8 +224,6 @@ module.exports = {
         name: 'node:buffer',
       },
     ],
-    // https://github.com/sweepline/eslint-plugin-unused-imports
-    'no-unused-vars': 'off',
     'require-await': 'off',
     'spaced-comment': [
       'error',

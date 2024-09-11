@@ -25,6 +25,8 @@ module.exports = {
       excludedFiles: sonarPatterns.excludedFiles,
       files: sonarPatterns.files,
       rules: {
+        // Because plugin unused-import does it better (autofix)
+        'sonarjs/unused-import': 'off',
         // because it doesn't play well with inlined comment api doc
         'sonarjs/no-commented-code': 'off',
         // because it's handled by typescript-eslint
