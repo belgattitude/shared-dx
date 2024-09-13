@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.11
+
+### Major Changes
+
+- [#728](https://github.com/belgattitude/shared-dx/pull/728) [`99225de`](https://github.com/belgattitude/shared-dx/commit/99225debc49d8cf6835aa692b5fc01d56eda5306) Thanks [@belgattitude](https://github.com/belgattitude)! - Update react-query and react plugins
+
 ## 6.0.0-canary.10
 
 ### Minor Changes
