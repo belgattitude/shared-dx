@@ -55,6 +55,8 @@ jobs:
 
       - name: 📥 Monorepo install
         uses: ./.github/actions/yarn-nm-install
+        with:
+          enable-corepack: 'true'
 
       - name: ♻️ Restore packages cache
         uses: actions/cache@v4

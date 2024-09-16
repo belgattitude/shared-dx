@@ -27,6 +27,8 @@ jobs:
 
       - name: 📥 Monorepo install
         uses: ./.github/actions/yarn-nm-install
+        with:
+          enable-corepack: 'true'
 
       - name: 🦋 Create Release Pull Request or Publish to npm
         id: changesets

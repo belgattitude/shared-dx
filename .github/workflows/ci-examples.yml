@@ -57,6 +57,8 @@ jobs:
 
       - name: 📥 Monorepo install
         uses: ./.github/actions/yarn-nm-install
+        with:
+          enable-corepack: 'true'
 
       - name: 🕵️ Typecheck
         run: yarn workspaces foreach --worktree -tv --from 'examples/*' run typecheck
