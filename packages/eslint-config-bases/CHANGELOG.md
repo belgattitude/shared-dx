@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.12
+
+### Patch Changes
+
+- [#734](https://github.com/belgattitude/shared-dx/pull/734) [`f5fb9f7`](https://github.com/belgattitude/shared-dx/commit/f5fb9f70a6f0dbb60054232b9d74e30ef6e87e29) Thanks [@belgattitude](https://github.com/belgattitude)! - Latest plugin updates
+
 ## 6.0.0-canary.11
 
 ### Major Changes
