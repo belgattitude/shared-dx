@@ -1,5 +1,15 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.13
+
+### Major Changes
+
+- [#742](https://github.com/belgattitude/shared-dx/pull/742) [`9009742`](https://github.com/belgattitude/shared-dx/commit/90097427100c3cf200eac5bda2689654f591b890) Thanks [@belgattitude](https://github.com/belgattitude)! - eslint-plugin-import-x to 4.3.0
+
+- [#747](https://github.com/belgattitude/shared-dx/pull/747) [`afffb51`](https://github.com/belgattitude/shared-dx/commit/afffb513d6d05de19e0f21c36e5f4a6546b7f3ea) Thanks [@belgattitude](https://github.com/belgattitude)! - Update plugins to latest (storybook, typescript-eslint, import-x)
+
+- [#739](https://github.com/belgattitude/shared-dx/pull/739) [`630be56`](https://github.com/belgattitude/shared-dx/commit/630be5607ba6777770b6ec6007fb1e822e7a0419) Thanks [@belgattitude](https://github.com/belgattitude)! - Latest deps
+
 ## 6.0.0-canary.12
 
 ### Patch Changes
