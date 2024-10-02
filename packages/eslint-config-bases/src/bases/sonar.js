@@ -33,6 +33,7 @@ module.exports = {
         'sonarjs/sonar-no-unused-vars': 'off',
         // because it doesn't play well with exactOptionalTypes
         'sonarjs/no-redundant-optional': 'off',
+        'sonarjs/ jsx-no-useless-fragment': 'off',
         'sonarjs/redundant-type-aliases': 'warn',
         'sonarjs/no-nested-template-literals': 'off',
         'sonarjs/no-duplicate-string': 'off',
