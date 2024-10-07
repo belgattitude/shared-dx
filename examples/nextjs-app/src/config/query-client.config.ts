@@ -1,6 +1,6 @@
 import type { QueryClientConfig } from '@tanstack/query-core';
 
-const isServer = typeof window === 'undefined';
+const isServer = !('window' in globalThis);
 const isProd = process.env.NODE_ENV === 'production';
 
 export const queryClientConfig: QueryClientConfig = {
