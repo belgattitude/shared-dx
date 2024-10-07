@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.14
+
+### Major Changes
+
+- [#751](https://github.com/belgattitude/shared-dx/pull/751) [`022a9b9`](https://github.com/belgattitude/shared-dx/commit/022a9b94a445d6df518a4fc108c6917de023e632) Thanks [@belgattitude](https://github.com/belgattitude)! - eslint plugin unicorn to v56
+
 ## 6.0.0-canary.13
 
 ### Major Changes
