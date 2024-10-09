@@ -1,5 +1,13 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.16
+
+### Patch Changes
+
+- [#758](https://github.com/belgattitude/shared-dx/pull/758) [`aa9a310`](https://github.com/belgattitude/shared-dx/commit/aa9a310ca6cb0ec92f50770ca4cdb800a004f806) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable sonarjs/no-misused promises as it is availble with typescript-eslint
+
+- [#758](https://github.com/belgattitude/shared-dx/pull/758) [`aa9a310`](https://github.com/belgattitude/shared-dx/commit/aa9a310ca6cb0ec92f50770ca4cdb800a004f806) Thanks [@belgattitude](https://github.com/belgattitude)! - Update eslint plusins react-query and tailwindcss
+
 ## 6.0.0-canary.15
 
 ### Patch Changes
