@@ -1,5 +1,17 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.16
+
+### Minor Changes
+
+- [#761](https://github.com/belgattitude/shared-dx/pull/761) [`47d8d56`](https://github.com/belgattitude/shared-dx/commit/47d8d566dca1d13a9eaf479b5352212e57dfcf83) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable jest/no-standalone-expect by default
+
+### Patch Changes
+
+- [#758](https://github.com/belgattitude/shared-dx/pull/758) [`aa9a310`](https://github.com/belgattitude/shared-dx/commit/aa9a310ca6cb0ec92f50770ca4cdb800a004f806) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable sonarjs/no-misused promises as it is availble with typescript-eslint
+
+- [#758](https://github.com/belgattitude/shared-dx/pull/758) [`aa9a310`](https://github.com/belgattitude/shared-dx/commit/aa9a310ca6cb0ec92f50770ca4cdb800a004f806) Thanks [@belgattitude](https://github.com/belgattitude)! - Update eslint plusins react-query and tailwindcss
+
 ## 6.0.0-canary.15
 
 ### Patch Changes
