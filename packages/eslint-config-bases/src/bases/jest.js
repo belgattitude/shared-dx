@@ -16,6 +16,8 @@ module.exports = {
       // Perf: To ensure best performance enable eslint-plugin-jest for test files only.
       files: filePatterns.test,
       rules: {
+        // No standalone expect is relaxed for test files
+        'jest/no-standalone-expect': 'off',
         'jest/consistent-test-it': ['error', { fn: 'it' }],
         'jest/no-commented-out-tests': 'error',
         'jest/no-conditional-in-test': 'error',
