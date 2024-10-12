@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.18
+
+### Minor Changes
+
+- [#765](https://github.com/belgattitude/shared-dx/pull/765) [`80c2614`](https://github.com/belgattitude/shared-dx/commit/80c261447033b6de8056f322854f536474fba1a1) Thanks [@belgattitude](https://github.com/belgattitude)! - Performance base shoudn't be run on test files
+
 ## 6.0.0-canary.17
 
 ### Major Changes
