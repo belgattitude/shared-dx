@@ -13,15 +13,6 @@ module.exports = {
       excludedFiles: filePatterns.nonCodeFile,
       rules: {
         'unicorn/prefer-set-has': 'error',
-        'no-restricted-syntax': [
-          'error',
-          {
-            selector:
-              'CallExpression[callee.object.name="Object"][callee.property.name="entries"]',
-            message:
-              'Should not use Object.entries for performance. Consider using alternatives like Object.keys() or Object.values().',
-          },
-        ],
       },
     },
   ],
