@@ -138,19 +138,6 @@ module.exports = {
         },
       },
     ],
-    /*
-    '@typescript-eslint/ban-types': [
-      'error',
-      {
-        types: {
-          Buffer: {
-            message: 'Use Uint8Array instead.',
-            suggest: ['Uint8Array'],
-          },
-        },
-      },
-    ],
-    */
     '@typescript-eslint/consistent-type-definitions': 'off',
     '@typescript-eslint/consistent-type-exports': 'error',
     '@typescript-eslint/consistent-type-imports': [
