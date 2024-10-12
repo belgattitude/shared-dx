@@ -14,7 +14,9 @@ module.exports = {
   overrides: [
     {
       files: filePatterns.test,
-      rules: {},
+      rules: {
+        'import-x/namespace': 'off',
+      },
     },
   ],
   settings: {
