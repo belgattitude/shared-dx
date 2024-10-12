@@ -9,7 +9,8 @@ module.exports = {
   overrides: [
     {
       plugins: ['unicorn'],
-      files: filePatterns.typescriptAndJsCodeWithJsx,
+      files: filePatterns.typescriptAndJsCodeWithoutJsx,
+      excludedFiles: filePatterns.nonCodeFile,
       rules: {
         'unicorn/prefer-set-has': 'error',
         'no-restricted-syntax': [

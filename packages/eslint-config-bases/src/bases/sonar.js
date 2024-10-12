@@ -3,14 +3,7 @@
  * @see https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases
  */
 
-const sonarPatterns = {
-  excludedFiles: [
-    '**/?(*.)+(test).{js,jsx,ts,tsx}',
-    '**/?(*.)+(bench).{js,jsx,ts,tsx}',
-    '*.stories.{js,ts,jsx,tsx}',
-  ],
-  files: ['*.{js,jsx,ts,tsx}'],
-};
+const { filePatterns } = require('../config/file-patterns');
 
 module.exports = {
   env: {
@@ -22,8 +15,8 @@ module.exports = {
   overrides: [
     {
       extends: ['plugin:sonarjs/recommended-legacy'],
-      excludedFiles: sonarPatterns.excludedFiles,
-      files: sonarPatterns.files,
+      excludedFiles: filePatterns.nonCodeFile,
+      files: filePatterns.anyCode,
       rules: {
         // Typescript-eslint does the job well enough
         'sonarjs/no-misused-promises': 'off',
