@@ -1,5 +1,17 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.17
+
+### Major Changes
+
+- [#762](https://github.com/belgattitude/shared-dx/pull/762) [`5ae64f3`](https://github.com/belgattitude/shared-dx/commit/5ae64f330190544dfa47de9904349b64380fa7d8) Thanks [@belgattitude](https://github.com/belgattitude)! - Allow eslint-plugin-react-hook to v5
+
+### Minor Changes
+
+- [#762](https://github.com/belgattitude/shared-dx/pull/762) [`5ae64f3`](https://github.com/belgattitude/shared-dx/commit/5ae64f330190544dfa47de9904349b64380fa7d8) Thanks [@belgattitude](https://github.com/belgattitude)! - Update eslint-plugin-playwright to 1.7.0
+
+- [#764](https://github.com/belgattitude/shared-dx/pull/764) [`eec868c`](https://github.com/belgattitude/shared-dx/commit/eec868ca16ae89e6e28a96a2fcc64b1b49064533) Thanks [@belgattitude](https://github.com/belgattitude)! - Config-base performance, disallow object entries for perf
+
 ## 6.0.0-canary.16
 
 ### Minor Changes
