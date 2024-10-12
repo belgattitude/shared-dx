@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.19
+
+### Major Changes
+
+- [#767](https://github.com/belgattitude/shared-dx/pull/767) [`8fa9cb4`](https://github.com/belgattitude/shared-dx/commit/8fa9cb4efc7efc3028e2431e8f5a4448d4bf5a88) Thanks [@belgattitude](https://github.com/belgattitude)! - Revert no-restricted-entries in performance
+
 ## 6.0.0-canary.18
 
 ### Minor Changes
