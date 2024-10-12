@@ -18,7 +18,7 @@ module.exports = {
             selector:
               'CallExpression[callee.object.name="Object"][callee.property.name="entries"]',
             message:
-              'Do not use Object.entries for performance. Consider using alternatives like Object.keys() or Object.values().',
+              'Should not use Object.entries for performance. Consider using alternatives like Object.keys() or Object.values().',
           },
         ],
       },
