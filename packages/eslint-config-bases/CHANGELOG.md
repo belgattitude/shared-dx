@@ -1,5 +1,13 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0-canary.20
+
+### Major Changes
+
+- [#773](https://github.com/belgattitude/shared-dx/pull/773) [`cdbc6b9`](https://github.com/belgattitude/shared-dx/commit/cdbc6b9d385302fc76e92cc3539bff4706fca5a3) Thanks [@belgattitude](https://github.com/belgattitude)! - Support typescript 5.6 (plugin update)
+
+- [#773](https://github.com/belgattitude/shared-dx/pull/773) [`cdbc6b9`](https://github.com/belgattitude/shared-dx/commit/cdbc6b9d385302fc76e92cc3539bff4706fca5a3) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable sonarjs/deprecation as it's handled in typescript/eslint
+
 ## 6.0.0-canary.19
 
 ### Major Changes
