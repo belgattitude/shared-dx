@@ -17,7 +17,7 @@ Composable eslint config bases for [my personal projects](https://github.com/bel
 Add the following devDependencies to workspace (apps/packages in monorepo) or main project package.json.
 
 ```bash
-yarn add --dev eslint@^8.57.0 @belgattitude/eslint-config-bases
+yarn add --dev eslint@^8.57.0 @belgattitude/eslint-config-bases prettier
 yarn dedupe # optional but recommended
 ```
 

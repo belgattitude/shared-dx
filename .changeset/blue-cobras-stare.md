@@ -33,7 +33,7 @@
 Then upgrade @eblgattitude/eslint-config-bases
 
 ```bash
-yarn add --dev eslint@8.57.0 @belgattitude/eslint-config-bases
+yarn add --dev eslint@^8.57.0 @belgattitude/eslint-config-bases prettier
 
 # In monorepos, better to explicitly install the following
 yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
