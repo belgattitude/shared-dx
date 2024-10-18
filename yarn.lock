@@ -1677,7 +1677,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@belgattitude/eslint-config-bases@workspace:^, @belgattitude/eslint-config-bases@workspace:packages/eslint-config-bases":
+"@belgattitude/eslint-config-bases@workspace:*, @belgattitude/eslint-config-bases@workspace:^, @belgattitude/eslint-config-bases@workspace:packages/eslint-config-bases":
   version: 0.0.0-use.local
   resolution: "@belgattitude/eslint-config-bases@workspace:packages/eslint-config-bases"
   dependencies:
@@ -18015,7 +18015,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "web@workspace:examples/nextjs-app"
   dependencies:
-    "@belgattitude/eslint-config-bases": "workspace:^"
+    "@belgattitude/eslint-config-bases": "workspace:*"
     "@httpx/assert": "npm:0.15.1"
     "@httpx/dsn-parser": "npm:1.8.5"
     "@httpx/exception": "npm:3.0.11"
