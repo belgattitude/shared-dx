@@ -17,7 +17,8 @@ Composable eslint config bases for [my personal projects](https://github.com/bel
 Add the following devDependencies to workspace (apps/packages in monorepo) or main project package.json.
 
 ```bash
-$ yarn add --dev eslint @belgattitude/eslint-config-bases
+yarn add --dev eslint@^8.57.0 @belgattitude/eslint-config-bases prettier
+yarn dedupe # optional but recommended
 ```
 
 ### Monorepo tricks
@@ -26,11 +27,35 @@ Depending on package manager, you may want to install
 
 ```bash
 yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
+yarn dedupe # optional but recommended
 ```
 
 in the root package.json or individually in a workspace to prevent issues when multiple
 versions are installable (ie v8 and v7)
 
+### Add a lint command in package.json scripts
+
+```json
+{
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx,.mjs,.cjs,.mts,.cts"
+  }
+}
+```
+
+### Tips for react/nextjs
+
+> Tip: If using nextjs, you might want force resolutions of `eslint-plugin-react` to `^5.0.0` to avoid conflicts.
+> This can be done using the package.json resolutions (yarn) or overrides (npm, pnpm) field:
+>
+> ```json
+> {
+>   "resolutions": {
+>     "eslint-plugin-react-hooks": "5.0.0"
+>   }
+> }
+> ```
+>
 
 
 ### Optional plugins
@@ -250,7 +275,7 @@ Generic typescript project, mostly based on
 
 | Type/Plugin                                                                               | Comment                      |
 | :---------------------------------------------------------------------------------------- | :--------------------------- |
-| [eslint-plugin-sonarjs/recommended](https://github.com/SonarSource/eslint-plugin-sonarjs) | Help to keep complexity sane |
+| [eslint-plugin-sonarjs/recommended](https://github.com/SonarSource/SonarJS/blob/master/packages/jsts/src/rules/README.md) | Help to keep complexity sane |
 
 ### React
 
