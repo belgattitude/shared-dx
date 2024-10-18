@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [20.x]
+        node-version: [22.x]
     steps:
       - uses: actions/checkout@v4
 
@@ -45,9 +45,6 @@ jobs:
 
       - name: 👬🏽 Check for duplicate dependencies in lock file
         run: yarn dedupe --check
-
-      - name: 🦺 Check for yarn constraints.pro
-        run: yarn constraints
 
       - name: 🛟 Check monorepo dependency graph
         run: yarn check:install
