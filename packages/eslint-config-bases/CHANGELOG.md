@@ -1,5 +1,199 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.0
+
+### Major Changes
+
+- [#776](https://github.com/belgattitude/shared-dx/pull/776) [`a098f8a`](https://github.com/belgattitude/shared-dx/commit/a098f8a573b1d148ca948e5449999dc2db9f630d) Thanks [@belgattitude](https://github.com/belgattitude)! - **Release v6.0.0**: typescript-eslint v8 and typescript 5.6 support.
+
+  > V7 will include eslint 9 support with flat config
+
+  ## Highlights
+
+  - **BREAKING**: Upgrade to [typescript/eslint](https://typescript-eslint.io/blog/announcing-typescript-eslint-v8)
+  - **BREAKING**: Upgrade [eslint-plugin-sonarjs](https://github.com/SonarSource/SonarJS/blob/master/packages/jsts/src/rules/README.md) to "^2.0.3" (from v1)
+  - **BREAKING**: Upgrade [eslint-plugin-react-hooks](https://github.com/facebook/react/blob/main/packages/eslint-plugin-react-hooks/CHANGELOG.md) to "^4.6.2 || ^5.0.0 || 5.0.0-canary-7118f5dd7-20230705",
+  - **BREAKING**: Upgrade [eslint-plugin-unicorn](https://github.com/sindresorhus/eslint-plugin-unicorn): "56.0.0",
+  - All other plugins have been updated to their latest version.
+
+  ## Upgrade steps
+
+  ### Install the latest
+
+  > Tip: If using nextjs, you might want force resolutions of `eslint-plugin-react` to `^5.0.0` to avoid conflicts.
+  > This can be done using the package.json resolutions (yarn) or overrides (npm, pnpm) field:
+  >
+  > ```json
+  > {
+  >   "resolutions": {
+  >     "eslint-plugin-react-hooks": "5.0.0"
+  >   }
+  > }
+  > ```
+
+  Then upgrade @eblgattitude/eslint-config-bases
+
+  ```bash
+  yarn add --dev eslint@^8.57.0 @belgattitude/eslint-config-bases prettier
+
+  # In monorepos, better to explicitly install the following
+  yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
+
+  yarn install && yarn dedupe
+  ```
+
+  ### Update the config file
+
+  Be sure your `eslintrc.config.cjs` is up to date with the latest version of the config.
+  The important part is to have the parserOptions that have been changed:
+
+  ```js
+  // eslint-disable-next-line @typescript-eslint/no-restricted-types
+  const {
+    getDefaultIgnorePatterns,
+  } = require('@belgattitude/eslint-config-bases/helpers');
+
+  module.exports = {
+    root: true,
+    parser: '@typescript-eslint/parser',
+    parserOptions: {
+      projectService: true,
+      tsconfigRootDir: __dirname,
+    },
+    // settings: {},
+    ignorePatterns: [...getDefaultIgnorePatterns()],
+    extends: [
+      // Group 1: recommended always
+      '@belgattitude/eslint-config-bases/typescript',
+      '@belgattitude/eslint-config-bases/simple-import-sort',
+      '@belgattitude/eslint-config-bases/import-x',
+      '@belgattitude/eslint-config-bases/regexp',
+      '@belgattitude/eslint-config-bases/jest', // jest or similar (ie: vitest)
+
+      // Group 2: Helps to avoid complexity (cyclomatic...)
+      '@belgattitude/eslint-config-bases/sonar',
+
+      // Group 3: When working with react
+      '@belgattitude/eslint-config-bases/react',
+      '@belgattitude/eslint-config-bases/react-query',
+      '@belgattitude/eslint-config-bases/rtl',
+
+      // Group 4: Performance related (ie: set vs includes...)
+      '@belgattitude/eslint-config-bases/performance',
+
+      // Group 5: Various tools (per project)
+      '@belgattitude/eslint-config-bases/tailwind',
+      '@belgattitude/eslint-config-bases/storybook',
+      // '@belgattitude/eslint-config-bases/playwright',
+      // "@belgattitude/eslint-config-bases/graphql-schema",
+
+      // Group 6: Framework specifics
+      'next/core-web-vitals',
+      // - remix:  '@remix-run/eslint-config',
+      // ...
+
+      // '@belgattitude/eslint-config-bases/mdx',
+
+      // Group 7: Visual/Sort consistency
+      // Not recommended but can by applied on some projects
+      // see https://github.com/azat-io/eslint-plugin-perfectionist
+      //
+      // "@belgattitude/eslint-config-bases/perfectionist",
+      // "@belgattitude/eslint-config-bases/perfectionist-jsx",
+
+      // Group 8: Formatter
+      // Post configure the prettier base and run prettier
+      // without conflicts thx to eslint-plugin-prettier
+      '@belgattitude/eslint-config-bases/prettier-plugin',
+      // Alternatively to the above if you're already running prettier
+      // we can get a speed up by using on eslint-prettier-config
+      // "@belgattitude/eslint-config-bases/prettier-config",
+    ],
+    rules: {
+      // 'jsx-a11y/mouse-events-have-key-events': 'off',
+    },
+    overrides: [],
+  };
+  ```
+
+  ### Run a lint test
+
+  ```bash
+  yarn eslint . --ext .ts,.tsx,.js,.jsx,.mjs,.cjs,.mts,.cts
+  ```
+
+  ### Apply auto fixes
+
+  ```bash
+  yarn eslint . --ext .ts,.tsx,.js,.jsx,.mjs,.cjs,.mts,.cts --fix
+  ```
+
+- [#767](https://github.com/belgattitude/shared-dx/pull/767) [`8fa9cb4`](https://github.com/belgattitude/shared-dx/commit/8fa9cb4efc7efc3028e2431e8f5a4448d4bf5a88) Thanks [@belgattitude](https://github.com/belgattitude)! - Revert no-restricted-entries in performance
+
+- [#742](https://github.com/belgattitude/shared-dx/pull/742) [`9009742`](https://github.com/belgattitude/shared-dx/commit/90097427100c3cf200eac5bda2689654f591b890) Thanks [@belgattitude](https://github.com/belgattitude)! - eslint-plugin-import-x to 4.3.0
+
+- [#689](https://github.com/belgattitude/shared-dx/pull/689) [`888cecd`](https://github.com/belgattitude/shared-dx/commit/888cecdae164fe67ef5590948c377358300e2929) Thanks [@belgattitude](https://github.com/belgattitude)! - Upgrade to typescript-eslint 8
+
+- [#689](https://github.com/belgattitude/shared-dx/pull/689) [`888cecd`](https://github.com/belgattitude/shared-dx/commit/888cecdae164fe67ef5590948c377358300e2929) Thanks [@belgattitude](https://github.com/belgattitude)! - Remove support for eslint-plugin-import and replace by by eslint-plugin-import-x
+
+- [#773](https://github.com/belgattitude/shared-dx/pull/773) [`cdbc6b9`](https://github.com/belgattitude/shared-dx/commit/cdbc6b9d385302fc76e92cc3539bff4706fca5a3) Thanks [@belgattitude](https://github.com/belgattitude)! - Support typescript 5.6 (plugin update)
+
+- [#717](https://github.com/belgattitude/shared-dx/pull/717) [`5ae1607`](https://github.com/belgattitude/shared-dx/commit/5ae1607921ce1463f6daf09952b375e0a66624bc) Thanks [@belgattitude](https://github.com/belgattitude)! - By default uses typescript-eslint projectService available in v8
+
+- [#747](https://github.com/belgattitude/shared-dx/pull/747) [`afffb51`](https://github.com/belgattitude/shared-dx/commit/afffb513d6d05de19e0f21c36e5f4a6546b7f3ea) Thanks [@belgattitude](https://github.com/belgattitude)! - Update plugins to latest (storybook, typescript-eslint, import-x)
+
+- [#728](https://github.com/belgattitude/shared-dx/pull/728) [`99225de`](https://github.com/belgattitude/shared-dx/commit/99225debc49d8cf6835aa692b5fc01d56eda5306) Thanks [@belgattitude](https://github.com/belgattitude)! - Update react-query and react plugins
+
+- [#712](https://github.com/belgattitude/shared-dx/pull/712) [`fdbb649`](https://github.com/belgattitude/shared-dx/commit/fdbb649c5354f9931cab03e796a3f0da1190778d) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable some sonarjs rules for test and bench files
+
+- [#751](https://github.com/belgattitude/shared-dx/pull/751) [`022a9b9`](https://github.com/belgattitude/shared-dx/commit/022a9b94a445d6df518a4fc108c6917de023e632) Thanks [@belgattitude](https://github.com/belgattitude)! - eslint plugin unicorn to v56
+
+- [`0c0e549`](https://github.com/belgattitude/shared-dx/commit/0c0e549ea05331ef880689c18f0ff1493ef73641) Thanks [@belgattitude](https://github.com/belgattitude)! - Upgrade sonarjs plugin to v1
+
+- [#708](https://github.com/belgattitude/shared-dx/pull/708) [`01053a0`](https://github.com/belgattitude/shared-dx/commit/01053a04c62f115eaa62d591f0b3cf79054af3b0) Thanks [@belgattitude](https://github.com/belgattitude)! - Update to sonarjs v2
+
+- [#773](https://github.com/belgattitude/shared-dx/pull/773) [`cdbc6b9`](https://github.com/belgattitude/shared-dx/commit/cdbc6b9d385302fc76e92cc3539bff4706fca5a3) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable sonarjs/deprecation as it's handled in typescript/eslint
+
+- [#762](https://github.com/belgattitude/shared-dx/pull/762) [`5ae64f3`](https://github.com/belgattitude/shared-dx/commit/5ae64f330190544dfa47de9904349b64380fa7d8) Thanks [@belgattitude](https://github.com/belgattitude)! - Allow eslint-plugin-react-hook to v5
+
+- [`08da902`](https://github.com/belgattitude/shared-dx/commit/08da902e73444770958b9c9c63b008e4e0edc714) Thanks [@belgattitude](https://github.com/belgattitude)! - Tune import-x/no-unused-modules
+
+- [#739](https://github.com/belgattitude/shared-dx/pull/739) [`630be56`](https://github.com/belgattitude/shared-dx/commit/630be5607ba6777770b6ec6007fb1e822e7a0419) Thanks [@belgattitude](https://github.com/belgattitude)! - Latest deps
+
+### Minor Changes
+
+- [#723](https://github.com/belgattitude/shared-dx/pull/723) [`e0f0786`](https://github.com/belgattitude/shared-dx/commit/e0f0786dc50b59aa8a67401eabc12aaf9c7f72b8) Thanks [@belgattitude](https://github.com/belgattitude)! - Update typescript-eslint to 8.5.0
+
+- [#761](https://github.com/belgattitude/shared-dx/pull/761) [`47d8d56`](https://github.com/belgattitude/shared-dx/commit/47d8d566dca1d13a9eaf479b5352212e57dfcf83) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable jest/no-standalone-expect by default
+
+- [#765](https://github.com/belgattitude/shared-dx/pull/765) [`80c2614`](https://github.com/belgattitude/shared-dx/commit/80c261447033b6de8056f322854f536474fba1a1) Thanks [@belgattitude](https://github.com/belgattitude)! - Performance base shoudn't be run on test files
+
+- [#762](https://github.com/belgattitude/shared-dx/pull/762) [`5ae64f3`](https://github.com/belgattitude/shared-dx/commit/5ae64f330190544dfa47de9904349b64380fa7d8) Thanks [@belgattitude](https://github.com/belgattitude)! - Update eslint-plugin-playwright to 1.7.0
+
+- [#764](https://github.com/belgattitude/shared-dx/pull/764) [`eec868c`](https://github.com/belgattitude/shared-dx/commit/eec868ca16ae89e6e28a96a2fcc64b1b49064533) Thanks [@belgattitude](https://github.com/belgattitude)! - Config-base performance, disallow object entries for perf
+
+### Patch Changes
+
+- [#734](https://github.com/belgattitude/shared-dx/pull/734) [`f5fb9f7`](https://github.com/belgattitude/shared-dx/commit/f5fb9f70a6f0dbb60054232b9d74e30ef6e87e29) Thanks [@belgattitude](https://github.com/belgattitude)! - Latest plugin updates
+
+- [`5b6504e`](https://github.com/belgattitude/shared-dx/commit/5b6504ef04acd25085eb88f0c764069e40a86b0c) Thanks [@belgattitude](https://github.com/belgattitude)! - Disabled sonar-no-unused-vars, it's handled by typescript-eslint
+
+- [#717](https://github.com/belgattitude/shared-dx/pull/717) [`5ae1607`](https://github.com/belgattitude/shared-dx/commit/5ae1607921ce1463f6daf09952b375e0a66624bc) Thanks [@belgattitude](https://github.com/belgattitude)! - Update perfectionist plugin
+
+- [#758](https://github.com/belgattitude/shared-dx/pull/758) [`aa9a310`](https://github.com/belgattitude/shared-dx/commit/aa9a310ca6cb0ec92f50770ca4cdb800a004f806) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable sonarjs/no-misused promises as it is availble with typescript-eslint
+
+- [#703](https://github.com/belgattitude/shared-dx/pull/703) [`2f4255c`](https://github.com/belgattitude/shared-dx/commit/2f4255caf448d47656bedb8ee53703a38c2b1d58) Thanks [@belgattitude](https://github.com/belgattitude)! - Latest fixes and updates to typescript-eslint8
+
+- [#754](https://github.com/belgattitude/shared-dx/pull/754) [`ad5795c`](https://github.com/belgattitude/shared-dx/commit/ad5795c293168efd11889d7a0cb97b8a939c80b8) Thanks [@belgattitude](https://github.com/belgattitude)! - Latest typescript-eslint-plugin
+
+- [#710](https://github.com/belgattitude/shared-dx/pull/710) [`63299fd`](https://github.com/belgattitude/shared-dx/commit/63299fd2752efff425c443589d7d46e3c9d83b67) Thanks [@belgattitude](https://github.com/belgattitude)! - Deps to latest
+
+- [#758](https://github.com/belgattitude/shared-dx/pull/758) [`aa9a310`](https://github.com/belgattitude/shared-dx/commit/aa9a310ca6cb0ec92f50770ca4cdb800a004f806) Thanks [@belgattitude](https://github.com/belgattitude)! - Update eslint plusins react-query and tailwindcss
+
+- [#714](https://github.com/belgattitude/shared-dx/pull/714) [`e1c99f7`](https://github.com/belgattitude/shared-dx/commit/e1c99f7b14c41d90919db4c77a328c8d7b5a0983) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable sonarjs/no-commented-code (doesn't play well with api doc)
+
+- [`d8fc447`](https://github.com/belgattitude/shared-dx/commit/d8fc447e3afe644738d2ef63ae280aacf4e3f801) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable sonarjs/no-redundant-optional as it does not play well with exactOptionalTypes
+
 ## 6.0.0-canary.20
 
 ### Major Changes
