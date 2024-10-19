@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.1
+
+### Patch Changes
+
+- [#779](https://github.com/belgattitude/shared-dx/pull/779) [`7014466`](https://github.com/belgattitude/shared-dx/commit/7014466b086a68a85b16a6ff2d34f56e64ae2879) Thanks [@belgattitude](https://github.com/belgattitude)! - Update eslint-plugin-sonarjs to 2.0.3
+
 ## 6.0.0
 
 ### Major Changes
