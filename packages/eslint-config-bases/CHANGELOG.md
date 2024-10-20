@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.3
+
+### Patch Changes
+
+- [#783](https://github.com/belgattitude/shared-dx/pull/783) [`110343d`](https://github.com/belgattitude/shared-dx/commit/110343de90030fd49471824f1a069044403977b0) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable some sonarjs rules that are better handled by other plugins
+
 ## 6.0.2
 
 ### Patch Changes
