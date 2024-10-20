@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.0.2
+
+### Patch Changes
+
+- [#781](https://github.com/belgattitude/shared-dx/pull/781) [`a9b35cf`](https://github.com/belgattitude/shared-dx/commit/a9b35cf9cf0a4abb427607134ee910b7a4ed477e) Thanks [@belgattitude](https://github.com/belgattitude)! - Update eslint-plugin-playwright to latest 1.8.0
+
 ## 6.0.1
 
 ### Patch Changes
