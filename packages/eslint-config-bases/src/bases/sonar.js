@@ -18,6 +18,11 @@ module.exports = {
       excludedFiles: filePatterns.nonCodeFile,
       files: filePatterns.anyCode,
       rules: {
+        // better handled by jsx-a11y plugin
+        'sonarjs/anchor-is-valid': 'off',
+        'sonarjs/label-has-associated-control': 'off',
+        // it makes too much noise
+        'sonarjs/sonar-prefer-read-only-props': 'off',
         // Typescript-eslint does the job well enough
         'sonarjs/no-misused-promises': 'off',
         // Because plugin unused-import does it better (autofix)
@@ -38,7 +43,7 @@ module.exports = {
           'warn',
           {
             // For NextJs styled-jsx <style jsx>{`...`}</style>
-            ignore: ['jsx'],
+            ignore: ['jsx', 'css'],
           },
         ],
       },
