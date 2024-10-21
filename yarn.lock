@@ -1712,7 +1712,7 @@ __metadata:
     eslint-plugin-regexp: "npm:^2.6.0"
     eslint-plugin-simple-import-sort: "npm:^12.1.1"
     eslint-plugin-sonarjs: "npm:^2.0.4"
-    eslint-plugin-storybook: "npm:^0.9.0"
+    eslint-plugin-storybook: "npm:^0.10.0"
     eslint-plugin-tailwindcss: "npm:3.17.5"
     eslint-plugin-testing-library: "npm:^6.4.0"
     eslint-plugin-unicorn: "npm:^56.0.0"
@@ -5739,7 +5739,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:8.10.0, @typescript-eslint/utils@npm:^6.0.0 || ^7.0.0 || ^8.0.0, @typescript-eslint/utils@npm:^8.1.0, @typescript-eslint/utils@npm:^8.10.0, @typescript-eslint/utils@npm:^8.3.0, @typescript-eslint/utils@npm:^8.9.0":
+"@typescript-eslint/utils@npm:8.10.0, @typescript-eslint/utils@npm:^6.0.0 || ^7.0.0 || ^8.0.0, @typescript-eslint/utils@npm:^8.1.0, @typescript-eslint/utils@npm:^8.10.0, @typescript-eslint/utils@npm:^8.3.0, @typescript-eslint/utils@npm:^8.8.1, @typescript-eslint/utils@npm:^8.9.0":
   version: 8.10.0
   resolution: "@typescript-eslint/utils@npm:8.10.0"
   dependencies:
@@ -9619,7 +9619,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:0.9.0, eslint-plugin-storybook@npm:^0.9.0":
+"eslint-plugin-storybook@npm:0.9.0":
   version: 0.9.0
   resolution: "eslint-plugin-storybook@npm:0.9.0"
   dependencies:
@@ -9630,6 +9630,19 @@ __metadata:
   peerDependencies:
     eslint: ">=6"
   checksum: 10c0/e7e0682092ef4c3035a1e679b89adb0427db386996698791de18e95ba71ba2fed4d254d6ef70c2e0375970e057fd0fa06206c81f3a0acc4455051ed74a87e816
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-storybook@npm:^0.10.0":
+  version: 0.10.1
+  resolution: "eslint-plugin-storybook@npm:0.10.1"
+  dependencies:
+    "@storybook/csf": "npm:^0.1.11"
+    "@typescript-eslint/utils": "npm:^8.8.1"
+    ts-dedent: "npm:^2.2.0"
+  peerDependencies:
+    eslint: ">=6"
+  checksum: 10c0/9694b0fa3eb7b4b47a7105cb0356ddb2308555cb8035684e0910966f900bf66525caae14d34e01c21b0135b738221e73877d1a651d5669f3ea4a395cf943b396
   languageName: node
   linkType: hard
 
