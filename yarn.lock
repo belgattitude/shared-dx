@@ -1705,7 +1705,7 @@ __metadata:
     eslint-plugin-jsx-a11y: "npm:^6.10.1"
     eslint-plugin-mdx: "npm:3.1.5"
     eslint-plugin-perfectionist: "npm:^3.9.1"
-    eslint-plugin-playwright: "npm:^1.8.1"
+    eslint-plugin-playwright: "npm:^2.0.0"
     eslint-plugin-prettier: "npm:^5.2.1"
     eslint-plugin-react: "npm:^7.37.1"
     eslint-plugin-react-hooks: "npm:^4.6.2 || ^5.0.0 || 5.0.0-canary-7118f5dd7-20230705"
@@ -9451,18 +9451,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-playwright@npm:^1.8.1":
-  version: 1.8.1
-  resolution: "eslint-plugin-playwright@npm:1.8.1"
+"eslint-plugin-playwright@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "eslint-plugin-playwright@npm:2.0.0"
   dependencies:
     globals: "npm:^13.23.0"
   peerDependencies:
     eslint: ">=8.40.0"
-    eslint-plugin-jest: ">=25"
-  peerDependenciesMeta:
-    eslint-plugin-jest:
-      optional: true
-  checksum: 10c0/f2971896eb6772b7c54edc5a3372f42b681e1dcb5843ea48ea67d9d6ea8fc4c8e986c11e8b4b42801b764857581ffa6fe5824bfee3f8ef1435e959c71ef9406e
+  checksum: 10c0/0fecb0cf23cc7099c2f4ba40167f0a09d19e670e4856a90582a5a33b303738e3ee6e24ac4e5b3a679a9718deed563861a6a3fdec446068f55f9509c9ef4fa298
   languageName: node
   linkType: hard
 
