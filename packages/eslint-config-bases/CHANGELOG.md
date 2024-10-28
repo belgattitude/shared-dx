@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.1.1
+
+### Patch Changes
+
+- [#795](https://github.com/belgattitude/shared-dx/pull/795) [`ec4793c`](https://github.com/belgattitude/shared-dx/commit/ec4793cc7002fcf7216829321966420cb081f95c) Thanks [@belgattitude](https://github.com/belgattitude)! - "eslint-plugin-jsx-a11y": "^6.10.2"
+
 ## 6.1.0
 
 ### Minor Changes
