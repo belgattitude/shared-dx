@@ -1,5 +1,19 @@
 # @belgattitude/eslint-config-bases
 
+## 6.2.0
+
+### Minor Changes
+
+- [#797](https://github.com/belgattitude/shared-dx/pull/797) [`4a88211`](https://github.com/belgattitude/shared-dx/commit/4a8821192248cf483386814d41d8347f7d1ac85b) Thanks [@belgattitude](https://github.com/belgattitude)! - Typescript eslint to 8.12
+
+- [#799](https://github.com/belgattitude/shared-dx/pull/799) [`5d922a1`](https://github.com/belgattitude/shared-dx/commit/5d922a1d668fae5255c984aabedfac9c986cd51f) Thanks [@belgattitude](https://github.com/belgattitude)! - @typescript-eslint/no-unused-expressions disabled for test files
+
+  This to allow testing types with vitest, ie:
+
+  ```ts
+  expectTypeOf(test).toEqualTypeOf<Test>;
+  ```
+
 ## 6.1.1
 
 ### Patch Changes
