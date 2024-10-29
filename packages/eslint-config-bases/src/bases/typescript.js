@@ -33,6 +33,9 @@ module.exports = {
     {
       files: filePatterns.test,
       rules: {
+        // @typescript-eslint/no-unused-expressions: disabled in test files
+        // to allow type testing like expectTypeOf in vitest
+        '@typescript-eslint/no-unused-expressions': 'off',
         '@typescript-eslint/require-await': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/no-empty-function': 'off',
