@@ -1,5 +1,23 @@
 # @belgattitude/eslint-config-bases
 
+## 6.4.0
+
+### Minor Changes
+
+- [#805](https://github.com/belgattitude/shared-dx/pull/805) [`241b0ae`](https://github.com/belgattitude/shared-dx/commit/241b0ae7a94f9460bc64cbae35e6582d04e73041) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
+  ```
+   @tanstack/eslint-plugin-query         ^5.59.7  →  ^5.60.1
+   @typescript-eslint/eslint-plugin      ^8.12.2  →  ^8.14.0
+   @typescript-eslint/parser             ^8.12.2  →  ^8.14.0
+   @typescript-eslint/typescript-estree  ^8.12.2  →  ^8.14.0
+   @typescript-eslint/utils              ^8.12.2  →  ^8.14.0
+   eslint-plugin-import-x                 ^4.4.0  →   ^4.4.2
+   eslint-plugin-jest                    ^28.8.3  →  ^28.9.0
+   eslint-plugin-playwright               ^2.0.0  →   ^2.0.1
+   eslint-plugin-storybook               ^0.10.1  →  ^0.11.0
+  ```
+
 ## 6.3.0
 
 ### Minor Changes
