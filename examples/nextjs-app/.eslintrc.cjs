@@ -23,7 +23,8 @@ module.exports = {
     '@belgattitude/eslint-config-bases/simple-import-sort',
     '@belgattitude/eslint-config-bases/import-x',
     '@belgattitude/eslint-config-bases/regexp',
-    '@belgattitude/eslint-config-bases/jest', // jest or similar (ie: vitest)
+    // '@belgattitude/eslint-config-bases/jest',
+    '@belgattitude/eslint-config-bases/vitest',
 
     // Group 2: Helps to avoid complexity (cyclomatic...)
     '@belgattitude/eslint-config-bases/sonar',
