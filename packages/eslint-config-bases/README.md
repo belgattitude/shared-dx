@@ -17,7 +17,7 @@ Composable eslint config bases for [my personal projects](https://github.com/bel
 Add the following devDependencies to workspace (apps/packages in monorepo) or main project package.json.
 
 ```bash
-yarn add --dev eslint@^8.57.0 @belgattitude/eslint-config-bases prettier
+yarn add --dev eslint@^8.57.1 @belgattitude/eslint-config-bases prettier
 yarn dedupe # optional but recommended
 ```
 
@@ -45,7 +45,7 @@ versions are installable (ie v8 and v7)
 
 ### Tips for react/nextjs
 
-> Tip: If using nextjs, you might want force resolutions of `eslint-plugin-react` to `^5.0.0` to avoid conflicts.
+> Tip: If using nextjs < 15, you might want force resolutions of `eslint-plugin-react` to `^5.0.0` to avoid conflicts.
 > This can be done using the package.json resolutions (yarn) or overrides (npm, pnpm) field:
 >
 > ```json
@@ -99,7 +99,11 @@ module.exports = {
     "@belgattitude/eslint-config-bases/simple-import-sort",
     "@belgattitude/eslint-config-bases/import-x",
     "@belgattitude/eslint-config-bases/regexp",
-    "@belgattitude/eslint-config-bases/jest", // jest or similar (ie: vitest)
+
+    // For tests: use jest or vitest
+      
+    /// --- "@belgattitude/eslint-config-bases/jest",   
+    "@belgattitude/eslint-config-bases/vitest", 
       
     // Group 2: Helps to avoid complexity (cyclomatic...)
     "@belgattitude/eslint-config-bases/sonar",
@@ -201,20 +205,21 @@ Ensure your tsconfig.json includes the .eslintrc.cjs file:
 
 You can find the bases in [./src/bases](./src/bases).
 
-| Base                                                | Match convention                  | Scope                                                           |
-|:----------------------------------------------------| :-------------------------------- |:----------------------------------------------------------------|
-| [typescript](./src/bases/typescript.js)             | _all_                             | Naming conventions, consistent imports, import sorting...       |
-| [sonar](./src/bases/sonar.js)                       | `*.{js,jsx,ts,tsx}`               | Keep levels of code complexity sane. (excl test and stories)    |
-| [regexp](./src/bases/regexp.js)                     | `*.{js,jsx,jsx,tsx}`              | Keep regexp consistent and safer.                               |
-| [react](./src/bases/react.js)                       | `*.{jsx,tsx}`                     | Recommendations for react, react-hooks and jsx projects.        |
-| [react-query](./src/bases/react-query.js)           | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Enforce "recommended" react-query usage.                        |
-| [jest](./src/bases/jest.js)                         | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Catch inconsistencies or error in jest tests.                   |
-| [rtl](./src/bases/rtl.js)                           | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Potential errors / deprecations in react-testing-library tests. |
-| [graphql-schema](./src/bases/graphql-schema.js)     | `*.graphql`                       | Ensure validity of graphql schema files.                        |
-| [mdx](./src/bases/mdx.js)                           | _all_                             | Mdx validation                                                  |
-| [storybook](./src/bases/storybook.js)               | `*.stories.{ts,tsx,mdx}`          | Potential errors / deprecations in stories.                     |
-| [playwright](./src/bases/playwright.js)             | `**/e2e/**/*.test.{js,ts}`        | Keep "recommended" playwright usage.                            |
-| [prettier-plugin](./src/bases/prettier-plugin.js)   | _all_                             | Post configure eslint for prettier compatibility.               |
+| Base                                              | Match convention                  | Scope                                                           |
+|:--------------------------------------------------| :-------------------------------- |:----------------------------------------------------------------|
+| [typescript](./src/bases/typescript.js)           | _all_                             | Naming conventions, consistent imports, import sorting...       |
+| [sonar](./src/bases/sonar.js)                     | `*.{js,jsx,ts,tsx}`               | Keep levels of code complexity sane. (excl test and stories)    |
+| [regexp](./src/bases/regexp.js)                   | `*.{js,jsx,jsx,tsx}`              | Keep regexp consistent and safer.                               |
+| [react](./src/bases/react.js)                     | `*.{jsx,tsx}`                     | Recommendations for react, react-hooks and jsx projects.        |
+| [react-query](./src/bases/react-query.js)         | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Enforce "recommended" react-query usage.                        |
+| [jest](./src/bases/jest.js)                       | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Catch inconsistencies or error in jest tests.                   |
+| [vitest](https://github.com/vitest-dev/eslint-plugin-vitest)                     | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Catch inconsistencies or error in jest tests.                   |
+| [rtl](./src/bases/rtl.js)                         | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Potential errors / deprecations in react-testing-library tests. |
+| [graphql-schema](./src/bases/graphql-schema.js)   | `*.graphql`                       | Ensure validity of graphql schema files.                        |
+| [mdx](./src/bases/mdx.js)                         | _all_                             | Mdx validation                                                  |
+| [storybook](./src/bases/storybook.js)             | `*.stories.{ts,tsx,mdx}`          | Potential errors / deprecations in stories.                     |
+| [playwright](./src/bases/playwright.js)           | `**/e2e/**/*.test.{js,ts}`        | Keep "recommended" playwright usage.                            |
+| [prettier-plugin](./src/bases/prettier-plugin.js) | _all_                             | Post configure eslint for prettier compatibility.               |
 
 > **Notes**:
 >

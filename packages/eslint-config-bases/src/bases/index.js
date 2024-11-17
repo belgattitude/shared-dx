@@ -18,4 +18,5 @@ module.exports = {
   storybook: require('./storybook'),
   tailwind: require('./tailwind'),
   typescript: require('./typescript'),
+  vitest: require('./vitest'),
 };
