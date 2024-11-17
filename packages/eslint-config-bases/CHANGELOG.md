@@ -1,5 +1,39 @@
 # @belgattitude/eslint-config-bases
 
+## 6.5.0
+
+### Minor Changes
+
+- [#808](https://github.com/belgattitude/shared-dx/pull/808) [`772b012`](https://github.com/belgattitude/shared-dx/commit/772b012c45d6b264bc99ec857b4d3a07ae8f81b6) Thanks [@belgattitude](https://github.com/belgattitude)! - jest/expect-expect, support expectTypeOf and assertType as valid expectations
+
+- [#808](https://github.com/belgattitude/shared-dx/pull/808) [`772b012`](https://github.com/belgattitude/shared-dx/commit/772b012c45d6b264bc99ec857b4d3a07ae8f81b6) Thanks [@belgattitude](https://github.com/belgattitude)! - Update eslint-plugin-regexp
+
+  ```
+  eslint-plugin-regexp  ^2.6.0  →  ^2.7.0
+  ```
+
+- [#810](https://github.com/belgattitude/shared-dx/pull/810) [`076108c`](https://github.com/belgattitude/shared-dx/commit/076108ce901784291a2a153416f4af862169d442) Thanks [@belgattitude](https://github.com/belgattitude)! - Add vitest base with @vitest/eslint-plugin, to enable add `"@belgattitude/eslint-config-bases/vitest"`
+  and remove `"@belgattitude/eslint-config-bases/jest"` from your `.eslintrc.js` file.
+
+  ```javascript
+  // next line only required if you're using a monorepo
+  require('@belgattitude/eslint-config-bases/patch/modern-module-resolution');
+
+  module.exports = {
+    extends: [
+      // For tests: use either jest or vitest
+
+      /// --- "@belgattitude/eslint-config-bases/jest",
+
+      '@belgattitude/eslint-config-bases/vitest',
+    ],
+  };
+  ```
+
+### Patch Changes
+
+- [#810](https://github.com/belgattitude/shared-dx/pull/810) [`076108c`](https://github.com/belgattitude/shared-dx/commit/076108ce901784291a2a153416f4af862169d442) Thanks [@belgattitude](https://github.com/belgattitude)! - Enforce eslint peerDependency to be at least 8.57.1
+
 ## 6.4.0
 
 ### Minor Changes
