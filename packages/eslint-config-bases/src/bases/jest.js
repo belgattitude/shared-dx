@@ -16,6 +16,18 @@ module.exports = {
       // Perf: To ensure best performance enable eslint-plugin-jest for test files only.
       files: filePatterns.test,
       rules: {
+        'jest/expect-expect': [
+          'error',
+          {
+            assertFunctionNames: [
+              'expect',
+              // allow type testing from vitest
+              'expectTypeOf',
+              'assertType',
+            ],
+            additionalTestBlockFunctions: [],
+          },
+        ],
         // No standalone expect is relaxed for test files
         'jest/no-standalone-expect': 'off',
         'jest/consistent-test-it': ['error', { fn: 'it' }],
