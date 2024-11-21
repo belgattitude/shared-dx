@@ -6,16 +6,20 @@
 
 ### Install the latest
 
-> Tip: If using nextjs, you might want force resolutions of `eslint-plugin-react` to `^5.0.0` to avoid conflicts.
-> This can be done using the package.json resolutions (yarn) or overrides (npm, pnpm) field:
->
-> ```json
-> {
->   "resolutions": {
->     "eslint-plugin-react-hooks": "5.0.0"
+> **Tip:** When using **NextJs < 15**, to avoid conflicts on eslint-plugin-react-hooks,
+> ensure either 
+> 
+> - Option 1: Update their `eslint-config-next` plugin to v15, ie: `yarn add --dev eslint-config-next@^15.0.3`
+> - Option 2: Add an override (npm, pnpm) or resolutions (yarn) field in the root package.json 
+>   to force the version of eslint-plugin-react-hooks to 5.0.0:
+>   
+>   ```json
+>   {
+>     "resolutions": {
+>       "eslint-plugin-react-hooks": "5.0.0"
+>     }
 >   }
-> }
-> ```
+>   ```
 >
 
 Then upgrade @eblgattitude/eslint-config-bases

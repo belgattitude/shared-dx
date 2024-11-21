@@ -28,6 +28,8 @@ module.exports = {
       rules: {
         '@typescript-eslint/no-require-imports': 'off',
         'unicorn/prefer-module': 'off',
+        // Till this issue is handled: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/2468
+        'unicorn/prefer-global-this': 'off',
       },
     },
     {
