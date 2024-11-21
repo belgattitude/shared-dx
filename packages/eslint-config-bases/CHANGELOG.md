@@ -1,5 +1,23 @@
 # @belgattitude/eslint-config-bases
 
+## 6.7.0
+
+### Minor Changes
+
+- [#819](https://github.com/belgattitude/shared-dx/pull/819) [`72f0445`](https://github.com/belgattitude/shared-dx/commit/72f044535769791882ced616f1f3399c3ee25443) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable unicorn/prefer-global-this
+
+  Till this upstream issue is addressed: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/2468
+
+- [#819](https://github.com/belgattitude/shared-dx/pull/819) [`72f0445`](https://github.com/belgattitude/shared-dx/commit/72f044535769791882ced616f1f3399c3ee25443) Thanks [@belgattitude](https://github.com/belgattitude)! - Docs: mention workarounds for NextJS < 15
+
+- [#819](https://github.com/belgattitude/shared-dx/pull/819) [`72f0445`](https://github.com/belgattitude/shared-dx/commit/72f044535769791882ced616f1f3399c3ee25443) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
+  ```
+   eslint-plugin-import-x         ^4.4.2  →  ^4.4.3
+   eslint-plugin-perfectionist    ^4.0.2  →  ^4.0.3
+   eslint-plugin-testing-library  ^6.4.0  →  ^6.5.0
+  ```
+
 ## 6.6.0
 
 ### Minor Changes
