@@ -199,7 +199,23 @@ Ensure your tsconfig.json includes the .eslintrc.cjs file:
 >   on context (ie: `*.test.tsx?` might not need everything). Depending on project
 >   it's possible to disable entirely some slow rules (ie: `'import/namespace': 'off'`). A good tip
 >   run eslint with the `TIMING=1` to identify slow rules.
-> 
+>
+> - **If using NextJs < 15**, to avoid conflicts on eslint-plugin-react-hooks,
+>   ensure either
+>
+>   - Option 1: Update their `eslint-config-next` plugin to v15, ie: `yarn add --dev eslint-config-next@^15.0.3`
+>   - Option 2: Add an override (npm, pnpm) or resolutions (yarn) field in the root package.json
+>     to force the version of eslint-plugin-react-hooks to 5.0.0:
+>     
+>     ```json
+>     {
+>      "resolutions": {
+>        "eslint-plugin-react-hooks": "5.0.0"
+>      }
+>     }
+>     ```
+>
+
 
 ## Bases
 
@@ -296,6 +312,11 @@ Generic typescript project, mostly based on
 | :---------------------------------------------------------------------------------------------------------------------- | :--------------------------------------- |
 | [@tanstack/eslint-plugin-query/recommended](https://tanstack.com/query/v4/docs/eslint/eslint-plugin-query)                                     |                                          |
 
+### Vitest
+
+| Type/Plugin                                                              | Comment                       |
+|:-------------------------------------------------------------------------|:------------------------------|
+| [@vitest/eslint-plugin/recommended](https://github.com/vitest-dev/eslint-plugin-vitest?tab=readme-ov-file#rules) | Vitest recommended practices. |
 
 ### Jest
 
