@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.8.0
+
+### Minor Changes
+
+- [#824](https://github.com/belgattitude/shared-dx/pull/824) [`88308b2`](https://github.com/belgattitude/shared-dx/commit/88308b28fe1531e8bc4305b8c84957758eafacf0) Thanks [@belgattitude](https://github.com/belgattitude)! - eslint-plugin-testing-library to v7
+
 ## 6.7.0
 
 ### Minor Changes
