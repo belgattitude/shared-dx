@@ -98,14 +98,13 @@
   },
   "dependencies": {
     "@rushstack/eslint-patch": "^1.10.4",
-    "@tanstack/eslint-plugin-query": "^5.61.3",
+    "@tanstack/eslint-plugin-query": "^5.61.4",
     "@typescript-eslint/eslint-plugin": "^8.16.0",
     "@typescript-eslint/parser": "^8.16.0",
     "@typescript-eslint/typescript-estree": "^8.16.0",
     "@typescript-eslint/utils": "^8.16.0",
     "@vitest/eslint-plugin": "^1.1.10",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import-x": "^4.4.3",
     "eslint-plugin-jest": "^28.9.0",
     "eslint-plugin-jest-formatting": "^3.1.0",
@@ -124,7 +123,7 @@
     "eslint-plugin-unused-imports": "^4.1.4"
   },
   "peerDependencies": {
-    "@graphql-eslint/eslint-plugin": "^3.20.1",
+    "@graphql-eslint/eslint-plugin": "^4.0.0",
     "@testing-library/dom": "^10.4.0",
     "eslint": "^8.57.1",
     "eslint-plugin-mdx": "^3.1.5",
@@ -168,7 +167,7 @@
     }
   },
   "devDependencies": {
-    "@graphql-eslint/eslint-plugin": "3.20.1",
+    "@graphql-eslint/eslint-plugin": "4.0.0",
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.0.1",
@@ -181,7 +180,7 @@
     "eslint-plugin-mdx": "3.1.5",
     "eslint-plugin-tailwindcss": "3.17.5",
     "graphql": "16.9.0",
-    "prettier": "3.4.0",
+    "prettier": "3.4.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "rimraf": "6.0.1",
