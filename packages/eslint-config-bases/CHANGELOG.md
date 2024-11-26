@@ -1,5 +1,21 @@
 # @belgattitude/eslint-config-bases
 
+## 6.9.0
+
+### Minor Changes
+
+- [#828](https://github.com/belgattitude/shared-dx/pull/828) [`3b15db8`](https://github.com/belgattitude/shared-dx/commit/3b15db893c08e046fca90b4dbf48f76fe6da5ae7) Thanks [@belgattitude](https://github.com/belgattitude)! - Typescript 5.7 and prettier 3.4 support
+
+  Update minimum dependencies to
+
+  ```
+   @typescript-eslint/eslint-plugin      ^8.15.0  →  ^8.16.0
+   @typescript-eslint/parser             ^8.15.0  →  ^8.16.0
+   @typescript-eslint/typescript-estree  ^8.15.0  →  ^8.16.0
+   @typescript-eslint/utils              ^8.15.0  →  ^8.16.0
+   eslint-plugin-perfectionist            ^4.0.3  →   ^4.1.2
+  ```
+
 ## 6.8.0
 
 ### Minor Changes
