@@ -1,5 +1,19 @@
 # @belgattitude/eslint-config-bases
 
+## 6.10.0
+
+### Minor Changes
+
+- [#832](https://github.com/belgattitude/shared-dx/pull/832) [`2255a2b`](https://github.com/belgattitude/shared-dx/commit/2255a2bd1dc3aacee134fc8585b1fe0d21571d8d) Thanks [@belgattitude](https://github.com/belgattitude)! - Update peer dependency on @graphql-eslint/eslint-plugin from 3.20 → 4.0.0
+
+  ```
+  @graphql-eslint/eslint-plugin 3.20.1 → 4.0.0
+  ```
+
+### Patch Changes
+
+- [#832](https://github.com/belgattitude/shared-dx/pull/832) [`2255a2b`](https://github.com/belgattitude/shared-dx/commit/2255a2bd1dc3aacee134fc8585b1fe0d21571d8d) Thanks [@belgattitude](https://github.com/belgattitude)! - Remove unused eslint-import-resolver-typescript
+
 ## 6.9.0
 
 ### Minor Changes
