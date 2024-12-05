@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.12.0
+
+### Minor Changes
+
+- [#841](https://github.com/belgattitude/shared-dx/pull/841) [`95a45bb`](https://github.com/belgattitude/shared-dx/commit/95a45bbe26bbbd78e0503afd8355d0054247046b) Thanks [@belgattitude](https://github.com/belgattitude)! - Small fix for sonarjs/prefer-read-only-props after v3 update
+
 ## 6.11.0
 
 ### Minor Changes
