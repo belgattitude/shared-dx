@@ -39,13 +39,6 @@ module.exports = {
         'sonarjs/redundant-type-aliases': 'warn',
         'sonarjs/no-nested-template-literals': 'off',
         'sonarjs/no-duplicate-string': 'off',
-        'sonarjs/no-unknown-property': [
-          'warn',
-          {
-            // For NextJs styled-jsx <style jsx>{`...`}</style>
-            ignore: ['jsx', 'css'],
-          },
-        ],
       },
     },
     {
