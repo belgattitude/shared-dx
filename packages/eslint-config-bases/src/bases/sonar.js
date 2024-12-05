@@ -22,7 +22,7 @@ module.exports = {
         'sonarjs/anchor-is-valid': 'off',
         'sonarjs/label-has-associated-control': 'off',
         // it makes too much noise
-        'sonarjs/sonar-prefer-read-only-props': 'off',
+        'sonarjs/prefer-read-only-props': 'off',
         // Typescript-eslint does the job well enough
         'sonarjs/no-misused-promises': 'off',
         // Because plugin unused-import does it better (autofix)
