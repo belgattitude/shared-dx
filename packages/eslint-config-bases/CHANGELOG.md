@@ -1,5 +1,16 @@
 # @belgattitude/eslint-config-bases
 
+## 6.13.0
+
+### Minor Changes
+
+- [#847](https://github.com/belgattitude/shared-dx/pull/847) [`6878e2d`](https://github.com/belgattitude/shared-dx/commit/6878e2d5bbf43a56c31817118fb62cd85bd676b8) Thanks [@belgattitude](https://github.com/belgattitude)! - Plugins to latest versions
+
+  ```
+  eslint-plugin-sonarjs           ^3.0.0  →  ^3.0.1
+  eslint-plugin-testing-library   ^7.1.0  →  ^7.1.1
+  ```
+
 ## 6.12.0
 
 ### Minor Changes
