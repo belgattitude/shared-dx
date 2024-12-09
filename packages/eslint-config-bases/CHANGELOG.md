@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.14.0
+
+### Minor Changes
+
+- [#849](https://github.com/belgattitude/shared-dx/pull/849) [`f4adbad`](https://github.com/belgattitude/shared-dx/commit/f4adbad3131405ad27847c3461189e1ee86c5161) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable unicorn prefer global this everywhere
+
 ## 6.13.0
 
 ### Minor Changes
