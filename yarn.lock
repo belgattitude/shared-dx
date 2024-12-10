@@ -2892,12 +2892,12 @@ __metadata:
   linkType: hard
 
 "@jridgewell/gen-mapping@npm:^0.3.2, @jridgewell/gen-mapping@npm:^0.3.5":
-  version: 0.3.6
-  resolution: "@jridgewell/gen-mapping@npm:0.3.6"
+  version: 0.3.7
+  resolution: "@jridgewell/gen-mapping@npm:0.3.7"
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:1.4.16-beta.0"
     "@jridgewell/trace-mapping": "npm:^0.3.24"
-  checksum: 10c0/7abc82a1befcf9ddb6bed244ef56a955a8452db1d99730704366a47bbd409f996e59b1dba3a258c6b7d11da2436a85699375a5a9d1981f9cc8f1d7b67752c413
+  checksum: 10c0/62efb8a76c4dd8262ef694eeb9315bc4ee2afe5315c941f4e772dada83327d6df7fff326dacf1dd5e88dd2f3a59a633cd35edd1eb16d2a6c9c5529d7c22d9b97
   languageName: node
   linkType: hard
 
