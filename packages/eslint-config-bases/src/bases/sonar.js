@@ -18,6 +18,8 @@ module.exports = {
       excludedFiles: filePatterns.nonCodeFile,
       files: filePatterns.anyCode,
       rules: {
+        // Better handled by typescript-eslint
+        'sonarjs/no-unused-vars': 'off',
         // better handled by jsx-a11y plugin
         'sonarjs/anchor-is-valid': 'off',
         'sonarjs/label-has-associated-control': 'off',
