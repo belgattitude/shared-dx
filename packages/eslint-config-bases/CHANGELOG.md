@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.15.1
+
+### Patch Changes
+
+- [#856](https://github.com/belgattitude/shared-dx/pull/856) [`6fffe11`](https://github.com/belgattitude/shared-dx/commit/6fffe11237543f4b95c7e6d29060bc76ebbd1457) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable sonarjs/no-unused-vars (better handled by typescript eslint)
+
 ## 6.15.0
 
 ### Minor Changes
