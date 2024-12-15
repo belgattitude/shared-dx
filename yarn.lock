@@ -1403,7 +1403,7 @@ __metadata:
     eslint-plugin-testing-library: "npm:^7.1.1"
     eslint-plugin-unicorn: "npm:^56.0.1"
     eslint-plugin-unused-imports: "npm:^4.1.4"
-    graphql: "npm:16.9.0"
+    graphql: "npm:16.10.0"
     prettier: "npm:3.4.2"
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
@@ -9421,6 +9421,13 @@ __metadata:
   peerDependencies:
     graphql: ">=0.11 <=16"
   checksum: 10c0/5e538c3460ca997a1634bd0f64236d8d7aa6ac75c58aba549b49953faf0dd2497f4fa43eedb0bc82cfff50426c7ce47682a670d2571fd7f3af5dcf00911c9e1b
+  languageName: node
+  linkType: hard
+
+"graphql@npm:16.10.0":
+  version: 16.10.0
+  resolution: "graphql@npm:16.10.0"
+  checksum: 10c0/303730675538c8bd6c76b447dc6f03e61242e2d2596b408c34759666ec4877409e5593a7a0467d590ac5407b8c663b093b599556a77f24f281abea69ddc53de6
   languageName: node
   linkType: hard
 
