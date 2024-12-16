@@ -1,6 +1,7 @@
 const filePatterns = {
   test: ['**/?(*.)+(test|spec).{js,jsx,ts,tsx}'],
   anyCode: ['*.{js,jsx,mjs,jsx,tsx}'],
+  jsonFile: ['*.json'],
   typescriptCodeWithJsx: ['*.{ts,tsx}'],
   typescriptCodeWithoutJsx: ['*.ts'],
   typescriptAndJsCodeWithoutJsx: ['*.{js,mjs,ts}'],
