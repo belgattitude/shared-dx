@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 6.16.0
+
+### Minor Changes
+
+- [#860](https://github.com/belgattitude/shared-dx/pull/860) [`ce44e68`](https://github.com/belgattitude/shared-dx/commit/ce44e688eb88e185a691315f34706dbcdfb1505d) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable @typescript/no-unused-expressions for json files
+
 ## 6.15.1
 
 ### Patch Changes
