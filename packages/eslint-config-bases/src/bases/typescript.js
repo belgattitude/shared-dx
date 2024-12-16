@@ -31,6 +31,12 @@ module.exports = {
       },
     },
     {
+      files: filePatterns.jsonFile,
+      rules: {
+        '@typescript-eslint/no-unused-expressions': 'off',
+      },
+    },
+    {
       files: filePatterns.test,
       rules: {
         // @typescript-eslint/no-unused-expressions: disabled in test files
