@@ -53,8 +53,6 @@ module.exports = {
         // https://github.com/jest-community/eslint-plugin-jest/blob/main/docs/rules/unbound-method.md
         '@typescript-eslint/unbound-method': 'off',
         'require-await': 'off',
-        // Till this issue is handled: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/2468
-        'unicorn/prefer-global-this': 'off',
         'unicorn/no-null': 'off',
         'unicorn/no-useless-undefined': 'off',
         'unicorn/prefer-number-properties': 'off',
@@ -239,6 +237,8 @@ module.exports = {
       },
     ],
     'sort-imports': 'off',
+    // Till this issue is handled: https://github.com/sindresorhus/eslint-plugin-unicorn/issues/2468
+    'unicorn/prefer-global-this': 'off',
     // Disabled as it makes too many assumptions - enable per-project
     'unicorn/no-static-only-class': 'off',
     'unicorn/no-array-for-each': 'off',
