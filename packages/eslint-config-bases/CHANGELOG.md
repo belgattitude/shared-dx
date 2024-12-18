@@ -1,5 +1,24 @@
 # @belgattitude/eslint-config-bases
 
+## 6.17.0
+
+### Minor Changes
+
+- [#864](https://github.com/belgattitude/shared-dx/pull/864) [`0bf9af7`](https://github.com/belgattitude/shared-dx/commit/0bf9af7e50cb9eadafaab1cf9a4810c09dd40bd7) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable unicorn prefer-global-this by default
+
+### Patch Changes
+
+- [#864](https://github.com/belgattitude/shared-dx/pull/864) [`0bf9af7`](https://github.com/belgattitude/shared-dx/commit/0bf9af7e50cb9eadafaab1cf9a4810c09dd40bd7) Thanks [@belgattitude](https://github.com/belgattitude)! - Update all plugins
+
+  ```
+   @typescript-eslint/eslint-plugin      ^8.18.0  →  ^8.18.1
+   @typescript-eslint/parser             ^8.18.0  →  ^8.18.1
+   @typescript-eslint/typescript-estree  ^8.18.0  →  ^8.18.1
+   @typescript-eslint/utils              ^8.18.0  →  ^8.18.1
+   @vitest/eslint-plugin                 ^1.1.16  →  ^1.1.18
+   eslint-plugin-import-x                 ^4.5.0  →   ^4.5.1
+  ```
+
 ## 6.16.0
 
 ### Minor Changes
