@@ -1375,17 +1375,17 @@ __metadata:
     "@testing-library/react": "npm:16.1.0"
     "@types/jest": "npm:29.5.14"
     "@types/node": "npm:22.10.2"
-    "@types/react": "npm:19.0.1"
+    "@types/react": "npm:19.0.2"
     "@types/react-dom": "npm:19.0.2"
     "@typescript-eslint/eslint-plugin": "npm:^8.18.1"
     "@typescript-eslint/parser": "npm:^8.18.1"
     "@typescript-eslint/typescript-estree": "npm:^8.18.1"
     "@typescript-eslint/utils": "npm:^8.18.1"
-    "@vitest/eslint-plugin": "npm:^1.1.18"
+    "@vitest/eslint-plugin": "npm:^1.1.19"
     es-check: "npm:7.2.1"
     eslint: "npm:8.57.1"
     eslint-config-prettier: "npm:^9.1.0"
-    eslint-plugin-import-x: "npm:^4.5.1"
+    eslint-plugin-import-x: "npm:^4.6.1"
     eslint-plugin-jest: "npm:^28.9.0"
     eslint-plugin-jest-formatting: "npm:^3.1.0"
     eslint-plugin-jsx-a11y: "npm:^6.10.2"
@@ -2987,34 +2987,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/bundle-analyzer@npm:15.1.1":
-  version: 15.1.1
-  resolution: "@next/bundle-analyzer@npm:15.1.1"
+"@next/bundle-analyzer@npm:15.1.2":
+  version: 15.1.2
+  resolution: "@next/bundle-analyzer@npm:15.1.2"
   dependencies:
     webpack-bundle-analyzer: "npm:4.10.1"
-  checksum: 10c0/2a85db96b1b37a6273d7ee81978ffd11181335b2017c636bcccfc6bca3fdd9a7f1b3c45fba35b4b51f5ca844da76f604d5e8568c894fbdae5a14ff27548cc0d6
+  checksum: 10c0/bf1a1ef6554bd7c39b26cebe9a9e3c387d5874dc33278662732a269e106aa091255524e87c0fb43546918962450fcebee25a24c7c14d76afeb6c1268907b6246
   languageName: node
   linkType: hard
 
-"@next/env@npm:15.1.1":
-  version: 15.1.1
-  resolution: "@next/env@npm:15.1.1"
-  checksum: 10c0/464ecb345eaf1170a863fff3f5bbed081982b1c1d70d617020d336aa7bdd6160a8dbb0a9cb4ba9d8c8189ae56aa026c2fa0d3b7f8365dc6ea00d5e9fba10c2f0
+"@next/env@npm:15.1.2":
+  version: 15.1.2
+  resolution: "@next/env@npm:15.1.2"
+  checksum: 10c0/07f2b258bd0e8937bfd33515c48b920491d9c281de5f1fa58c4c222dc8e7e0ad3745ca6035bfef788f07d9a39c583bc18cb0cdfbaa8c2177761d9c2bbdd9592f
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:15.1.1":
-  version: 15.1.1
-  resolution: "@next/eslint-plugin-next@npm:15.1.1"
+"@next/eslint-plugin-next@npm:15.1.2":
+  version: 15.1.2
+  resolution: "@next/eslint-plugin-next@npm:15.1.2"
   dependencies:
     fast-glob: "npm:3.3.1"
-  checksum: 10c0/7f01fdd0cadd8e72cc29b3f3a9848445352447d6327bbb1332ec55e387603b9cb584527c227a7bab86925a4f0b9aa0416493799d786f42fb4e6aa910dd93e72d
+  checksum: 10c0/9caf0763247cba8925d89596b7fdb21ec5d3cd0f5251e1e3f70c19815c7439cf358c694e59f0eedf08520c3a75c063395288af92661c75781bd7441de1063dc2
   languageName: node
   linkType: hard
 
-"@next/mdx@npm:15.1.1":
-  version: 15.1.1
-  resolution: "@next/mdx@npm:15.1.1"
+"@next/mdx@npm:15.1.2":
+  version: 15.1.2
+  resolution: "@next/mdx@npm:15.1.2"
   dependencies:
     source-map: "npm:^0.7.0"
   peerDependencies:
@@ -3025,62 +3025,62 @@ __metadata:
       optional: true
     "@mdx-js/react":
       optional: true
-  checksum: 10c0/f68177f80690e23457d2ffed8d51d3696260e4a88c293fdf9d771c04b7cea5cd65c843a2804ec01d30b53f61a3dccf525bb3772517270b4e6dd972ced2bfc1bc
+  checksum: 10c0/e0e2d943a4f172e3189ec44d2cc02750ae1fab3f96853a20c5b9342a66a0b0a56a76fb127a70a8dba1a22e191cb1d5299751ea5f3ee6679bfcc76b1df5358e8d
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-arm64@npm:15.1.1":
-  version: 15.1.1
-  resolution: "@next/swc-darwin-arm64@npm:15.1.1"
+"@next/swc-darwin-arm64@npm:15.1.2":
+  version: 15.1.2
+  resolution: "@next/swc-darwin-arm64@npm:15.1.2"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-darwin-x64@npm:15.1.1":
-  version: 15.1.1
-  resolution: "@next/swc-darwin-x64@npm:15.1.1"
+"@next/swc-darwin-x64@npm:15.1.2":
+  version: 15.1.2
+  resolution: "@next/swc-darwin-x64@npm:15.1.2"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-gnu@npm:15.1.1":
-  version: 15.1.1
-  resolution: "@next/swc-linux-arm64-gnu@npm:15.1.1"
+"@next/swc-linux-arm64-gnu@npm:15.1.2":
+  version: 15.1.2
+  resolution: "@next/swc-linux-arm64-gnu@npm:15.1.2"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-arm64-musl@npm:15.1.1":
-  version: 15.1.1
-  resolution: "@next/swc-linux-arm64-musl@npm:15.1.1"
+"@next/swc-linux-arm64-musl@npm:15.1.2":
+  version: 15.1.2
+  resolution: "@next/swc-linux-arm64-musl@npm:15.1.2"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-gnu@npm:15.1.1":
-  version: 15.1.1
-  resolution: "@next/swc-linux-x64-gnu@npm:15.1.1"
+"@next/swc-linux-x64-gnu@npm:15.1.2":
+  version: 15.1.2
+  resolution: "@next/swc-linux-x64-gnu@npm:15.1.2"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@next/swc-linux-x64-musl@npm:15.1.1":
-  version: 15.1.1
-  resolution: "@next/swc-linux-x64-musl@npm:15.1.1"
+"@next/swc-linux-x64-musl@npm:15.1.2":
+  version: 15.1.2
+  resolution: "@next/swc-linux-x64-musl@npm:15.1.2"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@next/swc-win32-arm64-msvc@npm:15.1.1":
-  version: 15.1.1
-  resolution: "@next/swc-win32-arm64-msvc@npm:15.1.1"
+"@next/swc-win32-arm64-msvc@npm:15.1.2":
+  version: 15.1.2
+  resolution: "@next/swc-win32-arm64-msvc@npm:15.1.2"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@next/swc-win32-x64-msvc@npm:15.1.1":
-  version: 15.1.1
-  resolution: "@next/swc-win32-x64-msvc@npm:15.1.1"
+"@next/swc-win32-x64-msvc@npm:15.1.2":
+  version: 15.1.2
+  resolution: "@next/swc-win32-x64-msvc@npm:15.1.2"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -4708,12 +4708,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:19.0.1":
-  version: 19.0.1
-  resolution: "@types/react@npm:19.0.1"
+"@types/react@npm:19.0.2":
+  version: 19.0.2
+  resolution: "@types/react@npm:19.0.2"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10c0/25eb69114abb9a6d5fc4414ee584388275bbc9ac32976449cf58b95fe9880efe6b3f936c3842be9bed8c571546a9752e8d3e2095288381e9c809269f5f574f2e
+  checksum: 10c0/8992f39701fcf1bf893ef8f94a56196445667baf08fe4f6050a14e229a17aad3265ad3efc01595ff3b4d5d5c69da885f9aa4ff80f164a613018734efcff1eb8f
   languageName: node
   linkType: hard
 
@@ -4935,9 +4935,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/eslint-plugin@npm:^1.1.18":
-  version: 1.1.18
-  resolution: "@vitest/eslint-plugin@npm:1.1.18"
+"@vitest/eslint-plugin@npm:^1.1.19":
+  version: 1.1.19
+  resolution: "@vitest/eslint-plugin@npm:1.1.19"
   peerDependencies:
     "@typescript-eslint/utils": ">= 8.0"
     eslint: ">= 8.57.0"
@@ -4948,7 +4948,7 @@ __metadata:
       optional: true
     vitest:
       optional: true
-  checksum: 10c0/316a9a6b2b9b22fc36037446607ef9a53d7ee3983a9e340f769dc3c136dd90767c29a62c14b860abaf6288cdef8f84cb92f092d2c90bc31ce04cfccf022ef6f9
+  checksum: 10c0/0e031d714d6b41a840a643a2549b3b6248468d43c2c331547965b5c4f04c25ac0450602d1ec86bcfca82aabaf78c4ee205b30a7267734a01a49a30492e713281
   languageName: node
   linkType: hard
 
@@ -8006,11 +8006,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:15.1.1":
-  version: 15.1.1
-  resolution: "eslint-config-next@npm:15.1.1"
+"eslint-config-next@npm:15.1.2":
+  version: 15.1.2
+  resolution: "eslint-config-next@npm:15.1.2"
   dependencies:
-    "@next/eslint-plugin-next": "npm:15.1.1"
+    "@next/eslint-plugin-next": "npm:15.1.2"
     "@rushstack/eslint-patch": "npm:^1.10.3"
     "@typescript-eslint/eslint-plugin": "npm:^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
     "@typescript-eslint/parser": "npm:^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
@@ -8026,7 +8026,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/d33574dd08c0ab4607280aa1ac2111828cd0c79b69eea3393a78a56c8147a46886646c199519e952df925ba94f735e0b0c58e2df902fb5e5d6bcb8423be71d78
+  checksum: 10c0/570775cc12ae044d85f9a44774aa5288695ab47b937e8a97cc707455daff4281e9f61823213bf3f7da9bd4067f8e6e2373ff74781aaa52a148e1a6c4e667763e
   languageName: node
   linkType: hard
 
@@ -8113,15 +8113,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import-x@npm:^4.5.1":
-  version: 4.5.1
-  resolution: "eslint-plugin-import-x@npm:4.5.1"
+"eslint-plugin-import-x@npm:^4.6.1":
+  version: 4.6.1
+  resolution: "eslint-plugin-import-x@npm:4.6.1"
   dependencies:
     "@types/doctrine": "npm:^0.0.9"
     "@typescript-eslint/scope-manager": "npm:^8.1.0"
     "@typescript-eslint/utils": "npm:^8.1.0"
     debug: "npm:^4.3.4"
     doctrine: "npm:^3.0.0"
+    enhanced-resolve: "npm:^5.17.1"
     eslint-import-resolver-node: "npm:^0.3.9"
     get-tsconfig: "npm:^4.7.3"
     is-glob: "npm:^4.0.3"
@@ -8131,7 +8132,7 @@ __metadata:
     tslib: "npm:^2.6.3"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
-  checksum: 10c0/8b674b7ed528e7694c4c51b78a333ec3a464d4c048755387526f1454a05f05ffc61a593aa8a52aaad1b991676be5e77cf6e4aca9d897dc58699d60370d7bd85c
+  checksum: 10c0/08ea85d7dc096f3998c05237c93cd14e0cb072c66ee500fa69f5ce37a81ffc8c76cf682ec53156b09f2ed2071308eb93e53bd7741e0cfd8c56e12f09ae24be82
   languageName: node
   linkType: hard
 
@@ -10696,10 +10697,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ky@npm:1.7.3":
-  version: 1.7.3
-  resolution: "ky@npm:1.7.3"
-  checksum: 10c0/9e9c130a1ec4bfaa1fbafea0616dc778884afaf753a9b2eee572f70de54aab9ed7aebe89e92559397513e1fa2c32a09027db60bb9e4a92fcd0633856cac7ae7d
+"ky@npm:1.7.4":
+  version: 1.7.4
+  resolution: "ky@npm:1.7.4"
+  checksum: 10c0/8b28b85cbee6d3e073ff796b92661f4bf155ec9b9a131411de1c34fb2f89f8507e67ff3df369e3c6d18714134774e8735e88cba72b19d005a09112b800d14474
   languageName: node
   linkType: hard
 
@@ -12007,19 +12008,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:15.1.1":
-  version: 15.1.1
-  resolution: "next@npm:15.1.1"
+"next@npm:15.1.2":
+  version: 15.1.2
+  resolution: "next@npm:15.1.2"
   dependencies:
-    "@next/env": "npm:15.1.1"
-    "@next/swc-darwin-arm64": "npm:15.1.1"
-    "@next/swc-darwin-x64": "npm:15.1.1"
-    "@next/swc-linux-arm64-gnu": "npm:15.1.1"
-    "@next/swc-linux-arm64-musl": "npm:15.1.1"
-    "@next/swc-linux-x64-gnu": "npm:15.1.1"
-    "@next/swc-linux-x64-musl": "npm:15.1.1"
-    "@next/swc-win32-arm64-msvc": "npm:15.1.1"
-    "@next/swc-win32-x64-msvc": "npm:15.1.1"
+    "@next/env": "npm:15.1.2"
+    "@next/swc-darwin-arm64": "npm:15.1.2"
+    "@next/swc-darwin-x64": "npm:15.1.2"
+    "@next/swc-linux-arm64-gnu": "npm:15.1.2"
+    "@next/swc-linux-arm64-musl": "npm:15.1.2"
+    "@next/swc-linux-x64-gnu": "npm:15.1.2"
+    "@next/swc-linux-x64-musl": "npm:15.1.2"
+    "@next/swc-win32-arm64-msvc": "npm:15.1.2"
+    "@next/swc-win32-x64-msvc": "npm:15.1.2"
     "@swc/counter": "npm:0.1.3"
     "@swc/helpers": "npm:0.5.15"
     busboy: "npm:1.6.0"
@@ -12064,7 +12065,7 @@ __metadata:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: 10c0/2908eb539b21a7149f1a5e1cf6ff15f2de1687cc6b445af6cc8b32b33f3d3befc3971c0548bf9bcacd1237e0d06d77b0a21e13d03e5393c3e7bf47280ea1288f
+  checksum: 10c0/320b949336fa41210ebe5cee66fce7edb4dc3474b438898590e43f6dfe30212620b090801d6f8cc4d37bfb54cb316680f65b58110cc8885f8c2b108a80e4ecee
   languageName: node
   linkType: hard
 
@@ -16194,8 +16195,8 @@ __metadata:
     "@httpx/memo-intl": "npm:1.1.3"
     "@httpx/plain-object": "npm:2.0.3"
     "@httpx/treeu": "npm:0.4.7"
-    "@next/bundle-analyzer": "npm:15.1.1"
-    "@next/mdx": "npm:15.1.1"
+    "@next/bundle-analyzer": "npm:15.1.2"
+    "@next/mdx": "npm:15.1.2"
     "@storybook/addon-essentials": "npm:8.4.7"
     "@storybook/addon-interactions": "npm:8.4.7"
     "@storybook/addon-links": "npm:8.4.7"
@@ -16211,7 +16212,7 @@ __metadata:
     "@total-typescript/ts-reset": "npm:0.6.1"
     "@types/mdx": "npm:2.0.13"
     "@types/node": "npm:22.10.2"
-    "@types/react": "npm:19.0.1"
+    "@types/react": "npm:19.0.2"
     "@types/react-dom": "npm:19.0.2"
     "@typescript-eslint/eslint-plugin": "npm:8.18.1"
     "@typescript-eslint/parser": "npm:8.18.1"
@@ -16221,15 +16222,15 @@ __metadata:
     cross-env: "npm:7.0.3"
     dotenv-flow-cli: "npm:1.1.1"
     eslint: "npm:8.57.1"
-    eslint-config-next: "npm:15.1.1"
+    eslint-config-next: "npm:15.1.2"
     eslint-plugin-mdx: "npm:3.1.5"
     eslint-plugin-storybook: "npm:0.11.1"
     eslint-plugin-tailwindcss: "npm:3.17.5"
     graphql: "npm:16.10.0"
     graphql-config: "npm:5.1.3"
-    ky: "npm:1.7.3"
+    ky: "npm:1.7.4"
     mdx: "npm:0.3.1"
-    next: "npm:15.1.1"
+    next: "npm:15.1.2"
     next-secure-headers: "npm:2.2.0"
     picocolors: "npm:1.1.1"
     postcss: "npm:8.4.49"
