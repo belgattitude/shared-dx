@@ -125,7 +125,7 @@
   "peerDependencies": {
     "@graphql-eslint/eslint-plugin": "^4.0.0",
     "@testing-library/dom": "^10.4.0",
-    "eslint": "^8.57.1",
+    "eslint": "^8.57.1 || ^9.0.0",
     "eslint-plugin-mdx": "^3.1.5",
     "eslint-plugin-tailwindcss": "^3.17.5",
     "graphql": "^16.9.0",
@@ -176,7 +176,7 @@
     "@types/react": "19.0.2",
     "@types/react-dom": "19.0.2",
     "es-check": "7.2.1",
-    "eslint": "8.57.1",
+    "eslint": "9.17.0",
     "eslint-plugin-mdx": "3.1.5",
     "eslint-plugin-tailwindcss": "3.17.5",
     "graphql": "16.10.0",
