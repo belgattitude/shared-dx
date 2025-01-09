@@ -1,5 +1,15 @@
 # @belgattitude/eslint-config-bases
 
+## 6.18.2
+
+### Patch Changes
+
+- [#879](https://github.com/belgattitude/shared-dx/pull/879) [`ebf8acf`](https://github.com/belgattitude/shared-dx/commit/ebf8acf5bf052f09b939460d674dd09bc5eb8039) Thanks [@belgattitude](https://github.com/belgattitude)! - Update eslint-patch to latest
+
+  ```
+  @rushstack/eslint-patch  ^1.10.4  →  ^1.10.5
+  ```
+
 ## 6.18.1
 
 ### Patch Changes
