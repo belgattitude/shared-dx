@@ -1,5 +1,22 @@
 # @belgattitude/eslint-config-bases
 
+## 6.21.0
+
+### Minor Changes
+
+- [#897](https://github.com/belgattitude/shared-dx/pull/897) [`2d7d561`](https://github.com/belgattitude/shared-dx/commit/2d7d561ec5b39bc5125493a896f8549e81cf441b) Thanks [@belgattitude](https://github.com/belgattitude)! - All deps to latest
+
+  **Note**: tailwindcss support for 4.0.0 isn't properly working (yet)
+
+  ```
+  @tanstack/eslint-plugin-query         ^5.64.2  →  ^5.65.0
+  @typescript-eslint/eslint-plugin      ^8.21.0  →  ^8.22.0
+  @typescript-eslint/parser             ^8.21.0  →  ^8.22.0
+  @typescript-eslint/typescript-estree  ^8.21.0  →  ^8.22.0
+  @typescript-eslint/utils              ^8.21.0  →  ^8.22.0
+  eslint-plugin-playwright               ^2.1.0  →   ^2.2.0
+  ```
+
 ## 6.20.0
 
 ### Minor Changes
