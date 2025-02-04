@@ -1,5 +1,22 @@
 # @belgattitude/eslint-config-bases
 
+## 6.22.0
+
+### Minor Changes
+
+- [#902](https://github.com/belgattitude/shared-dx/pull/902) [`964ec96`](https://github.com/belgattitude/shared-dx/commit/964ec96b5b1a25958764cff57dc95109d5fbcf19) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
+  Tailwind V4 support is still delayed. Waiting for https://github.com/francoismassart/eslint-plugin-tailwindcss/issues/384 to be resolved.
+
+  ```
+   @tanstack/eslint-plugin-query         ^5.65.0  →  ^5.66.0
+   @typescript-eslint/eslint-plugin      ^8.22.0  →  ^8.23.0
+   @typescript-eslint/parser             ^8.22.0  →  ^8.23.0
+   @typescript-eslint/typescript-estree  ^8.22.0  →  ^8.23.0
+   @typescript-eslint/utils              ^8.22.0  →  ^8.23.0
+   eslint-plugin-perfectionist            ^4.7.0  →   ^4.8.0
+  ```
+
 ## 6.21.0
 
 ### Minor Changes
