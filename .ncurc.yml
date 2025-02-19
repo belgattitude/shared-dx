@@ -10,9 +10,13 @@ reject: [
     # Till eslint-plugin-tailwindcss is stable
     "tailwindcss",
     "tailwind-merge",
+    # till flat eslint 9 support
+    "eslint-plugin-unicorn"
+
     #"@tanstack/eslint-plugin-query",
     #"@typescript-eslint/eslint-plugin",
     #"@typescript-eslint/parser",
     #"@typescript-eslint/typescript-estree",
     #"@typescript-eslint/utils",
+
   ]
