@@ -1291,7 +1291,7 @@ __metadata:
     "@testing-library/jest-dom": "npm:6.6.3"
     "@testing-library/react": "npm:16.2.0"
     "@types/jest": "npm:29.5.14"
-    "@types/node": "npm:22.13.4"
+    "@types/node": "npm:22.13.5"
     "@types/react": "npm:19.0.10"
     "@types/react-dom": "npm:19.0.4"
     "@typescript-eslint/eslint-plugin": "npm:^8.24.1"
@@ -1362,11 +1362,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@changesets/apply-release-plan@npm:^7.0.9":
-  version: 7.0.9
-  resolution: "@changesets/apply-release-plan@npm:7.0.9"
+"@changesets/apply-release-plan@npm:^7.0.10":
+  version: 7.0.10
+  resolution: "@changesets/apply-release-plan@npm:7.0.10"
   dependencies:
-    "@changesets/config": "npm:^3.1.0"
+    "@changesets/config": "npm:^3.1.1"
     "@changesets/get-version-range-type": "npm:^0.4.0"
     "@changesets/git": "npm:^3.0.2"
     "@changesets/should-skip-package": "npm:^0.1.2"
@@ -1379,7 +1379,7 @@ __metadata:
     prettier: "npm:^2.7.1"
     resolve-from: "npm:^5.0.0"
     semver: "npm:^7.5.3"
-  checksum: 10c0/6b1d91b8d6bec729bee56fc0de7bdb8b3733c3804110064489480cc9d84e453a6a623bc33c4d01597dff3bfe730d4f1adcb951f01c98120c2967449e162161d2
+  checksum: 10c0/4ee5951448c26bbf73fac5c9a0785d5bb0cc3f2e6c1ffc9337766b446fe79a7b018834be2a4723938faec0d331aa30f1d6c7ea47db48d7a7babe37862645dd57
   languageName: node
   linkType: hard
 
@@ -1417,17 +1417,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/cli@npm:2.28.0":
-  version: 2.28.0
-  resolution: "@changesets/cli@npm:2.28.0"
+"@changesets/cli@npm:2.28.1":
+  version: 2.28.1
+  resolution: "@changesets/cli@npm:2.28.1"
   dependencies:
-    "@changesets/apply-release-plan": "npm:^7.0.9"
+    "@changesets/apply-release-plan": "npm:^7.0.10"
     "@changesets/assemble-release-plan": "npm:^6.0.6"
     "@changesets/changelog-git": "npm:^0.2.1"
-    "@changesets/config": "npm:^3.1.0"
+    "@changesets/config": "npm:^3.1.1"
     "@changesets/errors": "npm:^0.2.0"
     "@changesets/get-dependents-graph": "npm:^2.1.3"
-    "@changesets/get-release-plan": "npm:^4.0.7"
+    "@changesets/get-release-plan": "npm:^4.0.8"
     "@changesets/git": "npm:^3.0.2"
     "@changesets/logger": "npm:^0.1.1"
     "@changesets/pre": "npm:^2.0.2"
@@ -1451,13 +1451,13 @@ __metadata:
     term-size: "npm:^2.1.0"
   bin:
     changeset: bin.js
-  checksum: 10c0/46f56b2ebef543fbefb51946e2f3fab8bba1ae0aaec3890c29360c439596046a58d07810c72e3ac9dd0431825aae4692b12ea1cd4c97a7acb79e7af4a273391a
+  checksum: 10c0/f965b56fa533f91b5de0f5fd5b09fac46662f023dafbe474d3fc7ceb71629dce4783a37429a927d50292a7ea95c0694e5a8f0c143d9cbba95d28a4d11ab8106b
   languageName: node
   linkType: hard
 
-"@changesets/config@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "@changesets/config@npm:3.1.0"
+"@changesets/config@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "@changesets/config@npm:3.1.1"
   dependencies:
     "@changesets/errors": "npm:^0.2.0"
     "@changesets/get-dependents-graph": "npm:^2.1.3"
@@ -1466,7 +1466,7 @@ __metadata:
     "@manypkg/get-packages": "npm:^1.1.3"
     fs-extra: "npm:^7.0.1"
     micromatch: "npm:^4.0.8"
-  checksum: 10c0/5d382f37dfa28e72295703d30fae50b034d70494e0335426e606160cd827fd98cb041051f11491d6995b48329bbfc90bc886da05251c3a5e86ab598486ca80c1
+  checksum: 10c0/e6e529ca9525d1550cc2155a01a477c5b923e084985cb5cb15b6efc06da543c2faf623dd67d305688ffa8a8fc9d48f1ba74ad6653ce230183e40f10ffaa0c2dc
   languageName: node
   linkType: hard
 
@@ -1501,17 +1501,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@changesets/get-release-plan@npm:^4.0.7":
-  version: 4.0.7
-  resolution: "@changesets/get-release-plan@npm:4.0.7"
+"@changesets/get-release-plan@npm:^4.0.8":
+  version: 4.0.8
+  resolution: "@changesets/get-release-plan@npm:4.0.8"
   dependencies:
     "@changesets/assemble-release-plan": "npm:^6.0.6"
-    "@changesets/config": "npm:^3.1.0"
+    "@changesets/config": "npm:^3.1.1"
     "@changesets/pre": "npm:^2.0.2"
     "@changesets/read": "npm:^0.6.3"
     "@changesets/types": "npm:^6.1.0"
     "@manypkg/get-packages": "npm:^1.1.3"
-  checksum: 10c0/ad3dbf6b1f68797ba06e65889259417c72b25d1ca933962471f1b18e145b866487c762a2ef3d90ef83b3d594ddafc99aa2b3a3ebf9f2c3eaeeb9e2f636f81874
+  checksum: 10c0/b638f83683264818ea6cb729a3fd10f9edf29c61c7acee15ce321287cacbe03700706a20c0b531fdb3bbb23bda8967f4c6cbef08db207189fb7289313f473a1a
   languageName: node
   linkType: hard
 
@@ -2596,19 +2596,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@httpx/lru@npm:0.8.1, @httpx/lru@npm:^0.8.1":
-  version: 0.8.1
-  resolution: "@httpx/lru@npm:0.8.1"
-  checksum: 10c0/abe067fc24b47bcf865eee584cf911f453cffc452000a383083d151af8419efb340004b0eb4528f76ef6cd3f480ae58da7419ab636c8f83691c2cf97efbecd53
+"@httpx/lru@npm:0.9.0, @httpx/lru@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "@httpx/lru@npm:0.9.0"
+  checksum: 10c0/629b2b33e6a05d9e939c126fed4d9dbe69c077b0ec588a16335ae1565c86b1fe5875079a2b583f7f1f30f4846d5ff0482c7d2585d2ac88e240affb08fc512cf3
   languageName: node
   linkType: hard
 
-"@httpx/memo-intl@npm:1.2.6":
-  version: 1.2.6
-  resolution: "@httpx/memo-intl@npm:1.2.6"
+"@httpx/memo-intl@npm:1.2.7":
+  version: 1.2.7
+  resolution: "@httpx/memo-intl@npm:1.2.7"
   dependencies:
-    "@httpx/lru": "npm:^0.8.1"
-  checksum: 10c0/889b00574f41c60f11ddde654068f842775867a94170e9bb3c3502c5ad665d16170e7f635b1784644d5c333fbdb5d2c5ced30f3b87f0d431941af0a8f42f4dc8
+    "@httpx/lru": "npm:^0.9.0"
+  checksum: 10c0/8c254c64e5edb9f5a4b3acebb9bb93eccab883157e838279179569d0a9b251ce88621dd9bd8732cfff8cb20bea92dda207c09426a631e9e047abe2b6e2b02d33
   languageName: node
   linkType: hard
 
@@ -4320,14 +4320,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/react-query@npm:5.66.7":
-  version: 5.66.7
-  resolution: "@tanstack/react-query@npm:5.66.7"
+"@tanstack/react-query@npm:5.66.9":
+  version: 5.66.9
+  resolution: "@tanstack/react-query@npm:5.66.9"
   dependencies:
     "@tanstack/query-core": "npm:5.66.4"
   peerDependencies:
     react: ^18 || ^19
-  checksum: 10c0/e17af87fa0d3e1e3f18dc1417e1eac2e09e37c5203b9df0bcdeb239ec6430bd95df70c48a87e1824c6671cb051805b7a10ec5ad27321d5c57cdd8636d2ba13fb
+  checksum: 10c0/80565eb550e1fe3e90117c8dd4dd13c1ef27d1bf89689b09c6cdf6df084173582c3a20fbc709638b64502a10b1e10357b3172c38604739641dbdeb29715cae0d
   languageName: node
   linkType: hard
 
@@ -4651,12 +4651,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:22.13.4, @types/node@npm:^22.0.0":
-  version: 22.13.4
-  resolution: "@types/node@npm:22.13.4"
+"@types/node@npm:*, @types/node@npm:22.13.5, @types/node@npm:^22.0.0":
+  version: 22.13.5
+  resolution: "@types/node@npm:22.13.5"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10c0/3a234fa7766a3efc382cf81f66f474c26cdab2f54f43f757634c81c0444eb2160c2dabbde9741e4983078a318a88515b65416b5f1ab5478548579d7b3ead1d95
+  checksum: 10c0/a2e7ed7bb0690e439004779baedeb05159c5cc41ef6d81c7a6ebea5303fde4033669e1c0e41ff7453b45fd2fea8dbd55fddfcd052950c7fcae3167c970bca725
   languageName: node
   linkType: hard
 
@@ -5853,7 +5853,7 @@ __metadata:
   dependencies:
     "@belgattitude/eslint-config-bases": "workspace:^"
     "@changesets/changelog-github": "npm:0.5.1"
-    "@changesets/cli": "npm:2.28.0"
+    "@changesets/cli": "npm:2.28.1"
     "@commitlint/cli": "npm:19.7.1"
     "@commitlint/config-conventional": "npm:19.7.1"
     "@playwright/test": "npm:1.50.1"
@@ -13273,14 +13273,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.5.2, postcss@npm:^8.2.14, postcss@npm:^8.4.33, postcss@npm:^8.4.38, postcss@npm:^8.4.4, postcss@npm:^8.4.47, postcss@npm:^8.4.49":
-  version: 8.5.2
-  resolution: "postcss@npm:8.5.2"
+"postcss@npm:8.5.3, postcss@npm:^8.2.14, postcss@npm:^8.4.33, postcss@npm:^8.4.38, postcss@npm:^8.4.4, postcss@npm:^8.4.47, postcss@npm:^8.4.49":
+  version: 8.5.3
+  resolution: "postcss@npm:8.5.3"
   dependencies:
     nanoid: "npm:^3.3.8"
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
-  checksum: 10c0/3044d49bc725029ab62292e8bf9849741251b95f3b754e191bf8b4025414d40ec3b4ac05c5a563d4b50060b5c8e96683eb4d783d8d8fa3867eb7b763cbe66127
+  checksum: 10c0/b75510d7b28c3ab728c8733dd01538314a18c52af426f199a3c9177e63eb08602a3938bfb66b62dc01350b9aed62087eabbf229af97a1659eb8d3513cec823b3
   languageName: node
   linkType: hard
 
@@ -13297,15 +13297,6 @@ __metadata:
   dependencies:
     fast-diff: "npm:^1.1.2"
   checksum: 10c0/81e0027d731b7b3697ccd2129470ed9913ecb111e4ec175a12f0fcfab0096516373bf0af2fef132af50cafb0a905b74ff57996d615f59512bb9ac7378fcc64ab
-  languageName: node
-  linkType: hard
-
-"prettier@npm:3.5.1":
-  version: 3.5.1
-  resolution: "prettier@npm:3.5.1"
-  bin:
-    prettier: bin/prettier.cjs
-  checksum: 10c0/9f6f810eae455d6e4213845151a484a2338f2e0d6a8b84ee8e13a83af8a2421ef6c1e31e61e4b135671fb57b9541f6624648880cc2061ac803e243ac898c0123
   languageName: node
   linkType: hard
 
@@ -16372,8 +16363,8 @@ __metadata:
     "@httpx/assert": "npm:0.15.2"
     "@httpx/dsn-parser": "npm:1.8.6"
     "@httpx/exception": "npm:3.0.12"
-    "@httpx/lru": "npm:0.8.1"
-    "@httpx/memo-intl": "npm:1.2.6"
+    "@httpx/lru": "npm:0.9.0"
+    "@httpx/memo-intl": "npm:1.2.7"
     "@httpx/plain-object": "npm:2.0.6"
     "@httpx/treeu": "npm:0.4.12"
     "@next/bundle-analyzer": "npm:15.1.7"
@@ -16389,10 +16380,10 @@ __metadata:
     "@tailwindcss/forms": "npm:0.5.10"
     "@tailwindcss/typography": "npm:0.5.16"
     "@tanstack/query-core": "npm:5.66.4"
-    "@tanstack/react-query": "npm:5.66.7"
+    "@tanstack/react-query": "npm:5.66.9"
     "@total-typescript/ts-reset": "npm:0.6.1"
     "@types/mdx": "npm:2.0.13"
-    "@types/node": "npm:22.13.4"
+    "@types/node": "npm:22.13.5"
     "@types/react": "npm:19.0.10"
     "@types/react-dom": "npm:19.0.4"
     "@typescript-eslint/eslint-plugin": "npm:8.24.1"
@@ -16414,9 +16405,9 @@ __metadata:
     next: "npm:15.1.7"
     next-secure-headers: "npm:2.2.0"
     picocolors: "npm:1.1.1"
-    postcss: "npm:8.5.2"
+    postcss: "npm:8.5.3"
     postcss-loader: "npm:8.1.1"
-    prettier: "npm:3.5.1"
+    prettier: "npm:3.5.2"
     react: "npm:19.0.0"
     react-dom: "npm:19.0.0"
     rimraf: "npm:6.0.1"
