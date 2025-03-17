@@ -1,5 +1,16 @@
 # @belgattitude/eslint-config-bases
 
+## 6.28.0
+
+### Minor Changes
+
+- [#930](https://github.com/belgattitude/shared-dx/pull/930) [`02691c1`](https://github.com/belgattitude/shared-dx/commit/02691c1495a43ccc3ceccf7fc809221b9ebd7cfa) Thanks [@belgattitude](https://github.com/belgattitude)! - import-x plugin updated
+
+  ```
+   @tanstack/eslint-plugin-query  ^5.67.2  →  ^5.68.0
+   eslint-plugin-import-x          ^4.6.1  →   ^4.8.0
+  ```
+
 ## 6.27.0
 
 ### Minor Changes
