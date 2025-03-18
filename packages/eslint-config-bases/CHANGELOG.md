@@ -1,5 +1,17 @@
 # @belgattitude/eslint-config-bases
 
+## 6.29.0
+
+### Minor Changes
+
+- [#933](https://github.com/belgattitude/shared-dx/pull/933) [`eb51a43`](https://github.com/belgattitude/shared-dx/commit/eb51a431f00dee25ffd8de66dcb144dde64833cf) Thanks [@belgattitude](https://github.com/belgattitude)! - Plugins to latest. eslint-plugin-storybook nows support typescript 5.8
+
+  ```
+   @vitest/eslint-plugin    ^1.1.37  →  ^1.1.38
+   eslint-plugin-import-x    ^4.8.0  →   ^4.8.1
+   eslint-plugin-storybook  ^0.11.4  →  ^0.11.6
+  ```
+
 ## 6.28.0
 
 ### Minor Changes
