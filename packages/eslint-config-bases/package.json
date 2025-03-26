@@ -167,7 +167,7 @@
     }
   },
   "devDependencies": {
-    "@graphql-eslint/eslint-plugin": "4.3.0",
+    "@graphql-eslint/eslint-plugin": "4.4.0",
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.2.0",
