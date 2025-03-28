@@ -1,5 +1,35 @@
 # @belgattitude/eslint-config-bases
 
+## 6.31.0
+
+### Minor Changes
+
+- [#944](https://github.com/belgattitude/shared-dx/pull/944) [`95e239c`](https://github.com/belgattitude/shared-dx/commit/95e239c8e1073ed783fa662b23a35c4fdc48b676) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
+  ## Auto-updated dependencies
+
+  ```
+   @typescript-eslint/eslint-plugin       ^8.27.0  →   ^8.28.0
+   @typescript-eslint/parser              ^8.27.0  →   ^8.28.0
+   @typescript-eslint/typescript-estree   ^8.27.0  →   ^8.28.0
+   @typescript-eslint/utils               ^8.27.0  →   ^8.28.0
+   eslint-plugin-import-x                  ^4.9.1  →    ^4.9.3
+   eslint-plugin-prettier                  ^5.2.4  →    ^5.2.5
+   eslint-plugin-storybook                ^0.11.6  →   ^0.12.0
+  ```
+
+  ## peerDependencies
+
+  Minimum version required
+
+  ```
+  @graphql-eslint/eslint-plugin            ^4.3.0  →     ^4.4.0
+  eslint-plugin-mdx                        ^3.2.0  →     ^3.3.1
+  ```
+
+  Removed the `"@testing-library/dom": "^10.4.0"` peer dependency as it is not required anymore
+  `
+
 ## 6.30.0
 
 ### Minor Changes
