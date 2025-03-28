@@ -18,7 +18,12 @@ All plugins to latest
 
 ## peerDependencies
 
+Minimum version required
+
 ```
-@graphql-eslint/eslint-plugin            4.3.0  →     4.4.0
-eslint-plugin-mdx                        3.2.0  →     3.3.1
+@graphql-eslint/eslint-plugin            ^4.3.0  →     ^4.4.0
+eslint-plugin-mdx                        ^3.2.0  →     ^3.3.1
 ```  
+
+Removed the `"@testing-library/dom": "^10.4.0"` peer dependency as it is not required anymore
+`
