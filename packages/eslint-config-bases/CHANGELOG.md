@@ -1,5 +1,20 @@
 # @belgattitude/eslint-config-bases
 
+## 6.32.0
+
+### Minor Changes
+
+- [#948](https://github.com/belgattitude/shared-dx/pull/948) [`b0fbe98`](https://github.com/belgattitude/shared-dx/commit/b0fbe98df475612a5eee087df76295cdcaa90696) Thanks [@belgattitude](https://github.com/belgattitude)! - Deps to latest
+
+  ```
+   @tanstack/eslint-plugin-query          ^5.68.0  →  ^5.71.5
+   @vitest/eslint-plugin                  ^1.1.38  →  ^1.1.39
+   eslint-plugin-import-x                  ^4.9.3  →  ^4.10.0
+   eslint-plugin-perfectionist            ^4.10.1  →  ^4.11.0
+   eslint-plugin-prettier                  ^5.2.5  →   ^5.2.6
+   eslint-plugin-react                    ^7.37.4  →  ^7.37.5
+  ```
+
 ## 6.31.0
 
 ### Minor Changes
