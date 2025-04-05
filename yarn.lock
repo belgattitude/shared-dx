@@ -1306,7 +1306,7 @@ __metadata:
     eslint-plugin-jest: "npm:^28.11.0"
     eslint-plugin-jest-formatting: "npm:^3.1.0"
     eslint-plugin-jsx-a11y: "npm:^6.10.2"
-    eslint-plugin-mdx: "npm:3.3.1"
+    eslint-plugin-mdx: "npm:3.4.0"
     eslint-plugin-perfectionist: "npm:^4.11.0"
     eslint-plugin-playwright: "npm:^2.2.0"
     eslint-plugin-prettier: "npm:^5.2.6"
@@ -7983,9 +7983,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-mdx@npm:^3.3.1":
-  version: 3.3.1
-  resolution: "eslint-mdx@npm:3.3.1"
+"eslint-mdx@npm:^3.3.1, eslint-mdx@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "eslint-mdx@npm:3.4.0"
   dependencies:
     acorn: "npm:^8.14.1"
     acorn-jsx: "npm:^5.3.2"
@@ -7994,7 +7994,7 @@ __metadata:
     remark-mdx: "npm:^3.1.0"
     remark-parse: "npm:^11.0.0"
     remark-stringify: "npm:^11.0.0"
-    synckit: "npm:^0.10.3"
+    synckit: "npm:^0.11.2"
     tslib: "npm:^2.8.1"
     unified: "npm:^11.0.5"
     unified-engine: "npm:^11.2.2"
@@ -8007,7 +8007,7 @@ __metadata:
   peerDependenciesMeta:
     remark-lint-file-extension:
       optional: true
-  checksum: 10c0/84c5bceba94f8ab033914bab55d28b9d4670deef97e50dde915cc90afc11b7c958334790f9360c2037a9346a3ca7fac82044de963f0c9b044962fe63b3783ca3
+  checksum: 10c0/997dc8dfd6da2bcfe21124ea60b07e73c9e62345463dc531bfdd76d5895c2aa5a089bcae9c8142910511f8d0f4bbe2131a3a4dfd85ff8415aefe7a5bb49d9e28
   languageName: node
   linkType: hard
 
@@ -8143,6 +8143,27 @@ __metadata:
   peerDependencies:
     eslint: ">=8.0.0"
   checksum: 10c0/48dc8ae4254a0ad7bc1819301176e850fb573f72fb304a81f768a14e4ac73f5209c45a8fc2e43c3c92d2c6947887d5a230ce27b72d75bdfa77ae337e79cbbacb
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-mdx@npm:3.4.0":
+  version: 3.4.0
+  resolution: "eslint-plugin-mdx@npm:3.4.0"
+  dependencies:
+    eslint-mdx: "npm:^3.4.0"
+    mdast-util-from-markdown: "npm:^2.0.2"
+    mdast-util-mdx: "npm:^3.0.0"
+    micromark-extension-mdxjs: "npm:^3.0.0"
+    remark-mdx: "npm:^3.1.0"
+    remark-parse: "npm:^11.0.0"
+    remark-stringify: "npm:^11.0.0"
+    synckit: "npm:^0.11.2"
+    tslib: "npm:^2.8.1"
+    unified: "npm:^11.0.5"
+    vfile: "npm:^6.0.3"
+  peerDependencies:
+    eslint: ">=8.0.0"
+  checksum: 10c0/1fd4feea1e0baa2be2aac34059bb9d4f18d7479a78a0218c15cd816e89bd6fb5a205b2f8a1eed613c9bb88cf82dcccf53f56bfb70faf990873d3ceb385bc0aa9
   languageName: node
   linkType: hard
 
@@ -15106,7 +15127,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:^0.11.0":
+"synckit@npm:^0.11.0, synckit@npm:^0.11.2":
   version: 0.11.2
   resolution: "synckit@npm:0.11.2"
   dependencies:
