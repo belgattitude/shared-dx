@@ -1286,7 +1286,7 @@ __metadata:
   dependencies:
     "@graphql-eslint/eslint-plugin": "npm:4.4.0"
     "@rushstack/eslint-patch": "npm:^1.11.0"
-    "@tanstack/eslint-plugin-query": "npm:^5.72.2"
+    "@tanstack/eslint-plugin-query": "npm:5.71.5"
     "@testing-library/dom": "npm:10.4.0"
     "@testing-library/jest-dom": "npm:6.6.3"
     "@testing-library/react": "npm:16.3.0"
@@ -4348,14 +4348,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tanstack/eslint-plugin-query@npm:^5.72.2":
-  version: 5.72.2
-  resolution: "@tanstack/eslint-plugin-query@npm:5.72.2"
+"@tanstack/eslint-plugin-query@npm:5.71.5":
+  version: 5.71.5
+  resolution: "@tanstack/eslint-plugin-query@npm:5.71.5"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.18.1"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
-  checksum: 10c0/b300c18702a1664290c027010e15a24ee14495d514709ec3de4e9388cc813ae73f4d4d069aafe89f7d31aa1de4e374094e93d6fa35be784fb800b9278b232fc6
+  checksum: 10c0/ad2ea00b965f0ef64296bf3d24ea30fab1b43d00495b4738d307b485954d7e58e2806caaa530b03b0cf74a49816ae62494999ff4036fa07bd887c0ab9e82e467
   languageName: node
   linkType: hard
 
