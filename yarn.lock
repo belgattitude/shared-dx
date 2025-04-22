@@ -1306,7 +1306,7 @@ __metadata:
     eslint-plugin-jest: "npm:^28.11.0"
     eslint-plugin-jest-formatting: "npm:^3.1.0"
     eslint-plugin-jsx-a11y: "npm:^6.10.2"
-    eslint-plugin-mdx: "npm:3.4.0"
+    eslint-plugin-mdx: "npm:3.4.1"
     eslint-plugin-perfectionist: "npm:^4.11.0"
     eslint-plugin-playwright: "npm:^2.2.0"
     eslint-plugin-prettier: "npm:^5.2.6"
@@ -3405,10 +3405,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pkgr/core@npm:^0.2.1, @pkgr/core@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@pkgr/core@npm:0.2.2"
-  checksum: 10c0/86a0507731f2c5172e2225abb42d947b3908d06f0330e7050b5e6ad0c29dab4d586358f2d984aa00fd32bf421ed3405fa97878b352f16c3c23d20398b5fd14e4
+"@pkgr/core@npm:^0.2.2, @pkgr/core@npm:^0.2.3":
+  version: 0.2.4
+  resolution: "@pkgr/core@npm:0.2.4"
+  checksum: 10c0/2528a443bbbef5d4686614e1d73f834f19ccbc975f62b2a64974a6b97bcdf677b9c5e8948e04808ac4f0d853e2f422adfaae2a06e9e9f4f5cf8af76f1adf8dc1
   languageName: node
   linkType: hard
 
@@ -8179,9 +8179,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-mdx@npm:^3.4.0":
-  version: 3.4.0
-  resolution: "eslint-mdx@npm:3.4.0"
+"eslint-mdx@npm:^3.4.0, eslint-mdx@npm:^3.4.1":
+  version: 3.4.1
+  resolution: "eslint-mdx@npm:3.4.1"
   dependencies:
     acorn: "npm:^8.14.1"
     acorn-jsx: "npm:^5.3.2"
@@ -8190,7 +8190,7 @@ __metadata:
     remark-mdx: "npm:^3.1.0"
     remark-parse: "npm:^11.0.0"
     remark-stringify: "npm:^11.0.0"
-    synckit: "npm:^0.11.2"
+    synckit: "npm:^0.11.4"
     tslib: "npm:^2.8.1"
     unified: "npm:^11.0.5"
     unified-engine: "npm:^11.2.2"
@@ -8203,7 +8203,7 @@ __metadata:
   peerDependenciesMeta:
     remark-lint-file-extension:
       optional: true
-  checksum: 10c0/997dc8dfd6da2bcfe21124ea60b07e73c9e62345463dc531bfdd76d5895c2aa5a089bcae9c8142910511f8d0f4bbe2131a3a4dfd85ff8415aefe7a5bb49d9e28
+  checksum: 10c0/55013107daa5fa66b6a090d41c381e419949d35a9d7d8b758921aec46fe94dd30490e6d3f7f60bf2e5839be39c4e03ccf9b0645664668a1e026bb573f5a1179f
   languageName: node
   linkType: hard
 
@@ -8341,6 +8341,27 @@ __metadata:
   peerDependencies:
     eslint: ">=8.0.0"
   checksum: 10c0/1fd4feea1e0baa2be2aac34059bb9d4f18d7479a78a0218c15cd816e89bd6fb5a205b2f8a1eed613c9bb88cf82dcccf53f56bfb70faf990873d3ceb385bc0aa9
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-mdx@npm:3.4.1":
+  version: 3.4.1
+  resolution: "eslint-plugin-mdx@npm:3.4.1"
+  dependencies:
+    eslint-mdx: "npm:^3.4.1"
+    mdast-util-from-markdown: "npm:^2.0.2"
+    mdast-util-mdx: "npm:^3.0.0"
+    micromark-extension-mdxjs: "npm:^3.0.0"
+    remark-mdx: "npm:^3.1.0"
+    remark-parse: "npm:^11.0.0"
+    remark-stringify: "npm:^11.0.0"
+    synckit: "npm:^0.11.4"
+    tslib: "npm:^2.8.1"
+    unified: "npm:^11.0.5"
+    vfile: "npm:^6.0.3"
+  peerDependencies:
+    eslint: ">=8.0.0"
+  checksum: 10c0/9d89e107f736cd385f99a7a7a5118a2b8a0d4b657bd7f3fde24cd9a9a52191b5ce560dd114d16c99282f0d8cd6b4882b7f800ad76dce0bd51681403e9db3be03
   languageName: node
   linkType: hard
 
@@ -15366,13 +15387,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"synckit@npm:^0.11.0, synckit@npm:^0.11.2":
-  version: 0.11.3
-  resolution: "synckit@npm:0.11.3"
+"synckit@npm:^0.11.0, synckit@npm:^0.11.2, synckit@npm:^0.11.4":
+  version: 0.11.4
+  resolution: "synckit@npm:0.11.4"
   dependencies:
-    "@pkgr/core": "npm:^0.2.1"
+    "@pkgr/core": "npm:^0.2.3"
     tslib: "npm:^2.8.1"
-  checksum: 10c0/7b08187eb13047314ddb71d4868fb7c1f75b15f3a60ce7881bc2adf1d1353c478c1643e3d5e27525b23a09f04f87630fdbe4581af67f90d57741856658c1fb95
+  checksum: 10c0/dd2965a37c93c0b652bf07b1fd8d1639a803b65cf34c0cb1b827b8403044fc3b09ec87f681d922a324825127ee95b2e0394e7caccb502f407892d63e903c5276
   languageName: node
   linkType: hard
 
