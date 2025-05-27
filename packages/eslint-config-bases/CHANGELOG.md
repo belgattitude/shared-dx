@@ -1,5 +1,30 @@
 # @belgattitude/eslint-config-bases
 
+## 7.0.0
+
+### Major Changes
+
+- [#984](https://github.com/belgattitude/shared-dx/pull/984) [`b6d3a58`](https://github.com/belgattitude/shared-dx/commit/b6d3a5891a66f918259d7a585a5f442effa047ee) Thanks [@belgattitude](https://github.com/belgattitude)! - Remove support for eslint-plugin-tailwind
+
+  Tailwind v4 support seems to be taking a long time to be released, so we remove the
+  plugin for now.
+
+  Please update your eslint config to remove the `"@belgattitude/eslint-config-bases/tailwind"` import.
+
+### Minor Changes
+
+- [#984](https://github.com/belgattitude/shared-dx/pull/984) [`b6d3a58`](https://github.com/belgattitude/shared-dx/commit/b6d3a5891a66f918259d7a585a5f442effa047ee) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
+  @tanstack/eslint-plugin-query ^5.74.7 → ^5.78.0
+  @typescript-eslint/eslint-plugin ^8.32.0 → ^8.32.1
+  @typescript-eslint/parser ^8.32.0 → ^8.32.1
+  @typescript-eslint/typescript-estree ^8.32.0 → ^8.32.1
+  @typescript-eslint/utils ^8.32.0 → ^8.32.1
+  @vitest/eslint-plugin ^1.1.44 → ^1.2.1
+  eslint-plugin-import-x ^4.11.1 → ^4.13.3
+  eslint-plugin-perfectionist ^4.12.3 → ^4.13.0
+  eslint-plugin-testing-library ^7.1.1 → ^7.2.2
+
 ## 6.37.0
 
 ### Minor Changes
