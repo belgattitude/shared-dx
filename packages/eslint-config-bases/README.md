@@ -63,13 +63,11 @@ versions are installable (ie v8 and v7)
 > PS: To keep the size low, if you use the following plugins: 
 > - **graphql**: `yarn add --dev @graphql-eslint/eslint-plugin` 
 > - **mdx**: `yarn add --dev eslint-plugin-mdx`.
-> - **tailwind**: `yarn add --dev eslint-plugin-tailwindcss`.
 >
 > In one line
 > ```bash
 > yarn add --dev @graphql-eslint/eslint-plugin \
 >                eslint-plugin-mdx \
->                eslint-plugin-tailwindcss
 > ```
 
 ## Usage
@@ -117,7 +115,6 @@ module.exports = {
     "@belgattitude/eslint-config-bases/performance",
       
     // Group 5: Various tools (per project)
-    // '@belgattitude/eslint-config-bases/tailwind',  
     // "@belgattitude/eslint-config-bases/storybook",
     // "@belgattitude/eslint-config-bases/playwright",
     // "@belgattitude/eslint-config-bases/graphql-schema",
