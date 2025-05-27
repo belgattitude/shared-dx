@@ -75,7 +75,6 @@
     "eslint-config-next": "15.3.2",
     "eslint-plugin-mdx": "3.4.2",
     "eslint-plugin-storybook": "0.12.0",
-    "eslint-plugin-tailwindcss": "3.18.0",
     "graphql-config": "5.1.5",
     "postcss": "8.5.3",
     "postcss-loader": "8.1.1",
