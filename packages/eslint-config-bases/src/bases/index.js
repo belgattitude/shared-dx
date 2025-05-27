@@ -16,7 +16,6 @@ module.exports = {
   'simple-import-sort': require('./simple-import-sort'),
   sonar: require('./sonar'),
   storybook: require('./storybook'),
-  tailwind: require('./tailwind'),
   typescript: require('./typescript'),
   vitest: require('./vitest'),
 };
