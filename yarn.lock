@@ -1315,7 +1315,7 @@ __metadata:
     eslint-plugin-regexp: "npm:^2.7.0"
     eslint-plugin-simple-import-sort: "npm:^12.1.1"
     eslint-plugin-sonarjs: "npm:^3.0.2"
-    eslint-plugin-storybook: "npm:^0.12.0"
+    eslint-plugin-storybook: "npm:^9.0.0"
     eslint-plugin-testing-library: "npm:^7.2.2"
     eslint-plugin-unicorn: "npm:^56.0.1"
     eslint-plugin-unused-imports: "npm:^4.1.4"
@@ -8563,7 +8563,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:0.12.0, eslint-plugin-storybook@npm:^0.12.0":
+"eslint-plugin-storybook@npm:0.12.0":
   version: 0.12.0
   resolution: "eslint-plugin-storybook@npm:0.12.0"
   dependencies:
@@ -8573,6 +8573,18 @@ __metadata:
   peerDependencies:
     eslint: ">=8"
   checksum: 10c0/ce491ca9d817d231584c5016597158ae889780e428eccc93686d13e396ffdfd500318e5f997531c100cc3a7feff89fa2656ee125a116cf2d4d7e2baefbb0ade6
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-storybook@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "eslint-plugin-storybook@npm:9.0.0"
+  dependencies:
+    "@typescript-eslint/utils": "npm:^8.8.1"
+  peerDependencies:
+    eslint: ">=8"
+    storybook: ^9.0.0
+  checksum: 10c0/6a2224be8e1a8369a3f97073527c20e662d79b8540932b571682121698e70c36ce7e92a0ad845471f65b38129ffc42c24503f87e7f6c9e167f652f5f08df2ca0
   languageName: node
   linkType: hard
 
