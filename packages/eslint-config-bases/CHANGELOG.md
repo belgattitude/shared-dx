@@ -1,5 +1,13 @@
 # @belgattitude/eslint-config-bases
 
+## 7.1.0
+
+### Minor Changes
+
+- [#988](https://github.com/belgattitude/shared-dx/pull/988) [`faf6433`](https://github.com/belgattitude/shared-dx/commit/faf64337873b361a8b099254f9289878c28e0d02) Thanks [@belgattitude](https://github.com/belgattitude)! - eslint plugin storybook to v9
+
+- [#988](https://github.com/belgattitude/shared-dx/pull/988) [`faf6433`](https://github.com/belgattitude/shared-dx/commit/faf64337873b361a8b099254f9289878c28e0d02) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
 ## 7.0.0
 
 ### Major Changes
