@@ -163,7 +163,7 @@
     "@types/react-dom": "19.1.6",
     "es-check": "9.1.4",
     "eslint": "8.57.1",
-    "eslint-plugin-mdx": "3.4.2",
+    "eslint-plugin-mdx": "3.5.0",
     "graphql": "16.11.0",
     "prettier": "3.5.3",
     "react": "19.1.0",
