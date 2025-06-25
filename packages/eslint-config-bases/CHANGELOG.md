@@ -1,5 +1,16 @@
 # @belgattitude/eslint-config-bases
 
+## 7.3.0
+
+### Minor Changes
+
+- [#1007](https://github.com/belgattitude/shared-dx/pull/1007) [`7b97b10`](https://github.com/belgattitude/shared-dx/commit/7b97b107aa0ddb918f80cb119156147a14f1bdbc) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest, drop node 18.x, require node 20.9.0 or higher,
+  add node 24.x to the CI.
+
+  @typescript-eslint/eslint-plugin 8.34.1 → 8.35.0
+  @typescript-eslint/parser 8.34.1 → 8.35.0
+  eslint-plugin-storybook 9.0.12 → 9.0.13
+
 ## 7.2.0
 
 ### Minor Changes
@@ -704,7 +715,6 @@
   > V7 will include eslint 9 support with flat config
 
   ## Highlights
-
   - **BREAKING**: Upgrade to [typescript/eslint](https://typescript-eslint.io/blog/announcing-typescript-eslint-v8)
   - **BREAKING**: Upgrade [eslint-plugin-sonarjs](https://github.com/SonarSource/SonarJS/blob/master/packages/jsts/src/rules/README.md) to "^2.0.3" (from v1)
   - **BREAKING**: Upgrade [eslint-plugin-react-hooks](https://github.com/facebook/react/blob/main/packages/eslint-plugin-react-hooks/CHANGELOG.md) to "^4.6.2 || ^5.0.0 || 5.0.0-canary-7118f5dd7-20230705",
@@ -1585,7 +1595,6 @@
   See https://typescript-eslint.io/blog/announcing-typescript-eslint-v6/
 
   The latest version activates the following recommendations:
-
   - @typescript-eslint/recommended-type-checked
   - @typescript-eslint/stylistic-type-checked
 
@@ -1601,7 +1610,6 @@
   ```
 
   ## Upgrade
-
   - update your `.eslintrc.cjs` to explicitly set `parser: '@typescript-eslint/parser'`.
   - tsconfig.json: add `.eslintrc.*s`to your includes.
   - if eslint is configured with cache -> clear it
