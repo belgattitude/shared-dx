@@ -1306,7 +1306,7 @@ __metadata:
     eslint-plugin-jest: "npm:^29.0.1"
     eslint-plugin-jest-formatting: "npm:^3.1.0"
     eslint-plugin-jsx-a11y: "npm:^6.10.2"
-    eslint-plugin-mdx: "npm:3.5.0"
+    eslint-plugin-mdx: "npm:3.6.2"
     eslint-plugin-perfectionist: "npm:^4.15.0"
     eslint-plugin-playwright: "npm:^2.2.0"
     eslint-plugin-prettier: "npm:^5.5.1"
@@ -7808,9 +7808,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-mdx@npm:^3.5.0":
-  version: 3.5.0
-  resolution: "eslint-mdx@npm:3.5.0"
+"eslint-mdx@npm:^3.5.0, eslint-mdx@npm:^3.6.2":
+  version: 3.6.2
+  resolution: "eslint-mdx@npm:3.6.2"
   dependencies:
     acorn: "npm:^8.15.0"
     acorn-jsx: "npm:^5.3.2"
@@ -7831,7 +7831,7 @@ __metadata:
   peerDependenciesMeta:
     remark-lint-file-extension:
       optional: true
-  checksum: 10c0/e036724453fac4defaead842c1bf0ebc753510472f9427677711ec7809663dbcbe593b3a730a83aec9547b3bd2593abd115ff74597da6042cadd77f4c4f9b1ca
+  checksum: 10c0/07238395e932f5caf47a0301fc61f350a24c57e4bf923601f3e767f02d5f7ac18d708dd59819bcc1af54f16e5e6cc6aabb37a08614faade2a5e3fc317e802424
   languageName: node
   linkType: hard
 
@@ -7971,6 +7971,26 @@ __metadata:
   peerDependencies:
     eslint: ">=8.0.0"
   checksum: 10c0/9ebc9a78e545a86469494aac14b6f7f91fe40d424e08137dfe6e12061ee2af19eb5153f8b158438e90b393dbe452413caa2bdfc2f3f5b5f355429668106fdd27
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-mdx@npm:3.6.2":
+  version: 3.6.2
+  resolution: "eslint-plugin-mdx@npm:3.6.2"
+  dependencies:
+    eslint-mdx: "npm:^3.6.2"
+    mdast-util-from-markdown: "npm:^2.0.2"
+    mdast-util-mdx: "npm:^3.0.0"
+    micromark-extension-mdxjs: "npm:^3.0.0"
+    remark-mdx: "npm:^3.1.0"
+    remark-parse: "npm:^11.0.0"
+    remark-stringify: "npm:^11.0.0"
+    synckit: "npm:^0.11.8"
+    unified: "npm:^11.0.5"
+    vfile: "npm:^6.0.3"
+  peerDependencies:
+    eslint: ">=8.0.0"
+  checksum: 10c0/16be144348fc6fe66d8a2d7d0f739084991aea5f79c3c4b4b20232ead0e826a5e26806b0fcdbfcda4cef325369a6ad1630bdb1d66a3b3dce9d5c0f765e110ee5
   languageName: node
   linkType: hard
 
