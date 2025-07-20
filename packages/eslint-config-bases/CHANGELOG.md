@@ -1,5 +1,22 @@
 # @belgattitude/eslint-config-bases
 
+## 7.5.0
+
+### Minor Changes
+
+- [#1016](https://github.com/belgattitude/shared-dx/pull/1016) [`1b51300`](https://github.com/belgattitude/shared-dx/commit/1b513001e633371ea2cffdfef636122cb0bf3bfe) Thanks [@belgattitude](https://github.com/belgattitude)! - All deps to latest and fix security issues with eslint-config-prettier and eslint-plugin-prettier.
+  See https://github.com/prettier/eslint-config-prettier/issues/339
+
+  ```
+   @typescript-eslint/eslint-plugin      ^8.36.0  →  ^8.37.0
+   @typescript-eslint/parser             ^8.36.0  →  ^8.37.0
+   @typescript-eslint/typescript-estree  ^8.36.0  →  ^8.37.0
+   @typescript-eslint/utils              ^8.36.0  →  ^8.37.0
+   eslint-config-prettier                ^10.1.5  →  ^10.1.8
+   eslint-plugin-prettier                 ^5.5.1  →   ^5.5.3
+   eslint-plugin-storybook               ^9.0.16  →  ^9.0.17
+  ```
+
 ## 7.4.1
 
 ### Patch Changes
