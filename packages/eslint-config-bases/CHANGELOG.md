@@ -1,5 +1,23 @@
 # @belgattitude/eslint-config-bases
 
+## 7.6.0
+
+### Minor Changes
+
+- [#1027](https://github.com/belgattitude/shared-dx/pull/1027) [`80f3d4e`](https://github.com/belgattitude/shared-dx/commit/80f3d4efbf52769776f7a783abd4846bc5f2fc94) Thanks [@belgattitude](https://github.com/belgattitude)! - Support for ts 5.9 + all plugins to latest
+
+  ```
+   @tanstack/eslint-plugin-query         ^5.81.2  →  ^5.83.1
+   @typescript-eslint/eslint-plugin      ^8.37.0  →  ^8.39.0
+   @typescript-eslint/parser             ^8.37.0  →  ^8.39.0
+   @typescript-eslint/typescript-estree  ^8.37.0  →  ^8.39.0
+   @typescript-eslint/utils              ^8.37.0  →  ^8.39.0
+   eslint-plugin-playwright               ^2.2.0  →   ^2.2.2
+   eslint-plugin-regexp                   ^2.9.0  →   ^2.9.1
+   eslint-plugin-storybook               ^9.0.17  →   ^9.1.1
+   eslint-plugin-testing-library          ^7.6.0  →   ^7.6.3
+  ```
+
 ## 7.5.0
 
 ### Minor Changes
