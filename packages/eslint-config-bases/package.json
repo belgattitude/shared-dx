@@ -161,7 +161,7 @@
     "@types/node": "24.2.0",
     "@types/react": "19.1.9",
     "@types/react-dom": "19.1.7",
-    "es-check": "9.2.0",
+    "es-check": "9.3.1",
     "eslint": "8.57.1",
     "eslint-plugin-mdx": "3.6.2",
     "graphql": "16.11.0",
