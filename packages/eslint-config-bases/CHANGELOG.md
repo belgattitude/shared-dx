@@ -1,5 +1,22 @@
 # @belgattitude/eslint-config-bases
 
+## 7.9.0
+
+### Minor Changes
+
+- [#1051](https://github.com/belgattitude/shared-dx/pull/1051) [`1a26aaf`](https://github.com/belgattitude/shared-dx/commit/1a26aaf993559ac8a0bf91b4de9a3455c754a8b6) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
+  ```
+   @tanstack/eslint-plugin-query         ^5.83.1  →  ^5.89.0
+   @typescript-eslint/eslint-plugin      ^8.41.0  →  ^8.44.0
+   @typescript-eslint/parser             ^8.41.0  →  ^8.44.0
+   @typescript-eslint/typescript-estree  ^8.41.0  →  ^8.44.0
+   @typescript-eslint/utils              ^8.41.0  →  ^8.44.0
+   @vitest/eslint-plugin                  ^1.3.6  →  ^1.3.12
+   eslint-plugin-storybook                ^9.1.3  →   ^9.1.6
+   eslint-plugin-testing-library          ^7.6.6  →   ^7.8.0
+  ```
+
 ## 7.8.0
 
 ### Minor Changes
