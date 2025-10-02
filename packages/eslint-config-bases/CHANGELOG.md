@@ -1,5 +1,18 @@
 # @belgattitude/eslint-config-bases
 
+## 8.0.0
+
+### Major Changes
+
+- [#1068](https://github.com/belgattitude/shared-dx/pull/1068) [`91bfdaf`](https://github.com/belgattitude/shared-dx/commit/91bfdafe2d9ef5c446474b322102032b191f01aa) Thanks [@belgattitude](https://github.com/belgattitude)! - Update to eslint-plugin-rooks-react v6
+
+  ```
+  eslint-plugin-rooks-react  ^5.0.0  →  ^6.1.0
+  ```
+
+  You might have issues if you're using eslint-config-next.
+  Can be fixed with resolutions or overrides from the package manager.
+
 ## 7.10.0
 
 ### Minor Changes
