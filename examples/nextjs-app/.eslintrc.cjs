@@ -43,7 +43,7 @@ module.exports = {
     // "@belgattitude/eslint-config-bases/graphql-schema",
 
     // Group 6: Framework specifics
-    'next/core-web-vitals',
+    // 'next/core-web-vitals',
     // - remix:  '@remix-run/eslint-config',
     // ...
 
