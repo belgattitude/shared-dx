@@ -258,6 +258,9 @@ module.exports = {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx', '.mts'],
     },
+    'eslint-import-resolver-typescript': {
+      alwaysTryTypes: true,
+    },
     'import/resolver': {
       typescript: {},
     },

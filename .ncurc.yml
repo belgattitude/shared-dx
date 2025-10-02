@@ -6,7 +6,7 @@
 reject: [
     "eslint",
     # To keep canary version for nextjs, ie "eslint-plugin-react-hooks": "^4.6.2 || ^5.0.0 || 5.0.0-canary-7118f5dd7-20230705",
-    "eslint-plugin-react-hooks",
+    #"eslint-plugin-react-hooks",
     # Till eslint-plugin-tailwindcss is stable
     "tailwindcss",
     "tailwind-merge",
