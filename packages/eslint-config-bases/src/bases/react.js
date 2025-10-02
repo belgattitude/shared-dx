@@ -28,7 +28,7 @@ module.exports = {
         // @see https://github.com/jsx-eslint/eslint-plugin-react
         'plugin:react/recommended',
         // @see https://www.npmjs.com/package/eslint-plugin-react-hooks
-        'plugin:react-hooks/recommended',
+        'plugin:react-hooks/recommended-legacy',
         // @see https://github.com/jsx-eslint/eslint-plugin-jsx-a11y
         'plugin:jsx-a11y/recommended',
       ],

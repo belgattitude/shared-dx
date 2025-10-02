@@ -122,7 +122,7 @@ module.exports = {
 
     // Group 6: Framework specifics
     // ie:
-    // - nextjs: 'next/core-web-vitals',
+    // - nextjs: 'next/core-web-vitals', 
     // - remix:  '@remix-run/eslint-config',
     // ...
 

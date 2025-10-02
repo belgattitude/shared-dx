@@ -68,7 +68,6 @@
     "cross-env": "10.1.0",
     "dotenv-flow-cli": "1.1.1",
     "eslint": "8.57.1",
-    "eslint-config-next": "15.5.4",
     "eslint-plugin-mdx": "3.6.2",
     "eslint-plugin-storybook": "9.1.10",
     "graphql-config": "5.1.5",
