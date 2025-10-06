@@ -20,10 +20,11 @@ jobs:
           # @link https://github.com/actions/checkout#fetch-all-history-for-all-tags-and-branches
           fetch-depth: 0
 
-      - name: ⚙️ Use Node.js 20.x
-        uses: actions/setup-node@v4
+      - name: ⚙️ Use Node.js 22.X
+        uses: actions/setup-node@v5
         with:
           node-version: 22.x
+          package-manager-cache: false
 
       - name: 📥 Monorepo install
         uses: ./.github/actions/yarn-nm-install
