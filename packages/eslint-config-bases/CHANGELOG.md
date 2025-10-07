@@ -1,5 +1,18 @@
 # @belgattitude/eslint-config-bases
 
+## 8.0.1
+
+### Patch Changes
+
+- [#1070](https://github.com/belgattitude/shared-dx/pull/1070) [`cf74a9c`](https://github.com/belgattitude/shared-dx/commit/cf74a9cb1b7248e393cb4df742fb8422e46cb120) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest (fixes)
+
+  ```
+   @rushstack/eslint-patch      ^1.12.0  →  ^1.13.0
+   @vitest/eslint-plugin        ^1.3.13  →  ^1.3.16
+   eslint-plugin-perfectionist  ^4.15.0  →  ^4.15.1
+   eslint-plugin-react-hooks     ^6.1.0  →   ^6.1.1
+  ```
+
 ## 8.0.0
 
 ### Major Changes
