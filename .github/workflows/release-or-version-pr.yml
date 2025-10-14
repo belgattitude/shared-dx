@@ -9,6 +9,11 @@ jobs:
   release:
     # Security: the release job can only be executed from this repo and from the main branch (not a remote thing)
     if: ${{ github.repository == 'belgattitude/shared-dx' && contains('refs/heads/main',github.ref)}}
+    permissions:
+      contents: write  #  to create release (changesets/action)
+      pull-requests: write
+      id-token: write # to allow npm provenance
+
     name: Release and changelog
     runs-on: ubuntu-latest
     steps:
