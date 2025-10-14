@@ -74,7 +74,6 @@ const secureHeaders = createSecureHeaders({
 let nextConfig = {
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
-  swcMinify: true,
 
   httpAgentOptions: {
     keepAlive: true,
