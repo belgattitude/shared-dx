@@ -43,6 +43,7 @@ jobs:
         uses: ./.github/actions/yarn-nm-install
         with:
           enable-corepack: 'true'
+          package-manager-cache: false
 
       - name: 👬🏽 Check for duplicate dependencies in lock file
         run: yarn dedupe --check
