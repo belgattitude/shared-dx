@@ -2,21 +2,10 @@
 # convenience scripts.
 # @link https://github.com/raineorshine/npm-check-updates
 
-# Add here exclusions on packages if any
+cooldown: 1
 reject: [
+    # Till eslint v9 support
     "eslint",
-    # To keep canary version for nextjs, ie "eslint-plugin-react-hooks": "^4.6.2 || ^5.0.0 || 5.0.0-canary-7118f5dd7-20230705",
-    #"eslint-plugin-react-hooks",
-    # Till eslint-plugin-tailwindcss is stable
-    "tailwindcss",
-    "tailwind-merge",
     # till flat eslint 9 support
     "eslint-plugin-unicorn"
-
-    #"@tanstack/eslint-plugin-query",
-    #"@typescript-eslint/eslint-plugin",
-    #"@typescript-eslint/parser",
-    #"@typescript-eslint/typescript-estree",
-    #"@typescript-eslint/utils",
-
   ]
