@@ -20,10 +20,10 @@ jobs:
           # @link https://github.com/actions/checkout#fetch-all-history-for-all-tags-and-branches
           fetch-depth: 0
 
-      - name: ⚙️ Use Node.js 22.X
+      - name: ⚙️ Use Node.js 24.X
         uses: actions/setup-node@v5
         with:
-          node-version: 22.x
+          node-version: 24.x
           package-manager-cache: false
 
       - name: 📥 Monorepo install
@@ -40,7 +40,7 @@ jobs:
         env:
           # See https://github.com/changesets/action/issues/147
           HOME: ${{ github.workspace }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ''
           # The regular GITHUB_TOKEN won't allow the created "Version Packages" pr to
           # trigger the regular CI workflow. This limitation can be circumvented by
           # setting a custom PAT token from a GH account and setting it the secrets.
