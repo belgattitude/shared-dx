@@ -5,7 +5,7 @@
   "homepage": "https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases",
   "repository": {
     "type": "git",
-    "url": "https://github.com/belgattitude/shared-dx",
+    "url": "git+https://github.com/belgattitude/shared-dx.git",
     "directory": "packages/eslint-config-bases"
   },
   "author": {
