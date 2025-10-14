@@ -1,5 +1,26 @@
 # @belgattitude/eslint-config-bases
 
+## 8.1.0
+
+### Minor Changes
+
+- [#1076](https://github.com/belgattitude/shared-dx/pull/1076) [`58f774b`](https://github.com/belgattitude/shared-dx/commit/58f774b45bef0c8e32f869db19a86dc4f6bfdb95) Thanks [@belgattitude](https://github.com/belgattitude)! - All deps to latest and upgrade eslint-plugin-react-hooks to v7 (from v6)
+
+  ```
+   @rushstack/eslint-patch               ^1.13.0  →  ^1.14.0
+   @typescript-eslint/eslint-plugin      ^8.45.0  →  ^8.46.1
+   @typescript-eslint/parser             ^8.45.0  →  ^8.46.1
+   @typescript-eslint/typescript-estree  ^8.45.0  →  ^8.46.1
+   @typescript-eslint/utils              ^8.45.0  →  ^8.46.1
+   @vitest/eslint-plugin                 ^1.3.16  →  ^1.3.18
+   eslint-plugin-react-hooks              ^6.1.1  →   ^7.0.0
+   eslint-plugin-testing-library         ^7.11.0  →  ^7.13.3
+  ```
+
+### Patch Changes
+
+- [#1074](https://github.com/belgattitude/shared-dx/pull/1074) [`8784b00`](https://github.com/belgattitude/shared-dx/commit/8784b00c2582a7fa9ef3a84597feec09267341b2) Thanks [@belgattitude](https://github.com/belgattitude)! - Setup npm oidc secure publishing
+
 ## 8.0.1
 
 ### Patch Changes
