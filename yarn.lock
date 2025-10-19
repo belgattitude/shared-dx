@@ -1345,7 +1345,7 @@ __metadata:
     react: "npm:19.2.0"
     react-dom: "npm:19.2.0"
     rimraf: "npm:6.0.1"
-    storybook: "npm:9.1.10"
+    storybook: "npm:9.1.12"
     typescript: "npm:5.9.3"
   peerDependencies:
     "@graphql-eslint/eslint-plugin": ^4.4.0
@@ -8248,7 +8248,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:9.1.10, eslint-plugin-storybook@npm:^9.1.10":
+"eslint-plugin-storybook@npm:9.1.10":
   version: 9.1.10
   resolution: "eslint-plugin-storybook@npm:9.1.10"
   dependencies:
@@ -8257,6 +8257,18 @@ __metadata:
     eslint: ">=8"
     storybook: ^9.1.10
   checksum: 10c0/4a1a9db221a417c26cdbc5e8a97e22fb5f443e0d1b96c19becbcef1536d05e05cf3f3ed5d400ca2398c7dd5bf27a81326c8825711f97e843eab6830b905d28d4
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-storybook@npm:^9.1.10":
+  version: 9.1.12
+  resolution: "eslint-plugin-storybook@npm:9.1.12"
+  dependencies:
+    "@typescript-eslint/utils": "npm:^8.8.1"
+  peerDependencies:
+    eslint: ">=8"
+    storybook: ^9.1.12
+  checksum: 10c0/d259139a1a0e8290b220c374ddd3685ba3b41e55d214960aa1374b8ae2506ce058981881825b5125c4601719e038ec187a0591b537e5a44a70cc30155ccec19b
   languageName: node
   linkType: hard
 
@@ -14581,6 +14593,33 @@ __metadata:
   bin:
     storybook: ./bin/index.cjs
   checksum: 10c0/e44ced87d5ed1c3260c65824d5e1c5d09d4f58731ba63371bb5b52f68f5b73d52062d79c17c63ad85a4ffa69774b26b51210bbc22ffa495bb44d4fe5c87d95a7
+  languageName: node
+  linkType: hard
+
+"storybook@npm:9.1.12":
+  version: 9.1.12
+  resolution: "storybook@npm:9.1.12"
+  dependencies:
+    "@storybook/global": "npm:^5.0.0"
+    "@testing-library/jest-dom": "npm:^6.6.3"
+    "@testing-library/user-event": "npm:^14.6.1"
+    "@vitest/expect": "npm:3.2.4"
+    "@vitest/mocker": "npm:3.2.4"
+    "@vitest/spy": "npm:3.2.4"
+    better-opn: "npm:^3.0.2"
+    esbuild: "npm:^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0 || ^0.24.0 || ^0.25.0"
+    esbuild-register: "npm:^3.5.0"
+    recast: "npm:^0.23.5"
+    semver: "npm:^7.6.2"
+    ws: "npm:^8.18.0"
+  peerDependencies:
+    prettier: ^2 || ^3
+  peerDependenciesMeta:
+    prettier:
+      optional: true
+  bin:
+    storybook: ./bin/index.cjs
+  checksum: 10c0/87202d54ed0b9514fbc3e78de8277e6e9755566e577c91bfaf1b7e88c2b9e54c3417db7682f8a818bf7bcf40acc72225dc66026083faec7cb0c27a66f4056048
   languageName: node
   linkType: hard
 
