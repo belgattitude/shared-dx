@@ -1345,7 +1345,7 @@ __metadata:
     react: "npm:19.2.0"
     react-dom: "npm:19.2.0"
     rimraf: "npm:6.0.1"
-    storybook: "npm:9.1.12"
+    storybook: "npm:9.1.13"
     typescript: "npm:5.9.3"
   peerDependencies:
     "@graphql-eslint/eslint-plugin": ^4.4.0
@@ -8261,14 +8261,14 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-storybook@npm:^9.1.10":
-  version: 9.1.12
-  resolution: "eslint-plugin-storybook@npm:9.1.12"
+  version: 9.1.13
+  resolution: "eslint-plugin-storybook@npm:9.1.13"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.8.1"
   peerDependencies:
     eslint: ">=8"
-    storybook: ^9.1.12
-  checksum: 10c0/d259139a1a0e8290b220c374ddd3685ba3b41e55d214960aa1374b8ae2506ce058981881825b5125c4601719e038ec187a0591b537e5a44a70cc30155ccec19b
+    storybook: ^9.1.13
+  checksum: 10c0/770cc4f4f99d8fd173d45750ad5553b8a097902bebc6d072b9fd49f569996667b183be3eba959e877b980a2e7d8bb7997f5996fe4185e32b75e134a24242c23f
   languageName: node
   linkType: hard
 
@@ -14596,9 +14596,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"storybook@npm:9.1.12":
-  version: 9.1.12
-  resolution: "storybook@npm:9.1.12"
+"storybook@npm:9.1.13":
+  version: 9.1.13
+  resolution: "storybook@npm:9.1.13"
   dependencies:
     "@storybook/global": "npm:^5.0.0"
     "@testing-library/jest-dom": "npm:^6.6.3"
@@ -14619,7 +14619,7 @@ __metadata:
       optional: true
   bin:
     storybook: ./bin/index.cjs
-  checksum: 10c0/87202d54ed0b9514fbc3e78de8277e6e9755566e577c91bfaf1b7e88c2b9e54c3417db7682f8a818bf7bcf40acc72225dc66026083faec7cb0c27a66f4056048
+  checksum: 10c0/0f5cd0fa3af164a312148bbe38555fe171050be75ce9136e9148ea78a2c8ea243ea0c8fa3f15028a4952676cdda2d0c83883dadf17cb5bae895571ca7746e8a4
   languageName: node
   linkType: hard
 
