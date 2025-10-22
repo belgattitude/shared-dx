@@ -1,5 +1,17 @@
 # @belgattitude/eslint-config-bases
 
+## 8.3.1
+
+### Patch Changes
+
+- [#1088](https://github.com/belgattitude/shared-dx/pull/1088) [`5e6ac39`](https://github.com/belgattitude/shared-dx/commit/5e6ac392e6f2ad4dcdd26987034507c771af86f0) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
+  ```
+   @tanstack/eslint-plugin-query  ^5.91.0  →  ^5.91.2
+   @vitest/eslint-plugin          ^1.3.18  →  ^1.3.23
+   eslint-plugin-storybook        ^9.1.10  →  ^9.1.13
+  ```
+
 ## 8.3.0
 
 ### Minor Changes
