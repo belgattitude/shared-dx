@@ -12,7 +12,7 @@
     "lint": "cross-env TIMING=1 eslint . --ext .ts,.tsx,.js,.jsx,.mjs,.cjs,.mts,.cts --cache --cache-location ../../.cache/web.eslintcache",
     "test": "vitest run",
     "test-unit": "vitest run",
-    "typecheck": "tsc --project ./tsconfig.json --noEmit",
+    "typecheck": "next typegen && tsc --project ./tsconfig.json --noEmit",
     "clean": "rimraf ./.next ./out ./coverage ./tsconfig.tsbuildinfo ./node_modules/.cache",
     "bundle-analyze": "cross-env ANALYZE=true NEXTJS_IGNORE_TYPECHECK=1 NEXTJS_IGNORE_LINT=1 next build",
     "storybook": "storybook dev -p 6006",
