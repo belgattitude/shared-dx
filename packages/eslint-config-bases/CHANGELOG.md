@@ -1,5 +1,22 @@
 # @belgattitude/eslint-config-bases
 
+## 8.3.2
+
+### Patch Changes
+
+- [#1096](https://github.com/belgattitude/shared-dx/pull/1096) [`76349ec`](https://github.com/belgattitude/shared-dx/commit/76349ec836a56e52b970f4e5e9c00d14fb1d5484) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
+  ```
+   @rushstack/eslint-patch               ^1.14.0  →  ^1.14.1
+   @typescript-eslint/eslint-plugin      ^8.46.1  →  ^8.46.2
+   @typescript-eslint/parser             ^8.46.1  →  ^8.46.2
+   @typescript-eslint/typescript-estree  ^8.46.1  →  ^8.46.2
+   @typescript-eslint/utils              ^8.46.1  →  ^8.46.2
+   eslint-plugin-react-hooks              ^7.0.0  →   ^7.0.1
+   eslint-plugin-storybook               ^9.1.13  →  ^9.1.15
+   eslint-plugin-unused-imports           ^4.2.0  →   ^4.3.0
+  ```
+
 ## 8.3.1
 
 ### Patch Changes
