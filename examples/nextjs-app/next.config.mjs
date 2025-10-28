@@ -79,24 +79,6 @@ let nextConfig = {
     keepAlive: true,
   },
 
-  transpilePackages: isProd
-    ? [
-        // dist make usage of nullish ?.
-        'tailwind-merge',
-      ]
-    : [],
-
-  eslint: { ignoreDuringBuilds: NEXTJS_IGNORE_LINT },
-
-  images: {
-    // Reduce the number of possibles (no real-need)
-    deviceSizes: [750, 828, 1080, 1200], // default: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
-    imageSizes: [32, 48, 64, 96], // default: [16, 32, 48, 64, 96, 128, 256, 384]
-    // Allow domains and set default ttl if not provided upstream
-    domains: ['images.unsplash.com'],
-    minimumCacheTTL: 86_400,
-  },
-
   // eslint-disable-next-line @typescript-eslint/require-await
   async headers() {
     return [
@@ -115,35 +97,7 @@ let nextConfig = {
   // output: 'standalone',
 
   experimental: {
-    /*
-    turbo: {
-      loaders: {
-        '.svg': ['@svgr/webpack'],
-      },
-    },
-    */
-    // https://beta.nextjs.org/docs/configuring/typescript#statically-typed-links
-    // typedRoutes: true,
     mdxRs: true,
-    // https://nextjs.org/docs/advanced-features/output-file-tracing#caveats
-    // outputFileTracingRoot: workspaceRoot,
-    // Caution if using pnpm you might also need to consider that things are hoisted
-    // under node_modules/.pnpm/<something variable>. Depends on version
-
-    // outputFileTracingExcludes: {
-    //  '*': [
-    //    '**/node_modules/@swc/core-linux-x64-gnu/**/*',
-    //    '**/node_modules/@swc/core-linux-x64-musl/**/*',
-    //    // If you're nor relying on mdx-remote... drop this
-    //    '**/node_modules/esbuild/linux/**/*',
-    //    '**/node_modules/webpack/**/*',
-    //    '**/node_modules/terser/**/*',
-    //    // If you're not relying on sentry edge or any weird stuff... drop this too
-    //    // https://github.com/getsentry/sentry-javascript/pull/6982
-    //    '**/node_modules/rollup/**/*',
-    //  ],
-    // },
-
     // @link {https://nextjs.org/blog/next-11-1#es-modules-support|Blog 11.1.0}
     esmExternals: true,
   },
@@ -151,55 +105,7 @@ let nextConfig = {
   typescript: {
     ignoreBuildErrors: NEXTJS_IGNORE_TYPECHECK,
   },
-
-  webpack: (config, { webpack, isServer }) => {
-    config.module.rules.push(
-      {
-        test: /\.svg$/,
-        issuer: /\.(js|ts)x?$/,
-        use: [
-          {
-            loader: '@svgr/webpack',
-            // https://react-svgr.com/docs/webpack/#passing-options
-            options: {
-              svgo: isProd,
-            },
-          },
-        ],
-      },
-      {
-        test: /\.(glsl|vs|fs|vert|frag)$/,
-        exclude: /node_modules/,
-        use: ['raw-loader', 'glslify-loader'],
-      }
-    );
-
-    return config;
-  },
-
   productionBrowserSourceMaps: NEXTJS_PROD_SOURCE_MAPS,
-
-  modularizeImports: {
-    /* if needed
-    lodash: {
-      transform: 'lodash/{{member}}',
-      preventFullImport: true,
-    },
-    '@mui/material': {
-      transform: '@mui/material/{{member}}',
-    },
-    '@mui/icons-material': {
-      transform: '@mui/icons-material/{{member}}',
-    },
-    '@mui/styles': {
-      transform: '@mui/styles/{{member}}',
-    },
-    "@mui/lab": {
-      transform: "@mui/lab/{{member}}"
-     }
-     */
-  },
-
   compiler: {
     ...(process.env.NODE_ENV === 'production'
       ? {
