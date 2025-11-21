@@ -15,4 +15,12 @@ module.exports = {
     'prefer-arrow-callback': 'off',
     'prettier/prettier': ['error', prettierConfig],
   },
+  overrides: [
+    {
+      files: ['**/next-env.d.ts'],
+      rules: {
+        'prettier/prettier': 'off',
+      },
+    },
+  ],
 };

@@ -28,9 +28,6 @@ const trueEnv = ['true', '1', 'yes'];
 const NEXTJS_IGNORE_TYPECHECK = trueEnv.includes(
   process.env?.NEXTJS_IGNORE_TYPECHECK ?? 'false'
 );
-const NEXTJS_IGNORE_LINT = trueEnv.includes(
-  process.env?.NEXTJS_IGNORE_LINT ?? 'false'
-);
 const NEXTJS_PROD_SOURCE_MAPS = trueEnv.includes(
   process.env?.NEXTJS_PROD_SOURCE_MAPS ?? 'true'
 );
