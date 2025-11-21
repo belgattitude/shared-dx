@@ -71,6 +71,12 @@ module.exports = {
       },
     },
     {
+      files: ['**/next-env.d.ts'],
+      rules: {
+        '@typescript-eslint/triple-slash-reference': 'off',
+      },
+    },
+    {
       extends: ['plugin:@typescript-eslint/disable-type-checked'],
       files: ['*.mjs'],
       parserOptions: {
