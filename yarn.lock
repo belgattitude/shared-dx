@@ -1319,7 +1319,7 @@ __metadata:
     "@typescript-eslint/typescript-estree": "npm:^8.47.0"
     "@typescript-eslint/utils": "npm:^8.47.0"
     "@vitest/eslint-plugin": "npm:^1.4.3"
-    es-check: "npm:9.4.5"
+    es-check: "npm:9.4.6"
     eslint: "npm:8.57.1"
     eslint-config-prettier: "npm:^10.1.8"
     eslint-import-resolver-typescript: "npm:^4.4.4"
@@ -7640,9 +7640,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-check@npm:9.4.5":
-  version: 9.4.5
-  resolution: "es-check@npm:9.4.5"
+"es-check@npm:9.4.6":
+  version: 9.4.6
+  resolution: "es-check@npm:9.4.6"
   dependencies:
     acorn: "npm:8.15.0"
     browserslist: "npm:^4.23.3"
@@ -7650,7 +7650,7 @@ __metadata:
     fast-glob: "npm:^3.3.3"
   bin:
     es-check: lib/cli/index.js
-  checksum: 10c0/f778797f9f6ff4535dcadc837b6c7658fafa01a3c1af314532e5ba2a53249cc976096c1e1d542efc7edbf0c14e67eead768f97a4608df19976868519fd00fd49
+  checksum: 10c0/b81405abb5fb255a2aa9fa87302f5fe95a6c254daee07ad9ba9e732d25d463ca5ca4b7c21c85e0fad514ee30ba10b4270dedc25308f0c470050e3e1258f7474d
   languageName: node
   linkType: hard
 
