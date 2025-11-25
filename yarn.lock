@@ -1319,7 +1319,7 @@ __metadata:
     "@typescript-eslint/typescript-estree": "npm:^8.47.0"
     "@typescript-eslint/utils": "npm:^8.47.0"
     "@vitest/eslint-plugin": "npm:^1.4.3"
-    es-check: "npm:9.4.6"
+    es-check: "npm:9.4.7"
     eslint: "npm:8.57.1"
     eslint-config-prettier: "npm:^10.1.8"
     eslint-import-resolver-typescript: "npm:^4.4.4"
@@ -6076,7 +6076,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.23.3, browserslist@npm:^4.24.0, browserslist@npm:^4.25.1, browserslist@npm:^4.26.3, browserslist@npm:^4.27.0":
+"browserslist@npm:^4.24.0, browserslist@npm:^4.25.1, browserslist@npm:^4.26.3, browserslist@npm:^4.27.0, browserslist@npm:^4.28.0":
   version: 4.28.0
   resolution: "browserslist@npm:4.28.0"
   dependencies:
@@ -7640,17 +7640,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-check@npm:9.4.6":
-  version: 9.4.6
-  resolution: "es-check@npm:9.4.6"
+"es-check@npm:9.4.7":
+  version: 9.4.7
+  resolution: "es-check@npm:9.4.7"
   dependencies:
     acorn: "npm:8.15.0"
-    browserslist: "npm:^4.23.3"
-    fast-brake: "npm:^0.1.4"
+    browserslist: "npm:^4.28.0"
+    fast-brake: "npm:^0.1.6"
     fast-glob: "npm:^3.3.3"
   bin:
     es-check: lib/cli/index.js
-  checksum: 10c0/b81405abb5fb255a2aa9fa87302f5fe95a6c254daee07ad9ba9e732d25d463ca5ca4b7c21c85e0fad514ee30ba10b4270dedc25308f0c470050e3e1258f7474d
+  checksum: 10c0/20ed8caf8ed5cc86adec6cb626a34717ff33c647e93a4fb8db9b4f338b9b503a0c8bc8340071429f367a4def58baa0d48817616cde6d5a9be08e3766a73c66c2
   languageName: node
   linkType: hard
 
@@ -8499,7 +8499,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-brake@npm:^0.1.4":
+"fast-brake@npm:^0.1.6":
   version: 0.1.6
   resolution: "fast-brake@npm:0.1.6"
   checksum: 10c0/37ae7e4e3e0eb16b95d0fafbb486bffb7b0eb7ad7e2d621264f8ae412884de8bb355a3e1ccd9b712cb3401a6cfb725c2b27bee77a55679ca3fbb3ee030cbf5dd
