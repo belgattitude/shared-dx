@@ -46,7 +46,7 @@
     "@changesets/cli": "2.29.7",
     "@commitlint/cli": "20.1.0",
     "@commitlint/config-conventional": "20.0.0",
-    "@playwright/test": "1.56.1",
+    "@playwright/test": "1.57.0",
     "@types/shell-quote": "1.7.5",
     "cross-env": "10.1.0",
     "eslint": "8.57.1",
