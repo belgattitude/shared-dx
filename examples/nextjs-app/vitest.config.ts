@@ -16,24 +16,6 @@ export default defineConfig({
     typecheck: {
       enabled: false,
     },
-    // threads is good, vmThreads is faster (perf++) but comes with limitations
-    // @link https://vitest.dev/config/#vmthreads
-    pool: 'threads',
-    poolOptions: {
-      vmThreads: {
-        // useAtomics -> perf+
-        // @link https://vitest.dev/config/#pooloptions-threads-useatomics
-        useAtomics: true,
-      },
-      threads: {
-        // useAtomics -> perf+
-        // @link https://vitest.dev/config/#pooloptions-threads-useatomics
-        useAtomics: true,
-        // isolate to false makes perf++ but comes with limitations
-        // @link https://vitest.dev/config/#pooloptions-threads-isolate
-        isolate: false,
-      },
-    },
     exclude: [
       '**/node_modules/**',
       'dist/**',
