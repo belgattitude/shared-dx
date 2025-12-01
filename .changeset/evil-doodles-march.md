@@ -1,5 +1,5 @@
 ---
-"@belgattitude/eslint-config-bases": patch
+"@belgattitude/eslint-config-bases": minor
 ---
 
 All plugins to latest
