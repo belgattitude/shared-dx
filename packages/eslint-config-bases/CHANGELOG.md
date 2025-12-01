@@ -1,5 +1,13 @@
 # @belgattitude/eslint-config-bases
 
+## 8.6.0
+
+### Minor Changes
+
+- [`ea403f5`](https://github.com/belgattitude/shared-dx/commit/ea403f5305c5b6b3cc15cc264950c78929002670) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable sonarjs/function-return-type for react/jsx components
+
+  The rule sonarjs/function-return-type isn't adapted to react/jsx components.
+
 ## 8.5.0
 
 ### Minor Changes
