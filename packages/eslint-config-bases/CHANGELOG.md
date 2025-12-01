@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 8.7.0
+
+### Minor Changes
+
+- [`76c3e17`](https://github.com/belgattitude/shared-dx/commit/76c3e17237f8e5ad9363c3fcdb7bb9fa4906902a) Thanks [@belgattitude](https://github.com/belgattitude)! - Disable sonarjs/different-types-comparison as it's often misleading
+
 ## 8.6.0
 
 ### Minor Changes
