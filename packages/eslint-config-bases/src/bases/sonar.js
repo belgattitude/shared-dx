@@ -41,6 +41,7 @@ module.exports = {
         'sonarjs/redundant-type-aliases': 'warn',
         'sonarjs/no-nested-template-literals': 'off',
         'sonarjs/no-duplicate-string': 'off',
+        'sonarjs/different-types-comparison': 'off',
       },
     },
     {
