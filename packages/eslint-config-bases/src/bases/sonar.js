@@ -50,6 +50,7 @@ module.exports = {
         'sonarjs/cognitive-complexity': ['error', 16],
         // relax duplicate strings
         'sonarjs/no-duplicate-string': 'off',
+        'sonarjs/function-return-type': 'off',
       },
     },
     {
