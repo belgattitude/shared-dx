@@ -8132,13 +8132,13 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-playwright@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "eslint-plugin-playwright@npm:2.3.0"
+  version: 2.4.0
+  resolution: "eslint-plugin-playwright@npm:2.4.0"
   dependencies:
     globals: "npm:^16.4.0"
   peerDependencies:
     eslint: ">=8.40.0"
-  checksum: 10c0/ae7dcff6b65da93992e97dd558d34b07147c9bd3b41f7183e41222b8bf9445406be9449907162dded8f906044a6b65b6876f0c48e43bf24ecf3a027f4c924e79
+  checksum: 10c0/ed6085835b4b9e61662abf24c9b7e94b2cd9046bb2566a42e833efcdc7032729821bdf08eee1171dad6772929ccce9eb71e15435f375026b7006985e0dbc57db
   languageName: node
   linkType: hard
 
