@@ -1,5 +1,20 @@
 # @belgattitude/eslint-config-bases
 
+## 8.7.1
+
+### Patch Changes
+
+- [#1128](https://github.com/belgattitude/shared-dx/pull/1128) [`6a530f6`](https://github.com/belgattitude/shared-dx/commit/6a530f668265e3616ffb6b392a87a3b995bfbf79) Thanks [@belgattitude](https://github.com/belgattitude)! - Update typescript-eslint minimum version to include upstream fixes
+
+  ```
+   @typescript-eslint/eslint-plugin      ^8.48.0  →  ^8.48.1
+   @typescript-eslint/parser             ^8.48.0  →  ^8.48.1
+   @typescript-eslint/typescript-estree  ^8.48.0  →  ^8.48.1
+   @typescript-eslint/utils              ^8.48.0  →  ^8.48.1
+   @vitest/eslint-plugin                  ^1.4.3  →   ^1.5.1
+   eslint-plugin-playwright               ^2.3.0  →   ^2.4.0
+  ```
+
 ## 8.7.0
 
 ### Minor Changes
