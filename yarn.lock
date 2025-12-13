@@ -1336,7 +1336,7 @@ __metadata:
     eslint-plugin-regexp: "npm:^2.10.0"
     eslint-plugin-simple-import-sort: "npm:^12.1.1"
     eslint-plugin-sonarjs: "npm:^3.0.5"
-    eslint-plugin-storybook: "npm:^9.1.15"
+    eslint-plugin-storybook: "npm:^10.0.0"
     eslint-plugin-testing-library: "npm:^7.13.5"
     eslint-plugin-unicorn: "npm:^56.0.1"
     eslint-plugin-unused-imports: "npm:^4.3.0"
@@ -1345,7 +1345,7 @@ __metadata:
     react: "npm:19.2.1"
     react-dom: "npm:19.2.1"
     rimraf: "npm:6.1.2"
-    storybook: "npm:9.1.15"
+    storybook: "npm:10.1.6"
     typescript: "npm:5.9.3"
   peerDependencies:
     "@graphql-eslint/eslint-plugin": ^4.4.0
@@ -3787,6 +3787,16 @@ __metadata:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
   checksum: 10c0/fd0514fb3fa431a8b5939fe1d9fc336b253ef2c25b34792d2d4ee59e13321108d34f8bf223a0981482f54f83c5ef47ffd1a98c376ca9071011c1b8afe2b01d43
+  languageName: node
+  linkType: hard
+
+"@storybook/icons@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "@storybook/icons@npm:2.0.1"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/df2bbf1a5b50f12ab1bf78cae6de4dbf7c49df0e3a5f845553b51b20adbe8386a09fd172ea60342379f9284bb528cba2d0e2659cae6eb8d015cf92c8b32f1222
   languageName: node
   linkType: hard
 
@@ -8251,7 +8261,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:9.1.15, eslint-plugin-storybook@npm:^9.1.15":
+"eslint-plugin-storybook@npm:9.1.15":
   version: 9.1.15
   resolution: "eslint-plugin-storybook@npm:9.1.15"
   dependencies:
@@ -8260,6 +8270,18 @@ __metadata:
     eslint: ">=8"
     storybook: ^9.1.15
   checksum: 10c0/762218665cc8dba17749ef6f4a57a1c9c2d1a0a72f0e06c003481c46b1fae69c54dcdc29053c925d3a2e54184009e53de154ea082bbab7c11f659a016396a72e
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-storybook@npm:^10.0.0":
+  version: 10.1.6
+  resolution: "eslint-plugin-storybook@npm:10.1.6"
+  dependencies:
+    "@typescript-eslint/utils": "npm:^8.8.1"
+  peerDependencies:
+    eslint: ">=8"
+    storybook: ^10.1.6
+  checksum: 10c0/4ca06937cf56f177d5bb26fb2efca4d8c80bb2acf0d157a6adf032ad83a4744826c2f626b3c8debaa2ff23fb6cee68ac637aa3368185c757345ea8a57c7881a3
   languageName: node
   linkType: hard
 
@@ -14525,6 +14547,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"storybook@npm:10.1.6":
+  version: 10.1.6
+  resolution: "storybook@npm:10.1.6"
+  dependencies:
+    "@storybook/global": "npm:^5.0.0"
+    "@storybook/icons": "npm:^2.0.0"
+    "@testing-library/jest-dom": "npm:^6.6.3"
+    "@testing-library/user-event": "npm:^14.6.1"
+    "@vitest/expect": "npm:3.2.4"
+    "@vitest/spy": "npm:3.2.4"
+    esbuild: "npm:^0.18.0 || ^0.19.0 || ^0.20.0 || ^0.21.0 || ^0.22.0 || ^0.23.0 || ^0.24.0 || ^0.25.0 || ^0.26.0 || ^0.27.0"
+    recast: "npm:^0.23.5"
+    semver: "npm:^7.6.2"
+    use-sync-external-store: "npm:^1.5.0"
+    ws: "npm:^8.18.0"
+  peerDependencies:
+    prettier: ^2 || ^3
+  peerDependenciesMeta:
+    prettier:
+      optional: true
+  bin:
+    storybook: ./dist/bin/dispatcher.js
+  checksum: 10c0/9d6e72dec89d734f8b15e6448fabd4292f7e7d2447a1f271c1dc1f671b2dd0d24b4510b960e585730a761a73b45a0a5e28f3c22d0fdad0980cc10774d2af0b03
+  languageName: node
+  linkType: hard
+
 "storybook@npm:9.1.15":
   version: 9.1.15
   resolution: "storybook@npm:9.1.15"
@@ -15725,6 +15773,15 @@ __metadata:
   version: 10.1.0
   resolution: "urlpattern-polyfill@npm:10.1.0"
   checksum: 10c0/5b124fd8d0ae920aa2a48b49a7a3b9ad1643b5ce7217b808fb6877826e751cabc01897fd4c85cd1989c4e729072b63aad5c3ba1c1325e4433e0d2f6329156bf1
+  languageName: node
+  linkType: hard
+
+"use-sync-external-store@npm:^1.5.0":
+  version: 1.6.0
+  resolution: "use-sync-external-store@npm:1.6.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/35e1179f872a53227bdf8a827f7911da4c37c0f4091c29b76b1e32473d1670ebe7bcd880b808b7549ba9a5605c233350f800ffab963ee4a4ee346ee983b6019b
   languageName: node
   linkType: hard
 
