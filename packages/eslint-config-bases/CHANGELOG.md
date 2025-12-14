@@ -1,5 +1,24 @@
 # @belgattitude/eslint-config-bases
 
+## 8.8.0
+
+### Minor Changes
+
+- [#1137](https://github.com/belgattitude/shared-dx/pull/1137) [`ec1b3cc`](https://github.com/belgattitude/shared-dx/commit/ec1b3ccd6e83f4e23e13a5bdaaca6091737298dc) Thanks [@belgattitude](https://github.com/belgattitude)! - Move eslint-plugin-storybook to peer-deps and support for v9 and v10.
+
+  To update just ensure you have 'eslint-plugin-storybook' installed as
+  a devDependency if you're enabling the plugin.
+
+  ## Latest plugins update
+
+  ```
+   @typescript-eslint/eslint-plugin      ^8.48.1  →  ^8.49.0
+   @typescript-eslint/parser             ^8.48.1  →  ^8.49.0
+   @typescript-eslint/typescript-estree  ^8.48.1  →  ^8.49.0
+   @typescript-eslint/utils              ^8.48.1  →  ^8.49.0
+   @vitest/eslint-plugin                  ^1.5.1  →   ^1.5.2
+  ```
+
 ## 8.7.1
 
 ### Patch Changes
