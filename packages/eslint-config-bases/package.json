@@ -165,7 +165,7 @@
     "@types/node": "24.10.3",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
-    "es-check": "9.5.2",
+    "es-check": "9.5.3",
     "eslint": "8.57.1",
     "eslint-plugin-mdx": "3.6.2",
     "eslint-plugin-storybook": "10.1.6",
