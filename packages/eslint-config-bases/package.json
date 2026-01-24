@@ -170,7 +170,7 @@
     "eslint-plugin-mdx": "3.6.2",
     "eslint-plugin-storybook": "10.1.6",
     "graphql": "16.12.0",
-    "prettier": "3.8.0",
+    "prettier": "3.8.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "rimraf": "6.1.2",
