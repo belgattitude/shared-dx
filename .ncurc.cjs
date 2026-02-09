@@ -33,6 +33,7 @@ module.exports = defineConfig({
     // Cause v9 isn't yet supported
     'eslint',
     'eslint-plugin-unicorn',
-    'eslint-plugin-storybook'
+    //'eslint-plugin-storybook',
+    'eslint-plugin-regexp'
   ],
 });
