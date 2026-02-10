@@ -6,21 +6,23 @@
  * where we are able to add customization depending on the nature of the project (eslint...).
  *
  * {@link https://github.com/okonet/lint-staged#how-to-use-lint-staged-in-a-multi-package-monorepo}
+ * {@link https://github.com/belgattitude/nextjs-monorepo-example/blob/main/docs/about-lint-staged.md}
  */
 
-const {
-  concatFilesForPrettier,
-} = require('./lint-staged.common.js');
+import { concatFilesForPrettier } from './lint-staged.common.mjs';
+import url from 'node:url';
+import path from 'node:path';
+
+const __filename = url.fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 /**
- * @type {Record<string, (filenames: string[]) => string | string[] | Promise<string | string[]>>}
+ * @type {import('lint-staged').Configuration}
  */
-const rules = {
-  '**/*.{json,md,mdx,css,html,yml,yaml,scss,ts,js,tsx,jsx,mjs}': (
+export default {
+  '**/*.{json,md,mdx,css,html,yml,yaml,scss,ts,js,tsx,jsx,mjs,cjs}': (
     filenames
   ) => {
     return [`prettier --write ${concatFilesForPrettier(filenames)}`];
   },
 };
-
-module.exports = rules;

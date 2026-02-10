@@ -16,131 +16,110 @@
     "eslint",
     "eslint-config"
   ],
-  "type": "commonjs",
-  "main": "./src/index.js",
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "sideEffects": false,
   "exports": {
     ".": {
-      "require": "./src/index.js"
-    },
-    "./patch/modern-module-resolution": {
-      "require": "./src/patch/modern-module-resolution.js"
+      "default": "./src/index.mjs"
     },
     "./helpers": {
-      "require": "./src/helpers/index.js"
-    },
-    "./graphql-schema": {
-      "require": "./src/bases/graphql-schema.js"
-    },
-    "./mdx": {
-      "require": "./src/bases/mdx.js"
+      "default": "./src/helpers/index.mjs"
     },
     "./import-x": {
-      "require": "./src/bases/import-x.js"
-    },
-    "./jest": {
-      "require": "./src/bases/jest.js"
+      "default": "./src/bases/import-x.mjs"
     },
     "./perfectionist": {
-      "require": "./src/bases/perfectionist.js"
+      "default": "./src/bases/perfectionist.mjs"
     },
     "./perfectionist-jsx": {
-      "require": "./src/bases/perfectionist-jsx.js"
+      "default": "./src/bases/perfectionist-jsx.mjs"
     },
     "./playwright": {
-      "require": "./src/bases/playwright.js"
+      "default": "./src/bases/playwright.mjs"
     },
     "./prettier-config": {
-      "require": "./src/bases/prettier-config.js"
+      "default": "./src/bases/prettier-config.mjs"
     },
     "./prettier-plugin": {
-      "require": "./src/bases/prettier-plugin.js"
+      "default": "./src/bases/prettier-plugin.mjs"
     },
     "./performance": {
-      "require": "./src/bases/performance.js"
+      "default": "./src/bases/performance.mjs"
     },
     "./react": {
-      "require": "./src/bases/react.js"
+      "default": "./src/bases/react.mjs"
     },
     "./react-query": {
-      "require": "./src/bases/react-query.js"
+      "default": "./src/bases/react-query.mjs"
     },
-    "./rtl": {
-      "require": "./src/bases/rtl.js"
+    "./react-testing-library": {
+      "default": "./src/bases/react-testing-library.mjs"
     },
     "./regexp": {
-      "require": "./src/bases/regexp.js"
+      "default": "./src/bases/regexp.mjs"
     },
     "./simple-import-sort": {
-      "require": "./src/bases/simple-import-sort.js"
+      "default": "./src/bases/simple-import-sort.mjs"
     },
     "./sonar": {
-      "require": "./src/bases/sonar.js"
+      "default": "./src/bases/sonar.mjs"
     },
     "./storybook": {
-      "require": "./src/bases/storybook.js"
+      "default": "./src/bases/storybook.mjs"
     },
     "./typescript": {
-      "require": "./src/bases/typescript.js"
+      "default": "./src/bases/typescript.mjs"
     },
     "./vitest": {
-      "require": "./src/bases/vitest.js"
+      "default": "./src/bases/vitest.mjs"
     }
   },
   "scripts": {
     "clean": "rimraf ./dist ./coverage ./tsconfig.tsbuildinfo",
-    "lint": "eslint . --ext .ts,.tsx,.js,.jsx,.mjs,.cjs,.mts,.cts --cache --cache-location ../../.cache/eslint/eslint-config-bases.eslintcache",
+    "lint": "TIMING=1 eslint . --cache --cache-location ../../.cache/eslint/eslint-config-bases.eslintcache",
     "typecheck": "tsc --project tsconfig.json --noEmit",
-    "fix-all-files": "eslint  --ext .ts,.tsx,.js,.jsx,.mjs,.cjs,.mts,.cts --fix",
     "check-dist": "es-check -v"
   },
   "dependencies": {
-    "@rushstack/eslint-patch": "^1.15.0",
+    "@eslint/js": "^9.39.2",
     "@tanstack/eslint-plugin-query": "^5.91.4",
     "@typescript-eslint/eslint-plugin": "^8.55.0",
     "@typescript-eslint/parser": "^8.55.0",
     "@typescript-eslint/typescript-estree": "^8.55.0",
     "@typescript-eslint/utils": "^8.55.0",
-    "@vitest/eslint-plugin": "^1.6.6",
+    "@vitest/eslint-plugin": "^1.6.7",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-import-resolver-typescript": "4.4.4",
     "eslint-plugin-import-x": "^4.16.1",
-    "eslint-plugin-jest": "^29.12.1",
-    "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-oxfmt": "0.0.12",
     "eslint-plugin-perfectionist": "^5.5.0",
     "eslint-plugin-playwright": "^2.5.1",
     "eslint-plugin-prettier": "^5.5.5",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-regexp": "^2.10.0",
+    "eslint-plugin-regexp": "^3.0.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-sonarjs": "^3.0.6",
     "eslint-plugin-testing-library": "^7.15.4",
-    "eslint-plugin-unicorn": "^56.0.1",
-    "eslint-plugin-unused-imports": "^4.3.0"
+    "eslint-plugin-unicorn": "^63.0.0",
+    "eslint-plugin-unused-imports": "^4.3.0",
+    "globals": "^17.3.0",
+    "typescript-eslint": "^8.55.0"
   },
   "peerDependencies": {
-    "@graphql-eslint/eslint-plugin": "^4.4.0",
-    "eslint": "^8.57.1",
-    "eslint-plugin-mdx": "^3.5.0",
-    "eslint-plugin-storybook": "^9.1.15 || ^10.1.6",
-    "graphql": "^16.9.0",
+    "eslint": "^9.39.2",
+    "eslint-plugin-storybook": "^10.1.6",
     "prettier": ">=3.2.0 <5.0.0",
-    "react": ">=18.2.0",
-    "react-dom": ">=18.2.0",
+    "react": ">=19.1.0",
+    "react-dom": ">=19.1.0",
     "typescript": "^5.5.4"
   },
   "peerDependenciesMeta": {
-    "@graphql-eslint/eslint-plugin": {
-      "optional": true
-    },
-    "eslint-plugin-mdx": {
-      "optional": true
-    },
     "eslint-plugin-storybook": {
-      "optional": true
-    },
-    "graphql": {
       "optional": true
     },
     "prettier": {
@@ -157,19 +136,16 @@
     }
   },
   "devDependencies": {
-    "@graphql-eslint/eslint-plugin": "4.4.0",
     "@testing-library/dom": "10.4.1",
     "@testing-library/jest-dom": "6.9.1",
     "@testing-library/react": "16.3.2",
-    "@types/jest": "30.0.0",
     "@types/node": "25.0.9",
     "@types/react": "19.2.13",
     "@types/react-dom": "19.2.3",
     "es-check": "9.5.4",
-    "eslint": "8.57.1",
+    "eslint": "9.39.2",
     "eslint-plugin-mdx": "3.6.2",
     "eslint-plugin-storybook": "10.1.11",
-    "graphql": "16.12.0",
     "prettier": "3.8.1",
     "react": "19.2.4",
     "react-dom": "19.2.4",
@@ -178,6 +154,6 @@
     "typescript": "5.9.3"
   },
   "engines": {
-    "node": ">=20.9.0"
+    "node": ">=20.19.0"
   }
 }

@@ -3,7 +3,7 @@
 /**
  * @type {import('prettier').Config}
  */
-module.exports = {
+const prettierBaseConfig = {
   bracketSameLine: false,
   bracketSpacing: true,
   endOfLine: 'lf',
@@ -14,3 +14,5 @@ module.exports = {
   trailingComma: 'es5',
   useTabs: false,
 };
+
+export default prettierBaseConfig;

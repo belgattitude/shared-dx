@@ -2,7 +2,7 @@
  * Custom config base for projects using jest.
  * @see https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases
  */
-const { filePatterns } = require('../config/file-patterns');
+const { filePatterns } = require('../../eslint-config-bases/src/config/file-patterns');
 
 module.exports = {
   extends: ['plugin:import-x/typescript', 'plugin:import-x/recommended'],

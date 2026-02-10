@@ -7,30 +7,31 @@
  * {@link https://github.com/belgattitude/nextjs-monorepo-example/blob/main/docs/about-lint-staged.md}
  */
 
-const {
+import path from 'node:path';
+import url from 'node:url';
+
+import {
   concatFilesForPrettier,
   getEslintFixCmd,
-} = require('../../lint-staged.common.js');
+} from '../../lint-staged.common.mjs';
+
+const __filename = url.fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 /**
- * @type {Record<string, (filenames: string[]) => string | string[] | Promise<string | string[]>>}
+ * @type {import('lint-staged').Configuration}
  */
-const rules = {
+export default {
   '**/*.{js,jsx,ts,tsx}': (filenames) => {
     return getEslintFixCmd({
       cache: true,
       cwd: __dirname,
       files: filenames,
-      // when autofixing staged-files a good tip is to disable react-hooks/exhaustive-deps, cause
       fix: true,
       maxWarnings: 25,
-      // a change here can potentially break things without proper visibility.
-      rules: ['react-hooks/exhaustive-deps: off'],
     });
   },
   '**/*.{json,md,mdx,css,html,yml,yaml,scss}': (filenames) => {
     return [`prettier --write ${concatFilesForPrettier(filenames)}`];
   },
 };
-
-module.exports = rules;

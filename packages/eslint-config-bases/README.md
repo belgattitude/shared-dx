@@ -72,7 +72,7 @@ versions are installable (ie v8 and v7)
 
 ## Usage
 
-Create an `./apps/my-app/.eslintrc.cjs` 
+Create an `./apps/my-app/.eslintrc.backup.cjs.backup` 
 file that extends any of the existing base configs. For example:
 
 ```javascript
@@ -172,7 +172,7 @@ module.exports = {
 };
 ```
 
-Ensure your tsconfig.json includes the .eslintrc.cjs file:
+Ensure your tsconfig.json includes the .eslintrc.backup.cjs.backup file:
 
 ```json5
 {
@@ -216,33 +216,33 @@ Ensure your tsconfig.json includes the .eslintrc.cjs file:
 
 ## Bases
 
-You can find the bases in [./src/bases](./src/bases).
+You can find the bases in [./src/bases](../backup/bases).
 
 | Base                                              | Match convention                  | Scope                                                           |
 |:--------------------------------------------------| :-------------------------------- |:----------------------------------------------------------------|
-| [typescript](./src/bases/typescript.js)           | _all_                             | Naming conventions, consistent imports, import sorting...       |
-| [sonar](./src/bases/sonar.js)                     | `*.{js,jsx,ts,tsx}`               | Keep levels of code complexity sane. (excl test and stories)    |
-| [regexp](./src/bases/regexp.js)                   | `*.{js,jsx,jsx,tsx}`              | Keep regexp consistent and safer.                               |
-| [react](./src/bases/react.js)                     | `*.{jsx,tsx}`                     | Recommendations for react, react-hooks and jsx projects.        |
-| [react-query](./src/bases/react-query.js)         | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Enforce "recommended" react-query usage.                        |
-| [jest](./src/bases/jest.js)                       | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Catch inconsistencies or error in jest tests.                   |
+| [typescript](../backup/bases/typescript.js)           | _all_                             | Naming conventions, consistent imports, import sorting...       |
+| [sonar](../backup/bases/sonar.js)                     | `*.{js,jsx,ts,tsx}`               | Keep levels of code complexity sane. (excl test and stories)    |
+| [regexp](../backup/bases/regexp.js)                   | `*.{js,jsx,jsx,tsx}`              | Keep regexp consistent and safer.                               |
+| [react](../backup/bases/react.js)                     | `*.{jsx,tsx}`                     | Recommendations for react, react-hooks and jsx projects.        |
+| [react-query](../backup/bases/react-query.js)         | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Enforce "recommended" react-query usage.                        |
+| [jest](../backup/bases/jest.js)                       | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Catch inconsistencies or error in jest tests.                   |
 | [vitest](https://github.com/vitest-dev/eslint-plugin-vitest)                     | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Catch inconsistencies or error in jest tests.                   |
-| [rtl](./src/bases/rtl.js)                         | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Potential errors / deprecations in react-testing-library tests. |
-| [graphql-schema](./src/bases/graphql-schema.js)   | `*.graphql`                       | Ensure validity of graphql schema files.                        |
-| [mdx](./src/bases/mdx.js)                         | _all_                             | Mdx validation                                                  |
-| [storybook](./src/bases/storybook.js)             | `*.stories.{ts,tsx,mdx}`          | Potential errors / deprecations in stories.                     |
-| [playwright](./src/bases/playwright.js)           | `**/e2e/**/*.test.{js,ts}`        | Keep "recommended" playwright usage.                            |
-| [prettier-plugin](./src/bases/prettier-plugin.js) | _all_                             | Post configure eslint for prettier compatibility.               |
+| [rtl](../backup/bases/rtl.js)                         | `**/?(*.)+(test).{js,jsx,ts,tsx}` | Potential errors / deprecations in react-testing-library tests. |
+| [graphql-schema](../backup/bases/graphql-schema.js)   | `*.graphql`                       | Ensure validity of graphql schema files.                        |
+| [mdx](../backup/bases/mdx.js)                         | _all_                             | Mdx validation                                                  |
+| [storybook](../backup/bases/storybook.js)             | `*.stories.{ts,tsx,mdx}`          | Potential errors / deprecations in stories.                     |
+| [playwright](../backup/bases/playwright.js)           | `**/e2e/**/*.test.{js,ts}`        | Keep "recommended" playwright usage.                            |
+| [prettier-plugin](../backup/bases/prettier-plugin.js) | _all_                             | Post configure eslint for prettier compatibility.               |
 
 > **Notes**:
 >
 > - The order is important. Some bases will disable or tune previously defined
->   rules. For example the [react base](./src/bases/react.js) will tune the naming conventions
->   for function components and increase recommended cognitive complexity. The [typescript base](./src/bases/typescript.js)
+>   rules. For example the [react base](../backup/bases/react.js) will tune the naming conventions
+>   for function components and increase recommended cognitive complexity. The [typescript base](../backup/bases/typescript.js)
 >   will also relax conventions for javascript files.
 >
 > - Based on filename conventions some rules are relaxed or disabled to avoid false positives and
->   keep a good level of performance. For example the [sonar base](./src/bases/sonar.js) won't run on
+>   keep a good level of performance. For example the [sonar base](../backup/bases/sonar.js) won't run on
 >   test and storybook files. If you work on different conventions the patterns must be updated.
 
 ## Prettier integration
@@ -254,7 +254,7 @@ Two ways to work with prettier.
 
 The first method is recommended for simplicity. For best perf use the cache option to run eslint. 
 
-Tune the behaviour by creating a config in ` .prettierrc.js`
+Tune the behaviour by creating a config in ` .prettierrc.mjs`
 
 ```javascript
 // @ts-check
@@ -273,7 +273,7 @@ module.exports = {
 };
 ```
 
-> **Tip**: You can tune the provided [prettier.base.config](./src/prettier.base.config.js) for your own needs.
+> **Tip**: You can tune the provided [prettier.base.config](src/prettier.base.config.mjs) for your own needs.
 
 ## Notes
 

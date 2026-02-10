@@ -1,14 +1,16 @@
 // @ts-check
-const {
+import {
     getPrettierConfig,
-} = require("./src/helpers");
+} from "./src/helpers/index.mjs";
 
 /**
  * @type {import('prettier').Config}
  */
-module.exports = {
+const prettierConfig = {
     ...getPrettierConfig(),
     overrides: [
         // whatever you need
     ],
 };
+
+export default prettierConfig;

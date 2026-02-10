@@ -2,6 +2,7 @@
   "name": "belgattitude-shared-dx-monorepo",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "packageManager": "yarn@4.12.0",
   "homepage": "https://github.com/belgattitude/shared-dx",
   "repository": {
@@ -49,7 +50,7 @@
     "@playwright/test": "1.58.2",
     "@types/shell-quote": "1.7.5",
     "cross-env": "10.1.0",
-    "eslint": "8.57.1",
+    "eslint": "9.39.2",
     "husky": "9.1.7",
     "is-ci": "4.1.0",
     "lint-staged": "16.2.7",

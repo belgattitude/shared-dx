@@ -3,7 +3,7 @@
  * @see https://github.com/belgattitude/shared-dx/tree/main/packages/eslint-config-bases
  */
 
-const { getPrettierConfig } = require('../helpers');
+const { getPrettierConfig } = require('@belgattitude/eslint-config-bases/helpers');
 
 const { ...prettierConfig } = getPrettierConfig();
 
