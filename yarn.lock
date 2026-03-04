@@ -1309,7 +1309,7 @@ __metadata:
     "@typescript-eslint/typescript-estree": "npm:^8.53.0"
     "@typescript-eslint/utils": "npm:^8.53.0"
     "@vitest/eslint-plugin": "npm:^1.6.6"
-    es-check: "npm:9.5.3"
+    es-check: "npm:9.6.2"
     eslint: "npm:8.57.1"
     eslint-config-prettier: "npm:^10.1.8"
     eslint-import-resolver-typescript: "npm:^4.4.4"
@@ -5500,12 +5500,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:8.15.0, acorn@npm:^8.0.0, acorn@npm:^8.0.4, acorn@npm:^8.11.0, acorn@npm:^8.15.0, acorn@npm:^8.9.0":
-  version: 8.15.0
-  resolution: "acorn@npm:8.15.0"
+"acorn@npm:8.16.0, acorn@npm:^8.0.0, acorn@npm:^8.0.4, acorn@npm:^8.11.0, acorn@npm:^8.15.0, acorn@npm:^8.9.0":
+  version: 8.16.0
+  resolution: "acorn@npm:8.16.0"
   bin:
     acorn: bin/acorn
-  checksum: 10c0/dec73ff59b7d6628a01eebaece7f2bdb8bb62b9b5926dcad0f8931f2b8b79c2be21f6c68ac095592adb5adb15831a3635d9343e6a91d028bbe85d564875ec3ec
+  checksum: 10c0/c9c52697227661b68d0debaf972222d4f622aa06b185824164e153438afa7b08273432ca43ea792cadb24dada1d46f6f6bb1ef8de9956979288cc1b96bf9914e
   languageName: node
   linkType: hard
 
@@ -7726,16 +7726,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-check@npm:9.5.3":
-  version: 9.5.3
-  resolution: "es-check@npm:9.5.3"
+"es-check@npm:9.6.2":
+  version: 9.6.2
+  resolution: "es-check@npm:9.6.2"
   dependencies:
-    acorn: "npm:8.15.0"
-    browserslist: "npm:^4.28.0"
+    acorn: "npm:8.16.0"
     fast-glob: "npm:^3.3.3"
   bin:
     es-check: lib/cli/index.js
-  checksum: 10c0/995bb5b896330b1aa0c39faf4e95231219b1ac9bb5443ac6d285799cbfc30677885eef97e543c2689d81a6e169f6e5c9649be61ed1c2d35140fc41b7478de90a
+  checksum: 10c0/9027de41b59a8294d5dda62f1b0b01c1d200d0e3c15329a07bc0ea780bc9b836f7100d041120214837d3af2717737b1195f89a0df7c9945cc1b2e8da92f80a0d
   languageName: node
   linkType: hard
 
