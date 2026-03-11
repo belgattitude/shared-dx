@@ -8,8 +8,10 @@ const npmPreapprovedPackages = [
   '@httpx/*',
   '@typescript-eslint/*',
   'typescript-eslint',
-    '@vitest/eslint-plugin',
-    'eslint-plugin-unicorn'
+  '@vitest/eslint-plugin',
+  'eslint-plugin-unicorn',
+  'eslint-plugin-oxfmt',
+  '@eslint-react/eslint-plugin'
 ];
 
 module.exports = defineConfig({

@@ -1,5 +1,5 @@
-import { defineConfig } from 'eslint/config';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
+import { defineConfig } from 'eslint/config';
 import globals from 'globals';
 
 import { filePatterns } from '../file-patterns.mjs';
@@ -47,5 +47,3 @@ export const baseUnicornConfig = defineConfig([
     },
   },
 ]);
-
-

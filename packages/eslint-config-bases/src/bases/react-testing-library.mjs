@@ -1,5 +1,5 @@
-import { defineConfig } from 'eslint/config';
 import testingLibrary from 'eslint-plugin-testing-library';
+import { defineConfig } from 'eslint/config';
 import globals from 'globals';
 
 import { filePatterns } from '../file-patterns.mjs';
@@ -30,4 +30,3 @@ export const baseReactTestingLibraryConfig = defineConfig([
     },
   },
 ]);
-

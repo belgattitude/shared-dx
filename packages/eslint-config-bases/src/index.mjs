@@ -1,8 +1,8 @@
-import {baseImportXConfig} from './bases/import-x.mjs'
+import { baseImportXConfig } from './bases/import-x.mjs';
 import { baseOxfmtConfig } from './bases/oxfmt.mjs';
-import { baseReactConfig } from './bases/react.mjs';
 import { baseReactQueryConfig } from './bases/react-query.mjs';
 import { baseReactTestingLibraryConfig } from './bases/react-testing-library.mjs';
+import { baseReactConfig } from './bases/react.mjs';
 import { baseRegExpConfig } from './bases/regexp.mjs';
 import { baseSimpleImportSortConfig } from './bases/simple-import-sort.mjs';
 import { baseSonarConfig } from './bases/sonar.mjs';
@@ -23,7 +23,7 @@ export const bases = {
   regexp: baseRegExpConfig,
   simpleImportSort: baseSimpleImportSortConfig,
   oxfmt: baseOxfmtConfig,
-  unicorn: baseUnicornConfig
+  unicorn: baseUnicornConfig,
 };
 
 export const allBases = [
@@ -38,5 +38,5 @@ export const allBases = [
   ...baseRegExpConfig,
   ...baseSimpleImportSortConfig,
   // ...baseOxfmtConfig,
-  ...baseUnicornConfig
+  ...baseUnicornConfig,
 ];

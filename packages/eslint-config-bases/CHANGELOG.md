@@ -95,12 +95,14 @@
   ### typescript
 
   ```js
+  overrides: [
       {
         files: ['**/next-env.d.ts'],
         rules: {
           '@typescript-eslint/triple-slash-reference': 'off',
         },
       },
+    ]
   ```
 
   ### prettier-plugin
@@ -113,7 +115,7 @@
           'prettier/prettier': 'off',
         },
       },
-    ],
+    ]
   ```
 
   ## Update
@@ -1165,7 +1167,6 @@
   The important part is to have the parserOptions that have been changed:
 
   ```js
-  // eslint-disable-next-line @typescript-eslint/no-restricted-types
   const {
     getDefaultIgnorePatterns,
   } = require('@belgattitude/eslint-config-bases/helpers');
@@ -2047,9 +2048,9 @@
 
   ```json5
   {
-    exclude: ['**/node_modules', '.next', '**/.*/*'],
-    include: [
-      '.eslintrc.*s',
+    "exclude": ["**/node_modules", ".next", "**/.*/*"],
+    "include": [
+      ".eslintrc.*s"
       // "next-env.d.ts",
       // "**/*.ts",
       // "**/*.tsx",
@@ -2061,7 +2062,7 @@
       // ".next/types/**/*.ts",
       // ".storybook/**/*.ts",
       // ".storybook/**/*.tsx"
-    ],
+    ]
   }
   ```
 

@@ -22,7 +22,7 @@ const __dirname = path.dirname(__filename);
  * @type {import('lint-staged').Configuration}
  */
 export default {
-  '**/*.{js,jsx,ts,tsx}': (filenames) => {
+  '**/*.{mjs,cjs,js,jsx,ts,tsx}': (filenames) => {
     return getEslintFixCmd({
       cache: true,
       cwd: __dirname,

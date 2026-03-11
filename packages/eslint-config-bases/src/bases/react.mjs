@@ -1,9 +1,9 @@
-// @ts-check
-import { defineConfig } from 'eslint/config';
 // @ts-expect-error eslint-plugin-jsx-a11y has no types
 import jsxA11y from 'eslint-plugin-jsx-a11y';
 import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
+// @ts-check
+import { defineConfig } from 'eslint/config';
 import globals from 'globals';
 
 import { filePatterns } from '../file-patterns.mjs';
@@ -25,7 +25,7 @@ export const baseReactConfig = defineConfig([
       ...react.configs.flat.recommended.plugins,
       'jsx-a11y': jsxA11y,
     },
-     
+
     settings: {
       // @ts-expect-error settings is not typed in eslint-plugin-react
       ...react.configs.flat.recommended.settings,
@@ -80,5 +80,5 @@ export const baseReactConfig = defineConfig([
       'jsx-a11y/anchor-is-valid': 'off',
       'jsx-a11y/label-has-associated-control': 'off',
     },
-  }
+  },
 ]);

@@ -1,2 +1,1 @@
-export { getPrettierConfig } from './get-prettier-config.mjs'
-
+export { getPrettierConfig } from './get-prettier-config.mjs';

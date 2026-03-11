@@ -1,10 +1,12 @@
-import { defineConfig } from 'eslint/config';
 import pluginOxfmt from 'eslint-plugin-oxfmt';
+import { defineConfig } from 'eslint/config';
+
+import { filePatterns } from '../file-patterns.mjs';
 
 export const baseOxfmtConfig = defineConfig([
   {
     ...pluginOxfmt.configs.recommended,
-    files: ['**/*.{js,ts,mjs,cjs,jsx,tsx}'],
+    files: filePatterns.anyCodeFile,
     rules: {
       'oxfmt/oxfmt': [
         'error',

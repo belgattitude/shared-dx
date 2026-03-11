@@ -1,6 +1,5 @@
+import { configs } from 'eslint-plugin-sonarjs';
 import { defineConfig } from 'eslint/config';
-import sonarjs from 'eslint-plugin-sonarjs';
-import globals from 'globals';
 
 import { filePatterns } from '../file-patterns.mjs';
 
@@ -12,17 +11,10 @@ export const baseSonarConfig = defineConfig([
     // to avoid breaking changes we keep this config for legacyAnyCodeFile (as there are lots of ts files in the codebase not yet migrated to sonar rules)
     files: filePatterns.anyCodeFile,
     ignores: [...filePatterns.testFile, ...filePatterns.storybookFile],
-    languageOptions: {
-      globals: {
-        ...globals.browser,
-        ...globals.node,
-        ...globals.es2022,
-      },
-    },
-    plugins: { ...sonarjs.configs.recommended.plugins },
-    settings: { ...sonarjs.configs.recommended.settings },
+    plugins: { ...configs.recommended.plugins },
+    settings: { ...configs.recommended.settings },
     rules: {
-      ...sonarjs.configs.recommended.rules,
+      ...configs.recommended.rules,
       'sonarjs/no-selector-parameter': 'off',
       'sonarjs/arguments-order': 'off',
       'sonarjs/no-async-constructor': 'off',
@@ -56,22 +48,20 @@ export const baseSonarConfig = defineConfig([
   // React JSX/TSX relaxations
   {
     files: filePatterns.jsxOrTsxFile,
-    plugins: { ...sonarjs.configs.recommended.plugins },
+    plugins: { ...configs.recommended.plugins },
     rules: {
       'sonarjs/cognitive-complexity': ['error', 16],
       'sonarjs/no-duplicate-string': 'off',
       'sonarjs/function-return-type': 'off',
     },
   },
-
   // JS-only bases (parser override)
   {
     files: filePatterns.jsFile,
-    plugins: { ...sonarjs.configs.recommended.plugins },
+    plugins: { ...configs.recommended.plugins },
     rules: {
       'sonarjs/no-all-duplicated-branches': 'off',
       'sonarjs/no-duplicate-string': 'off',
     },
   },
 ]);
-

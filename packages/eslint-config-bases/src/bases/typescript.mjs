@@ -191,5 +191,5 @@ export const baseTypescriptConfig = defineConfig([
         },
       ],
     },
-  }
+  },
 ]);

@@ -1,11 +1,10 @@
-
-import { defineConfig } from 'eslint/config';
 import { configs as storybookConfigs } from 'eslint-plugin-storybook';
+import { defineConfig } from 'eslint/config';
 
 import { filePatterns } from '../file-patterns.mjs';
 
 export const baseStorybookConfig = defineConfig([
-    // @ts-expect-error not well typed
+  // @ts-expect-error not well typed
   storybookConfigs['flat/recommended'],
   {
     files: filePatterns.storybookFile,
@@ -27,4 +26,3 @@ export const baseStorybookConfig = defineConfig([
     },
   },
 ]);
-

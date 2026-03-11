@@ -1,5 +1,5 @@
-import { defineConfig } from 'eslint/config';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
+import { defineConfig } from 'eslint/config';
 import globals from 'globals';
 
 import { filePatterns } from '../file-patterns.mjs';
@@ -24,4 +24,3 @@ export const baseSimpleImportSortConfig = defineConfig([
     },
   },
 ]);
-

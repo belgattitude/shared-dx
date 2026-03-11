@@ -178,7 +178,7 @@ Ensure your tsconfig.json includes the .eslintrc.backup.cjs.backup file:
 {
   "exclude": ["**/node_modules", "**/.*/*"],
   "include": [
-    ".eslintrc.*s", // <-- add this
+    ".eslintrc.*s" // <-- add this
     // rest of the includes
   ]
 }
@@ -206,9 +206,9 @@ Ensure your tsconfig.json includes the .eslintrc.backup.cjs.backup file:
 >     
 >     ```json
 >     {
->      "resolutions": {
->        "eslint-plugin-react-hooks": "5.0.0"
->      }
+>       "resolutions": {
+>         "eslint-plugin-react-hooks": "5.0.0"
+>       }
 >     }
 >     ```
 >
