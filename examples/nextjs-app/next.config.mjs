@@ -68,7 +68,7 @@ const secureHeaders = createSecureHeaders({
 });
 
 /** @type {import('next').NextConfig} */
-let nextConfig = {
+const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
 
@@ -76,7 +76,7 @@ let nextConfig = {
     keepAlive: true,
   },
 
-  // eslint-disable-next-line @typescript-eslint/require-await
+   
   async headers() {
     return [
       {
@@ -131,7 +131,7 @@ const withPlugins = () => {
       : []),
     withMDX,
   ];
-  // eslint-disable-next-line unicorn/no-array-reduce
+   
   return plugins.reduce((acc, next) => next(acc), nextConfig);
 };
 

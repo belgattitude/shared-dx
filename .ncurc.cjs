@@ -6,7 +6,12 @@ const { defineConfig } = require('npm-check-updates');
 const npmPreapprovedPackages = [
   '@flowblade/*',
   '@httpx/*',
-  '@typescript-eslint/*'
+  '@typescript-eslint/*',
+  'typescript-eslint',
+  '@vitest/eslint-plugin',
+  'eslint-plugin-unicorn',
+  'eslint-plugin-oxfmt',
+  '@eslint-react/eslint-plugin'
 ];
 
 module.exports = defineConfig({
@@ -30,9 +35,11 @@ module.exports = defineConfig({
     return 3;
   },
   reject: [
-    // Cause v9 isn't yet supported
+    // Cause v10 isn't yet supported
     'eslint',
-    'eslint-plugin-unicorn',
-    'eslint-plugin-storybook'
+     '@eslint/js'
+    //'eslint-plugin-unicorn',
+    //'eslint-plugin-storybook',
+    //'eslint-plugin-regexp'
   ],
 });

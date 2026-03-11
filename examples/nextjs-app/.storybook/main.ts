@@ -1,29 +1,26 @@
-import { createRequire } from "node:module";
-import type { StorybookConfig } from '@storybook/nextjs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-import { join, dirname } from 'path';
+import type { StorybookConfig } from '@storybook/react-vite';
 
-
-const require = createRequire(import.meta.url);
-
+/**
+ * This function is used to resolve the absolute path of a package.
+ * It is needed in projects that use Yarn PnP or are set up within a monorepo.
+ */
+const getAbsolutePath = (packageName: string) =>
+    path.dirname(
+        fileURLToPath(import.meta.resolve(path.join(packageName, 'package.json')))
+    );
 
 const config: StorybookConfig = {
   stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
-
   addons: [
-    getAbsolutePath("@storybook/addon-links"),
-    getAbsolutePath("@storybook/addon-docs")
+    getAbsolutePath('@storybook/addon-vitest'),
+    getAbsolutePath('@storybook/addon-docs'),
   ],
-
   framework: {
-    name: getAbsolutePath("@storybook/nextjs"),
+    name: getAbsolutePath('@storybook/react-vite'),
     options: {},
   },
-
-  staticDirs: ['../public']
 };
 export default config;
-
-function getAbsolutePath(value: string): any {
-  return dirname(require.resolve(join(value, "package.json")));
-}

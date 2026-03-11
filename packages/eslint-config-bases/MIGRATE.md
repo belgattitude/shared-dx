@@ -39,7 +39,6 @@ Be sure your `eslintrc.config.cjs` is up to date with the latest version of the 
 The important part is to have the parserOptions that have been changed:
 
 ```js
-// eslint-disable-next-line @typescript-eslint/no-restricted-types
 const {
   getDefaultIgnorePatterns,
 } = require('@belgattitude/eslint-config-bases/helpers');

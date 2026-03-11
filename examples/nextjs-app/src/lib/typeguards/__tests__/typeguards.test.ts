@@ -98,7 +98,7 @@ describe('Typeguards tests', () => {
       ['-10', true],
       [Number.MAX_SAFE_INTEGER, true],
       [`${Number.MIN_SAFE_INTEGER}`, true],
-      [BigInt(1), false],
+      [1n, false],
       [0, true],
       ['0', true],
       ['0.0', false],

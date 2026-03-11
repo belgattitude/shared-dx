@@ -2,13 +2,20 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "@belgattitude/eslint-config-bases",
   "compilerOptions": {
-    "strict": true,
-    "skipLibCheck": true,
-    "noEmit": true,
     "incremental": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
     "allowJs": true,
-    "checkJs": true
+    "checkJs": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true
   },
-  "exclude": ["node_modules", "dist", "build"],
-  "include": [".eslintrc.*s", "**/*.ts", "**/*.js", "**/*.cjs", "**/*.mjs", "**/*.json"]
+  "include": [".prettierrc.mjs", "**/*.ts", "**/*.js", "**/*.cjs", "**/*.mjs", "**/*.json"],
+  "exclude": ["dist", "build"]
 }
