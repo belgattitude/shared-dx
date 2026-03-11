@@ -35,7 +35,7 @@
       }
     ]
   },
-  "exclude": ["**/node_modules", ".next"],
+  "exclude": ["**/node_modules"],
   "include": [
     "next-env.d.ts",
     ".eslintrc.*s",
@@ -46,7 +46,7 @@
     "**/*.cjs",
     "**/*.mjs",
     "**/*.json",
-    ".next/types/**/*.ts",
+    ".next/types/*.d.ts",
     ".storybook/**/*.ts",
     ".storybook/**/*.tsx"
   ]

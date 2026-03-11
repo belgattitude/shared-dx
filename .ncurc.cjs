@@ -6,7 +6,7 @@ const { defineConfig } = require('npm-check-updates');
 const npmPreapprovedPackages = [
   '@flowblade/*',
   '@httpx/*',
-  '@typescript-eslint/*'
+  '@typescript-eslint/*',
 ];
 
 module.exports = defineConfig({
