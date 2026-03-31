@@ -1,5 +1,20 @@
 # @belgattitude/eslint-config-bases
 
+## 8.11.0
+
+### Minor Changes
+
+- [`6c48572`](https://github.com/belgattitude/shared-dx/commit/6c4857208435a0552a814e0cfd326d75b0344afc) Thanks [@belgattitude](https://github.com/belgattitude)! - Typescript 6 support
+
+  ```
+   @typescript-eslint/eslint-plugin       ^8.57.2  →   ^8.58.0
+   @typescript-eslint/parser              ^8.57.2  →   ^8.58.0
+   @typescript-eslint/typescript-estree   ^8.57.2  →   ^8.58.0
+   @typescript-eslint/utils               ^8.57.2  →   ^8.58.0
+   eslint-plugin-jest                    ^29.15.0  →  ^29.15.1
+   eslint-plugin-testing-library          ^7.16.0  →   ^7.16.2
+  ```
+
 ## 8.10.0
 
 ### Minor Changes
