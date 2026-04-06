@@ -1,5 +1,17 @@
 # @belgattitude/eslint-config-bases
 
+## 8.12.0
+
+### Minor Changes
+
+- [#1174](https://github.com/belgattitude/shared-dx/pull/1174) [`d8e976f`](https://github.com/belgattitude/shared-dx/commit/d8e976fee718818b6bfa5c63452d9d0398bf3580) Thanks [@belgattitude](https://github.com/belgattitude)! - Latest plugins update and ts 6 improved support
+
+  ```
+   @tanstack/eslint-plugin-query  ^5.91.4  →  ^5.96.2
+   @vitest/eslint-plugin          ^1.6.13  →  ^1.6.14
+   eslint-plugin-perfectionist     ^5.7.0  →   ^5.8.0
+  ```
+
 ## 8.11.0
 
 ### Minor Changes
