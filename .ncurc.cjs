@@ -34,6 +34,6 @@ module.exports = defineConfig({
     'eslint',
     'eslint-plugin-unicorn',
     'eslint-plugin-regexp',
-    'eslint-plugin-sonarjs'
+    //'eslint-plugin-sonarjs'
   ],
 });
