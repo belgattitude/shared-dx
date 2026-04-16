@@ -1,5 +1,24 @@
 # @belgattitude/eslint-config-bases
 
+## 8.13.0
+
+### Minor Changes
+
+- [#1179](https://github.com/belgattitude/shared-dx/pull/1179) [`ee821be`](https://github.com/belgattitude/shared-dx/commit/ee821be873232fbd4c3314f17f0e81180dd713c9) Thanks [@belgattitude](https://github.com/belgattitude)! - eslint plugin sonarjs to v4
+
+- [#1179](https://github.com/belgattitude/shared-dx/pull/1179) [`ee821be`](https://github.com/belgattitude/shared-dx/commit/ee821be873232fbd4c3314f17f0e81180dd713c9) Thanks [@belgattitude](https://github.com/belgattitude)! - plugins to latest
+
+  ```
+   @tanstack/eslint-plugin-query          ^5.96.2  →   ^5.99.0
+   @typescript-eslint/eslint-plugin       ^8.58.0  →   ^8.58.2
+   @typescript-eslint/parser              ^8.58.0  →   ^8.58.2
+   @typescript-eslint/typescript-estree   ^8.58.0  →   ^8.58.2
+   @typescript-eslint/utils               ^8.58.0  →   ^8.58.2
+   eslint-plugin-jest                    ^29.15.1  →  ^29.15.2
+   eslint-plugin-simple-import-sort       ^12.1.1  →   ^13.0.0
+   eslint-plugin-storybook                 10.3.4  →    10.3.5
+  ```
+
 ## 8.12.0
 
 ### Minor Changes
