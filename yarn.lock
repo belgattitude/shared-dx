@@ -8440,8 +8440,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-sonarjs@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "eslint-plugin-sonarjs@npm:4.0.2"
+  version: 4.0.3
+  resolution: "eslint-plugin-sonarjs@npm:4.0.3"
   dependencies:
     "@eslint-community/regexpp": "npm:^4.12.2"
     builtin-modules: "npm:^3.3.0"
@@ -8450,14 +8450,14 @@ __metadata:
     globals: "npm:^17.4.0"
     jsx-ast-utils-x: "npm:^0.1.0"
     lodash.merge: "npm:^4.6.2"
-    minimatch: "npm:^10.2.4"
+    minimatch: "npm:^10.2.5"
     scslre: "npm:^0.3.0"
     semver: "npm:^7.7.4"
-    ts-api-utils: "npm:^2.4.0"
+    ts-api-utils: "npm:^2.5.0"
     typescript: "npm:>=5"
   peerDependencies:
     eslint: ^8.0.0 || ^9.0.0 || ^10.0.0
-  checksum: 10c0/ed50891e1034fdf48c54fcd9432dfc30b7da88896a27733a3ad6673b4bbf0f4a01f5d2751124a9396d27d3bf41f028004cbd346c975d9ac2779130a8f54724f8
+  checksum: 10c0/9cd451d07e0d898cd99b3666c9d6083347a031db4c01f4c5528cf629ea56b0e484b43db8624e11853b825fab06454e0cf5f452c829763de3334a01fc9b716c2b
   languageName: node
   linkType: hard
 
@@ -11829,7 +11829,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^10.0.0, minimatch@npm:^10.2.2, minimatch@npm:^10.2.4, minimatch@npm:^9.0.3 || ^10.1.2":
+"minimatch@npm:^10.0.0, minimatch@npm:^10.2.2, minimatch@npm:^10.2.5, minimatch@npm:^9.0.3 || ^10.1.2":
   version: 10.2.5
   resolution: "minimatch@npm:10.2.5"
   dependencies:
@@ -15342,7 +15342,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-api-utils@npm:^2.4.0, ts-api-utils@npm:^2.5.0":
+"ts-api-utils@npm:^2.5.0":
   version: 2.5.0
   resolution: "ts-api-utils@npm:2.5.0"
   peerDependencies:
