@@ -1,5 +1,23 @@
 # @belgattitude/eslint-config-bases
 
+## 8.14.0
+
+### Minor Changes
+
+- [#1189](https://github.com/belgattitude/shared-dx/pull/1189) [`48f36b5`](https://github.com/belgattitude/shared-dx/commit/48f36b55088f256f3e5d8a812151ea7bbe700ead) Thanks [@belgattitude](https://github.com/belgattitude)! - Plugins to latest
+
+  ```
+   @typescript-eslint/eslint-plugin      ^8.58.2  →  ^8.59.0
+   @typescript-eslint/parser             ^8.58.2  →  ^8.59.0
+   @typescript-eslint/typescript-estree  ^8.58.2  →  ^8.59.0
+   @typescript-eslint/utils              ^8.58.2  →  ^8.59.0
+   @vitest/eslint-plugin                 ^1.6.14  →  ^1.6.16
+   eslint-plugin-perfectionist            ^5.8.0  →   ^5.9.0
+   eslint-plugin-playwright              ^2.10.1  →  ^2.10.2
+   eslint-plugin-react-hooks              ^7.0.1  →   ^7.1.1
+   eslint-plugin-sonarjs                  ^4.0.2  →   ^4.0.3
+  ```
+
 ## 8.13.0
 
 ### Minor Changes
