@@ -8341,13 +8341,13 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-playwright@npm:^2.10.2":
-  version: 2.10.2
-  resolution: "eslint-plugin-playwright@npm:2.10.2"
+  version: 2.10.4
+  resolution: "eslint-plugin-playwright@npm:2.10.4"
   dependencies:
     globals: "npm:^17.3.0"
   peerDependencies:
     eslint: ">=8.40.0"
-  checksum: 10c0/cede6b74aa8c242d058f42da7bfdc29db5119a4184b05d8735ced16a89a0968ca36de217ee7d927cdc6687ef3d32bff3f3f8211e7c62256ca274cb4d3b4e478d
+  checksum: 10c0/515aac2a870b217f23637bfdab26b9125e47cff91625dbafe20617b3522430fdee8961780f6b7dc9fcfcdbec8235ccd30eafd0ac871088cf3af4d70b8f9b7e29
   languageName: node
   linkType: hard
 
