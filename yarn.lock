@@ -4858,8 +4858,8 @@ __metadata:
   linkType: hard
 
 "@tanstack/eslint-plugin-query@npm:^5.101.0":
-  version: 5.101.0
-  resolution: "@tanstack/eslint-plugin-query@npm:5.101.0"
+  version: 5.101.1
+  resolution: "@tanstack/eslint-plugin-query@npm:5.101.1"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.58.1"
   peerDependencies:
@@ -4868,7 +4868,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/9f16b68137ab263955b208a791210bc239b60b8871232a92b92b50283083c3440a1e9fc142521f175ccb4d94c42ff6aad62dd2e2e24f0a77d3baadd6792c1cc1
+  checksum: 10c0/a5b95a35f280cc24de8c9a323e76e504d5e2dbe2df247b2b629903fc60ba089be1dc98dde7356c3495b0f6fde16bf40eec004063c9d411a86286126c7794b5ee
   languageName: node
   linkType: hard
 
