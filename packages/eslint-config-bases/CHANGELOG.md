@@ -1,5 +1,33 @@
 # @belgattitude/eslint-config-bases
 
+## 8.17.0
+
+### Minor Changes
+
+- [#1222](https://github.com/belgattitude/shared-dx/pull/1222) [`22012f8`](https://github.com/belgattitude/shared-dx/commit/22012f88d0cf52d46e80f6bb6b9d359e973140a0) Thanks [@belgattitude](https://github.com/belgattitude)! - All plugins to latest
+
+  ```
+   @tanstack/eslint-plugin-query         ^5.101.0  →  ^5.101.1
+   @typescript-eslint/eslint-plugin       ^8.62.0  →   ^8.62.1
+   @typescript-eslint/parser              ^8.62.0  →   ^8.62.1
+   @typescript-eslint/typescript-estree   ^8.62.0  →   ^8.62.1
+   @typescript-eslint/utils               ^8.62.0  →   ^8.62.1
+   eslint-plugin-import-x                 ^4.16.2  →   ^4.17.1
+  ```
+
+### Patch Changes
+
+- [#1225](https://github.com/belgattitude/shared-dx/pull/1225) [`ca1a234`](https://github.com/belgattitude/shared-dx/commit/ca1a234e7d64db519c6d367887c3cf81f992dffa) Thanks [@belgattitude](https://github.com/belgattitude)! - Re-release
+
+  ```
+   @tanstack/eslint-plugin-query         ^5.101.0  →  ^5.101.1
+   @typescript-eslint/eslint-plugin       ^8.62.0  →   ^8.62.1
+   @typescript-eslint/parser              ^8.62.0  →   ^8.62.1
+   @typescript-eslint/typescript-estree   ^8.62.0  →   ^8.62.1
+   @typescript-eslint/utils               ^8.62.0  →   ^8.62.1
+   eslint-plugin-import-x                 ^4.16.2  →   ^4.17.1
+  ```
+
 ## 8.16.0
 
 ### Minor Changes
