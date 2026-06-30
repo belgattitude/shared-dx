@@ -7,6 +7,7 @@ const npmPreapprovedPackages = [
   '@flowblade/*',
   '@httpx/*',
   '@typescript-eslint/*',
+  'eslint-plugin-import-x'
 ];
 
 module.exports = defineConfig({
