@@ -1,11 +1,11 @@
-import tsconfigPaths from 'vite-tsconfig-paths';
+import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vitest/config';
 
 const testFiles = ['./src/**/*.test.{js,ts}', './test/**/*.test.{js,ts}'];
 export default defineConfig({
-  plugins: [tsconfigPaths()],
-  esbuild: {
-    target: ['node18'],
+  plugins: [react()],
+  resolve: {
+    tsconfigPaths: true,
   },
   test: {
     globals: true,
