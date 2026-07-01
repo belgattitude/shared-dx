@@ -6540,7 +6540,7 @@ __metadata:
     husky: "npm:9.1.7"
     is-ci: "npm:4.1.0"
     lint-staged: "npm:17.0.8"
-    npm-check-updates: "npm:22.2.7"
+    npm-check-updates: "npm:22.2.8"
     npm-run-all2: "npm:9.0.2"
     prettier: "npm:3.9.1"
     rimraf: "npm:6.1.3"
@@ -12443,13 +12443,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-check-updates@npm:22.2.7":
-  version: 22.2.7
-  resolution: "npm-check-updates@npm:22.2.7"
+"npm-check-updates@npm:22.2.8":
+  version: 22.2.8
+  resolution: "npm-check-updates@npm:22.2.8"
   bin:
     ncu: build/cli.js
     npm-check-updates: build/cli.js
-  checksum: 10c0/663d404e2c24e5893366f844c4cc215310c416f85186ab2a0f1f5f5b41245f07fbe7b9092179dd8ccad05af08dc89b8ae5855847fc65217e0b3a630b10a97a6d
+  checksum: 10c0/f499dcede11816a18b6590bafd752b869f8042a2a5f9ef1019e2d0b1cc98dc43c39724ca526c1ceec574ead1e71d5c2e9101a7ff9777ba316400fd26eace5e65
   languageName: node
   linkType: hard
 
