@@ -1,5 +1,11 @@
 # @belgattitude/eslint-config-bases
 
+## 8.19.1
+
+### Patch Changes
+
+- [`993cc28`](https://github.com/belgattitude/shared-dx/commit/993cc28e524ee8eec75c32bc712b5d4830c298a2) Thanks [@belgattitude](https://github.com/belgattitude)! - Replublish latest plugins
+
 ## 8.19.0
 
 ### Minor Changes
