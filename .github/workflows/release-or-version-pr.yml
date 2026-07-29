@@ -45,7 +45,7 @@ jobs:
         env:
           # See https://github.com/changesets/action/issues/147
           HOME: ${{ github.workspace }}
-          NPM_TOKEN: ''
+          #NPM_TOKEN: ''
           # The regular GITHUB_TOKEN won't allow the created "Version Packages" pr to
           # trigger the regular CI workflow. This limitation can be circumvented by
           # setting a custom PAT token from a GH account and setting it the secrets.
