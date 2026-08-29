@@ -52,7 +52,7 @@
     "husky": "9.1.7",
     "is-ci": "4.1.0",
     "lint-staged": "17.2.0",
-    "npm-check-updates": "22.2.9",
+    "npm-check-updates": "23.1.0",
     "npm-run-all2": "9.0.2",
     "prettier": "3.9.6",
     "rimraf": "6.1.3",
