@@ -8610,13 +8610,13 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-playwright@npm:^2.10.5":
-  version: 2.10.5
-  resolution: "eslint-plugin-playwright@npm:2.10.5"
+  version: 2.12.1
+  resolution: "eslint-plugin-playwright@npm:2.12.1"
   dependencies:
     globals: "npm:^17.3.0"
   peerDependencies:
     eslint: ">=8.40.0"
-  checksum: 10c0/23b18631364f44cd2e176e47791b28b58421217b6634da6684de108c7ef417101f02d7d55141e57a9d15fb83fe23ab5b29133385013919a561da3757461a692c
+  checksum: 10c0/498699568260e14b7c5258e714c75504d9abf5e6d36d32500e78dea33c5a072fa643ef826dc528248fd50d1936b12c4f47df8d18ad93d0c6b27c3bf1825e0e83
   languageName: node
   linkType: hard
 
